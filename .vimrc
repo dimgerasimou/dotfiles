@@ -7,7 +7,7 @@
 " Pretty thick vim configuration.
 
 "-----------------------------------------------------------
-"|  => Compitability and Filetypes                         |
+"   => Compitability and Filetypes
 "-----------------------------------------------------------
 
 set nocompatible                "Disable compatibility with vi.
@@ -16,7 +16,7 @@ filetype plugin on              "Enable plugins and load plugin for the detected
 filetype indent on              "Load an indent file for the detected file type.
 
 "-----------------------------------------------------------
-"|  => Highlighting                                        |
+"   => Highlighting
 "-----------------------------------------------------------
 
 syntax on                       "Turn syntax highlighting on.
@@ -24,70 +24,57 @@ syntax on                       "Turn syntax highlighting on.
 "set cursorcolumn               "Highlight cursor line underneath the cursor vertically.
 
 "-----------------------------------------------------------
-"|  => Line Control                                        |
+"   => Line Control
 "-----------------------------------------------------------
 
 set number                      "Add numbers to each line.
 set scrolloff=10                "Do not let cursor scroll below or above N number of lines when scrolling.
 set nowrap                      "Do not wrap lines. Allow long lines to extend as far as the line goes.
 
-"SEARCH ------------------------------------------------
+"-----------------------------------------------------------
+"   => Search
+"-----------------------------------------------------------
 
+set incsearch                    "While searching though a file incrementally highlight matching characters as you type.
+set ignorecase                   "Ignore capital letters during search.
+set smartcase                    "Override the ignorecase option if searching for capital letters.
+                                 "This will allow you to search specifically for capital letters.
+set showmatch                    "Show matching words during a search.
+set hlsearch                     "Use highlighting when doing a search.
 
-"While searching though a file incrementally highlight matching characters as you type.
-set incsearch
+"-----------------------------------------------------------
+"   => Commands
+"-----------------------------------------------------------
 
-"Ignore capital letters during search.
-set ignorecase
+set showcmd                       "Show partial command you type in the last line of the screen.
+set history=1000                  "Set the commands to save in history default number is 20.
+set wildmenu                      "Enable auto completion menu after pressing TAB.
+set wildmode=list:longest         "Make wildmenu behave like similar to Bash completion.
+set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx 
+                                  "There are certain files that we would never want to edit with Vim.
+                                  "Wildmenu will ignore files with these extensions.
 
-"Override the ignorecase option if searching for capital letters.
-"This will allow you to search specifically for capital letters.
-set smartcase
-
-"Show matching words during a search.
-set showmatch
-
-"Use highlighting when doing a search.
-set hlsearch
-
-
-"COMMANDS ----------------------------------------------
-
-
-"Show partial command you type in the last line of the screen.
-set showcmd
-
-"Set the commands to save in history default number is 20.
-set history=1000
-
-"Enable auto completion menu after pressing TAB.
-set wildmenu
-
-"Make wildmenu behave like similar to Bash completion.
-set wildmode=list:longest
-
-"There are certain files that we would never want to edit with Vim.
-"Wildmenu will ignore files with these extensions.
-set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
-
-
-"TABS -----------------------------------------------------
-
+"-----------------------------------------------------------
+"   => Tabs
+"-----------------------------------------------------------
 
 "Expand tabs to spaces.
-"set expandtab
 
+"set expandtab
 set tabstop=4
 set shiftwidth=4
 
+"-----------------------------------------------------------
+"   => Pluggins
+"-----------------------------------------------------------
 
-"PLUGINS ----------------------------------------------------------------
-
-"VIM-PLUG CONFIGURATION
+" lightline theme
 
 let g:lightline = {
     \ 'colorshceme': 'deus',
     \ }
+
+" Script to autoinstall vim-plugged
 
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
@@ -114,11 +101,3 @@ call plug#end()
 "Lightline configuration.
 set laststatus=2
 set noshowmode
-
-"VIMSCRPIT --------------------------------------------------------------
-
-"Code folding
-augroup filetype_vim
-    autocmd!
-    autocmd FileType vim setlocal foldmethod=marker
-augroup END
