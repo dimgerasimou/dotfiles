@@ -106,10 +106,12 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias pacsyu="sudo pacman -Syu" 
+# Aliases
+
+# Pacman aliases
+alias pacsyu="sudo pacman -Syu"
+
+# Git aliases
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+alias update-dotfiles="$HOME/.local/bin/git/update-dotfiles"

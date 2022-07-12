@@ -1,0 +1,17 @@
+#!/bin/sh
+
+LCBIN="$HOME/.local/bin"
+COMMITMESSAGE="Automated script. Dotfile general update"
+CMD="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+
+if [[ "$1" == "-m" ]] || [[ "$1" == "--message" ]]; then
+	COMMITMESSAGE="$2"
+fi
+
+$CMD add ~/.zshrc ~/.vimrc ~/.gitconfig ~/.bashrc
+$CMD add $LCBIN/dwm
+$CMD add $LCBIN/git
+
+$CMD commit -m "$COMMITMESSAGE"
+
+$CMD push

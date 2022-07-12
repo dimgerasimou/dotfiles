@@ -1,0 +1,38 @@
+#!/bin/sh
+#
+# Script that raises, lowers, or mutes volume or microphone and updates the dwmblocks signal.
+#
+# Author: Dimitris Gerasimou <dimgerasimou@gmail.com> http://github.com/dimgerasimou
+#
+
+#Check whatever input is about mic or volume
+
+OPTION1NUM=""
+OPTION2NUM=""
+
+if   [ "$1" == "--microphone" ]; then
+	OPTION1="--source"
+	OPTION1NUM="3"
+elif [ "$1" == "--volume"     ]; then
+	OPTION1=""
+else
+	echo "Wrong arguments"
+	exit
+fi
+
+if   [ "$2" == "--raise" ]; then
+	OPTION2="--increase"
+	OPTION2NUM="5"
+elif [ "$2" == "--lower" ]; then
+	OPTION2="--decrease"
+	OPTION2NUM="5"
+elif [ "$2" == "--mute" ]; then
+	OPTION2="--toggle-mute"
+else
+	echo "Wrong arguments"
+	exit
+fi
+
+/usr/bin/pamixer "$OPTION1" "$OPTION1NUM" "$OPTION2" "$OPTION2NUM" &
+
+/usr/bin/pkill -RTMIN+10 dwmblocks
