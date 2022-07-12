@@ -1,0 +1,26 @@
+#!/bin/sh
+#
+# Prints the current volume or it's mute value. ASCII
+#
+# Author: Dimitris Gerasimou <dimgerasimou@gmail.com>
+#
+
+if [ $(pamixer --source 3 --get-mute) = true ]; then
+	micstat="off"
+else
+	micstat="on"
+fi
+
+if [ $(pamixer --get-mute) = true ]; then
+	echo "Vol:mute Mic:$micstat"
+	exit
+fi
+
+vol="$(pamixer --get-volume)"
+
+if [[ "$vol" = 0 || "$vol" = "" ]]; then
+	echo "Vol:mute Mic:$micstat"
+	exit
+fi
+
+echo "Vol:$vol% Mic:$micstat"
