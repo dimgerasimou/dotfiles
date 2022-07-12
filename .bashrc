@@ -1,6 +1,10 @@
-#
-# ~/.bashrc
-#
+#  ____   ____ 
+# |  _ \ / ___|    Dimitrs Gerasimou (dimgerasimou)
+# | | | | |  _     <dimgerasimou@gmail.com>
+# | |_| | |_| |    https://github.com/dimgerasimou
+# |____/ \____|
+#               
+# Simple Bash configuration. Nothing strange here.
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return

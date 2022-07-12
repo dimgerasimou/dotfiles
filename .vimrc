@@ -1,63 +1,35 @@
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"      #                                                                                   "
-"      #  #                                                  #                             "
-"      #                                                                                   "
-"  ### #  #  # ##   ##     ###    ###   # ##   ### #   ###   #  # ##   ##     ###   #    # "
-" #   ##  #  ##  # #  #   #   #  #   #  ##    #   ##  #      #  ##  # #  #   #   #  #    # "
-" #    #  #  #    #    #  #   #  ####   #     #   ##   ###   #  #    #    #  #   #  #    # "
-" #   ##  #  #    #    #  #   #  #      #     #   ##      #  #  #    #    #  #   #  #    # "
-"  ### #  #  #    #    #   ####   ###   #      ### #   ###   #  #    #    #   ###    ####  "
-"                             #                                                            "
-"                         #   #                                                            "
-"                          ###                                                             "
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"  ____   ____ 
+" |  _ \ / ___|    Dimitrs Gerasimou (dimgerasimou)
+" | | | | |  _     <dimgerasimou@gmail.com>
+" | |_| | |_| |    https://github.com/dimgerasimou
+" |____/ \____|
+"               
+" Pretty thick vim configuration.
 
-".VIMRC, VIM configuration.
+"-----------------------------------------------------------
+"|  => Compitability and Filetypes                         |
+"-----------------------------------------------------------
 
-"Scripts ---------------------------------------------------------------- {{{
+set nocompatible                "Disable compatibility with vi.
+filetype on                     "Enable type file detection.
+filetype plugin on              "Enable plugins and load plugin for the detected file type.
+filetype indent on              "Load an indent file for the detected file type.
 
+"-----------------------------------------------------------
+"|  => Highlighting                                        |
+"-----------------------------------------------------------
 
-"COMPITABILITY AND FILETYPES -----------------------------
+syntax on                       "Turn syntax highlighting on.
+"set cursorline                 "Highlight cursor line underneath the cursor horizontally.
+"set cursorcolumn               "Highlight cursor line underneath the cursor vertically.
 
+"-----------------------------------------------------------
+"|  => Line Control                                        |
+"-----------------------------------------------------------
 
-"Disable compatibility with vi.
-set nocompatible
-
-"Enable type file detection.
-filetype on
-
-"Enable plugins and load plugin for the detected file type.
-filetype plugin on
-
-"Load an indent file for the detected file type.
-filetype indent on
-
-
-"HIGHLIGHTING -------------------------------------------
-
-
-"Turn syntax highlighting on.
-syntax on
-
-"Highlight cursor line underneath the cursor horizontally.
-"set cursorline
-
-"Highlight cursor line underneath the cursor vertically.
-"set cursorcolumn
-
-
-"LINE CONTROL ------------------------------------------
-
-
-"Add numbers to each line.
-set number
-
-"Do not let cursor scroll below or above N number of lines when scrolling.
-set scrolloff=10
-
-"Do not wrap lines. Allow long lines to extend as far as the line goes.
-set nowrap
-
+set number                      "Add numbers to each line.
+set scrolloff=10                "Do not let cursor scroll below or above N number of lines when scrolling.
+set nowrap                      "Do not wrap lines. Allow long lines to extend as far as the line goes.
 
 "SEARCH ------------------------------------------------
 
@@ -108,9 +80,8 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 set tabstop=4
 set shiftwidth=4
 
-"}}}
 
-"PLUGINS ---------------------------------------------------------------- {{{
+"PLUGINS ----------------------------------------------------------------
 
 "VIM-PLUG CONFIGURATION
 
@@ -126,9 +97,16 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+"{{ Git Utillities }}
 Plug 'airblade/vim-gitgutter'
-Plug 'itchyny/lightline.vim'
+
+"{{ Code correction }}
 Plug 'dense-analysis/ale'
+
+"{{ Status line }}
+Plug 'itchyny/lightline.vim'
+
+"{{ Extra }}
 Plug 'preservim/nerdtree'
 
 call plug#end()
@@ -137,21 +115,10 @@ call plug#end()
 set laststatus=2
 set noshowmode
 
-"}}}
-
-"MAPPINGS --------------------------------------------------------------- {{{
-
-"}}}
-
-"VIMSCRPIT -------------------------------------------------------------- {{{
+"VIMSCRPIT --------------------------------------------------------------
 
 "Code folding
 augroup filetype_vim
     autocmd!
     autocmd FileType vim setlocal foldmethod=marker
 augroup END
-"}}}
-
-"STATUS LINE ------------------------------------------------------------ {{{
-
-"}}}

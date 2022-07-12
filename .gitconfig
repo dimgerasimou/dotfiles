@@ -1,3 +1,11 @@
+#  ____   ____ 
+# |  _ \ / ___|    Dimitrs Gerasimou (dimgerasimou)
+# | | | | |  _     <dimgerasimou@gmail.com>
+# | |_| | |_| |    https://github.com/dimgerasimou
+# |____/ \____|
+#               
+# Git configuration.
+
 [core]
 	editor = vim
 

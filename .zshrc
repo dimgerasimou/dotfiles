@@ -1,3 +1,14 @@
+#  ____   ____ 
+# |  _ \ / ___|    Dimitrs Gerasimou (dimgerasimou)
+# | | | | |  _     <dimgerasimou@gmail.com>
+# | |_| | |_| |    https://github.com/dimgerasimou
+# |____/ \____|
+#               
+# Almost default zsh config.
+
+
+
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -101,3 +112,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias pacsyu="sudo pacman -Syu" 
+alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
