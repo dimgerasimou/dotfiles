@@ -1,0 +1,10 @@
+[core]
+	editor = vim
+
+[user]
+	email = dimgerasimou@gmail.com
+	name = Dimitris Gerasimou
+	signingkey = A53D78D9EF9F7A4C
+
+[commit]
+	gpgsign = true
