@@ -1,9 +1,0 @@
-#!/bin/sh
-#
-# Simple script that returns the memory used. ASCII
-#
-# Author: Dimitris Gerasimou <dimgerasimou@gmail.com>
-#
-
-mem="$(free -h | awk '/^Mem:/ {print $3}')"
-echo -e "RAM:$mem"
