@@ -2,7 +2,7 @@
 #
 # Script that raises, lowers, or mutes volume or microphone and updates the dwmblocks signal.
 #
-# Author: Dimitris Gerasimou <dimgerasimou@gmail.com> http://github.com/dimgerasimou
+# Author: Dimitris Gerasimou <https://github.com/dimgerasimou>
 #
 
 #Check whatever input is about mic or volume

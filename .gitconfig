@@ -1,7 +1,7 @@
 #  ____   ____ 
-# |  _ \ / ___|    Dimitrs Gerasimou (dimgerasimou)
-# | | | | |  _     <dimgerasimou@gmail.com>
-# | |_| | |_| |    https://github.com/dimgerasimou
+# |  _ \ / ___|    Dimitris Gerasimou (dimgerasimou)
+# | | | | |  _     <https://github.com/dimgerasimou>
+# | |_| | |_| |    
 # |____/ \____|
 #               
 # Git configuration.
@@ -10,9 +10,9 @@
 	editor = vim
 
 [user]
-	email = dimgerasimou@gmail.com
+	email = gerasimou@ece.auth.gr
 	name = Dimitris Gerasimou
-	signingkey = A53D78D9EF9F7A4C
+	signingkey = 0F60A2C58836F17C
 
 [commit]
 	gpgsign = true

@@ -1,0 +1,20 @@
+#!/bin/sh
+#
+# Simple script that returns local ip address and network status.
+#
+# Author: Dimitris Gerasimou <https://github.com/dimgerasimou>
+#🖧 🖥
+ipadress="$(nmcli | grep inet4 | awk --field-separator=/ '{print $1}')"
+ipadress=${ipadress#*inet4 }
+ipadress=${ipadress%$'\n'*}
+
+if [[ $(cat /sys/class/net/e*/operstate) == "up" ]]; then
+	netstatus="🖧 "
+elif [[ $(cat /sys/class/net/w*/operstate) == "up" ]]; then
+	netstatus="📶 "
+else
+	netstatus="❌ "
+	ipadress="Not connected."
+fi
+
+echo "$netstatus$ipadress"

@@ -1,7 +1,7 @@
 "  ____   ____ 
-" |  _ \ / ___|    Dimitrs Gerasimou (dimgerasimou)
-" | | | | |  _     <dimgerasimou@gmail.com>
-" | |_| | |_| |    https://github.com/dimgerasimou
+" |  _ \ / ___|    Dimitris Gerasimou (dimgerasimou)
+" | | | | |  _     <https://github.com/dimgerasimou>
+" | |_| | |_| |    
 " |____/ \____|
 "               
 " Pretty thick vim configuration.

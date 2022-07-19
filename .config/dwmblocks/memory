@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# Simple script that returns the memory used.
+#
+# Author: Dimitris Gerasimou <https://github.com/dimgerasimou>
+
+mem="$(free -h | awk '/^Mem:/ {print $3}')"
+echo -e "🧠 $mem"

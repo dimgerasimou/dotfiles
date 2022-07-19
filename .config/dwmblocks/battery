@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# Script that outputs battery percentage and charging status as an emoji.
+#
+# Author: Dimitris Gerasimou <https://github.com/dimgerasimou>
+#
+
+capacity=$(cat /sys/class/power_supply/BAT1/capacity)
+stat=$(cat /sys/class/power_supply/BAT1/status)
+
+if [[ "$stat" = "Charging" ]]; then
+	icon="🔌"
+else
+	icon="🔋"
+fi
+
+if [[ $(($capacity)) < 25 ]]; then
+	color="\e[31m"
+else
+	color="\e[0m"
+fi
+
+echo "$icon$capacity%"

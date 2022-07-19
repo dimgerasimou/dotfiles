@@ -1,9 +1,0 @@
-#!/bin/sh
-#
-# Script that outputs current date and time. ASCII
-#
-# Author: Dimitris Gerasimou <dimgerasimou@gmail.com> http://github.com/dimgerasimou
-#
-
-datetime="$(date +"%a, %B %d %l:%M%p"| sed 's/  / /g')"
-echo -e "$datetime"
