@@ -22,9 +22,9 @@ for file in $lcbin; do
 done
 
 # config files:
-config="dwmblocks"
+config="dwmblocks picom"
 for file in $config; do
-	$CMD add $HOME/.config/$config
+	$CMD add $HOME/.config/$file
 done
 
 $CMD commit -m "$COMMITMESSAGE"
