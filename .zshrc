@@ -13,10 +13,10 @@
 # Main settings
 export ZSH="$HOME/.oh-my-zsh"            # Path to your oh-my-zsh installation.
 ZSH_THEME="spaceship"                    # Oh My Zsh theme.
-#zstyle ':omz:update' mode auto           # Oh My Zsh update mode.
-#zstyle ':omz:update' frequency 13        # Oh My Zsh update frequency in days.
-#DISABLE_AUTO_TITLE="false"               # Disable terminal autotitle.
-#ENABLE_CORRECTION="true"                 # Enable command autocorrection.
+zstyle ':omz:update' mode auto           # Oh My Zsh update mode.
+zstyle ':omz:update' frequency 13        # Oh My Zsh update frequency in days.
+DISABLE_AUTO_TITLE="false"               # Disable terminal autotitle.
+ENABLE_CORRECTION="true"                 # Enable command autocorrection.
 
 # Plugins
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions sudo dirhistory)
@@ -26,9 +26,9 @@ source $ZSH/oh-my-zsh.sh
 # ----------------------------------------------------------
 
 # Export ---------------------------------------------------
-#export TERM="alacritty"
-#export EDITOR="vim"
-#export VISUAL="vscodium"
+export TERM="alacritty"
+export EDITOR="vim"
+export VISUAL="vscodium"
 
 # Aliases --------------------------------------------------
 
