@@ -28,6 +28,7 @@ syntax on                       "Turn syntax highlighting on.
 "-----------------------------------------------------------
 
 set number                      "Add numbers to each line.
+set relativenumber              "Show numbers relative to the active line.
 set scrolloff=10                "Do not let cursor scroll below or above N number of lines when scrolling.
 set nowrap                      "Do not wrap lines. Allow long lines to extend as far as the line goes.
 
@@ -58,21 +59,30 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 "   => Tabs
 "-----------------------------------------------------------
 
-"Expand tabs to spaces.
+set tabstop=4                     "Number of whitespaces a tab occupies.
+set shiftwidth=4                  "Number of whitespaces a level of indentation occupies.
 
-"set expandtab
-set tabstop=4
-set shiftwidth=4
+"-----------------------------------------------------------
+"   => Line configuration
+"-----------------------------------------------------------
+
+set laststatus=2                  "Always display the status line.
+set noshowmode                    "Do not show vim integrated status line.
+
+let g:lightline = {
+	\ 'colorscheme': 'powerline',
+	\ 'active': {
+	\   'left': [ [ 'mode', 'paste' ],
+	\             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+	\ },
+	\ 'component_function': {
+	\   'gitbranch': 'gitbranch#name'
+	\ },
+	\ }
 
 "-----------------------------------------------------------
 "   => Pluggins
 "-----------------------------------------------------------
-
-" lightline theme
-
-let g:lightline = {
-    \ 'colorshceme': 'deus',
-    \ }
 
 " Script to autoinstall vim-plugged
 
@@ -84,20 +94,10 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-"{{ Git Utillities }}
-Plug 'airblade/vim-gitgutter'
-
-"{{ Code correction }}
-Plug 'dense-analysis/ale'
-
-"{{ Status line }}
-Plug 'itchyny/lightline.vim'
-
-"{{ Extra }}
-Plug 'preservim/nerdtree'
+Plug 'dense-analysis/ale'        "Code correction
+Plug 'itchyny/lightline.vim'     "Status line
+Plug 'itchyny/vim-gitbranch'     "Git branch support for lightline
+Plug 'preservim/nerdtree'        "Nerdtree expantion
 
 call plug#end()
 
-"Lightline configuration.
-set laststatus=2
-set noshowmode

@@ -45,6 +45,9 @@ alias pmsyu="sudo pacman -Syu"
 alias pms="sudo pacma -S"
 alias pmr="sudo pacman -R"
 
+# Neovim
+alias nv="nvim"
+
 # Emacs
 alias em="emacs -nw"
 
