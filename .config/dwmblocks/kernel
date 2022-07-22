@@ -4,7 +4,6 @@
 #
 # Author: Dimitris Gerasimou <https://github.com/dimgerasimou>
 
-
 kern="$(uname -r | sed -re 's/(^[0-9]*\.[0-9]*\.[0-9]*)(.*)/\1/')"
 
 echo -e "🐧 $kern"

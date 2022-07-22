@@ -1,0 +1,17 @@
+#!/bin/sh
+#
+# Simple script that returns the current language of the keyboard.
+#
+# Author: Dimitris Gerasimou <https://github.com/dimgerasimou>
+
+currentLanguage="$(setxkbmap -query | grep layout | awk '{print $2}')"
+
+if [[ $currentLanguage == "gr" ]]; then
+	out="gr"
+elif [[ $currentLanguage == "us" ]]; then
+	out="us"
+else
+	out="error"
+fi
+
+echo "⌨ $out"

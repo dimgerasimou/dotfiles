@@ -3,7 +3,6 @@
 # Script that outputs battery percentage and charging status as an emoji.
 #
 # Author: Dimitris Gerasimou <https://github.com/dimgerasimou>
-#
 
 capacity=$(cat /sys/class/power_supply/BAT1/capacity)
 stat=$(cat /sys/class/power_supply/BAT1/status)

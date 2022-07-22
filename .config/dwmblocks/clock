@@ -3,7 +3,6 @@
 # Script that outputs current date and time. ASCII
 #
 # Author: Dimitris Gerasimou <https://github.com/dimgerasimou> 
-#
 
 datetime="$(date +"%a, %d %b %R") "
 echo -e "$datetime"

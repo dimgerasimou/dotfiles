@@ -7,3 +7,5 @@ if [[ $currentLanguage == "us" ]]; then
 else
 	setxkbmap -layout us
 fi
+
+pkill -RTMIN+3 dwmblocks

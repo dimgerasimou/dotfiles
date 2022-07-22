@@ -4,6 +4,7 @@
 #
 # Author: Dimitris Gerasimou <https://github.com/dimgerasimou>
 #🖧 🖥
+
 ipadress="$(nmcli | grep inet4 | awk --field-separator=/ '{print $1}')"
 ipadress=${ipadress#*inet4 }
 ipadress=${ipadress%$'\n'*}
