@@ -22,7 +22,7 @@ for file in $lcbin; do
 done
 
 # config files:
-config="dwmblocks picom"
+config="dwmblocks picom alacritty nvim"
 for file in $config; do
 	$CMD add $HOME/.config/$file
 done

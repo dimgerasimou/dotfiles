@@ -42,7 +42,7 @@ alias desktop="cd $HOME/Desktop"
 
 # Pacman
 alias pmsyu="sudo pacman -Syu"
-alias pms="sudo pacma -S"
+alias pms="sudo pacman -S"
 alias pmr="sudo pacman -R"
 
 # Neovim

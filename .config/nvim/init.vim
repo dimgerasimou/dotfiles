@@ -73,9 +73,9 @@ set mouse=nicr
 "   => Splits 
 "-----------------------------------------------------------
 
-set splitbelow splitright
+set splitbelow splitright         "Split terminal below and on the right
 
-
+" Remap split change window to ctrl+hjkl
 nnore <C-h> <C-w>h
 nnore <C-j> <C-w>j
 nnore <C-k> <C-w>k
@@ -100,9 +100,16 @@ let g:lightline = {
 	\ },
 	\ }
 
-" colorscheme jellybeans
-set guifont=FiraCode\ Nerd\ Font\ 11
+"-----------------------------------------------------------
+"   => Customization 
+"-----------------------------------------------------------
 
+
+"colorscheme jellybeans
+
+set guifont=FiraCode\ Nerd\ Font\ 11       "Set font to Fira Code Nerd Font
+let g:rainbow_active = 1                   "Enable rainbow brackets
+ 
 "-----------------------------------------------------------
 "   => Pluggins
 "-----------------------------------------------------------
@@ -117,17 +124,25 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'dense-analysis/ale'             "Code correction.
-Plug 'itchyny/lightline.vim'          "Status line.
-Plug 'itchyny/vim-gitbranch'          "Git branch support for lightline.
-Plug 'tpope/vim-commentary'           "Commenting with gcc & gc.
-Plug 'nanotech/jellybeans.vim'
-Plug 'tc50cal/vim-terminal'
-Plug 'preservim/tagbar'
-Plug 'terryma/vim-multiple-cursors'
+Plug 'neoclide/coc.nvim', {'branch': 'release'} 
+										"Code correction.
+Plug 'itchyny/lightline.vim'            "Status line.
+Plug 'itchyny/vim-gitbranch'            "Git branch support for lightline.
+Plug 'tpope/vim-commentary'             "Commenting with gcc & gc.
+Plug 'nanotech/jellybeans.vim'          "Jellybeans colorscheme.
+Plug 'tc50cal/vim-terminal'             "Ability to open terminal through vim buffer.
+Plug 'preservim/tagbar'                 "Support of jumping to tags in applications.
+Plug 'terryma/vim-multiple-cursors'     "Ability to edit multiple lines at the same time.
+Plug 'frazrepo/vim-rainbow'             "Different colored brackets.
+Plug 'jreybert/vimagit'					"Git integration for vim
 
+" Vim markdown in browser.
+Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
+
+" NerdTree related plugins.
 Plug 'preservim/nerdtree' 
 Plug 'Xuyuanp/nerdtree-git-plugin' 
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
