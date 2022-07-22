@@ -60,3 +60,7 @@ alias pull="git pull"
 alias commit="git commit -m"
 alias clone="git clone"
 alias addall="git add ."
+
+# Translation
+alias λσ="ls"
+alias ψδ="cd"

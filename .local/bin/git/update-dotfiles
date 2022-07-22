@@ -16,13 +16,13 @@ for file in $homercs; do
 done
 
 # local bin files:
-lcbin="dwm git"
+lcbin="git"
 for file in $lcbin; do
 	$CMD add $HOME/.local/bin/$file
 done
 
 # config files:
-config="dwmblocks picom alacritty nvim"
+config="dwm dwmblocks picom alacritty nvim"
 for file in $config; do
 	$CMD add $HOME/.config/$file
 done
