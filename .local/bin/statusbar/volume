@@ -5,20 +5,20 @@
 # Author: Dimitris Gerasimou <https://github.com/dimgerasimou>
 
 if [ $(pamixer --source 3 --get-mute) = true ]; then
-	micstat="❌"
-else
 	micstat=""
+else
+	micstat=" 🎙"
 fi
 
 if [ $(pamixer --get-mute) = true ]; then
-	echo "🔇 🎙$micstat"
+	echo "🔇$micstat"
 	exit
 fi
 
 vol="$(pamixer --get-volume)"
 
 if [[ "$vol" = 0 || "$vol" = "" ]]; then
-	echo "🔇 🎙$micstat"
+	echo "🔇$micstat"
 	exit
 fi
 
@@ -30,4 +30,4 @@ else
 	icon="🔉"
 fi
 
-echo "$icon $vol% 🎙$micstat"
+echo "$icon $vol%$micstat"

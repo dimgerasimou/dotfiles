@@ -8,14 +8,15 @@
 ipadress="$(nmcli | grep inet4 | awk --field-separator=/ '{print $1}')"
 ipadress=${ipadress#*inet4 }
 ipadress=${ipadress%$'\n'*}
+ipadress="  $ipadress"
 
 if [[ $(cat /sys/class/net/e*/operstate) == "up" ]]; then
-	netstatus="🖧 "
+	netstatus=""
 elif [[ $(cat /sys/class/net/w*/operstate) == "up" ]]; then
-	netstatus="📶 "
+	netstatus=""
 else
-	netstatus="❌ "
-	ipadress="Not connected."
+	netstatus="睊"
+	ipadress=""
 fi
 
 echo "$netstatus$ipadress"
