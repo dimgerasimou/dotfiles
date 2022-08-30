@@ -64,3 +64,6 @@ alias addall="git add ."
 # Translation
 alias λσ="ls"
 alias ψδ="cd"
+
+# 7zip
+alias 7ze="7z a -p -mhe=on"

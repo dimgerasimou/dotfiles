@@ -12,7 +12,6 @@
 [user]
 	email = gerasimou@ece.auth.gr
 	name = Dimitris Gerasimou
-	signingkey = 0F60A2C58836F17C
-
+	signingkey = FCFD999FAD5F2B9E 
 [commit]
 	gpgsign = true

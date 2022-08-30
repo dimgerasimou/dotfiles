@@ -124,7 +124,7 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'} 
+" Plug 'neoclide/coc.nvim', {'branch': 'release'} 
 										"Code correction.
 Plug 'itchyny/lightline.vim'            "Status line.
 Plug 'itchyny/vim-gitbranch'            "Git branch support for lightline.
