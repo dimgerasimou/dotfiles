@@ -11,7 +11,7 @@
 "-----------------------------------------------------------
 
 set nocompatible                "Disable compatibility with vi.
-set encoding=UTF-8				"Set the vim encoding.
+set encoding=UTF-8              "Set the vim encoding.
 filetype on                     "Enable type file detection.
 filetype plugin on              "Enable plugins and load plugin for the detected file type.
 filetype indent on              "Load an indent file for the detected file type.
@@ -125,25 +125,24 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " Plug 'neoclide/coc.nvim', {'branch': 'release'} 
-										"Code correction.
+                                        "Code correction.
 Plug 'itchyny/lightline.vim'            "Status line.
 Plug 'itchyny/vim-gitbranch'            "Git branch support for lightline.
 Plug 'tpope/vim-commentary'             "Commenting with gcc & gc.
-Plug 'nanotech/jellybeans.vim'          "Jellybeans colorscheme.
-Plug 'tc50cal/vim-terminal'             "Ability to open terminal through vim buffer.
-Plug 'preservim/tagbar'                 "Support of jumping to tags in applications.
+"Plug 'nanotech/jellybeans.vim'          "Jellybeans colorscheme.
+"Plug 'tc50cal/vim-terminal'             "Ability to open terminal through vim buffer.
+"Plug 'preservim/tagbar'                 "Support of jumping to tags in applications.
 Plug 'terryma/vim-multiple-cursors'     "Ability to edit multiple lines at the same time.
 Plug 'frazrepo/vim-rainbow'             "Different colored brackets.
-Plug 'jreybert/vimagit'					"Git integration for vim
+Plug 'jreybert/vimagit'                 "Git integration for vim
 
 " Vim markdown in browser.
-Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
+"Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
 
 " NerdTree related plugins.
-Plug 'preservim/nerdtree' 
-Plug 'Xuyuanp/nerdtree-git-plugin' 
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'ryanoasis/vim-devicons'
+"Plug 'preservim/nerdtree' 
+"Plug 'Xuyuanp/nerdtree-git-plugin' 
+"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+"Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
-
