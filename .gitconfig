@@ -7,11 +7,12 @@
 # Git configuration.
 
 [core]
-	editor = vim
+	editor = nvim
 
 [user]
 	email = gerasimou@ece.auth.gr
 	name = Dimitris Gerasimou
-	signingkey = FCFD999FAD5F2B9E 
+	signingkey = 375A9B828FBDD77C
+	
 [commit]
 	gpgsign = true
