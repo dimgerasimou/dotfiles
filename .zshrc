@@ -26,10 +26,10 @@ source $ZSH/oh-my-zsh.sh
 # ----------------------------------------------------------
 
 # Export ---------------------------------------------------
-export TERM="alacritty"
-export EDITOR="vim"
+export TERM="st"
+export EDITOR="nvim"
 export VISUAL="vscodium"
-
+export GPG_TTY=$(tty)
 # Aliases --------------------------------------------------
 
 # Navigation
@@ -44,6 +44,8 @@ alias desktop="cd $HOME/Desktop"
 alias pmsyu="sudo pacman -Syu"
 alias pms="sudo pacman -S"
 alias pmr="sudo pacman -R"
+alias pmq="pacman -Q"
+alias pmqi="pacman -Qi"
 
 # Neovim
 alias nv="nvim"
@@ -67,3 +69,7 @@ alias ψδ="cd"
 
 # 7zip
 alias 7ze="7z a -p -mhe=on"
+
+# dwm
+alias dwm-build="cd $HOME/.local/src/dwm && ./install.sh"
+alias dwm-config="$EDITOR $HOME/.local/src/dwm/build/config.h"
