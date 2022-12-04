@@ -21,6 +21,7 @@ skanlite
 thunderbird
 zsh
 zathura
+polkit
 
 discord
 spotify
@@ -29,7 +30,13 @@ optimus-manager
 vs-codium
 
 pipewire
+alsa-firmware
+alsa-ucm-conf
 pulsemixer
 sof-firmware
 wireplumber
 easyeffects
+pipewire-pulse
+
+Qt5-theme: Lightly
+GTK-theme: Orchis-Dark
