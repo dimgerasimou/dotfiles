@@ -40,3 +40,5 @@ pipewire-pulse
 
 Qt5-theme: Lightly
 GTK-theme: Orchis-Dark
+sddm-theme: Chili
+grub-theme: matter
