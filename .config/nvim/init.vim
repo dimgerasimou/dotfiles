@@ -13,8 +13,8 @@
 set nocompatible                "Disable compatibility with vi.
 set encoding=UTF-8              "Set the vim encoding.
 filetype on                     "Enable type file detection.
-filetype plugin on              "Enable plugins and load plugin for the detected file type.
-filetype indent on              "Load an indent file for the detected file type.
+"filetype plugin on              "Enable plugins and load plugin for the detected file type.
+"filetype indent on              "Load an indent file for the detected file type.
 
 "-----------------------------------------------------------
 "   => Highlighting
@@ -29,9 +29,9 @@ syntax on                       "Turn syntax highlighting on.
 "-----------------------------------------------------------
 
 set number                      "Add numbers to each line.
-set relativenumber              "Show numbers relative to the active line.
+"set relativenumber              "Show numbers relative to the active line.
 set scrolloff=10                "Do not let cursor scroll below or above N number of lines when scrolling.
-set nowrap                      "Do not wrap lines. Allow long lines to extend as far as the line goes.
+"set nowrap                      "Do not wrap lines. Allow long lines to extend as far as the line goes.
 
 "-----------------------------------------------------------
 "   => Search
@@ -60,8 +60,8 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 "   => Tabs
 "-----------------------------------------------------------
 
-set tabstop=4                     "Number of whitespaces a tab occupies.
-set shiftwidth=4                  "Number of whitespaces a level of indentation occupies.
+set tabstop=8                     "Number of whitespaces a tab occupies.
+set shiftwidth=8                  "Number of whitespaces a level of indentation occupies.
 
 "-----------------------------------------------------------
 "   => Scrolling

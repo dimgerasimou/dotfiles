@@ -19,8 +19,9 @@ DISABLE_AUTO_TITLE="false"               # Disable terminal autotitle.
 ENABLE_CORRECTION="true"                 # Enable command autocorrection.
 
 # Plugins
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions sudo dirhistory)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions sudo dirhistory copybuffer dirhistory)
 source $ZSH/oh-my-zsh.sh
+
 # ----------------------------------------------------------
 #                     Zsh configuration
 # ----------------------------------------------------------
@@ -30,6 +31,7 @@ export TERM="st"
 export EDITOR="nvim"
 export VISUAL="vscodium"
 export GPG_TTY=$(tty)
+
 # Aliases --------------------------------------------------
 
 # Navigation
@@ -50,18 +52,16 @@ alias pmqi="pacman -Qi"
 # Neovim
 alias nv="nvim"
 
-# Emacs
-alias em="emacs -nw"
-
 # Git
-alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
-alias update-dotfiles="$HOME/.local/bin/git/update-dotfiles"
-alias stat="git status"
-alias push="git push"
-alias pull="git pull"
-alias commit="git commit -m"
-alias clone="git clone"
-alias addall="git add ."
+alias gs="git status"
+alias gp="git push"
+alias gpull="git pull"
+alias gc="git commit -m"
+alias gclone="git clone"
+alias gaa="git add -A"
+alias ga="git add"
+alias gd="git diff"
+alias gca="git commit -a -m"
 
 # Translation
 alias λσ="ls"
@@ -72,4 +72,4 @@ alias 7ze="7z a -p -mhe=on"
 
 # dwm
 alias dwm-build="cd $HOME/.local/src/dwm && ./install.sh"
-alias dwm-config="$EDITOR $HOME/.local/src/dwm/build/config.h"
+alias dwm-config="$EDITOR $HOME/.local/src/dwm/src/config.h"
