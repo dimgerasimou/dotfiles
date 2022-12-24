@@ -29,7 +29,7 @@ source $ZSH/oh-my-zsh.sh
 # Export ---------------------------------------------------
 export TERM="st"
 export EDITOR="nvim"
-export VISUAL="vscodium"
+export VISUAL="nvim"
 export GPG_TTY=$(tty)
 
 # Aliases --------------------------------------------------
@@ -39,8 +39,10 @@ alias ...="../.."
 alias ....="../../.."
 alias h="cd $HOME"
 alias d="cd $HOME/Desktop"
+alias D="cd $HOME/Downloads"
 alias home="cd $HOME"
 alias desktop="cd $HOME/Desktop"
+alias downloads="cd $HOME/Downloads"
 
 # Pacman
 alias pmsyu="sudo pacman -Syu"
@@ -51,6 +53,7 @@ alias pmqi="pacman -Qi"
 
 # Neovim
 alias nv="nvim"
+alias v="nvim"
 
 # Git
 alias gs="git status"
@@ -73,3 +76,48 @@ alias 7ze="7z a -p -mhe=on"
 # dwm
 alias dwm-build="cd $HOME/.local/src/dwm && ./install.sh"
 alias dwm-config="$EDITOR $HOME/.local/src/dwm/src/config.h"
+
+# cups
+alias cups-web="firefox https://localhost:631/"
+
+# zathura
+alias z="zathura"
+
+# vscodium
+alias vs="vscodium"
+
+
+n ()
+{
+    # Block nesting of nnn in subshells
+    if [[ "${NNNLVL:-0}" -ge 1 ]]; then
+        echo "nnn is already running"
+        return
+    fi
+
+    # The behaviour is set to cd on quit (nnn checks if NNN_TMPFILE is set)
+    # If NNN_TMPFILE is set to a custom path, it must be exported for nnn to
+    # see. To cd on quit only on ^G, remove the "export" and make sure not to
+    # use a custom path, i.e. set NNN_TMPFILE *exactly* as follows:
+    #     NNN_TMPFILE="${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.lastd"
+    export NNN_TMPFILE="${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.lastd"
+
+    # Unmask ^Q (, ^V etc.) (if required, see `stty -a`) to Quit nnn
+    # stty start undef
+    # stty stop undef
+    # stty lwrap undef
+    # stty lnext undef
+
+    # The backslash allows one to alias n to nnn if desired without making an
+    # infinitely recursive alias
+    \nnn "$@"
+
+    if [ -f "$NNN_TMPFILE" ]; then
+            . "$NNN_TMPFILE"
+            rm -f "$NNN_TMPFILE" > /dev/null
+    fi
+}
+
+#NNN
+export NNN_PLUG='i:imgview;m:nmount;d:dragdrop;x:xdgdefault;t:preview-tabbed'
+export NNN_FIFO=/tmp/nnn.fifo
