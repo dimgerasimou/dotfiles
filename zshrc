@@ -86,6 +86,8 @@ alias z="zathura"
 # vscodium
 alias vs="vscodium"
 
+# pandoc
+alias mdtopdf="pandoc --pdf-engine=xelatex -V mainfont=\"Hack\" -t latex"
 
 n ()
 {
