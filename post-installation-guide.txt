@@ -1,0 +1,16 @@
+Making user
+Setup sddm
+Setup dwm with basic packages - dont care about drivers for now
+
+Setup firefox, gpg, ssh for git.
+
+Setup feh, wallpapers, xresources.
+
+Setup zsh, with spaceship prompt.
+
+Setup sddm
+	Icon setup
+	numlock setup
+	startup xrandr script
+	chili theme
+	changed wallpaper

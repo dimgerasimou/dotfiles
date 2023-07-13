@@ -1,0 +1,24 @@
+Applications:
+nvim
+firefox
+openssh
+
+paru
+zsh
+
+Drivers:
+networkmanager
+
+xorg-xserver
+xorg-xrdb
+xorg-xrandr
+
+
+
+Dwm related:
+feh
+picom
+sddm
+ttf-firacode-nerd
+ttf-font-awesome
+ttf-jetbrains-mono-nerd
