@@ -2,7 +2,7 @@
 	monitor            = 0
 	follow             = keyboard
 	enable_posix_regex = true
-	width              = (0,300)
+	width              = (0,500)
 	offset             = 15x30
 	progress_bar_corner_radius = 5
 	transparency       = 20
@@ -10,6 +10,8 @@
 	idle_threshold     = 5m
 	font               = JetBrains Mono Nerd Font 12
 	corner_radius      = 20
+	icon_theme         = Papirus-Dark
+	enable_recursive_icon_lookup = true
 
 [urgency_normal]
 	background = "#1E1E2E"

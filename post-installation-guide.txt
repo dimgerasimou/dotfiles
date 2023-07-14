@@ -15,4 +15,4 @@ Setup sddm
 	chili theme
 	changed wallpaper
 
-Setups slock
+Setup slock

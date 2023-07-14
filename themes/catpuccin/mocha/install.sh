@@ -4,7 +4,7 @@ mkdir -p $HOME/.config/zathura
 cp zathurarc $HOME/.config/zathura/zathurarc
 
 mkdir -p $HOME/.config/dunst
-cp dunstrc $HOME/.config/zathura/dunstrc
+cp dunstrc $HOME/.config/dunst/dunstrc
 
 mkdir -p $HOME/.config/picom
 cp picom.conf $HOME/.config/picom/picom.conf
