@@ -18,3 +18,11 @@ Setup sddm
 Setup slock
 
 Setup nvidia and envycontrol
+
+Setup audio drivers
+
+Setup bluetooth
+
+Setup binary executables
+
+Setup polkit

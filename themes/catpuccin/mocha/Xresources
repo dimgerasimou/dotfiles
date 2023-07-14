@@ -17,9 +17,8 @@ dmenu.selbgcolor:     #89DCEB
 xmenu.selbackground: #89DCEB
 xmenu.selforeground: #1E1E2E
 xmenu.background:    #1E1E2E
-xmenu.border:        #89B4FA
+xmenu.border:        #89DCEB
 xmenu.foreground:    #CDD6F4
-xmenu.opacity:       0.8
 xmenu.borderWidth:   2
 xmenu.font:          JetBrains Mono Nerd Font:style=Regular:size=12
 
