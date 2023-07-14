@@ -14,3 +14,5 @@ Setup sddm
 	startup xrandr script
 	chili theme
 	changed wallpaper
+
+Setups slock

@@ -1,0 +1,30 @@
+[global]
+	monitor            = 0
+	follow             = keyboard
+	enable_posix_regex = true
+	width              = (0,300)
+	offset             = 15x30
+	progress_bar_corner_radius = 5
+	transparency       = 20
+	frame_width        = 2
+	idle_threshold     = 5m
+	font               = JetBrains Mono Nerd Font 12
+	corner_radius      = 20
+
+[urgency_normal]
+	background = "#1E1E2E"
+	foreground = "#CDD6F4"
+	frame_color = "#89B4FA"
+	timeout = 30
+
+[urgency_low]
+	background = "#1E1E2E"
+	foreground = "#CDD6F4"
+	frame_color = "#F2CDCD"
+	timeout = 10
+
+[urgency_critical]
+	background = "#1E1E2E"
+	foreground = "#CDD6F4"
+	frame_color = "#F38BA8"
+	timeout = 0

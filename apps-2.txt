@@ -12,6 +12,7 @@ networkmanager
 xorg-xserver
 xorg-xrdb
 xorg-xrandr
+qt5
 
 
 
