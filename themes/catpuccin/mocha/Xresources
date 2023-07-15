@@ -27,7 +27,7 @@ st.font:              FiraCode Nerd Font:style=Regular:size=13
 st.borderpx:          10
 st.foreground:        #CDD6F4
 st.backgroundf:       #1E1E2E
-st.backgroundu:       #313244
+st.backgroundu:       #181825
 st.cursorColor:       #F5E0DC
 
 ! black

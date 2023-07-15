@@ -17,7 +17,8 @@ Setup sddm
 
 Setup slock
 
-Setup nvidia and envycontrol
+Setup nvidia and optimus-manager
+fix display resolution in nvidia mode
 
 Setup audio drivers
 
@@ -26,3 +27,13 @@ Setup bluetooth
 Setup binary executables
 
 Setup polkit
+
+Setup cursor theme (catppuccin-cursors-mocha)
+Setup papyrus folder theme (papirus-folders-catppuccin-git) (papirus-folders -t Papirus-Dark -C cat-mocha-sapphire)
+Setup GTK theme (catppuccin-gtk-theme-mocha)
+Setup QT theme (add QT_QPA_PLATFORMTHEME=qt5ct to /etc/environment)
+Setup GRUB theme (it clone https://github.com/catppuccin/grub.git)
+Setup zathura
+Setup firefox theme (with reddit too)
+Setup qBittorrent
+Setup thunderbird and theme
