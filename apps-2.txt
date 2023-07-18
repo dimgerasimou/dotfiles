@@ -5,6 +5,8 @@ openssh
 
 paru
 zsh
+mdo
+vmd
 
 Drivers:
 networkmanager

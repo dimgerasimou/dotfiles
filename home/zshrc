@@ -27,10 +27,12 @@ source $ZSH/oh-my-zsh.sh
 # ----------------------------------------------------------
 
 # Export ---------------------------------------------------
+export PATH="$PATH:$HOME/.local/bin"
 export TERM="st"
 export EDITOR="nvim"
 export VISUAL="nvim"
 export GPG_TTY=$(tty)
+# export PATH="$PATH:$HOME/.local/bin"
 
 # Aliases --------------------------------------------------
 

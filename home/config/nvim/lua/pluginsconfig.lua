@@ -1,59 +1,92 @@
+-- Include outsorced setups
+require('plugins.cokeline')
+require('plugins.catppuccin')
+require('plugins.lsp')
+require('plugins.neotree')
+
+ -- Setup Session_manager
+local session_manager_path = require('plenary.path')
+local session_manager_config = require('session_manager.config')
+require('session_manager').setup({
+	sessions_dir = session_manager_path:new(vim.fn.stdpath('data'), 'sessions'),
+	autoload_mode = session_manager_config.AutoloadMode.Disabled,
+})
+
+
 require('lualine').setup {
-	options = { theme = 'rose-pine' }
+	options = {
+		theme = "catppuccin"
+	}
+}
+require('trouble').setup()
+require('gitsigns').setup()
+require('mini.bufremove').setup()
+require('mini.ai').setup()
+require('mini.pairs').setup()
+require('nvim-treesitter.configs').setup {
+	context_commentstring = {
+		enable = true,
+		enable_autocmd = false,
+	},
+	rainbow = {
+    		enable = false,
+    		query = 'rainbow-parens',
+    		strategy = require('ts-rainbow').strategy.global,
+  	},
 }
 
-require('nvim-treesitter.configs').setup {
-        highlight = {
-       	        enable = true,
-		disable = { "latex" },
-               	additional_vim_regex_highlighting = false,
-       	},
-       	-- rainbow = {
-               	-- enable = true,
-               	-- extended_mode = true,
-               	-- max_file_lines = nil,
-       	-- },
-	context_commentstring = {
-		enable = true
+require('Comment').setup {
+	pre_hook = require('ts_context_commentstring.integrations.comment_nvim').create_pre_hook(),
+}
+require("indent_blankline").setup {
+	space_char_blankline = " ",
+	show_current_context = true,
+	show_current_context_start = true,
+}
+require('smart-splits').setup({
+	resize_mode = {
+		hooks = {
+			on_leave = require('bufresize').register,
+		},
+	},
+})
+require('bufresize').setup()
+
+-- require('headlines').setup({
+-- 	markdown = {
+-- 		fat_headline_lower_string = "▀",
+-- 	},
+-- })
+
+require('alpha').setup(require('plugins.alpha-theme').config)
+
+require('telescope').setup {
+  	extensions = {
+		fzf = {
+			fuzzy = true,
+			override_generic_sorter = true,
+			override_file_sorter = true,
+			case_mode = "smart_case",
+		},
+		aerial = {
+			show_nesting = {
+				['_'] = false,
+				json = true,
+				yaml = true,
+			}
+		}
+	},
+	defaults = {
+		mappings = {
+			i = { ["<c-t>"] = require("trouble.providers.telescope").open_with_trouble },
+			n = { ["<c-t>"] = require("trouble.providers.telescope").open_with_trouble },
+		},
 	},
 }
-require('gitsigns').setup()
-require('treesitter-context').setup()
-require('rose-pine').setup({
-	---@usage 'main' | 'moon'
-	dark_variant = 'moon',
-	bold_vert_split = false,
-	dim_nc_backgrond = false,
-	disable_background = true,
-	disable_float_background = true,
-	disable_italics = false,
-	---@usage string hex value or named color from rosepinetheme.com/palette
-	groups = {
-		background = 'base',
-		panel = 'surface',
-		border = 'highlight_med',
-		comment= 'muted',
-		link = 'iris',
-		punctuation = 'subtle',
-		error = 'love',
-		hint = 'iris',
-		info = 'foam',
-		warn = 'gold',
-		headings = {
-			h1 = 'iris',
-			h2 = 'foam',
-			h3 = 'rose',
-			h4 = 'gol',
-			h5 = 'pine',
-			h6 = 'foam',
-		}
-		-- or set all headings at once
-		-- headings = 'subtle'
-	},
-	-- Change specific vim highlight groups
-	highlight_groups = {
-		ColorColumn = { bg = 'rose' } 
-	}
+require('telescope').load_extension('fzf')
+require('aerial').setup({
+  on_attach = function(bufnr)
+    vim.keymap.set('n', '{', '<cmd>AerialPrev<CR>', {buffer = bufnr})
+    vim.keymap.set('n', '}', '<cmd>AerialNext<CR>', {buffer = bufnr})
+  end
 })
-require('Comment').setup()
-require('alpha').setup(require('alpha.themes.startify').config)

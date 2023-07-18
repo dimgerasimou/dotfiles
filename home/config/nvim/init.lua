@@ -27,7 +27,7 @@ set.shiftwidth = 8
 
 -- Scrolling:
 
-vim.cmd( 'set mouse=a' )
+vim.cmd('set mouse=a')
 
 -- Splits:
 
@@ -37,9 +37,9 @@ set.splitright = true
 -- Line:
 
 set.showmode = false
-set.guifont = 'FiraCode Nerd Font 11'
+set.guifont = 'Fira Code Nerd Font 11'
 
 -- Colors:
 
 set.background = dark
-vim.cmd('colorscheme rose-pine')
+vim.cmd.colorscheme 'catppuccin'
