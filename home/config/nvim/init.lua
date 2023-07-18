@@ -14,11 +14,14 @@ local set = vim.opt
 
 set.encoding = 'UTF-8'
 vim.bo.filetype = true
+set.undofile = true
+set.clipboard = 'unnamedplus'
 
 -- Line Control:
 
 set.number = true
 set.scrolloff = 10
+set.relativenumber = true
 
 -- Tabs:
 
@@ -27,7 +30,7 @@ set.shiftwidth = 8
 
 -- Scrolling:
 
-vim.cmd('set mouse=a')
+vim.o.mouse = 'a'
 
 -- Splits:
 
@@ -38,6 +41,8 @@ set.splitright = true
 
 set.showmode = false
 set.guifont = 'Fira Code Nerd Font 11'
+set.ruler = false
+set.wrap = false
 
 -- Colors:
 

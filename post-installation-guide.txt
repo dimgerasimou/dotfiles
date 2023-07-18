@@ -38,3 +38,4 @@ Setup spicetify and theme
 Setup discord and theme with beautifuldiscord
 Setup nvim
 Setup pcmanfm
+Setup xclip

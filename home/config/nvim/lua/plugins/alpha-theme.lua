@@ -95,7 +95,7 @@ local buttons = {
     type = "group",
     val = {
         button("e", "  New", "<cmd>ene <BAR> startinsert <CR>"),
-        button("f", "  Open", ":lua require('telescope.builtin').find_files()<CR>"),
+        button("f", "  Open", "<cmd>Telescope find_files hidden=true no_ignore=true<CR>"),
         button("r", "  Recents", ":lua require('telescope.builtin').oldfiles()<CR>"),
         button("g", "  Find text", ":lua require('telescope.builtin').live_grep({initial_mode = 'insert'})<CR>"),
         button("l", "  Restore", "<cmd>SessionManager load_last_session<CR>"),

@@ -76,3 +76,14 @@ vim.api.nvim_create_autocmd("BufUnload", {
 		vim.opt.ruler = true
 	end,
 })
+
+-- Highlight on Yank
+vim.api.nvim_exec(
+	[[
+		augroup YankHighlight
+		autocmd!
+		autocmd TextYankPost * silent! lua vim.highlight.on_yank()
+		augroup enable_diagnostics
+	]],
+	false
+)
