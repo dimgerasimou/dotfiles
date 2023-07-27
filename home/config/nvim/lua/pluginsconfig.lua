@@ -4,6 +4,8 @@ require('plugins.catppuccin')
 require('plugins.lsp')
 require('plugins.neotree')
 
+vim.g.vimtex_view_method = 'zathura'
+
  -- Setup Session_manager
 local session_manager_path = require('plenary.path')
 local session_manager_config = require('session_manager.config')

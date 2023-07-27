@@ -77,15 +77,20 @@ return require('packer').startup(function(use)
 	use 'hrsh7th/cmp-buffer'
 	use 'hrsh7th/cmp-path'
 	use 'hrsh7th/cmp-cmdline'
-	use 'hrsh7th/nvim-cmp'
+	use {
+		'hrsh7th/nvim-cmp',
+		requires = {
+			'kdheepak/cmp-latex-symbols'
+		}
+	}
 	use 'hrsh7th/cmp-calc'
 	use 'max397574/cmp-greek'
 	use 'saadparwaiz1/cmp_luasnip'
 	use 'hrsh7th/cmp-emoji'
-	use 'kdheepak/cmp-latex-symbols'
 	use 'ray-x/cmp-treesitter'
 	use 'hrsh7th/cmp-nvim-lua'
 	use 'onsails/lspkind.nvim'
+	use 'p00f/clangd_extensions.nvim'
 	use {
 		'willothy/nvim-cokeline',
 		requires = {
