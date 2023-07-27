@@ -23,13 +23,14 @@ xmenu.borderWidth:   2
 xmenu.font:          JetBrains Mono Nerd Font:style=Regular:size=12
 
 ! ST
-st.font:              FiraCode Nerd Font:style=Regular:size=13
-st.borderpx:          10
+st.font:              JetBrains Mono Nerd Font:style=Regular:size=13
+st.borderpx:          5
 st.foreground:        #CDD6F4
-st.backgroundf:       #1E1E2E
+st.backgroundf:       #181825
 st.backgroundu:       #181825
 st.cursorColor:       #F5E0DC
 
+! Term colors
 ! black
 *.color0:       #45475A
 *.color8:       #585B70
@@ -61,5 +62,4 @@ st.cursorColor:       #F5E0DC
 ! white
 *.color7:       #CDD6F4
 *.color15:      #BAC2DE
-
 

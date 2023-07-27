@@ -4,7 +4,7 @@ require('catppuccin').setup({
 		light = "latte",
 		dark = "mocha",
 	},
-	transparent_background = true,
+	transparent_background = false,
 	show_end_of_buffer = false,
 	term_colors = true,
 	dim_inactive = {
@@ -61,9 +61,9 @@ require('catppuccin').setup({
     			},
 		},
 		-- treesiter_context=true,
-		-- telescope = {
-			--enabled = true,
-		-- },
+		telescope = {
+			enabled = true,
+		},
 		which_key=true,
 		-- trouble=true,
 		-- ts_rainbow2 = true

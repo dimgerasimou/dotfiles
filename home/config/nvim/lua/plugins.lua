@@ -8,19 +8,16 @@ return require('packer').startup(function(use)
 		'nvim-lualine/lualine.nvim',
 		requires = { 'kyazdani42/nvim-web-devicons', opt = true }
 	}
+	use { "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, }
 	use { "catppuccin/nvim", as = "catppuccin" }
 	use {
 		'goolord/alpha-nvim',
 		requires = { 'nvim-tree/nvim-web-devicons' },
 	}
-	use {
-		'iamcco/markdown-preview.nvim',
-		run = function() vim.fn["mkdp#util#install"]() end,
-	}
-	use {
-        	'lukas-reineke/headlines.nvim',
-        	after = 'nvim-treesitter',
-        }
+	-- use {
+ --        	'lukas-reineke/headlines.nvim',
+ --        	after = 'nvim-treesitter',
+ --        }
 	use 'jbyuki/nabla.nvim'
 	use 'lervag/vimtex'
 	use 'numToStr/Comment.nvim'
@@ -81,7 +78,14 @@ return require('packer').startup(function(use)
 	use 'hrsh7th/cmp-path'
 	use 'hrsh7th/cmp-cmdline'
 	use 'hrsh7th/nvim-cmp'
+	use 'hrsh7th/cmp-calc'
+	use 'max397574/cmp-greek'
 	use 'saadparwaiz1/cmp_luasnip'
+	use 'hrsh7th/cmp-emoji'
+	use 'kdheepak/cmp-latex-symbols'
+	use 'ray-x/cmp-treesitter'
+	use 'hrsh7th/cmp-nvim-lua'
+	use 'onsails/lspkind.nvim'
 	use {
 		'willothy/nvim-cokeline',
 		requires = {

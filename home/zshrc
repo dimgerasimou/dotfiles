@@ -17,7 +17,7 @@ zstyle ':omz:update' mode auto           # Oh My Zsh update mode.
 zstyle ':omz:update' frequency 13        # Oh My Zsh update frequency in days.
 DISABLE_AUTO_TITLE="false"               # Disable terminal autotitle.
 ENABLE_CORRECTION="true"                 # Enable command autocorrection.
-
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 # Plugins
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions sudo dirhistory copybuffer dirhistory)
 source $ZSH/oh-my-zsh.sh
@@ -27,12 +27,13 @@ source $ZSH/oh-my-zsh.sh
 # ----------------------------------------------------------
 
 # Export ---------------------------------------------------
-export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/.local/bin:/usr/local/texlive/2023/bin/x86_64-linux"
 export TERM="st"
 export EDITOR="nvim"
 export VISUAL="nvim"
 export GPG_TTY=$(tty)
-# export PATH="$PATH:$HOME/.local/bin"
+export INFOPATH="/usr/local/texlive/2023/texmf-dist/doc/info:$INFOPATH"
+export MANPATH="/usr/local/texlive/2023/texmf-dist/doc/man:$MANPATH"
 
 # Aliases --------------------------------------------------
 

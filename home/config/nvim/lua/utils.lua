@@ -1,47 +1,60 @@
 -- Keybinds
+local vk = vim.keymap
 
 -- map leader to <Space>
-vim.keymap.set('n', ' ', '<Nop>', { silent = true, remap = false })
+vk.set('n', ' ', '<Nop>', { silent = true, remap = false })
 vim.g.mapleader = ' '
 
+-- General
+vk.set('n', '<leader>n', '<cmd>Neotree<CR>', {silent = true, noremap = true})
+
+-- Markdown Preview
+vk.set('n', '<leader>mm', '<cmd>MarkdownPreview<CR>', {silent = true, noremap = true})
+vk.set('n', '<leader>ms', '<cmd>MarkdownPreviewStop<CR>', {silent = true, noremap = true})
+vk.set('n', '<leader>mt', '<cmd>MarkdownPreviewStart<CR>', {silent = true, noremap = true})
+
+-- Vimtex
+vk.set('n', '<leader>tl', '<cmd>VimtexLog<CR>', {silent = true, noremap = true})
+vk.set('n', '<leader>tv', '<cmd>VimtexView<CR>', {silent = true, noremap = true})
+vk.set('n', '<leader>tc', '<cmd>VimtexClean<CR>', {silent = true, noremap = true})
+vk.set('n', '<leader>tr', '<cmd>VimtexReload<CR>', {silent = true, noremap = true})
+vk.set('n', '<leader>tt', '<cmd>VimtexStart<CR>', {silent = true, noremap = true})
+vk.set('n', '<leader>ts', '<cmd>VimtexStop<CR>', {silent = true, noremap = true})
+vk.set('n', '<leader>ta', '<cmd>VimtexStopAll<CR>', {silent = true, noremap = true})
+vk.set('n', '<leader>tg', '<cmd>VimtexStatus<CR>', {silent = true, noremap = true})
+vk.set('n', '<leader>ti', '<cmd>VimtexInfo<CR>', {silent = true, noremap = true})
+vk.set('n', '<leader>tca', '<cmd>VimtexCompileSS<CR>', {silent = true, noremap = true})
+vk.set('n', '<leader>tcs', '<cmd>VimtexCompileSelected<CR>', {silent = true, noremap = true})
+vk.set('n', '<leader>tcc', '<cmd>VimtexCompile<CR>', {silent = true, noremap = true})
+vk.set('n', '<leader>tco', '<cmd>VimtexCompileOutput<CR>', {silent = true, noremap = true})
+
 -- Nabla
-vim.keymap.set('n', '<leader>p', require('nabla').popup)
+vk.set('n', '<leader>p', require('nabla').popup)
 
 -- Smart Splits
-vim.keymap.set('n', '<A-h>', require('smart-splits').resize_left)
-vim.keymap.set('n', '<A-j>', require('smart-splits').resize_down)
-vim.keymap.set('n', '<A-k>', require('smart-splits').resize_up)
-vim.keymap.set('n', '<A-l>', require('smart-splits').resize_right)
-vim.keymap.set('n', '<C-h>', require('smart-splits').move_cursor_left)
-vim.keymap.set('n', '<C-j>', require('smart-splits').move_cursor_down)
-vim.keymap.set('n', '<C-k>', require('smart-splits').move_cursor_up)
-vim.keymap.set('n', '<C-l>', require('smart-splits').move_cursor_right)
-vim.keymap.set('n', '<leader><leader>h', require('smart-splits').swap_buf_left)
-vim.keymap.set('n', '<leader><leader>j', require('smart-splits').swap_buf_down)
-vim.keymap.set('n', '<leader><leader>k', require('smart-splits').swap_buf_up)
-vim.keymap.set('n', '<leader><leader>l', require('smart-splits').swap_buf_right)
+vk.set('n', '<A-h>',             require('smart-splits').resize_left)
+vk.set('n', '<A-j>',             require('smart-splits').resize_down)
+vk.set('n', '<A-k>',             require('smart-splits').resize_up)
+vk.set('n', '<A-l>',             require('smart-splits').resize_right)
+vk.set('n', '<C-h>',             require('smart-splits').move_cursor_left)
+vk.set('n', '<C-j>',             require('smart-splits').move_cursor_down)
+vk.set('n', '<C-k>',             require('smart-splits').move_cursor_up)
+vk.set('n', '<C-l>',             require('smart-splits').move_cursor_right)
+vk.set('n', '<leader><leader>h', require('smart-splits').swap_buf_left)
+vk.set('n', '<leader><leader>j', require('smart-splits').swap_buf_down)
+vk.set('n', '<leader><leader>k', require('smart-splits').swap_buf_up)
+vk.set('n', '<leader><leader>l', require('smart-splits').swap_buf_right)
 
-vim.keymap.set('n', '<leader>a', '<cmd>AerialToggle!<CR>')
+-- Aerial
+vk.set('n', '<leader>a', '<cmd>AerialToggle!<CR>')
 
 -- Trouble
-vim.keymap.set("n", "<leader>xx", "<cmd>TroubleToggle<cr>",
-  {silent = true, noremap = true}
-)
-vim.keymap.set("n", "<leader>xw", "<cmd>TroubleToggle workspace_diagnostics<cr>",
-  {silent = true, noremap = true}
-)
-vim.keymap.set("n", "<leader>xd", "<cmd>TroubleToggle document_diagnostics<cr>",
-  {silent = true, noremap = true}
-)
-vim.keymap.set("n", "<leader>xl", "<cmd>TroubleToggle loclist<cr>",
-  {silent = true, noremap = true}
-)
-vim.keymap.set("n", "<leader>xq", "<cmd>TroubleToggle quickfix<cr>",
-  {silent = true, noremap = true}
-)
-vim.keymap.set("n", "gR", "<cmd>TroubleToggle lsp_references<cr>",
-  {silent = true, noremap = true}
-)
+vk.set("n", "<leader>xx", "<cmd>TroubleToggle<cr>",                       {silent = true, noremap = true})
+vk.set("n", "<leader>xw", "<cmd>TroubleToggle workspace_diagnostics<cr>", {silent = true, noremap = true})
+vk.set("n", "<leader>xd", "<cmd>TroubleToggle document_diagnostics<cr>",  {silent = true, noremap = true})
+vk.set("n", "<leader>xl", "<cmd>TroubleToggle loclist<cr>",               {silent = true, noremap = true})
+vk.set("n", "<leader>xq", "<cmd>TroubleToggle quickfix<cr>",              {silent = true, noremap = true})
+vk.set("n", "gR",         "<cmd>TroubleToggle lsp_references<cr>",        {silent = true, noremap = true})
 
 -- Autocommands
 

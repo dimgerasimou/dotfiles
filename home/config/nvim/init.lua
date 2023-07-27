@@ -32,6 +32,18 @@ set.shiftwidth = 8
 
 vim.o.mouse = 'a'
 
+---- For scrolling:
+
+set.wrap = false
+set.sidescroll = 1
+
+---- For wraping:
+--[[ 
+set.breakindent = true
+set.breakindentopt = 'sbr'
+set.showbreak = '↪>\\'
+ ]]
+
 -- Splits:
 
 set.splitbelow = true
@@ -42,7 +54,6 @@ set.splitright = true
 set.showmode = false
 set.guifont = 'Fira Code Nerd Font 11'
 set.ruler = false
-set.wrap = false
 
 -- Colors:
 
