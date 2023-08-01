@@ -1,13 +1,5 @@
 #!/bin/sh
 
-if [ $1 == "uninstall" ]; then
-	uninstall()
-else if [ $1 == "update" ]; then
-	update()
-else
-	install()
-fi
-
 install() {
 	mkdir -p $HOME/.config/zathura
 	cp zathurarc $HOME/.config/zathura/zathurarc
@@ -50,13 +42,33 @@ uninstall() {
 
 	rm $HOME/.config/picom/picom.conf
 
-	rm HOME/.config/qt5ct/colors/Catpuccin-Mocha.conf
+	rm $HOME/.config/qt5ct/colors/Catpuccin-Mocha.conf
 
 	rm $HOME/.Xresources
 	rm -r $HOME/.Xresources.d
 
 	list="$(ls wallpapers)"
-	for $image in $list; do
-		rm $HOME/.local/share/wallpapers
+	for image in $list; do
+		rm $HOME/.local/share/wallpapers/$image
 	done
 }
+
+case $1 in
+	-r|--uninstall)
+		uninstall;;
+
+	-u|--update)
+		update;;
+
+	-h|--help)
+		echo "Usage: install.sh [-r | --uninstall] [-u | --update]"
+		echo "default: install";;
+	
+	-*|--*)
+		echo "Unknown option $1"
+		exit 1;;
+	*)
+		install;;
+esac
+	
+
