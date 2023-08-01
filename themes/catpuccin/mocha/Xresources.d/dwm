@@ -1,0 +1,40 @@
+! dwm
+
+dwm.normbgcolor:      #1E1E2E
+dwm.normbordercolor:  #313244
+dwm.normfgcolor:      #CDD6F4
+dwm.selbordercolor:   #89B4FA
+dwm.selfgcolor:       #1E1E2E
+dwm.selbgcolor:       #89B4FA
+dwm.borderpx:         2
+dwm.systraybg:        #313244
+
+! dwmblocks
+
+dwmblocks.background1:    #313244
+
+! dmenu
+
+dmenu.normfgcolor:    #CDD6F4
+dmenu.normbgcolor:    #1E1E2E
+dmenu.selfgcolor:     #1E1E2E
+dmenu.selbgcolor:     #89B4FA
+
+! xmenu
+
+xmenu.selbackground: #89B4FA
+xmenu.selforeground: #1E1E2E
+xmenu.background:    #1E1E2E
+xmenu.border:        #89B4FA
+xmenu.foreground:    #CDD6F4
+xmenu.borderWidth:   2
+xmenu.font:          JetBrains Mono Nerd Font:style=Regular:size=12
+
+! st
+
+st.font:              JetBrains Mono Nerd Font:style=Regular:size=13
+st.borderpx:          5
+st.foreground:        #CDD6F4
+st.backgroundf:       #181825
+st.backgroundu:       #181825
+st.cursorColor:       #F5E0DC

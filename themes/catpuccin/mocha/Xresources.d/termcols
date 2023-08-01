@@ -1,0 +1,33 @@
+! Term colors
+
+! black
+*.color0:       #45475A
+*.color8:       #585B70
+
+! red
+*.color1:       #F38BA8
+*.color9:       #EBA0AC
+
+! green
+*.color2:       #A6E3A1
+*.color10:      #A6E3A1
+
+! yellow
+*.color3:       #F9E2AF
+*.color11:      #F9E2AF
+
+! blue
+*.color4:       #89B4FA
+*.color12:      #74C7EC
+
+! magenta
+*.color5:       #CBA6F7
+*.color13:      #F5C2E7
+
+! cyan
+*.color6:       #89DCEB
+*.color14:      #94E2D5
+
+! white
+*.color7:       #CDD6F4
+*.color15:      #BAC2DE
