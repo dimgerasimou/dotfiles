@@ -70,5 +70,3 @@ case $1 in
 	*)
 		install;;
 esac
-	
-
