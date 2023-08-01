@@ -7,6 +7,7 @@ dwm.selfgcolor:       #1E1E2E
 dwm.selbgcolor:       #89B4FA
 dwm.borderpx:         2
 
+
 ! DMENU
 dmenu.normfgcolor:    #CDD6F4
 dmenu.normbgcolor:    #1E1E2E
@@ -63,3 +64,6 @@ st.cursorColor:       #F5E0DC
 *.color7:       #CDD6F4
 *.color15:      #BAC2DE
 
+! Backgrounds
+! dwmblocks.background1:    #1E1E2E
+dwmblocks.background1:    #313244

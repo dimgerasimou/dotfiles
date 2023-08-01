@@ -61,6 +61,19 @@ return {
 		{condition = tex.in_mathzone}
 	),
 
+	-- HAT, i.e. \hat
+	s({trig = "([^%a])hh", wordTrig = false, regTrig = true, snippetType="autosnippet"},
+		fmta(
+			"<>\\hat{<>}",
+			{
+				f( function(_, snip) return snip.captures[1] end ),
+				d(1, get_visual),
+			}
+		),
+		{condition = tex.in_mathzone}
+	),
+
+
 	-- MATRIX, i.e. \mat
 	s({trig = "([^%a])mt", wordTrig = false, regTrig = true, snippetType="autosnippet"},
 		fmta(
@@ -204,11 +217,11 @@ return {
 -- BEGIN STATIC SNIPPETS
 --
 
-	-- DIFFERENTIAL, i.e. \diff
-	s({trig = "df", priority=2000, snippetType="autosnippet"},
-		{ t("\\diff") },
-		{ condition = tex.in_mathzone }
-	),
+	-- -- DIFFERENTIAL, i.e. \diff
+	-- s({trig = "df", priority=2000, snippetType="autosnippet"},
+	-- 	{ t("\\diff") },
+	-- 	{ condition = tex.in_mathzone }
+	-- ),
 
 	-- BASIC INTEGRAL SYMBOL, i.e. \int
 	s({trig = "in1", snippetType="autosnippet"},
