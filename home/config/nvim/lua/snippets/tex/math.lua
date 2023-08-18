@@ -49,10 +49,10 @@ return {
 		{condition = tex.in_mathzone}
 	),
 
-	-- VECTOR, i.e. \vec
+	-- VECTOR, i.e. \vb
 	s({trig = "([^%a])vv", wordTrig = false, regTrig = true, snippetType="autosnippet"},
 		fmta(
-			"<>\\vec{<>}",
+			"<>\\vb{<>}",
 			{
 				f( function(_, snip) return snip.captures[1] end ),
 				d(1, get_visual),
@@ -61,23 +61,10 @@ return {
 		{condition = tex.in_mathzone}
 	),
 
-	-- HAT, i.e. \hat
-	s({trig = "([^%a])hh", wordTrig = false, regTrig = true, snippetType="autosnippet"},
+	-- Vector Unit, i.e. \vu 
+	s({trig = "([^%a])uu", wordTrig = false, regTrig = true, snippetType="autosnippet"},
 		fmta(
-			"<>\\hat{<>}",
-			{
-				f( function(_, snip) return snip.captures[1] end ),
-				d(1, get_visual),
-			}
-		),
-		{condition = tex.in_mathzone}
-	),
-
-
-	-- MATRIX, i.e. \mat
-	s({trig = "([^%a])mt", wordTrig = false, regTrig = true, snippetType="autosnippet"},
-		fmta(
-			"<>\\mat{<>}",
+			"<>\\vu{<>}",
 			{
 				f( function(_, snip) return snip.captures[1] end ),
 				d(1, get_visual),
@@ -102,7 +89,7 @@ return {
 	-- ABSOLUTE VALUE
 	s({trig = "([^%a])aa", regTrig = true, wordTrig = false, snippetType="autosnippet"},
 		fmta(
-			"<>\\abs{<>}",
+			"<>\\ab |<>|",
 			{
 				f( function(_, snip) return snip.captures[1] end ),
 				d(1, get_visual),
@@ -151,7 +138,7 @@ return {
 	-- DERIVATIVE with numerator and denominator
 	s({trig = "([^%a])dvv", wordTrig = false, regTrig = true, snippetType="autosnippet"},
 		fmta(
-			"<>\\dv{<>}{<>}",
+			"<>\\odv{<>}{<>}",
 			{
 				f( function(_, snip) return snip.captures[1] end ),
 				i(1),
@@ -190,12 +177,11 @@ return {
 	-- INTEGRAL with upper and lower limit
 	s({trig = "([^%a])intt", wordTrig = false, regTrig = true, snippetType="autosnippet"},
 		fmta(
-			"<>\\int_{<>}^{<>} <> d \\, ",
+			"<>\\int_{<>}^{<>}",
 			{
         			f( function(_, snip) return snip.captures[1] end ),
         			i(1),
         			i(2),
-				i(3),
 			}
 		),
 		{condition = tex.in_mathzone}
@@ -204,10 +190,9 @@ return {
 	-- INTEGRAL from positive to negative infinity
 	s({trig = "([^%a])intf", wordTrig = false, regTrig = true, snippetType="autosnippet"},
 		fmta(
-			"<>\\int_{\\infty}^{\\infty} <> d \\, ",
+			"<>\\int_{\\infty}^{\\infty}",
 			{
 				f( function(_, snip) return snip.captures[1] end ),
-				i(1)
 			}
 		),
 		{condition = tex.in_mathzone}
