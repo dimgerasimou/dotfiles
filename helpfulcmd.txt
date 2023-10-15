@@ -1,0 +1,1 @@
+sudo reflector --country Greece,Italy,Germany --protocol https --latest 5 --save /etc/pacman.d/mirrorlist
