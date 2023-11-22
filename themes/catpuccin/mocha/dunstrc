@@ -8,7 +8,7 @@
 	transparency       = 20
 	frame_width        = 2
 	idle_threshold     = 5m
-	font               = JetBrains Mono Nerd Font 12
+	font               = JetBrainsMono NF 12
 	corner_radius      = 20
 	icon_theme         = Papirus-Dark
 	enable_recursive_icon_lookup = true
