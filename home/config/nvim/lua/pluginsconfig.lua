@@ -40,11 +40,7 @@ require('nvim-treesitter.configs').setup {
 require('Comment').setup {
 	pre_hook = require('ts_context_commentstring.integrations.comment_nvim').create_pre_hook(),
 }
-require("indent_blankline").setup {
-	space_char_blankline = " ",
-	show_current_context = true,
-	show_current_context_start = true,
-}
+require('ibl').setup()
 require('smart-splits').setup({
 	resize_mode = {
 		hooks = {

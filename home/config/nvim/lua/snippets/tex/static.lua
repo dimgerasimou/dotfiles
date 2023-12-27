@@ -39,7 +39,7 @@ return
 	),
 
 	s({trig="all", snippetType="autosnippet"},
-		{t("\\text{ for all } ")},
+		{t("\\forall")},
 		{condition = tex.in_mathzone}
 	),
 
@@ -48,10 +48,10 @@ return
 		{condition = tex.in_mathzone}
 	),
 
-	s({trig="forall", snippetType="autosnippet"},
-		{t("\\text{ for all } ")},
-		{condition = tex.in_mathzone}
-	),
+	-- s({trig="forall", snippetType="autosnippet"},
+	-- 	{t("\\text{ for all } ")},
+	-- 	{condition = tex.in_mathzone}
+	-- ),
 
 	s({trig = "toc", snippetType="autosnippet"},
 		{t("\\tableofcontents")},

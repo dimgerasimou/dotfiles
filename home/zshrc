@@ -60,6 +60,8 @@ alias pmqi="pacman -Qi"
 alias nv="nvim"
 alias v="nvim"
 
+# Ranger
+alias r='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 # Git
 alias gs="git status"
 alias gp="git push"
@@ -88,5 +90,5 @@ alias z="zathura"
 alias vs="vscodium"
 
 # pandoc
-alias mdtopdf="pandoc --pdf-engine=xelatex -V mainfont=\"Hack\" -t latex"
+# alias mdtopdf="pandoc --pdf-engine=xelatex -V mainfont=\"Hack\" -t latex"
 

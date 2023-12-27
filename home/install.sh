@@ -1,6 +1,6 @@
 #!/bin/sh
 
-configs="dmenu easyeffects nvim"
+configs="dmenu easyeffects nvim xrandr"
 
 install() {
 	mkdir -p $HOME/.config/

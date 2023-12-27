@@ -5,7 +5,7 @@ local selfg = '#89B4FA'
 
 
 vim.opt.termguicolors = true
-local get_hex = require('cokeline/utils').get_hex
+local get_hex = require('cokeline/hlgroups').get_hl_attr
 
 local comments_fg = get_hex('Comment', 'fg')
 local errors_fg = get_hex('DiagnosticError', 'fg')

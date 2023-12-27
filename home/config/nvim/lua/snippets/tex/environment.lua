@@ -37,7 +37,7 @@ return
 	s({trig="nn", snippetType="autosnippet"},
 		fmta(
 			[[
-        		\begin{equation*}
+			\begin{equation*}
 				<>
 			\end{equation*}
 			]],
