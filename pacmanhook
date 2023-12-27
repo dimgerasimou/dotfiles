@@ -1,9 +1,0 @@
-[Trigger]
-Operation = Upgrade
-Type = Package
-Target = *
-
-[Action]
-Description = Signaling dwmblocks...
-When = PostTransaction
-Exec = /usr/bin/pkill -RTMIN+4 dwmblocks
