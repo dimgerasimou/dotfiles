@@ -1,99 +1,88 @@
--- Mason installer
-require('mason').setup()
-require('mason-lspconfig').setup()
+-- vars
+local ls      = require('luasnip')
+local cmp     = require('cmp')
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+local lspkind = require('lspkind')
 
-require('luasnip').setup()
-require('luasnip.loaders.from_lua').load({paths = '~/.config/nvim/lua/snippets/'})
-require('luasnip').config.set_config({
+-- luasnip setup
+ls.setup {
 	enable_autosnippets = true,
 	store_selection_keys = '<Tab>',
-	update_events = 'TextChanged,TextChangedI',
-})
+	update_events = 'TextChanged,TextChangedI'
+}
+require('luasnip.loaders.from_lua').load({paths = './lua/snippets/'})
 
-local cmp = require('cmp')
-local lspkind = require('lspkind')
-local capabilities = require('cmp_nvim_lsp').default_capabilities()
-local ls = require('luasnip')
-
+-- cmp setup
 cmp.setup({
 	snippet = {
 		expand = function(args)
-        		require('luasnip').lsp_expand(args.body)
+			require('luasnip').lsp_expand(args.body)
 		end,
 	},
 	mapping = {
-		['<Up>'] = cmp.mapping.select_prev_item(select_opts),
-		['<Down>'] = cmp.mapping.select_next_item(select_opts),
-
-		['<C-p>'] = cmp.mapping.select_prev_item(select_opts),
-		['<C-n>'] = cmp.mapping.select_next_item(select_opts),
-
-		['<C-u>'] = cmp.mapping.scroll_docs(-4),
-		['<C-d>'] = cmp.mapping.scroll_docs(4),
-
-		['<C-e>'] = cmp.mapping.abort(),
-		['<C-y>'] = cmp.mapping.confirm({select = true}),
-		['<CR>'] = cmp.mapping.confirm({select = false}),
-
-		['<C-f>'] = cmp.mapping(function(fallback)
+		['<Up>']   = cmp.mapping.select_prev_item(),
+		['<Down>'] = cmp.mapping.select_next_item(),
+		['<C-e>']  = cmp.mapping.abort(),
+		['<C-s>']  = cmp.mapping(function(fallback)
 			if ls.jumpable(1) then
 				ls.jump(1)
-      			else
-        			fallback()
-      			end
-    		end, {'i', 's'}),
+			else
+				fallback()
+			end
+		end, {'i', 's'}),
+		['<C-a>'] = cmp.mapping(function(fallback)
+			if ls.jumpable(-1) then
+				ls.jump(-1)
+			else
+				fallback()
+			end
+		end, {'i', 's'}),
+		['<CR>'] = cmp.mapping(function(fallback)
+			if cmp.visible() then
+				if ls.expandable() then
+					ls.expand()
+				else
+					cmp.confirm({
+						select = true,
+					})
+				end
+			else
+				fallback()
+			end
+		end),
+		["<Tab>"] = cmp.mapping(function(fallback)
+			if cmp.visible() then
+				cmp.select_next_item()
+			elseif ls.locally_jumpable(1) then
+				ls.jump(1)
+			else
+				fallback()
+			end
+		end, { "i", "s" }),
 
-    		['<C-b>'] = cmp.mapping(function(fallback)
-      			if ls.jumpable(-1) then
-       				ls.jump(-1)
-      			else
-        			fallback()
-      			end
-    		end, {'i', 's'}),
-
-		-- ['<Tab>'] = cmp.mapping(function(fallback)
-		-- 	local col = vim.fn.col('.') - 1
-		--
-		-- 	if cmp.visible() then
-		-- 		cmp.select_next_item(select_opts)
-		-- 	elseif ls.jumpable(1) then
-		-- 		ls.jump(1)
-		-- 	elseif col == 0 or vim.fn.getline('.'):sub(col, col):match('%s') then
-		-- 		fallback()
-		-- 	else
-		-- 		cmp.complete()
-		-- 	end
-		-- end, {'i', 's'}),
-		--
-		-- ['<S-Tab>'] = cmp.mapping(function(fallback)
-		-- 	if cmp.visible() then
-		-- 		cmp.select_prev_item(select_opts)
-		-- 	elseif ls.jumpable(-1) then
-		-- 		ls.jump(-1)
-		-- 	else
-		-- 		fallback()
-		-- 	end
-		-- end, {'i', 's'}),
+		["<S-Tab>"] = cmp.mapping(function(fallback)
+			if cmp.visible() then
+				cmp.select_prev_item()
+			elseif ls.locally_jumpable(-1) then
+				ls.jump(-1)
+			else
+				fallback()
+			end
+		end, { "i", "s" }),
 	},
-  	sources = cmp.config.sources({
+	sources = cmp.config.sources({
 		{ name = 'nvim_lsp' },
 		{ name = 'luasnip' },
-      		{ name = 'calc' },
-      		{ name = 'greek' },
-      		{ name = 'emoji' },
-      		{ name = 'nvim_lua' },
-      		{ name = 'treesitter' },
-		{
-			name = 'latex_symbols',
-			option = { strategy = 2 },
-		}, {
-			{ name = 'buffer' },
-		}
+		{ name = 'calc' },
+		{ name = 'emoji' },
+		{ name = 'nvim_lua' },
+		{ name = 'buffer' },
+		{ name = 'path' },
+		{ name = 'plugins' },
+		{ name = 'neorg' },
 	}),
 	enabled = function()
-		-- disable completion in comments
-		local context = require 'cmp.config.context'
-		-- keep command mode completion enabled when cursor is in a comment
+		local context = require('cmp.config.context')
 		if vim.api.nvim_get_mode().mode == 'c' then
 			return true
 		else
@@ -110,7 +99,7 @@ cmp.setup({
 	},
 	sorting = {
 		comparators = {
-        		cmp.config.compare.offset,
+			cmp.config.compare.offset,
 			cmp.config.compare.exact,
 			cmp.config.compare.recently_used,
 			require("clangd_extensions.cmp_scores"),
@@ -133,6 +122,12 @@ cmp.setup.filetype('gitcommit', {
 	})
 })
 
+cmp.setup.filetype({ "tex", "plaintex" }, {
+	sources = {
+		{ name = "lua-latex-symbols"}
+	}
+})
+
 cmp.setup.cmdline({ '/', '?' }, {
 	mapping = cmp.mapping.preset.cmdline(),
 	sources = {
@@ -149,35 +144,49 @@ cmp.setup.cmdline(':', {
 	})
 })
 
+require('cmp_git').setup()
+
+require('cmp-plugins').setup({
+	files = { "~/.config/nvim/" }
+})
+
 -- Language servers
-require("clangd_extensions").setup {
+require('clangd_extensions').setup ({
 	server = {
 		capabilities = capabilities
 	}
-}
-require('lspconfig').jdtls.setup{
+})
+
+require('lspconfig').clangd.setup{
 	capabilities = capabilities
 }
+
+require('lspconfig').lua_ls.setup{
+	capabilities = capabilities,
+	settings = {
+		Lua = {
+			runtime = {
+				version = "Lua 5.1"
+			},
+			diagnostics = {
+				globals = { "vim" }
+			}
+		}
+	}
+}
+
 require('lspconfig').ltex.setup{
 	capabilities = capabilities
 }
-require('lspconfig').marksman.setup{
-	capabilities = capabilities
-}
-require('lspconfig').lua_ls.setup{
-	capabilities = capabilities
-}
+
 require('lspconfig').bashls.setup{
 	capabilities = capabilities
 }
-require('lspconfig').html.setup{
+
+require('lspconfig').marksman.setup{
 	capabilities = capabilities
 }
+
 require('lspconfig').pylsp.setup{
 	capabilities = capabilities
 }
-require('lspconfig').neocmake.setup{
-	capabilities = capabilities
-}
-
-

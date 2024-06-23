@@ -4,29 +4,18 @@
 -- | |_| | |_| |
 -- |____/ \____|
 
-require('rocks-setup')
-require('keybinds')
-require('autocommands')
+require('plugins')
+require('pluginsconfig')
+require('utils')
 
 local set = vim.opt
 
 -- Compitability - filetypes:
 
 set.encoding = 'UTF-8'
-vim.bo.filetype = 'on'
+vim.bo.filetype = true
 set.undofile = true
 set.clipboard = 'unnamedplus'
-
-vim.opt.list = true
-vim.opt.listchars = {
-	space = "∙",
-	-- eol = "↲",
-	tab = "➞ ",
-	trail = "•",
-	extends = "❯",
-	precedes = "❮",
-	nbsp = "",
-}
 
 -- Line Control:
 
@@ -68,4 +57,5 @@ set.ruler = false
 
 -- Colors:
 
+set.background = dark
 vim.cmd.colorscheme 'catppuccin'
