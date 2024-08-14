@@ -1,6 +1,6 @@
 #!/bin/sh
 
-configs="dmenu easyeffects nvim xrandr"
+configs="dmenu easyeffects nvim kitty solaar xrandr-setup"
 
 install() {
 	mkdir -p $HOME/.config/

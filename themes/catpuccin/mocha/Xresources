@@ -1,2 +1,2 @@
-#include ".Xresources.d/dwm"
-#include ".Xresources.d/termcols"
+#include ".config/xresources/dwm"
+#include ".config/xresources/termcols"

@@ -28,12 +28,12 @@ xmenu.background:    #1E1E2E
 xmenu.border:        #89B4FA
 xmenu.foreground:    #CDD6F4
 xmenu.borderWidth:   2
-xmenu.font:          JetBrainsMono NF:style=Regular:size=12
+xmenu.font:          FiraCode Nerd Font:style=Regular:size=12
 
 ! st
 
-st.font:              JetBrainsMono NF:style=Regular:size=13
-st.borderpx:          5
+st.font:              FiraCode Nerd Font:style=Regular:size=13
+st.borderpx:          4
 st.foreground:        #CDD6F4
 st.backgroundf:       #181825
 st.backgroundu:       #181825

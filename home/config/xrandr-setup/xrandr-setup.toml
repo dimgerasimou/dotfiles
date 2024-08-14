@@ -1,0 +1,44 @@
+[[screen]]
+	name="Nvidia CY"
+	#dpi=96
+	[[monitor]]
+		id="HDMI-0"
+		primary=true
+	[[monitor]]
+		id="eDP-1-1"
+		xoffset=1366
+
+[[screen]]
+	name="Nvidia"
+	dpi=96
+	[[monitor]]
+		id="eDP-1-1"
+		primary=true
+
+[[screen]]
+	name="Nvidia"
+	dpi=96
+	[[monitor]]
+		id="HDMI-0"
+		primary=true
+		xoffset=1920
+	[[monitor]]
+		id="eDP-1-1"
+
+[[screen]]
+	name="Nvidia TV"
+	dpi=96
+	[[monitor]]
+		id="HDMI-0"
+		primary=true
+	[[monitor]]
+		id="eDP-1-1"
+		xoffset=1920
+
+[[screen]]
+	name="Hybrid"
+	dpi=120
+	[[monitor]]
+		id="eDP-1"
+		primary=true
+

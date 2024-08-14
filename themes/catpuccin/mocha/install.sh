@@ -12,9 +12,12 @@ install() {
 	
 	mkdir -p $HOME/.config/qt5ct/colors
 	cp qt5ct $HOME/.config/qt5ct/colors/Catpuccin-Mocha.conf
+
+	mkdir -p $HOME/.config/qt6ct/colors
+	cp qt6ct $HOME/.config/qt6ct/colors/Catpuccin-Mocha.conf
 	
 	cp Xresources $HOME/.Xresources
-	cp -r Xresources.d $HOME/.Xresources.d/
+	cp -r Xresources.d $HOME/.config/xresources/
 	
 	mkdir -p $HOME/.local/share/wallpapers
 	cp wallpapers/*  $HOME/.local/share/wallpapers/
@@ -29,10 +32,12 @@ update() {
 
 	cp $HOME/.config/qt5ct/colors/Catpuccin-Mocha.conf qt5ct
 
+	cp $HOME/.config/qt6ct/colors/Catpuccin-Mocha.conf qt6ct
+
 	cp $HOME/.Xresources Xresources
 
 	rm -r Xresources.d
-	cp -r $HOME/.Xresources.d/ Xresources.d
+	cp -r $HOME/.config/xresources/ Xresources.d
 }
 
 uninstall() {
@@ -44,8 +49,10 @@ uninstall() {
 
 	rm $HOME/.config/qt5ct/colors/Catpuccin-Mocha.conf
 
+	rm $HOME/.config/qt6ct/colors/Catpuccin-Mocha.conf
+
 	rm $HOME/.Xresources
-	rm -r $HOME/.Xresources.d
+	rm -r $HOME/.config/xresources/
 
 	list="$(ls wallpapers)"
 	for image in $list; do
