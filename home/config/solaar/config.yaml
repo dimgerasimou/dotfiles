@@ -28,13 +28,14 @@
     divert-crown, divert-gkeys, m-key-leds, mr-key-led, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer, adc_power_management]
   _battery: 4100
   _modelId: B37800000000
+  _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore}
   _unitId: 591D646E
   backlight: 1
   backlight-timed: 0
   backlight_duration_hands_in: 30
   backlight_duration_hands_out: 30
   backlight_duration_powered: 300
-  backlight_level: 7
+  backlight_level: 0
   change-host: null
   disable-keyboard-keys: {1: false, 2: false, 4: false, 8: false, 16: false}
   divert-gkeys: false

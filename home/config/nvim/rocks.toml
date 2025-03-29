@@ -1,48 +1,39 @@
-[plugins]
-# rocks
-"rocks.nvim" = "2.36.1"
-"rocks-config.nvim" = "2.1.4"
-"rocks-git.nvim" = "2.0.1"
-"rocks-treesitter.nvim" = "1.0.2"
+# This is your rocks.nvim plugins declaration file.
+# Here is a small yet pretty detailed example on how to use it:
+#
+# [plugins]
+# nvim-treesitter = "semver_version"  # e.g. "1.0.0"
 
-# ui
+# List of non-Neovim rocks.
+# This includes things like `toml` or other lua packages.
+[rocks]
+
+# List of Neovim plugins to install alongside their versions.
+# If the plugin name contains a dot then you must add quotes to the key name!
+[plugins]
+"rocks.nvim" = "2.37.0"
+"rocks-config.nvim" = "2.2.0"
+"rocks-git.nvim" = "2.0.1"
+"rocks-treesitter.nvim" = "1.0.3"
 "neo-tree.nvim" = "3.26"
 "lualine.nvim" = "scm"
-catpuccin = "1.8.0"
+catpuccin = "1.9.0"
 alpha-nvim = "scm"
 "which-key.nvim" = "3.13.2"
 nvim-cokeline = "0.4.0"
-
-# ui utils
 "toggleterm.nvim" = "2.12.0"
-"smart-splits.nvim" = "1.5.0"
-bufresize = { git = "kwkarlwang/bufresize.nvim" }
-
-# navigation
+"smart-splits.nvim" = "1.6.0"
 "persisted.nvim" = "scm"
 "telescope.nvim" = "scm"
-"telescope-fzf-native.nvim" = { git = "nvim-telescope/telescope-fzf-native.nvim", build = "make"}
-
-# filetype specific
-vimtex = { git = "lervag/vimtex" }
 neorg = "9.1.1"
-"nabla.nvim" = { git = "jbyuki/nabla.nvim" }
 "headlines.nvim" = "scm"
-
-# editor utils
 "trouble.nvim" = "3.6.0"
-"aerial.nvim" = "2.0.0"
-"multiple-cursors.nvim" = { git = "brenton-leighton/multiple-cursors.nvim" }
-"xkbswitch.nvim" = { git = "dimgerasimou/xkbswitch.nvim" }
-
-# editor parsing/formating
-"rainbow-delimiters.nvim" = "0.4.0"
+"aerial.nvim" = "2.1.0"
+"rainbow-delimiters.nvim" = "0.6.1"
 "comment.nvim" = "0.8.0"
 nvim-ts-context-commentstring = "scm"
-"indent-blankline.nvim" = "3.7.1"
+"indent-blankline.nvim" = "3.7.2"
 nvim-treesitter-legacy-api = "0.9.2"
-
-# lsp
 nvim-lspconfig = "0.1.8"
 nvim-cmp = "scm"
 luasnip = "2.3.0"
@@ -54,11 +45,48 @@ cmp-path = "scm"
 cmp-git = "scm"
 cmp-cmdline = "scm"
 cmp_luasnip = "scm"
-cmp-emoji = { git = "hrsh7th/cmp-emoji" }
-cmp-nvim-lua = { git = "hrsh7th/cmp-nvim-lua" }
-cmp-plugins = { git = "KadoBOT/cmp-plugins" }
-cmp-calc = { git = "hrsh7th/cmp-calc" }
 tree-sitter-latex = "0.0.3"
+
+[plugins.cmp-emoji ]
+git = "hrsh7th/cmp-emoji"
+rev = "e8398e2adf512a03bb4e1728ca017ffeac670a9f"
+
+[plugins.cmp-nvim-lua ]
+git = "hrsh7th/cmp-nvim-lua"
+rev = "f12408bdb54c39c23e67cab726264c10db33ada8"
+
+[plugins.cmp-plugins ]
+git = "KadoBOT/cmp-plugins"
+rev = "e321688e92e557851cfeee8ca552659a095b908c"
+
+[plugins.cmp-calc ]
+git = "hrsh7th/cmp-calc"
+rev = "5947b412da67306c5b68698a02a846760059be2e"
+
+[plugins."multiple-cursors.nvim" ]
+git = "brenton-leighton/multiple-cursors.nvim"
+rev = "v0.9"
+
+[plugins."xkbswitch.nvim" ]
+git = "dimgerasimou/xkbswitch.nvim"
+rev = "2f39d9c50bea78c19fb3c96a0b3daa67aee79301"
+
+[plugins.bufresize]
+git = "kwkarlwang/bufresize.nvim"
+rev = "3b19527ab936d6910484dcc20fb59bdb12322d8b"
+
+[plugins."nabla.nvim"]
+git = "jbyuki/nabla.nvim"
+rev = "27a6ea9ed7452bb9e0b19eb0942b5bcf7d051b2f"
+
+[plugins.vimtex]
+git = "lervag/vimtex"
+rev = "v2.9"
+
+[plugins."telescope-fzf-native.nvim"]
+git = "nvim-telescope/telescope-fzf-native.nvim"
+build = "make"
+rev = "cf48d4dfce44e0b9a2e19a008d6ec6ea6f01a83b"
 
 [bundles.lsp]
 items = [
