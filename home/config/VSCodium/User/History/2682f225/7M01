@@ -1,0 +1,19 @@
+DIRS   := utils V0-1
+PREFIX := src
+
+SUBDIRS = $(addprefix $(PREFIX)/, $(DIRS))
+CLNDIRS = $(addprefix $(PREFIX)/, $(DIRS))
+
+all: build
+
+build: $(SUBDIRS)
+
+clean: $(CLNDIRS)
+
+$(SUBDIRS):
+	@$(MAKE) -C $@ --no-print-directory
+
+$(CLNDIRS):
+	@$(MAKE) -C $@ --no-print-directory clean
+
+.PHONY: build clean

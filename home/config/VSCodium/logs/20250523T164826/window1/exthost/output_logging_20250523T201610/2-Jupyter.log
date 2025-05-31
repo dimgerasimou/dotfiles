@@ -1,0 +1,352 @@
+VSCodium (1.100.2, undefined, desktop)
+Jupyter Extension Version: 2025.4.1.
+Python Extension Version: 2025.4.0.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /home/dimgerasimou
+Temp Storage folder ~/.config/VSCodium/User/globalStorage/ms-toolsai.jupyter/version-2025.4.1
+Workspace folder ~/Αριθμητική
+20:16:11.090 [info] Telemetry level is off
+20:16:11.090 [info] Experiments are disabled, only manually opted experiments are active.
+20:16:11.115 [debug] Start refreshing Kernel Picker (1748020571115)
+20:16:11.159 [info] Deleting old temp dir ~/.config/VSCodium/User/globalStorage/ms-toolsai.jupyter/version-2025.4.0
+20:16:11.890 [debug] Get Custom Env Variables, Class name = Mm, completed in 775ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+20:16:11.890 [debug] Jupyter Paths /kernels: 
+20:16:11.891 [debug] Kernel Spec Root Paths, /usr/share/jupyter/kernels, /usr/local/share/jupyter/kernels, ~/.local/share/jupyter/kernels
+20:16:12.276 [debug] End refreshing Kernel Picker (1748020571115)
+20:16:12.321 [debug] Start refreshing Kernel Picker (1748020572321)
+20:16:12.339 [debug] End refreshing Kernel Picker (1748020572321)
+20:16:12.776 [debug] creating new code watcher with matching document file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/test.py
+20:16:16.300 [debug] Start refreshing Interpreter Kernel Picker
+20:16:16.300 [debug] Start refreshing Kernel Picker (1748020576300)
+20:16:16.323 [debug] KernelProvider switched kernel to id = .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher
+20:16:16.324 [debug] start the kernel, options.disableUI=true for ~/Αριθμητική/Untitled-1.ipynb
+20:16:16.325 [debug] Controller selection change completed
+20:16:16.411 [debug] Get Custom Env Variables, Class name = Mm, completed in 1ms, has a truthy return value, Arg 1: "~/Αριθμητική", Arg 2: "RunPythonCode"
+20:16:16.412 [info] Starting Kernel (Python Path: ~/Αριθμητική/.venv/bin/python, Venv, 3.13.3) for '~/Αριθμητική/Untitled-1.ipynb' (disableUI=true)
+20:16:16.419 [debug] Get Custom Env Variables, Class name = Mm, completed in 0ms, has a truthy return value, Arg 1: "~/Αριθμητική/Untitled-1.ipynb", Arg 2: "RunPythonCode"
+20:16:16.427 [debug] Launching kernel .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher for ~/Αριθμητική/Untitled-1.ipynb in ~/Αριθμητική with ports 9001, 9000, 9004, 9002, 9003
+20:16:16.452 [debug] Got env vars from Python Ext in 42ms for ~/Αριθμητική/.venv/bin/python, with env var count 72.
+20:16:16.452 [debug] Getting activated env variables, Class name = xd, completed in 42ms, has a truthy return value, Arg 1: "~/Αριθμητική", Arg 2: "~/Αριθμητική/.venv/bin/python", Arg 3: undefined
+20:16:16.457 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -m pip list
+20:16:16.459 [debug] Got env vars from Python Ext in 40ms for ~/Αριθμητική/.venv/bin/python, with env var count 72.
+20:16:16.459 [debug] Getting activated env variables, Class name = xd, completed in 40ms, has a truthy return value, Arg 1: "~/Αριθμητική/Untitled-1.ipynb", Arg 2: "~/Αριθμητική/.venv/bin/python", Arg 3: undefined
+20:16:16.463 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+20:16:16.469 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3ee9153fcdca89907f13ca4775644f930a369777f.json
+    > cwd: ~/Αριθμητική
+20:16:16.469 [debug] Kernel process 85851.
+20:16:16.568 [debug] Refreshed Environments
+20:16:16.734 [debug] Kernel output 85851: To connect another client to this kernel, use:
+--existing /run/user/1000/jupyter/runtime/kernel-v3ee9153fcdca89907f13ca4775644f930a369777f.json
+20:16:16.941 [debug] Waiting for Raw Session to be ready in postStartRawSession
+20:16:16.941 [debug] Waiting for Raw session to be ready, status: connected
+20:16:16.942 [debug] Waited for Raw session to be ready & got status: connected
+20:16:16.942 [debug] Successfully waited for Raw Session to be ready in postStartRawSession
+20:16:16.942 [debug] Kernel status is 'unknown' before requesting kernel info and after ready
+20:16:16.942 [debug] Sending request for kernelInfo
+20:16:16.946 [debug] Successfully completed postStartRawSession after 1 attempt(s) in 4ms
+20:16:16.975 [debug] Requesting Kernel info
+20:16:16.981 [info] Kernel successfully started
+20:16:16.983 [debug] getDataDirsImpl, Class name = Lr (started execution), Arg 1: "~/Αριθμητική/Untitled-1.ipynb", Arg 2: "~/Αριθμητική/.venv/bin/python"
+20:16:16.984 [debug] Get Custom Env Variables, Class name = Mm, completed in 1ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+20:16:16.984 [debug] Jupyter Paths : 
+20:16:16.986 [debug] Get Custom Env Variables, Class name = Mm, completed in 1ms, has a truthy return value, Arg 1: "~/Αριθμητική/Untitled-1.ipynb", Arg 2: "RunPythonCode"
+20:16:16.986 [debug] Got env vars from Python Ext in 1ms for ~/Αριθμητική/.venv/bin/python, with env var count 72.
+20:16:16.986 [debug] Getting activated env variables, Class name = xd, completed in 1ms, has a truthy return value, Arg 1: "~/Αριθμητική/Untitled-1.ipynb", Arg 2: "~/Αριθμητική/.venv/bin/python", Arg 3: undefined
+20:16:16.993 [info] Process Execution: ~/Αριθμητική/.venv/bin/python ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/pythonFiles/printJupyterDataDir.py
+20:16:17.002 [debug] Got an empty Jupyter Data Dir from ~/Αριθμητική/.venv/bin/python, stderr = undefined
+20:16:17.003 [debug] getDataDirsImpl, Class name = Lr, completed in 21ms, has a truthy return value, Arg 1: "~/Αριθμητική/Untitled-1.ipynb", Arg 2: "~/Αριθμητική/.venv/bin/python", Return Value: <Uri:~/.local/share/jupyter>, <Uri:~/Αριθμητική/.venv/share/jupyter>, <Uri:/usr/local/share/jupyter>, <Uri:/usr/share/jupyter>
+20:16:17.569 [debug] End refreshing Kernel Picker (1748020576300)
+20:21:16.881 [debug] KernelProvider switched kernel to id = .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher
+20:21:16.882 [debug] start the kernel, options.disableUI=true for ~/Αριθμητική/numerical_project.ipynb
+20:21:16.882 [debug] Controller selection change completed
+20:21:16.885 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/numerical_project.ipynb
+20:21:16.888 [debug] Get Custom Env Variables, Class name = Mm, completed in 1ms, has a truthy return value, Arg 1: "~/Αριθμητική", Arg 2: "RunPythonCode"
+20:21:16.888 [debug] Got env vars from Python Ext in 1ms for ~/Αριθμητική/.venv/bin/python, with env var count 72.
+20:21:16.888 [debug] Getting activated env variables, Class name = xd, completed in 1ms, has a truthy return value, Arg 1: "~/Αριθμητική", Arg 2: "~/Αριθμητική/.venv/bin/python", Arg 3: undefined
+20:21:16.895 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -m pip list
+20:21:16.895 [info] Starting Kernel (Python Path: ~/Αριθμητική/.venv/bin/python, Venv, 3.13.3) for '~/Αριθμητική/numerical_project.ipynb' (disableUI=true)
+20:21:16.899 [debug] Get Custom Env Variables, Class name = Mm, completed in 1ms, has a truthy return value, Arg 1: "~/Αριθμητική/numerical_project.ipynb", Arg 2: "RunPythonCode"
+20:21:16.900 [debug] Got env vars from Python Ext in 2ms for ~/Αριθμητική/.venv/bin/python, with env var count 72.
+20:21:16.900 [debug] Getting activated env variables, Class name = xd, completed in 2ms, has a truthy return value, Arg 1: "~/Αριθμητική/numerical_project.ipynb", Arg 2: "~/Αριθμητική/.venv/bin/python", Arg 3: undefined
+20:21:16.905 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+20:21:16.913 [debug] Launching kernel .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher for ~/Αριθμητική/numerical_project.ipynb in ~/Αριθμητική with ports 9006, 9005, 9009, 9007, 9008
+20:21:16.922 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3eb023941f1e90333d0653210051cc67c8d697c86.json
+    > cwd: ~/Αριθμητική
+20:21:16.923 [debug] Kernel process 87391.
+20:21:17.202 [debug] Kernel output 87391: To connect another client to this kernel, use:
+--existing /run/user/1000/jupyter/runtime/kernel-v3eb023941f1e90333d0653210051cc67c8d697c86.json
+20:21:17.329 [debug] Waiting for Raw Session to be ready in postStartRawSession
+20:21:17.329 [debug] Waiting for Raw session to be ready, status: connected
+20:21:17.330 [debug] Waited for Raw session to be ready & got status: connected
+20:21:17.330 [debug] Successfully waited for Raw Session to be ready in postStartRawSession
+20:21:17.330 [debug] Kernel status is 'unknown' before requesting kernel info and after ready
+20:21:17.330 [debug] Sending request for kernelInfo
+20:21:17.334 [debug] Successfully completed postStartRawSession after 1 attempt(s) in 4ms
+20:21:17.350 [debug] Requesting Kernel info
+20:21:17.351 [info] Kernel successfully started
+20:21:17.366 [debug] Kernel acknowledged execution of cell 7 @ 1748020877365
+20:21:17.480 [warn] Cell completed with errors lu [Error]: name 'y' is not defined
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:294:4958) {
+  ename: 'NameError',
+  evalue: "name 'y' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[1]\x1B[39m\x1B[32m, line 9\x1B[39m\n' +
+      '\x1B[32m      5\x1B[39m \t\ttrapezoid_area += (y[i] + y[i + \x1B[32m1\x1B[39m]) * h / \x1B[32m2\x1B[39m\n' +
+      '\x1B[32m      7\x1B[39m \t\x1B[38;5;28;01mreturn\x1B[39;00m trapezoid_area\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m9\x1B[39m trapezoid_mean_value = trapezoid_rule_area(\x1B[43my\x1B[49m) / (\x1B[38;5;28mlen\x1B[39m(y))\n' +
+      '\x1B[32m     10\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mTrapezoid Area: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtrapezoid_rule_area(y)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m, Mean Value: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtrapezoid_mean_value\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     12\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34msimpson_rule_area\x1B[39m(y):\n',
+    "\x1B[31mNameError\x1B[39m: name 'y' is not defined"
+  ]
+}
+20:25:29.195 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/numerical_project.ipynb
+20:25:29.210 [debug] Kernel acknowledged execution of cell 7 @ 1748021129210
+20:25:29.220 [warn] Cell completed with errors lu [Error]: name 'y' is not defined
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:294:4958) {
+  ename: 'NameError',
+  evalue: "name 'y' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[2]\x1B[39m\x1B[32m, line 9\x1B[39m\n' +
+      '\x1B[32m      5\x1B[39m \t\ttrapezoid_area += (y[i] + y[i + \x1B[32m1\x1B[39m]) * h / \x1B[32m2\x1B[39m\n' +
+      '\x1B[32m      7\x1B[39m \t\x1B[38;5;28;01mreturn\x1B[39;00m trapezoid_area\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m9\x1B[39m trapezoid_mean_value = trapezoid_rule_area(\x1B[43my\x1B[49m) / (\x1B[38;5;28mlen\x1B[39m(y))\n' +
+      '\x1B[32m     10\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mTrapezoid Area: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtrapezoid_rule_area(y)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m, Mean Value: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtrapezoid_mean_value\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     12\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34msimpson_rule_area\x1B[39m(y):\n',
+    "\x1B[31mNameError\x1B[39m: name 'y' is not defined"
+  ]
+}
+20:25:31.174 [debug] Handle Execution of Cells 1,3,5,7,8,9 for ~/Αριθμητική/numerical_project.ipynb
+20:25:31.184 [debug] Kernel acknowledged execution of cell 1 @ 1748021131184
+20:25:32.057 [debug] Kernel acknowledged execution of cell 3 @ 1748021132056
+20:25:32.309 [debug] Kernel acknowledged execution of cell 5 @ 1748021132309
+20:25:32.415 [debug] Kernel acknowledged execution of cell 7 @ 1748021132415
+20:25:32.454 [warn] Cell completed with errors lu [Error]: name 'h' is not defined
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:294:4958) {
+  ename: 'NameError',
+  evalue: "name 'h' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[6]\x1B[39m\x1B[32m, line 9\x1B[39m\n' +
+      '\x1B[32m      5\x1B[39m \t\ttrapezoid_area += (y[i] + y[i + \x1B[32m1\x1B[39m]) * h / \x1B[32m2\x1B[39m\n' +
+      '\x1B[32m      7\x1B[39m \t\x1B[38;5;28;01mreturn\x1B[39;00m trapezoid_area\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m9\x1B[39m trapezoid_mean_value = \x1B[43mtrapezoid_rule_area\x1B[49m\x1B[43m(\x1B[49m\x1B[43my\x1B[49m\x1B[43m)\x1B[49m / (\x1B[38;5;28mlen\x1B[39m(y))\n' +
+      '\x1B[32m     10\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mTrapezoid Area: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtrapezoid_rule_area(y)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m, Mean Value: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtrapezoid_mean_value\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     12\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34msimpson_rule_area\x1B[39m(y):\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[6]\x1B[39m\x1B[32m, line 5\x1B[39m, in \x1B[36mtrapezoid_rule_area\x1B[39m\x1B[34m(y)\x1B[39m\n' +
+      '\x1B[32m      2\x1B[39m trapezoid_area = \x1B[32m0.0\x1B[39m\n' +
+      '\x1B[32m      4\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(\x1B[38;5;28mlen\x1B[39m(y) - \x1B[32m1\x1B[39m):\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m5\x1B[39m \ttrapezoid_area += (y[i] + y[i + \x1B[32m1\x1B[39m]) * \x1B[43mh\x1B[49m / \x1B[32m2\x1B[39m\n' +
+      '\x1B[32m      7\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m trapezoid_area\n',
+    "\x1B[31mNameError\x1B[39m: name 'h' is not defined"
+  ]
+}
+20:25:32.456 [warn] Cancel all remaining cells due to cancellation or failure in execution
+20:25:32.457 [debug] Cancel pending cells
+20:25:53.866 [debug] Jupyter completion time: 14
+20:25:53.869 [debug] Execution of code ms-toolsai.jupyter-1 completed in 15ms
+20:25:53.891 [debug] Inspected code def trapezoid_rule_area(y, hasattr in 13ms
+20:25:53.895 [debug] Execution of code ms-toolsai.jupyter-2 completed in 16ms
+20:26:02.352 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/numerical_project.ipynb
+20:26:02.389 [debug] Kernel acknowledged execution of cell 7 @ 1748021162389
+20:26:02.422 [warn] Cell completed with errors lu [Error]: trapezoid_rule_area() missing 1 required positional argument: 'h'
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:294:4958) {
+  ename: 'TypeError',
+  evalue: "trapezoid_rule_area() missing 1 required positional argument: 'h'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[7]\x1B[39m\x1B[32m, line 9\x1B[39m\n' +
+      '\x1B[32m      5\x1B[39m \t\ttrapezoid_area += (y[i] + y[i + \x1B[32m1\x1B[39m]) * h / \x1B[32m2\x1B[39m\n' +
+      '\x1B[32m      7\x1B[39m \t\x1B[38;5;28;01mreturn\x1B[39;00m trapezoid_area\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m9\x1B[39m trapezoid_mean_value = \x1B[43mtrapezoid_rule_area\x1B[49m\x1B[43m(\x1B[49m\x1B[43my\x1B[49m\x1B[43m)\x1B[49m / (\x1B[38;5;28mlen\x1B[39m(y))\n' +
+      '\x1B[32m     10\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mTrapezoid Area: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtrapezoid_rule_area(y)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m, Mean Value: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtrapezoid_mean_value\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     12\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34msimpson_rule_area\x1B[39m(y):\n',
+    "\x1B[31mTypeError\x1B[39m: trapezoid_rule_area() missing 1 required positional argument: 'h'"
+  ]
+}
+20:26:06.029 [debug] Handle Execution of Cells 1,3,5,7,8,9 for ~/Αριθμητική/numerical_project.ipynb
+20:26:06.037 [debug] Kernel acknowledged execution of cell 1 @ 1748021166037
+20:26:06.102 [debug] Kernel acknowledged execution of cell 3 @ 1748021166102
+20:26:06.126 [debug] Kernel acknowledged execution of cell 5 @ 1748021166126
+20:26:06.246 [debug] Kernel acknowledged execution of cell 7 @ 1748021166246
+20:26:06.256 [warn] Cell completed with errors lu [Error]: trapezoid_rule_area() missing 1 required positional argument: 'h'
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:294:4958) {
+  ename: 'TypeError',
+  evalue: "trapezoid_rule_area() missing 1 required positional argument: 'h'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[11]\x1B[39m\x1B[32m, line 9\x1B[39m\n' +
+      '\x1B[32m      5\x1B[39m \t\ttrapezoid_area += (y[i] + y[i + \x1B[32m1\x1B[39m]) * h / \x1B[32m2\x1B[39m\n' +
+      '\x1B[32m      7\x1B[39m \t\x1B[38;5;28;01mreturn\x1B[39;00m trapezoid_area\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m9\x1B[39m trapezoid_mean_value = \x1B[43mtrapezoid_rule_area\x1B[49m\x1B[43m(\x1B[49m\x1B[43my\x1B[49m\x1B[43m)\x1B[49m / (\x1B[38;5;28mlen\x1B[39m(y))\n' +
+      '\x1B[32m     10\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mTrapezoid Area: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtrapezoid_rule_area(y)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m, Mean Value: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtrapezoid_mean_value\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     12\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34msimpson_rule_area\x1B[39m(y):\n',
+    "\x1B[31mTypeError\x1B[39m: trapezoid_rule_area() missing 1 required positional argument: 'h'"
+  ]
+}
+20:26:06.258 [warn] Cancel all remaining cells due to cancellation or failure in execution
+20:26:06.258 [debug] Cancel pending cells
+20:26:07.138 [debug] Handle Execution of Cells 1,3,5,7,8,9 for ~/Αριθμητική/numerical_project.ipynb
+20:26:07.148 [debug] Kernel acknowledged execution of cell 1 @ 1748021167148
+20:26:07.196 [debug] Kernel acknowledged execution of cell 3 @ 1748021167196
+20:26:07.233 [debug] Kernel acknowledged execution of cell 5 @ 1748021167233
+20:26:07.346 [debug] Kernel acknowledged execution of cell 7 @ 1748021167346
+20:26:07.362 [warn] Cell completed with errors lu [Error]: trapezoid_rule_area() missing 1 required positional argument: 'h'
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:294:4958) {
+  ename: 'TypeError',
+  evalue: "trapezoid_rule_area() missing 1 required positional argument: 'h'",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[15]\x1B[39m\x1B[32m, line 9\x1B[39m\n' +
+      '\x1B[32m      5\x1B[39m \t\ttrapezoid_area += (y[i] + y[i + \x1B[32m1\x1B[39m]) * h / \x1B[32m2\x1B[39m\n' +
+      '\x1B[32m      7\x1B[39m \t\x1B[38;5;28;01mreturn\x1B[39;00m trapezoid_area\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m9\x1B[39m trapezoid_mean_value = \x1B[43mtrapezoid_rule_area\x1B[49m\x1B[43m(\x1B[49m\x1B[43my\x1B[49m\x1B[43m)\x1B[49m / (\x1B[38;5;28mlen\x1B[39m(y))\n' +
+      '\x1B[32m     10\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mTrapezoid Area: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtrapezoid_rule_area(y)\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m, Mean Value: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mtrapezoid_mean_value\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     12\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34msimpson_rule_area\x1B[39m(y):\n',
+    "\x1B[31mTypeError\x1B[39m: trapezoid_rule_area() missing 1 required positional argument: 'h'"
+  ]
+}
+20:26:07.363 [warn] Cancel all remaining cells due to cancellation or failure in execution
+20:26:07.363 [debug] Cancel pending cells
+20:26:24.910 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/numerical_project.ipynb
+20:26:24.916 [debug] Kernel acknowledged execution of cell 7 @ 1748021184916
+20:26:32.564 [debug] Handle Execution of Cells 1,3,5,7,8,9 for ~/Αριθμητική/numerical_project.ipynb
+20:26:32.571 [debug] Kernel acknowledged execution of cell 1 @ 1748021192571
+20:26:32.625 [debug] Kernel acknowledged execution of cell 3 @ 1748021192625
+20:26:32.670 [debug] Kernel acknowledged execution of cell 5 @ 1748021192670
+20:26:32.747 [debug] Kernel acknowledged execution of cell 7 @ 1748021192747
+20:26:32.756 [debug] Kernel acknowledged execution of cell 8 @ 1748021192756
+20:26:32.764 [debug] Kernel acknowledged execution of cell 9 @ 1748021192763
+20:26:34.482 [debug] Handle Execution of Cells 1,3,5,7,8,9 for ~/Αριθμητική/numerical_project.ipynb
+20:26:34.488 [debug] Kernel acknowledged execution of cell 1 @ 1748021194488
+20:26:34.528 [debug] Kernel acknowledged execution of cell 3 @ 1748021194528
+20:26:34.560 [debug] Kernel acknowledged execution of cell 5 @ 1748021194560
+20:26:34.642 [debug] Kernel acknowledged execution of cell 7 @ 1748021194642
+20:26:34.649 [debug] Kernel acknowledged execution of cell 8 @ 1748021194649
+20:26:34.656 [debug] Kernel acknowledged execution of cell 9 @ 1748021194656
+20:26:37.082 [debug] Handle Execution of Cells 1,3,5,7,8,9 for ~/Αριθμητική/numerical_project.ipynb
+20:26:37.088 [debug] Kernel acknowledged execution of cell 1 @ 1748021197088
+20:26:37.112 [debug] Kernel acknowledged execution of cell 3 @ 1748021197112
+20:26:37.136 [debug] Kernel acknowledged execution of cell 5 @ 1748021197136
+20:26:37.204 [debug] Kernel acknowledged execution of cell 7 @ 1748021197204
+20:26:37.209 [debug] Kernel acknowledged execution of cell 8 @ 1748021197209
+20:26:37.216 [debug] Kernel acknowledged execution of cell 9 @ 1748021197216
+20:27:02.849 [debug] Jupyter completion time: 8
+20:27:02.851 [debug] Execution of code ms-toolsai.jupyter-3 completed in 9ms
+20:27:02.878 [debug] Inspected code degree in 12ms
+20:27:02.885 [debug] Execution of code ms-toolsai.jupyter-4 completed in 18ms
+20:27:03.965 [debug] Jupyter completion time: 9
+20:27:03.966 [debug] Execution of code ms-toolsai.jupyter-5 completed in 9ms
+20:27:04.537 [debug] Jupyter completion time: 12
+20:27:04.539 [debug] Execution of code ms-toolsai.jupyter-6 completed in 14ms
+20:27:04.556 [debug] Inspected code import get_ipython in 11ms
+20:27:04.563 [debug] Execution of code ms-toolsai.jupyter-7 completed in 18ms
+20:27:08.193 [debug] Jupyter completion time: 14
+20:27:08.194 [debug] Execution of code ms-toolsai.jupyter-8 completed in 14ms
+20:27:08.387 [debug] Jupyter completion time: 13
+20:27:08.389 [debug] Execution of code ms-toolsai.jupyter-9 completed in 14ms
+20:27:08.565 [debug] Jupyter completion time: 12
+20:27:08.567 [debug] Execution of code ms-toolsai.jupyter-10 completed in 13ms
+20:27:08.830 [debug] Jupyter completion time: 13
+20:27:08.832 [debug] Execution of code ms-toolsai.jupyter-11 completed in 15ms
+20:27:09.497 [debug] Jupyter completion time: 14
+20:27:09.499 [debug] Execution of code ms-toolsai.jupyter-12 completed in 15ms
+20:27:09.624 [debug] Jupyter completion time: 11
+20:27:09.626 [debug] Execution of code ms-toolsai.jupyter-13 completed in 13ms
+20:27:12.533 [debug] Jupyter completion time: 21
+20:27:12.542 [debug] Execution of code ms-toolsai.jupyter-14 completed in 30ms
+20:27:12.561 [debug] Inspected code import yfinance asArithmeticError in 11ms
+20:27:12.563 [debug] Execution of code ms-toolsai.jupyter-15 completed in 12ms
+20:27:12.939 [debug] Inspected code import yfinance asStopAsyncIteration in 11ms
+20:27:12.941 [debug] Execution of code ms-toolsai.jupyter-16 completed in 12ms
+20:27:13.086 [debug] Inspected code import yfinance assorted in 10ms
+20:27:13.088 [debug] Execution of code ms-toolsai.jupyter-17 completed in 12ms
+20:27:13.250 [debug] Inspected code import yfinance assimpson_rule_area in 9ms
+20:27:13.251 [debug] Execution of code ms-toolsai.jupyter-18 completed in 10ms
+03:37:48.874 [info] Dispose Kernel '~/Αριθμητική/Untitled-1.ipynb' associated with '~/Αριθμητική/Untitled-1.ipynb'
+03:37:48.876 [debug] Shutdown session b3954c4a-4899-41fd-9ce7-cfb8df206da6, .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher - start called from Error: 
+    at iT.shutdown (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:301:1140)
+    at iT.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:301:623)
+    at Is (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:115:867)
+    at e (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:282:32549)
+    at T_.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:282:32794)
+    at ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:183:1926
+    at Array.map (<anonymous>)
+    at Rg.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:183:1917)
+    at Object.Ahe (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:447:3706)
+    at Object.m (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.proxy.js:1:901)
+    at PQ._deactivate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:14502)
+    at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12013
+    at Array.map (<anonymous>)
+    at PQ._deactivateAll (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12001)
+    at PQ.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12354)
+    at v8.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:1602)
+    at ds (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:5829)
+    at MessagePortMain.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:2284)
+    at MessagePortMain.emit (node:events:524:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+03:37:48.876 [debug] Dispose Kernel process 85851.
+03:37:48.887 [debug] Kernel got disposed, hence there is no longer a kernel associated with ~/Αριθμητική/Untitled-1.ipynb
+03:37:48.887 [info] Dispose Kernel '~/Αριθμητική/numerical_project.ipynb' associated with '~/Αριθμητική/numerical_project.ipynb'
+03:37:48.887 [debug] Cancel pending cells
+03:37:48.888 [debug] Shutdown session bbf6ae44-81e5-4d48-bcba-de1a09e673a4, .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher - start called from Error: 
+    at iT.shutdown (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:301:1140)
+    at iT.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:301:623)
+    at Is (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:115:867)
+    at e (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:282:32549)
+    at T_.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:282:32794)
+    at ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:183:1926
+    at Array.map (<anonymous>)
+    at Rg.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:183:1917)
+    at Object.Ahe (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:447:3706)
+    at Object.m (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.proxy.js:1:901)
+    at PQ._deactivate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:14502)
+    at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12013
+    at Array.map (<anonymous>)
+    at PQ._deactivateAll (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12001)
+    at PQ.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12354)
+    at v8.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:1602)
+    at ds (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:5829)
+    at MessagePortMain.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:2284)
+    at MessagePortMain.emit (node:events:524:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+03:37:48.888 [debug] Dispose Kernel process 87391.
+03:37:48.894 [debug] Kernel got disposed, hence there is no longer a kernel associated with ~/Αριθμητική/numerical_project.ipynb
+03:37:48.900 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher 
+03:37:48.900 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher 
+03:37:48.901 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+03:37:48.901 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+03:37:48.901 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+03:37:48.902 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+03:37:48.902 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+03:37:48.902 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+03:37:48.902 [debug] Disposing controller .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher and documents file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/Untitled-1.ipynb, file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/numerical_project.ipynb
+03:37:48.903 [debug] Disposing controller .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher 
+03:37:48.908 [debug] KernelProcess Exited 85851, Exit Code - null 
+03:37:48.910 [warn] Failed to delete connection file file:///run/user/1000/jupyter/runtime/kernel-v3eb023941f1e90333d0653210051cc67c8d697c86.json for pid 87391 Canceled (FileSystemError): Canceled
+    at Function._handleError (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:22541)
+    at Object.stat (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:19418)
+    at Gc.delete (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:236:15401)
+    at ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:300:469 {
+  code: 'Unknown'
+}
+03:37:48.910 [debug] Disposed Kernel process 87391.
+03:37:48.910 [debug] Shutdown session bbf6ae44-81e5-4d48-bcba-de1a09e673a4, .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher - shutdown complete
+03:37:48.910 [warn] Failed to delete connection file file:///run/user/1000/jupyter/runtime/kernel-v3ee9153fcdca89907f13ca4775644f930a369777f.json for pid 85851 Canceled (FileSystemError): Canceled
+    at Function._handleError (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:22541)
+    at Object.stat (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:19418)
+    at Gc.delete (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:236:15401)
+    at ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:300:469 {
+  code: 'Unknown'
+}
+03:37:48.911 [debug] Disposed Kernel process 85851.
+03:37:48.911 [debug] Shutdown session b3954c4a-4899-41fd-9ce7-cfb8df206da6, .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher - shutdown complete
+03:37:48.911 [debug] KernelProcess Exited 87391, Exit Code - null

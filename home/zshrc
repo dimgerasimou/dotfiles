@@ -18,6 +18,7 @@ zstyle ':omz:update' frequency 13        # Oh My Zsh update frequency in days.
 DISABLE_AUTO_TITLE="false"               # Disable terminal autotitle.
 ENABLE_CORRECTION="true"                 # Enable command autocorrection.
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+[[ $TERM == screen* ]] && stty erase ^?
 # Plugins
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions sudo dirhistory copybuffer dirhistory)
 source $ZSH/oh-my-zsh.sh
@@ -27,13 +28,15 @@ source $ZSH/oh-my-zsh.sh
 # ----------------------------------------------------------
 
 # Export ---------------------------------------------------
-export PATH="$PATH:$HOME/.local/bin:/usr/local/texlive/2023/bin/x86_64-linux"
+export PATH="$PATH:$HOME/.local/bin:/usr/local/texlive/2024/bin/x86_64-linux:/usr/local/ltex-ls/bin"
 export TERM="st"
 export EDITOR="nvim"
 export VISUAL="nvim"
 export GPG_TTY=$(tty)
 export INFOPATH="/usr/local/texlive/2023/texmf-dist/doc/info:$INFOPATH"
 export MANPATH="/usr/local/texlive/2023/texmf-dist/doc/man:$MANPATH"
+export MANPAGER="nvim +Man!"
+export BROWSER="zen-browser"
 
 # Aliases --------------------------------------------------
 
@@ -41,27 +44,19 @@ export MANPATH="/usr/local/texlive/2023/texmf-dist/doc/man:$MANPATH"
 alias ...="../.."
 alias ....="../../.."
 alias h="cd $HOME"
-alias D="cd $HOME/Desktop"
-alias d="cd $HOME/Downloads"
 alias home="cd $HOME"
-alias desktop="cd $HOME/Desktop"
-alias downloads="cd $HOME/Downloads"
 alias lsrc="cd $HOME/.local/src"
 alias lbin="cd $HOME/.local/bin"
 
 # Pacman
-alias pmsyu="sudo pacman -Syu"
+alias pmu="sudo pacman -Syu"
 alias pms="sudo pacman -S"
 alias pmr="sudo pacman -R"
-alias pmq="pacman -Q"
-alias pmqi="pacman -Qi"
 
 # Neovim
 alias nv="nvim"
 alias v="nvim"
 
-# Ranger
-alias r='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 # Git
 alias gs="git status"
 alias gp="git push"
@@ -80,15 +75,42 @@ alias ψδ="cd"
 # 7zip
 alias 7ze="7z a -p -mhe=on"
 
+# eza
+alias la="eza --color=always --icons=always --long --no-quotes --header"
+alias ls="eza --color=always --icons=always --long --no-quotes --grid --no-permissions --no-user --no-filesize"
+
 # cups
-alias cups-web="firefox https://localhost:631/"
+alias cups-web="$BROWSER https://localhost:631/"
 
 # zathura
-alias z="zathura"
+alias d="zathura"
 
 # vscodium
 alias vs="vscodium"
 
-# pandoc
-# alias mdtopdf="pandoc --pdf-engine=xelatex -V mainfont=\"Hack\" -t latex"
+alias matlab="wmname LG3D && ~/.local/bin/matlab/bin/matlab -nosplash -useStartupFolderPref"
+
+eval "$(zoxide init zsh)"
+export NNN_FIFO=/tmp/nnn.fifo
+export NNN_OPENER=$HOME/.config/nnn/plugins/nuke
+export NNN_PLUG="z:autojump;c:chksum;d:diffs;u:getplugs;s:suedit;m:nmount;p:preview-tabbed;o:nuke;g:gitroot"
+
+[ -n "$NNNLVL" ] && PS1="N$NNNLVL $PS1"
+
+n ()
+{
+	[ "${NNNLVL:-0}" -eq 0 ] || {
+		echo "nnn is already running"
+		return
+	}
+
+	export NNN_TMPFILE="${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.lastd"
+
+	command nnn "$@"
+
+	[ ! -f "$NNN_TMPFILE" ] || {
+		. "$NNN_TMPFILE"
+		rm -f -- "$NNN_TMPFILE" > /dev/null
+	}
+}
 

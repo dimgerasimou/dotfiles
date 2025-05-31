@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "catppuccin.accentColor": "blue",
+    "catppuccin.extraBordersEnabled": true,
+    "editor.tabSize": 8,
+    "editor.renderWhitespace": "all",
+    "editor.cursorStyle": "block-outline",
+    "editor.fontFamily": "Cascadia Mono NF",
+    "editor.tabCompletion": "on"
+}

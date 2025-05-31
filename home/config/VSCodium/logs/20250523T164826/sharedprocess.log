@@ -1,0 +1,15 @@
+2025-05-23 16:48:29.424 [info] ComputeTargetPlatform: linux-x64
+2025-05-23 16:48:29.535 [info] Marked extension as removed vadimcn.vscode-lldb-1.10.0
+2025-05-23 16:48:29.535 [info] Marked extension as removed vadimcn.vscode-lldb-1.11.0
+2025-05-23 16:48:29.535 [info] Marked extension as removed vadimcn.vscode-lldb-1.11.1
+2025-05-23 16:48:31.631 [info] ComputeTargetPlatform: linux-x64
+2025-05-23 16:48:33.901 [info] Getting Manifest... ms-toolsai.jupyter
+2025-05-23 16:48:35.166 [info] Installing extension: ms-toolsai.jupyter {"productVersion":{"version":"1.100.23258","date":"2025-05-15T18:24:48.143Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/dimgerasimou/.vscode-oss/extensions/extensions.json","path":"/home/dimgerasimou/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-05-23 16:48:35.362 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2025-05-23 16:48:35.574 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2025-05-23 16:48:35.788 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2025-05-23 16:48:35.998 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2025-05-23 16:48:38.982 [info] Extracted extension to file:///home/dimgerasimou/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal: ms-toolsai.jupyter
+2025-05-23 16:48:39.001 [info] Renamed to /home/dimgerasimou/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal
+2025-05-23 16:48:39.036 [info] Marked extension as removed ms-toolsai.jupyter-2025.4.0-universal
+2025-05-23 16:48:39.039 [info] Extension installed successfully: ms-toolsai.jupyter vscode-userdata:/home/dimgerasimou/.vscode-oss/extensions/extensions.json

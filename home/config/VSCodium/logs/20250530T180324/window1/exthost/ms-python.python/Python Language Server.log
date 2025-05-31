@@ -1,0 +1,2536 @@
+2025-05-30 18:03:53.080 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1"
+
+2025-05-30 18:20:42.435 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "55"
+
+2025-05-30 18:20:48.411 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 67 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell:/home/dimgerasimou/Numerical_Analysis/numerical_project.ipynb#X10sZmlsZQ%3D%3D'), range=13:31-13:31, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                  ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+
+2025-05-30 18:20:48.427 [info] [Error - 6:20:48 PM] Request textDocument/codeAction failed.
+2025-05-30 18:20:48.427 [info]   Message: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-05-30 18:20:54.371 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 74 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell:/home/dimgerasimou/Numerical_Analysis/numerical_project.ipynb#X10sZmlsZQ%3D%3D'), range=15:25-15:25, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                  ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+
+2025-05-30 18:20:54.373 [info] [Error - 6:20:54 PM] Request textDocument/codeAction failed.
+2025-05-30 18:20:54.373 [info]   Message: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-05-30 18:20:55.849 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "75"
+
+2025-05-30 18:20:58.697 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 84 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell:/home/dimgerasimou/Numerical_Analysis/numerical_project.ipynb#X10sZmlsZQ%3D%3D'), range=18:25-18:25, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                  ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+
+2025-05-30 18:20:58.700 [info] [Error - 6:20:58 PM] Request textDocument/codeAction failed.
+2025-05-30 18:20:58.700 [info]   Message: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-05-30 18:21:00.994 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "85"
+
+2025-05-30 18:21:09.148 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "96"
+
+2025-05-30 18:21:15.246 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "105"
+
+2025-05-30 18:21:24.077 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "115"
+
+2025-05-30 18:21:26.110 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "121"
+
+2025-05-30 18:21:28.728 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "130"
+
+2025-05-30 18:21:28.736 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "132"
+
+2025-05-30 18:21:37.100 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "150"
+
+2025-05-30 18:21:45.324 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "174"
+
+2025-05-30 18:21:58.621 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "189"
+
+2025-05-30 18:22:00.568 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "194"
+
+2025-05-30 18:22:03.188 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "200"
+
+2025-05-30 18:22:04.856 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "204"
+
+2025-05-30 18:22:07.393 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "212"
+
+2025-05-30 18:22:09.604 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "219"
+
+2025-05-30 18:22:10.908 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "221"
+
+2025-05-30 18:22:10.950 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "224"
+
+2025-05-30 18:23:04.194 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "290"
+
+2025-05-30 18:23:07.549 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "300"
+
+2025-05-30 18:23:08.825 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "305"
+
+2025-05-30 18:23:09.129 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "307"
+
+2025-05-30 18:23:16.779 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "326"
+
+2025-05-30 18:23:17.150 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "328"
+
+2025-05-30 18:23:18.166 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "332"
+
+2025-05-30 18:23:19.855 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "338"
+
+2025-05-30 18:23:21.952 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "344"
+
+2025-05-30 18:23:22.407 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "346"
+
+2025-05-30 18:23:22.653 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "348"
+
+2025-05-30 18:23:35.216 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "378"
+
+2025-05-30 18:23:36.403 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "382"
+
+2025-05-30 18:23:38.110 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "390"
+
+2025-05-30 18:23:38.967 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "394"
+
+2025-05-30 18:25:01.791 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "438"
+
+2025-05-30 18:25:02.004 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "439"
+
+2025-05-30 18:25:06.723 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "457"
+
+2025-05-30 18:25:26.451 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "468"
+
+2025-05-30 18:25:26.452 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "469"
+
+2025-05-30 18:25:26.453 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "470"
+
+2025-05-30 18:25:26.664 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "473"
+
+2025-05-30 18:25:26.665 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "472"
+
+2025-05-30 18:25:26.665 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "471"
+
+2025-05-30 18:25:35.514 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "482"
+
+2025-05-30 18:25:43.111 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "490"
+
+2025-05-30 18:25:56.479 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "505"
+
+2025-05-30 18:25:56.864 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "506"
+
+2025-05-30 18:26:00.088 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "512"
+
+2025-05-30 18:26:33.634 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "555"
+
+2025-05-31 16:39:46.809 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "647"
+
+2025-05-31 16:39:46.960 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "648"
+
+2025-05-31 16:39:47.376 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "649"
+
+2025-05-31 16:39:50.726 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "663"
+
+2025-05-31 16:40:17.595 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "684"
+
+2025-05-31 16:40:29.246 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "703"
+
+2025-05-31 16:40:53.481 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "719"
+
+2025-05-31 16:40:53.993 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "720"
+
+2025-05-31 16:41:04.473 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "741"
+
+2025-05-31 16:45:15.289 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "785"
+
+2025-05-31 16:45:17.068 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "789"
+
+2025-05-31 16:45:17.069 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "790"
+
+2025-05-31 16:45:17.694 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "793"
+
+2025-05-31 16:45:19.392 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "799"
+
+2025-05-31 16:45:23.522 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "806"
+
+2025-05-31 16:45:40.904 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "815"
+
+2025-05-31 16:45:41.127 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "816"
+
+2025-05-31 16:45:41.421 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "818"
+
+2025-05-31 16:45:50.206 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "824"
+
+2025-05-31 16:45:53.497 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "828"
+
+2025-05-31 16:45:57.735 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "839"
+
+2025-05-31 16:45:59.337 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "845"
+
+2025-05-31 16:46:04.774 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "864"
+
+2025-05-31 16:47:43.343 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "900"
+
+2025-05-31 16:47:59.622 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "915"
+
+2025-05-31 16:48:23.664 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "934"
+
+2025-05-31 16:48:24.152 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "935"
+
+2025-05-31 16:48:57.074 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "965"
+
+2025-05-31 16:49:01.878 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "973"
+
+2025-05-31 16:50:08.020 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1031"
+
+2025-05-31 16:50:12.745 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1033"
+
+2025-05-31 16:50:32.358 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1059"
+
+2025-05-31 16:50:48.093 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1091"
+
+2025-05-31 16:50:51.941 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1098"
+
+2025-05-31 16:51:07.554 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1135"
+
+2025-05-31 16:51:29.141 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1157"
+
+2025-05-31 16:51:29.142 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1158"
+
+2025-05-31 16:51:29.144 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1159"
+
+2025-05-31 16:51:29.245 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1162"
+
+2025-05-31 16:51:42.299 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1175"
+
+2025-05-31 16:51:43.361 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1181"
+
+2025-05-31 16:51:43.756 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1183"
+
+2025-05-31 16:51:45.845 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1191"
+
+2025-05-31 16:51:46.871 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1192"
+
+2025-05-31 16:51:46.875 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1193"
+
+2025-05-31 16:51:46.880 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1194"
+
+2025-05-31 16:51:47.021 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1196"
+
+2025-05-31 16:52:08.344 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1221"
+
+2025-05-31 16:52:14.744 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1232"
+
+2025-05-31 16:52:14.782 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1233"
+
+2025-05-31 16:52:18.544 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1240"
+
+2025-05-31 16:52:18.585 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1241"
+
+2025-05-31 16:52:18.587 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1242"
+
+2025-05-31 16:55:01.978 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1279"
+
+2025-05-31 16:56:13.182 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1302"
+
+2025-05-31 16:56:31.338 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1312"
+
+2025-05-31 16:58:36.838 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1319"
+
+2025-05-31 16:58:53.770 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1329"
+
+2025-05-31 17:00:28.701 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1339"
+
+2025-05-31 17:01:07.225 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1370"
+
+2025-05-31 17:01:21.733 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1376"
+
+2025-05-31 17:01:45.363 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1439"
+
+2025-05-31 17:01:50.101 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1446"
+
+2025-05-31 17:02:45.204 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1502"
+
+2025-05-31 17:02:53.393 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1511"
+
+2025-05-31 17:02:57.931 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1519"
+
+2025-05-31 17:02:58.972 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1520"
+
+2025-05-31 17:03:00.279 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1523"
+
+2025-05-31 17:03:02.828 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1539"
+
+2025-05-31 17:03:04.576 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1548"
+
+2025-05-31 17:03:04.782 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1551"
+
+2025-05-31 17:03:09.723 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1568"
+
+2025-05-31 17:03:11.005 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1573"
+
+2025-05-31 17:03:11.008 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1574"
+
+2025-05-31 17:03:11.695 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1578"
+
+2025-05-31 17:05:38.428 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1638"
+
+2025-05-31 17:05:48.771 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1671"
+
+2025-05-31 17:05:54.762 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1675"
+
+2025-05-31 17:05:58.908 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1683"
+
+2025-05-31 17:06:00.618 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1686"
+
+2025-05-31 17:06:02.397 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1688"
+
+2025-05-31 17:06:06.621 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1700"
+
+2025-05-31 17:06:11.738 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1713"
+
+2025-05-31 17:06:11.918 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1714"
+
+2025-05-31 17:06:12.282 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1715"
+
+2025-05-31 17:06:12.481 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1716"
+
+2025-05-31 17:06:16.015 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1722"
+
+2025-05-31 17:08:50.210 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1818"
+
+2025-05-31 17:09:11.768 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1830"
+
+2025-05-31 17:09:12.679 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1831"
+
+2025-05-31 17:09:17.387 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1841"
+
+2025-05-31 17:09:18.603 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1847"
+
+2025-05-31 17:09:19.044 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1848"
+
+2025-05-31 17:09:24.100 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1858"
+
+2025-05-31 17:09:24.102 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1857"
+
+2025-05-31 17:09:24.102 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1855"
+
+2025-05-31 17:09:35.918 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1874"
+
+2025-05-31 17:09:49.127 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1887"
+
+2025-05-31 17:10:29.541 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1943"
+
+2025-05-31 17:10:30.786 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1945"
+
+2025-05-31 17:10:32.992 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1950"
+
+2025-05-31 17:10:47.722 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1989"
+
+2025-05-31 17:10:50.888 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "1998"
+
+2025-05-31 17:10:53.604 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2016"
+
+2025-05-31 17:10:57.147 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2029"
+
+2025-05-31 17:12:23.204 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2136"
+
+2025-05-31 17:13:17.817 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2166"
+
+2025-05-31 17:13:18.189 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2167"
+
+2025-05-31 17:13:22.248 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2176"
+
+2025-05-31 17:14:24.961 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2232"
+
+2025-05-31 17:15:16.946 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2266"
+
+2025-05-31 17:15:27.809 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2279"
+
+2025-05-31 17:15:27.974 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2280"
+
+2025-05-31 17:15:58.531 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2293"
+
+2025-05-31 17:15:59.123 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2294"
+
+2025-05-31 17:16:01.322 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2298"
+
+2025-05-31 17:16:03.240 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2303"
+
+2025-05-31 17:16:03.506 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2304"
+
+2025-05-31 17:16:04.871 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2306"
+
+2025-05-31 17:16:06.192 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2308"
+
+2025-05-31 17:16:09.091 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2315"
+
+2025-05-31 17:16:30.438 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2355"
+
+2025-05-31 17:16:40.143 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2387"
+
+2025-05-31 17:16:55.474 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2404"
+
+2025-05-31 17:17:16.502 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2454"
+
+2025-05-31 17:17:29.211 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2494"
+
+2025-05-31 17:17:32.168 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2499"
+
+2025-05-31 17:17:33.824 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2503"
+
+2025-05-31 17:17:39.118 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2512"
+
+2025-05-31 17:17:42.731 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2522"
+
+2025-05-31 17:17:43.042 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2524"
+
+2025-05-31 17:17:46.357 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2533"
+
+2025-05-31 17:19:35.788 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2578"
+
+2025-05-31 17:19:37.536 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2583"
+
+2025-05-31 17:19:44.791 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2594"
+
+2025-05-31 17:19:46.876 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2596"
+
+2025-05-31 17:19:47.390 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2597"
+
+2025-05-31 17:19:47.432 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2598"
+
+2025-05-31 17:19:48.355 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2601"
+
+2025-05-31 17:19:50.770 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2608"
+
+2025-05-31 17:19:51.052 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2611"
+
+2025-05-31 17:19:51.093 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2612"
+
+2025-05-31 17:19:51.103 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2613"
+
+2025-05-31 17:20:00.146 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2623"
+
+2025-05-31 17:20:02.202 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2624"
+
+2025-05-31 17:20:03.143 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2625"
+
+2025-05-31 17:20:04.676 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2628"
+
+2025-05-31 17:20:09.471 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2633"
+
+2025-05-31 17:20:11.122 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2642"
+
+2025-05-31 17:20:11.581 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2646"
+
+2025-05-31 17:20:12.234 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2650"
+
+2025-05-31 17:20:12.235 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2651"
+
+2025-05-31 17:20:39.671 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2680"
+
+2025-05-31 17:22:47.173 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2726"
+
+2025-05-31 17:22:49.616 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2730"
+
+2025-05-31 17:22:59.935 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2756"
+
+2025-05-31 17:23:02.279 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2760"
+
+2025-05-31 17:23:03.043 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2764"
+
+2025-05-31 17:23:03.422 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2766"
+
+2025-05-31 17:23:04.598 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2772"
+
+2025-05-31 17:23:04.953 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2774"
+
+2025-05-31 17:23:05.853 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2780"
+
+2025-05-31 17:23:18.627 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2789"
+
+2025-05-31 17:23:22.951 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2791"
+
+2025-05-31 17:23:24.085 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2794"
+
+2025-05-31 17:23:26.492 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2798"
+
+2025-05-31 17:26:04.992 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2860"
+
+2025-05-31 17:26:09.350 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2870"
+
+2025-05-31 17:26:13.011 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2877"
+
+2025-05-31 17:26:32.502 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2893"
+
+2025-05-31 17:26:53.809 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2915"
+
+2025-05-31 17:26:56.463 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2921"
+
+2025-05-31 17:27:11.593 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2937"
+
+2025-05-31 17:27:12.184 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2938"
+
+2025-05-31 17:27:15.187 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2946"
+
+2025-05-31 17:27:15.686 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2948"
+
+2025-05-31 17:27:16.187 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2950"
+
+2025-05-31 17:27:16.187 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2949"
+
+2025-05-31 17:27:16.190 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2951"
+
+2025-05-31 17:27:16.193 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2952"
+
+2025-05-31 17:27:20.090 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2962"
+
+2025-05-31 17:27:20.637 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2964"
+
+2025-05-31 17:27:22.366 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2968"
+
+2025-05-31 17:27:32.287 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2992"
+
+2025-05-31 17:27:32.299 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2993"
+
+2025-05-31 17:27:32.303 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2994"
+
+2025-05-31 17:27:32.304 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "2995"
+
+2025-05-31 17:27:39.344 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3011"
+
+2025-05-31 17:27:39.346 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3012"
+
+2025-05-31 17:27:42.367 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3016"
+
+2025-05-31 17:27:42.410 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3017"
+
+2025-05-31 17:27:42.413 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3018"
+
+2025-05-31 17:27:42.415 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3020"
+
+2025-05-31 17:27:42.428 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3019"
+
+2025-05-31 17:27:42.930 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3024"
+
+2025-05-31 17:27:43.320 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3026"
+
+2025-05-31 17:27:44.848 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3034"
+
+2025-05-31 17:27:45.240 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3036"
+
+2025-05-31 17:27:45.696 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3039"
+
+2025-05-31 17:28:27.240 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3051"
+
+2025-05-31 17:28:38.375 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3054"
+
+2025-05-31 17:29:30.912 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3057"
+
+2025-05-31 17:30:21.672 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3087"
+
+2025-05-31 17:31:49.605 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3102"
+
+2025-05-31 17:32:48.843 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3144"
+
+2025-05-31 17:34:01.699 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3205"
+
+2025-05-31 17:34:10.128 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3210"
+
+2025-05-31 17:35:13.231 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3240"
+
+2025-05-31 17:35:17.226 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3247"
+
+2025-05-31 17:35:35.813 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3268"
+
+2025-05-31 17:37:19.143 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3289"
+
+2025-05-31 17:37:19.302 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3290"
+
+2025-05-31 17:37:26.460 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3297"
+
+2025-05-31 17:38:56.488 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3308"
+
+2025-05-31 17:40:18.958 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3389"
+
+2025-05-31 17:41:26.850 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3488"
+
+2025-05-31 17:42:05.107 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3555"
+
+2025-05-31 17:42:05.115 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3556"
+
+2025-05-31 17:42:26.481 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3581"
+
+2025-05-31 17:43:47.030 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3683"
+
+2025-05-31 17:43:47.032 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3684"
+
+2025-05-31 17:43:50.811 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3689"
+
+2025-05-31 17:43:51.813 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3690"
+
+2025-05-31 17:43:56.412 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3702"
+
+2025-05-31 17:45:03.597 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3782"
+
+2025-05-31 17:45:07.940 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3789"
+
+2025-05-31 17:45:32.239 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3825"
+
+2025-05-31 17:45:34.920 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3832"
+
+2025-05-31 17:48:00.614 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3983"
+
+2025-05-31 17:58:16.586 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "3997"
+
+2025-05-31 17:59:01.753 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4017"
+
+2025-05-31 18:00:20.186 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4159"
+
+2025-05-31 18:01:42.513 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4178"
+
+2025-05-31 18:02:27.003 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4250"
+
+2025-05-31 18:02:41.605 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4284"
+
+2025-05-31 18:03:10.882 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4351"
+
+2025-05-31 18:03:12.835 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4358"
+
+2025-05-31 18:03:12.836 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4359"
+
+2025-05-31 18:03:12.838 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4360"
+
+2025-05-31 18:03:22.574 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4377"
+
+2025-05-31 18:03:40.136 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4389"
+
+2025-05-31 18:03:42.942 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4393"
+
+2025-05-31 18:03:43.100 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4394"
+
+2025-05-31 18:03:57.541 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4425"
+
+2025-05-31 18:04:02.921 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4445"
+
+2025-05-31 18:04:08.883 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4451"
+
+2025-05-31 18:04:36.076 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4463"
+
+2025-05-31 18:04:39.760 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4470"
+
+2025-05-31 18:04:42.671 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4471"
+
+2025-05-31 18:05:56.161 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4489"
+
+2025-05-31 18:07:18.509 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4575"
+
+2025-05-31 18:07:30.167 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4584"
+
+2025-05-31 18:07:32.157 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4587"
+
+2025-05-31 18:07:50.780 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4607"
+
+2025-05-31 18:09:31.261 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4675"
+
+2025-05-31 18:09:31.868 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4677"
+
+2025-05-31 18:10:17.043 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4707"
+
+2025-05-31 18:10:28.345 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 4712 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell:/home/dimgerasimou/Numerical_Analysis/numerical_project.ipynb#W5sZmlsZQ%3D%3D'), range=8:30-8:41, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                  ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+
+2025-05-31 18:10:28.349 [info] [Error - 6:10:28 PM] Request textDocument/codeAction failed.
+2025-05-31 18:10:28.349 [info]   Message: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-05-31 18:10:31.042 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 4713 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell:/home/dimgerasimou/Numerical_Analysis/numerical_project.ipynb#W5sZmlsZQ%3D%3D'), range=8:30-8:42, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                  ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+
+2025-05-31 18:10:31.045 [info] [Error - 6:10:31 PM] Request textDocument/codeAction failed.
+2025-05-31 18:10:31.045 [info]   Message: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-05-31 18:10:40.975 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 4719 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell:/home/dimgerasimou/Numerical_Analysis/numerical_project.ipynb#W5sZmlsZQ%3D%3D'), range=8:30-8:42, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                  ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+
+2025-05-31 18:10:40.978 [info] [Error - 6:10:40 PM] Request textDocument/codeAction failed.
+2025-05-31 18:10:40.978 [info]   Message: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-05-31 18:10:41.978 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4725"
+
+2025-05-31 18:10:45.187 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 4731 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell:/home/dimgerasimou/Numerical_Analysis/numerical_project.ipynb#W5sZmlsZQ%3D%3D'), range=8:38-8:38, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                  ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+
+2025-05-31 18:10:45.190 [info] [Error - 6:10:45 PM] Request textDocument/codeAction failed.
+2025-05-31 18:10:45.190 [info]   Message: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-05-31 18:10:59.933 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4734"
+
+2025-05-31 18:11:02.398 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4736"
+
+2025-05-31 18:11:52.546 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4757"
+
+2025-05-31 18:11:53.287 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4758"
+
+2025-05-31 18:11:54.093 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4759"
+
+2025-05-31 18:11:57.029 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4764"
+
+2025-05-31 18:12:06.384 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4775"
+
+2025-05-31 18:12:16.490 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4799"
+
+2025-05-31 18:12:17.836 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4804"
+
+2025-05-31 18:12:23.255 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4811"
+
+2025-05-31 18:12:27.275 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4819"
+
+2025-05-31 18:12:42.289 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4828"
+
+2025-05-31 18:13:05.228 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4849"
+
+2025-05-31 18:13:06.614 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4852"
+
+2025-05-31 18:14:20.154 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4875"
+
+2025-05-31 18:14:36.085 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4890"
+
+2025-05-31 18:14:36.733 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4892"
+
+2025-05-31 18:15:16.083 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4928"
+
+2025-05-31 18:15:16.265 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4929"
+
+2025-05-31 18:16:06.518 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "4997"
+
+2025-05-31 18:16:16.011 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5007"
+
+2025-05-31 18:16:20.477 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5029"
+
+2025-05-31 18:19:59.175 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5084"
+
+2025-05-31 18:21:00.003 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5167"
+
+2025-05-31 18:21:45.801 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5200"
+
+2025-05-31 18:21:56.087 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5213"
+
+2025-05-31 18:21:56.323 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5215"
+
+2025-05-31 18:21:59.367 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5225"
+
+2025-05-31 18:22:02.501 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5237"
+
+2025-05-31 18:22:03.905 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5244"
+
+2025-05-31 18:22:05.385 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5251"
+
+2025-05-31 18:22:06.176 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5255"
+
+2025-05-31 18:25:37.284 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5278"
+
+2025-05-31 18:41:55.648 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5313"
+
+2025-05-31 18:41:55.911 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5314"
+
+2025-05-31 18:42:00.865 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5322"
+
+2025-05-31 18:42:33.838 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5336"
+
+2025-05-31 18:42:58.789 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5366"
+
+2025-05-31 18:43:01.870 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5368"
+
+2025-05-31 18:43:02.752 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5370"
+
+2025-05-31 18:43:27.885 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5386"
+
+2025-05-31 18:43:33.143 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5394"
+
+2025-05-31 18:43:42.701 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5404"
+
+2025-05-31 18:44:23.695 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5431"
+
+2025-05-31 18:53:56.032 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5516"
+
+2025-05-31 18:54:21.703 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5527"
+
+2025-05-31 18:54:29.051 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5531"
+
+2025-05-31 18:54:31.348 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5536"
+
+2025-05-31 18:57:31.302 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5541"
+
+2025-05-31 19:07:58.822 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5617"
+
+2025-05-31 19:08:20.483 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5634"
+
+2025-05-31 19:08:27.278 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5644"
+
+2025-05-31 19:08:28.388 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5645"
+
+2025-05-31 19:08:28.914 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5646"
+
+2025-05-31 19:08:59.741 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5686"
+
+2025-05-31 19:09:51.745 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5787"
+
+2025-05-31 19:09:52.277 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5788"
+
+2025-05-31 19:10:01.480 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5805"
+
+2025-05-31 19:13:23.215 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5874"
+
+2025-05-31 19:20:21.086 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5941"
+
+2025-05-31 19:20:26.576 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5949"
+
+2025-05-31 19:20:51.432 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5964"
+
+2025-05-31 19:22:14.560 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "5993"
+
+2025-05-31 19:22:28.004 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6005"
+
+2025-05-31 19:23:36.130 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6038"
+
+2025-05-31 19:23:54.860 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6054"
+
+2025-05-31 19:24:06.743 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6073"
+
+2025-05-31 19:24:07.082 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6074"
+
+2025-05-31 19:24:07.180 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6075"
+
+2025-05-31 19:25:08.369 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6084"
+
+2025-05-31 19:25:09.138 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6087"
+
+2025-05-31 19:25:21.704 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6094"
+
+2025-05-31 19:25:28.859 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6102"
+
+2025-05-31 19:25:31.547 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6105"
+
+2025-05-31 19:25:49.114 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6109"
+
+2025-05-31 19:25:58.772 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6117"
+
+2025-05-31 19:27:34.181 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6139"
+
+2025-05-31 19:28:01.532 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6168"
+
+2025-05-31 19:28:03.966 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6170"
+
+2025-05-31 19:28:04.304 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6171"
+
+2025-05-31 19:28:04.745 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6172"
+
+2025-05-31 19:28:06.722 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6176"
+
+2025-05-31 19:28:30.114 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6189"
+
+2025-05-31 19:28:31.258 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6194"
+
+2025-05-31 19:28:31.788 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6197"
+
+2025-05-31 19:28:32.281 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6200"
+
+2025-05-31 19:28:32.759 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6202"
+
+2025-05-31 19:28:33.340 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6205"
+
+2025-05-31 19:28:36.077 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6212"
+
+2025-05-31 19:28:37.141 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6215"
+
+2025-05-31 19:29:40.783 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6296"
+
+2025-05-31 19:29:48.608 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6327"
+
+2025-05-31 19:30:04.968 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6351"
+
+2025-05-31 19:30:28.893 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6403"
+
+2025-05-31 19:30:29.833 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6407"
+
+2025-05-31 19:31:15.761 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6462"
+
+2025-05-31 19:31:16.115 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6464"
+
+2025-05-31 19:31:17.087 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6469"
+
+2025-05-31 19:31:18.040 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6473"
+
+2025-05-31 19:31:19.107 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6479"
+
+2025-05-31 19:31:21.771 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6493"
+
+2025-05-31 19:31:35.199 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6516"
+
+2025-05-31 19:33:32.406 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6562"
+
+2025-05-31 19:33:40.433 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6565"
+
+2025-05-31 19:33:45.345 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6568"
+
+2025-05-31 19:33:46.316 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6570"
+
+2025-05-31 19:34:09.061 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6598"
+
+2025-05-31 19:34:16.854 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6609"
+
+2025-05-31 19:34:20.240 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6618"
+
+2025-05-31 19:34:20.242 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6617"
+
+2025-05-31 19:35:07.953 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6655"
+
+2025-05-31 19:35:09.398 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6657"
+
+2025-05-31 19:35:13.240 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6663"
+
+2025-05-31 19:35:44.749 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6699"
+
+2025-05-31 19:36:17.428 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6738"
+
+2025-05-31 19:36:45.815 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6784"
+
+2025-05-31 19:36:53.119 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6799"
+
+2025-05-31 19:37:03.425 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6806"
+
+2025-05-31 19:37:16.815 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6810"
+
+2025-05-31 19:37:32.478 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6833"
+
+2025-05-31 19:37:33.876 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6836"
+
+2025-05-31 19:37:37.703 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6838"
+
+2025-05-31 19:37:38.193 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6840"
+
+2025-05-31 19:37:40.681 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6844"
+
+2025-05-31 19:37:40.683 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6845"
+
+2025-05-31 19:37:52.363 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6861"
+
+2025-05-31 19:38:48.767 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6883"
+
+2025-05-31 19:39:16.447 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6897"
+
+2025-05-31 19:39:16.649 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6898"
+
+2025-05-31 19:39:26.715 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6911"
+
+2025-05-31 19:39:28.148 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6912"
+
+2025-05-31 19:39:47.155 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6933"
+
+2025-05-31 19:40:08.110 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6940"
+
+2025-05-31 19:40:55.871 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6994"
+
+2025-05-31 19:40:59.629 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6998"
+
+2025-05-31 19:41:00.485 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "6999"
+
+2025-05-31 19:42:29.597 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7053"
+
+2025-05-31 19:42:47.724 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7083"
+
+2025-05-31 20:01:24.551 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7181"
+
+2025-05-31 20:08:22.185 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7218"
+
+2025-05-31 20:11:37.509 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 7420 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell:/home/dimgerasimou/Numerical_Analysis/numerical_project.ipynb#X12sZmlsZQ%3D%3D'), position=44:1, work_done_token=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 408, in hover
+    hover_text = jedi_utils.hover_text(
+        jedi_script.help(*jedi_lines),
+        markup_kind,
+        server.initialization_options,
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 669, in hover_text
+    header_plain = "\n".join(get_full_signatures(name))
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 614, in get_full_signatures
+    signatures = name.get_signatures()
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/classes.py", line 581, in get_signatures
+    for s in self._get_signatures()
+             ~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/classes.py", line 570, in _get_signatures
+    return [sig for name in names for sig in name.infer().get_signatures()]
+                                             ~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+        self.parent_context.inference_state,
+        self.parent_context,
+        self.tree_name
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 758, in tree_name_to_values
+    types = infer_expr_stmt(context, node, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 377, in infer_expr_stmt
+    return _infer_expr_stmt(context, stmt, seek_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 410, in _infer_expr_stmt
+    value_set = context.infer_node(rhs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 209, in _infer_node
+    value_set = infer_trailer(context, value_set, trailer)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 279, in infer_trailer
+    return atom_values.execute(args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 487, in execute
+    return ValueSet.from_sets(c.inference_state.execute(c, arguments) for c in self._set)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+                ^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 487, in <genexpr>
+    return ValueSet.from_sets(c.inference_state.execute(c, arguments) for c in self._set)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 134, in wrapper
+    return call()
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 107, in call
+    return callback(value, arguments=arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/pytest.py", line 29, in wrapper
+    return callback(value, arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/__init__.py", line 120, in execute
+    value_set = value.py__call__(arguments=arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 116, in py__call__
+    return function_execution.infer()
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 351, in infer
+    return self.get_return_values()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/recursion.py", line 87, in wrapper
+    result = func(self, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 242, in get_return_values
+    value_set |= self.infer_node(children[1])
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node
+    return infer_atom(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 305, in infer_atom
+    return context.py__getattribute__(atom, position=position)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in py__getattribute__
+    values = ValueSet.from_sets(name.infer() for name in names)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+                ^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in <genexpr>
+    values = ValueSet.from_sets(name.infer() for name in names)
+                                ~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+        self.parent_context.inference_state,
+        self.parent_context,
+        self.tree_name
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 758, in tree_name_to_values
+    types = infer_expr_stmt(context, node, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 377, in infer_expr_stmt
+    return _infer_expr_stmt(context, stmt, seek_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 449, in _infer_expr_stmt
+    with context.predefine_names(for_stmt, dct):
+         ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 161, in predefine_names
+    del predefined[flow_scope]
+        ~~~~~~~~~~^^^^^^^^^^^^
+KeyError: <ForStmt: for i in range(1, n): 		product *= (x_pred - x_data[i - 1]) 		result += coeffs[i] * product@38,1>
+
+2025-05-31 20:11:37.513 [info] [Error - 8:11:37 PM] Request textDocument/hover failed.
+2025-05-31 20:11:37.513 [info]   Message: KeyError: <ForStmt: for i in range(1, n): 		product *= (x_pred - x_data[i - 1]) 		result += coeffs[i] * product@38,1>
+  Code: -32603 
+[object Object]
+2025-05-31 20:11:41.298 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 7435 completionItem/resolve CompletionItem(label='y_pred', label_details=None, kind=<CompletionItemKind.Variable: 6>, tags=None, detail=None, documentation=None, deprecated=None, preselect=None, sort_text='v0', filter_text='y_pred', insert_text='y_pred', insert_text_format=<InsertTextFormat.PlainText: 1>, insert_text_mode=None, text_edit=None, text_edit_text=None, additional_text_edits=None, commit_characters=None, command=None, data=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 190, in completion_item_resolve
+    return jedi_utils.lsp_completion_item_resolve(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        params, markup_kind=markup_kind
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 699, in lsp_completion_item_resolve
+    item.detail = next(get_full_signatures(completion), completion.name)
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 614, in get_full_signatures
+    signatures = name.get_signatures()
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/classes.py", line 581, in get_signatures
+    for s in self._get_signatures()
+             ~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/classes.py", line 570, in _get_signatures
+    return [sig for name in names for sig in name.infer().get_signatures()]
+                                             ~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+        self.parent_context.inference_state,
+        self.parent_context,
+        self.tree_name
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 758, in tree_name_to_values
+    types = infer_expr_stmt(context, node, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 377, in infer_expr_stmt
+    return _infer_expr_stmt(context, stmt, seek_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 410, in _infer_expr_stmt
+    value_set = context.infer_node(rhs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 209, in _infer_node
+    value_set = infer_trailer(context, value_set, trailer)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 279, in infer_trailer
+    return atom_values.execute(args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 487, in execute
+    return ValueSet.from_sets(c.inference_state.execute(c, arguments) for c in self._set)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+                ^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 487, in <genexpr>
+    return ValueSet.from_sets(c.inference_state.execute(c, arguments) for c in self._set)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 134, in wrapper
+    return call()
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 107, in call
+    return callback(value, arguments=arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/pytest.py", line 29, in wrapper
+    return callback(value, arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/__init__.py", line 120, in execute
+    value_set = value.py__call__(arguments=arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 116, in py__call__
+    return function_execution.infer()
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 351, in infer
+    return self.get_return_values()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/recursion.py", line 87, in wrapper
+    result = func(self, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 242, in get_return_values
+    value_set |= self.infer_node(children[1])
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node
+    return infer_atom(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 305, in infer_atom
+    return context.py__getattribute__(atom, position=position)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in py__getattribute__
+    values = ValueSet.from_sets(name.infer() for name in names)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+                ^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in <genexpr>
+    values = ValueSet.from_sets(name.infer() for name in names)
+                                ~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+        self.parent_context.inference_state,
+        self.parent_context,
+        self.tree_name
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 758, in tree_name_to_values
+    types = infer_expr_stmt(context, node, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 377, in infer_expr_stmt
+    return _infer_expr_stmt(context, stmt, seek_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 449, in _infer_expr_stmt
+    with context.predefine_names(for_stmt, dct):
+         ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 161, in predefine_names
+    del predefined[flow_scope]
+        ~~~~~~~~~~^^^^^^^^^^^^
+KeyError: <ForStmt: for i in range(1, n): 		product *= (x_pred - x_data[i - 1]) 		result += coeffs[i] * product@38,1>
+
+2025-05-31 20:11:41.301 [info] [Error - 8:11:41 PM] Request completionItem/resolve failed.
+2025-05-31 20:11:41.301 [info]   Message: KeyError: <ForStmt: for i in range(1, n): 		product *= (x_pred - x_data[i - 1]) 		result += coeffs[i] * product@38,1>
+  Code: -32603 
+[object Object]
+2025-05-31 20:11:41.302 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7435"
+
+2025-05-31 20:11:53.408 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 7457 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell:/home/dimgerasimou/Numerical_Analysis/numerical_project.ipynb#X12sZmlsZQ%3D%3D'), position=45:10, work_done_token=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 408, in hover
+    hover_text = jedi_utils.hover_text(
+        jedi_script.help(*jedi_lines),
+        markup_kind,
+        server.initialization_options,
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 669, in hover_text
+    header_plain = "\n".join(get_full_signatures(name))
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 614, in get_full_signatures
+    signatures = name.get_signatures()
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/classes.py", line 581, in get_signatures
+    for s in self._get_signatures()
+             ~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/classes.py", line 570, in _get_signatures
+    return [sig for name in names for sig in name.infer().get_signatures()]
+                                             ~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+        self.parent_context.inference_state,
+        self.parent_context,
+        self.tree_name
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 758, in tree_name_to_values
+    types = infer_expr_stmt(context, node, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 377, in infer_expr_stmt
+    return _infer_expr_stmt(context, stmt, seek_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 410, in _infer_expr_stmt
+    value_set = context.infer_node(rhs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 209, in _infer_node
+    value_set = infer_trailer(context, value_set, trailer)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 279, in infer_trailer
+    return atom_values.execute(args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 487, in execute
+    return ValueSet.from_sets(c.inference_state.execute(c, arguments) for c in self._set)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+                ^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 487, in <genexpr>
+    return ValueSet.from_sets(c.inference_state.execute(c, arguments) for c in self._set)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 134, in wrapper
+    return call()
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 107, in call
+    return callback(value, arguments=arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/pytest.py", line 29, in wrapper
+    return callback(value, arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/__init__.py", line 120, in execute
+    value_set = value.py__call__(arguments=arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 116, in py__call__
+    return function_execution.infer()
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 351, in infer
+    return self.get_return_values()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/recursion.py", line 87, in wrapper
+    result = func(self, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 242, in get_return_values
+    value_set |= self.infer_node(children[1])
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node
+    return infer_atom(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 305, in infer_atom
+    return context.py__getattribute__(atom, position=position)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in py__getattribute__
+    values = ValueSet.from_sets(name.infer() for name in names)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+                ^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in <genexpr>
+    values = ValueSet.from_sets(name.infer() for name in names)
+                                ~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+        self.parent_context.inference_state,
+        self.parent_context,
+        self.tree_name
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 758, in tree_name_to_values
+    types = infer_expr_stmt(context, node, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 377, in infer_expr_stmt
+    return _infer_expr_stmt(context, stmt, seek_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 449, in _infer_expr_stmt
+    with context.predefine_names(for_stmt, dct):
+         ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 161, in predefine_names
+    del predefined[flow_scope]
+        ~~~~~~~~~~^^^^^^^^^^^^
+KeyError: <ForStmt: for i in range(1, n): 		product *= (x_pred - x_data[i - 1]) 		result += coeffs[i] * product@38,1>
+
+2025-05-31 20:11:53.411 [info] [Error - 8:11:53 PM] Request textDocument/hover failed.
+2025-05-31 20:11:53.411 [info]   Message: KeyError: <ForStmt: for i in range(1, n): 		product *= (x_pred - x_data[i - 1]) 		result += coeffs[i] * product@38,1>
+  Code: -32603 
+[object Object]
+2025-05-31 20:12:17.807 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 7492 completionItem/resolve CompletionItem(label='y_n', label_details=None, kind=<CompletionItemKind.Variable: 6>, tags=None, detail=None, documentation=None, deprecated=None, preselect=None, sort_text='v1', filter_text='y_n', insert_text='y_n', insert_text_format=<InsertTextFormat.PlainText: 1>, insert_text_mode=None, text_edit=None, text_edit_text=None, additional_text_edits=None, commit_characters=None, command=None, data=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 190, in completion_item_resolve
+    return jedi_utils.lsp_completion_item_resolve(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        params, markup_kind=markup_kind
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 699, in lsp_completion_item_resolve
+    item.detail = next(get_full_signatures(completion), completion.name)
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 614, in get_full_signatures
+    signatures = name.get_signatures()
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/classes.py", line 581, in get_signatures
+    for s in self._get_signatures()
+             ~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/classes.py", line 570, in _get_signatures
+    return [sig for name in names for sig in name.infer().get_signatures()]
+                                             ~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+        self.parent_context.inference_state,
+        self.parent_context,
+        self.tree_name
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 758, in tree_name_to_values
+    types = infer_expr_stmt(context, node, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 377, in infer_expr_stmt
+    return _infer_expr_stmt(context, stmt, seek_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 410, in _infer_expr_stmt
+    value_set = context.infer_node(rhs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 209, in _infer_node
+    value_set = infer_trailer(context, value_set, trailer)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 279, in infer_trailer
+    return atom_values.execute(args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 487, in execute
+    return ValueSet.from_sets(c.inference_state.execute(c, arguments) for c in self._set)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+                ^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 487, in <genexpr>
+    return ValueSet.from_sets(c.inference_state.execute(c, arguments) for c in self._set)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 134, in wrapper
+    return call()
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 107, in call
+    return callback(value, arguments=arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/pytest.py", line 29, in wrapper
+    return callback(value, arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/__init__.py", line 120, in execute
+    value_set = value.py__call__(arguments=arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 116, in py__call__
+    return function_execution.infer()
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 351, in infer
+    return self.get_return_values()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/recursion.py", line 87, in wrapper
+    result = func(self, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 242, in get_return_values
+    value_set |= self.infer_node(children[1])
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node
+    return infer_atom(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 305, in infer_atom
+    return context.py__getattribute__(atom, position=position)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in py__getattribute__
+    values = ValueSet.from_sets(name.infer() for name in names)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+                ^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in <genexpr>
+    values = ValueSet.from_sets(name.infer() for name in names)
+                                ~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+        self.parent_context.inference_state,
+        self.parent_context,
+        self.tree_name
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 758, in tree_name_to_values
+    types = infer_expr_stmt(context, node, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 377, in infer_expr_stmt
+    return _infer_expr_stmt(context, stmt, seek_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 449, in _infer_expr_stmt
+    with context.predefine_names(for_stmt, dct):
+         ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 161, in predefine_names
+    del predefined[flow_scope]
+        ~~~~~~~~~~^^^^^^^^^^^^
+KeyError: <ForStmt: for i in range(1, n): 		product *= (x_pred - x_data[i - 1]) 		result += coeffs[i] * product@38,1>
+
+2025-05-31 20:12:17.811 [info] [Error - 8:12:17 PM] Request completionItem/resolve failed.
+2025-05-31 20:12:17.811 [info]   Message: KeyError: <ForStmt: for i in range(1, n): 		product *= (x_pred - x_data[i - 1]) 		result += coeffs[i] * product@38,1>
+  Code: -32603 
+[object Object]
+2025-05-31 20:12:31.550 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7515"
+
+2025-05-31 20:14:50.925 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7545"
+
+2025-05-31 20:15:05.146 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7576"
+
+2025-05-31 20:15:50.605 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7598"
+
+2025-05-31 20:15:57.471 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7610"
+
+2025-05-31 20:16:47.331 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7639"
+
+2025-05-31 20:16:47.517 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7640"
+
+2025-05-31 20:17:00.841 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7664"
+
+2025-05-31 20:17:22.825 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7702"
+
+2025-05-31 20:17:30.464 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7717"
+
+2025-05-31 20:17:31.128 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7718"
+
+2025-05-31 20:18:17.220 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7766"
+
+2025-05-31 20:18:19.770 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7768"
+
+2025-05-31 20:18:21.360 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7770"
+
+2025-05-31 20:18:21.721 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7771"
+
+2025-05-31 20:18:22.075 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7772"
+
+2025-05-31 20:18:23.733 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7774"
+
+2025-05-31 20:18:25.630 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7775"
+
+2025-05-31 20:18:26.175 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7776"
+
+2025-05-31 20:18:31.690 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7780"
+
+2025-05-31 20:18:32.398 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7781"
+
+2025-05-31 20:18:32.911 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7782"
+
+2025-05-31 20:18:35.751 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7785"
+
+2025-05-31 20:18:36.201 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7786"
+
+2025-05-31 20:18:37.125 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7787"
+
+2025-05-31 20:18:38.194 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7788"
+
+2025-05-31 20:18:38.872 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7789"
+
+2025-05-31 20:18:43.074 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7793"
+
+2025-05-31 20:18:45.085 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7797"
+
+2025-05-31 20:18:48.248 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7801"
+
+2025-05-31 20:18:48.685 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7802"
+
+2025-05-31 20:19:36.393 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7828"
+
+2025-05-31 20:21:30.317 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7860"
+
+2025-05-31 20:21:39.258 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7874"
+
+2025-05-31 20:21:47.289 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7882"
+
+2025-05-31 20:21:48.934 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7886"
+
+2025-05-31 20:21:51.707 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7891"
+
+2025-05-31 20:21:51.711 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7892"
+
+2025-05-31 20:21:52.333 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7894"
+
+2025-05-31 20:22:19.190 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7909"
+
+2025-05-31 20:22:39.652 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7916"
+
+2025-05-31 20:22:42.754 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7921"
+
+2025-05-31 20:22:47.413 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7932"
+
+2025-05-31 20:22:49.227 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7934"
+
+2025-05-31 20:22:54.692 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7951"
+
+2025-05-31 20:22:56.590 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7953"
+
+2025-05-31 20:23:01.885 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7968"
+
+2025-05-31 20:24:16.843 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "7978"
+
+2025-05-31 20:27:11.429 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8000"
+
+2025-05-31 20:27:47.878 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8013"
+
+2025-05-31 20:30:03.326 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8031"
+
+2025-05-31 20:30:06.355 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8036"
+
+2025-05-31 20:30:47.945 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8074"
+
+2025-05-31 20:30:48.493 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8076"
+
+2025-05-31 20:30:48.814 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8078"
+
+2025-05-31 20:31:02.279 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8096"
+
+2025-05-31 20:31:06.413 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8104"
+
+2025-05-31 20:31:06.414 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8105"
+
+2025-05-31 20:31:12.985 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8117"
+
+2025-05-31 20:31:13.608 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8120"
+
+2025-05-31 20:31:14.703 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8123"
+
+2025-05-31 20:31:21.343 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8133"
+
+2025-05-31 20:31:22.314 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8142"
+
+2025-05-31 20:32:02.133 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 8149 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell:/home/dimgerasimou/Numerical_Analysis/numerical_project.ipynb#X12sZmlsZQ%3D%3D'), position=91:45, work_done_token=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 409, in hover
+    jedi_script.help(*jedi_lines),
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 372, in help
+    definitions = self.goto(line, column, follow_imports=True)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 283, in goto
+    return self.infer(line, column, only_stubs=only_stubs, prefer_stubs=prefer_stubs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 249, in infer
+    values = helpers.infer(self._inference_state, context, leaf)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 176, in infer
+    definitions = infer_call_of_leaf(context, leaf)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/helpers.py", line 107, in infer_call_of_leaf
+    values = infer_trailer(context, values, trailer)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 279, in infer_trailer
+    return atom_values.execute(args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 487, in execute
+    return ValueSet.from_sets(c.inference_state.execute(c, arguments) for c in self._set)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+                ^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 487, in <genexpr>
+    return ValueSet.from_sets(c.inference_state.execute(c, arguments) for c in self._set)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 134, in wrapper
+    return call()
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 107, in call
+    return callback(value, arguments=arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/pytest.py", line 29, in wrapper
+    return callback(value, arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/__init__.py", line 120, in execute
+    value_set = value.py__call__(arguments=arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 116, in py__call__
+    return function_execution.infer()
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 351, in infer
+    return self.get_return_values()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/recursion.py", line 87, in wrapper
+    result = func(self, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 242, in get_return_values
+    value_set |= self.infer_node(children[1])
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node
+    return infer_atom(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 305, in infer_atom
+    return context.py__getattribute__(atom, position=position)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in py__getattribute__
+    values = ValueSet.from_sets(name.infer() for name in names)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+                ^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in <genexpr>
+    values = ValueSet.from_sets(name.infer() for name in names)
+                                ~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+        self.parent_context.inference_state,
+        self.parent_context,
+        self.tree_name
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 758, in tree_name_to_values
+    types = infer_expr_stmt(context, node, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 377, in infer_expr_stmt
+    return _infer_expr_stmt(context, stmt, seek_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 449, in _infer_expr_stmt
+    with context.predefine_names(for_stmt, dct):
+         ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 161, in predefine_names
+    del predefined[flow_scope]
+        ~~~~~~~~~~^^^^^^^^^^^^
+KeyError: <ForStmt: for i in range(1, n): 		product *= (x_pred - x_data[i - 1]) 		result += coeffs[i] * product@38,1>
+
+2025-05-31 20:32:02.140 [info] [Error - 8:32:02 PM] Request textDocument/hover failed.
+2025-05-31 20:32:02.140 [info]   Message: KeyError: <ForStmt: for i in range(1, n): 		product *= (x_pred - x_data[i - 1]) 		result += coeffs[i] * product@38,1>
+  Code: -32603 
+[object Object]
+2025-05-31 20:32:02.141 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8149"
+
+2025-05-31 20:32:06.395 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8157"
+
+2025-05-31 20:32:09.473 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8171"
+
+2025-05-31 20:34:01.705 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8198"
+
+2025-05-31 20:34:06.962 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8214"
+
+2025-05-31 20:34:09.699 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8220"
+
+2025-05-31 20:34:10.501 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 8225 completionItem/resolve CompletionItem(label='newt', label_details=None, kind=<CompletionItemKind.Variable: 6>, tags=None, detail=None, documentation=None, deprecated=None, preselect=None, sort_text='v0', filter_text='newt', insert_text='newt', insert_text_format=<InsertTextFormat.PlainText: 1>, insert_text_mode=None, text_edit=None, text_edit_text=None, additional_text_edits=None, commit_characters=None, command=None, data=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 190, in completion_item_resolve
+    return jedi_utils.lsp_completion_item_resolve(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        params, markup_kind=markup_kind
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 699, in lsp_completion_item_resolve
+    item.detail = next(get_full_signatures(completion), completion.name)
+                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 614, in get_full_signatures
+    signatures = name.get_signatures()
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/classes.py", line 581, in get_signatures
+    for s in self._get_signatures()
+             ~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/classes.py", line 570, in _get_signatures
+    return [sig for name in names for sig in name.infer().get_signatures()]
+                                             ~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+        self.parent_context.inference_state,
+        self.parent_context,
+        self.tree_name
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 758, in tree_name_to_values
+    types = infer_expr_stmt(context, node, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 377, in infer_expr_stmt
+    return _infer_expr_stmt(context, stmt, seek_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 410, in _infer_expr_stmt
+    value_set = context.infer_node(rhs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 209, in _infer_node
+    value_set = infer_trailer(context, value_set, trailer)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 279, in infer_trailer
+    return atom_values.execute(args)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 487, in execute
+    return ValueSet.from_sets(c.inference_state.execute(c, arguments) for c in self._set)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+                ^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 487, in <genexpr>
+    return ValueSet.from_sets(c.inference_state.execute(c, arguments) for c in self._set)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 134, in wrapper
+    return call()
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 107, in call
+    return callback(value, arguments=arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/pytest.py", line 29, in wrapper
+    return callback(value, arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/__init__.py", line 120, in execute
+    value_set = value.py__call__(arguments=arguments)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 116, in py__call__
+    return function_execution.infer()
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 351, in infer
+    return self.get_return_values()
+           ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/recursion.py", line 87, in wrapper
+    result = func(self, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/value/function.py", line 242, in get_return_values
+    value_set |= self.infer_node(children[1])
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node
+    return infer_atom(context, element)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 305, in infer_atom
+    return context.py__getattribute__(atom, position=position)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in py__getattribute__
+    values = ValueSet.from_sets(name.infer() for name in names)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/base_value.py", line 430, in from_sets
+    for set_ in sets:
+                ^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 77, in <genexpr>
+    values = ValueSet.from_sets(name.infer() for name in names)
+                                ~~~~~~~~~~^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/names.py", line 281, in infer
+    return tree_name_to_values(
+        self.parent_context.inference_state,
+        self.parent_context,
+        self.tree_name
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/__init__.py", line 21, in wrapper
+    return built_functions[public_name](*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/stdlib.py", line 878, in wrapper
+    return func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/plugins/django.py", line 177, in wrapper
+    result = func(inference_state, context, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 758, in tree_name_to_values
+    types = infer_expr_stmt(context, node, tree_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 377, in infer_expr_stmt
+    return _infer_expr_stmt(context, stmt, seek_name)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 449, in _infer_expr_stmt
+    with context.predefine_names(for_stmt, dct):
+         ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/inference/context.py", line 161, in predefine_names
+    del predefined[flow_scope]
+        ~~~~~~~~~~^^^^^^^^^^^^
+KeyError: <ForStmt: for i in range(1, n): 		product *= (x_pred - x_data[i - 1]) 		result += coeffs[i] * product@38,1>
+
+2025-05-31 20:34:10.505 [info] [Error - 8:34:10 PM] Request completionItem/resolve failed.
+2025-05-31 20:34:10.505 [info]   Message: KeyError: <ForStmt: for i in range(1, n): 		product *= (x_pred - x_data[i - 1]) 		result += coeffs[i] * product@38,1>
+  Code: -32603 
+[object Object]
+2025-05-31 20:34:33.855 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8236"
+
+2025-05-31 20:34:48.669 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8265"
+
+2025-05-31 20:34:49.557 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8268"
+
+2025-05-31 20:34:53.757 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8285"
+
+2025-05-31 20:35:06.637 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8306"
+
+2025-05-31 20:35:12.235 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8311"
+
+2025-05-31 20:35:20.213 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8321"
+
+2025-05-31 20:35:53.570 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8327"
+
+2025-05-31 20:36:05.170 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8338"
+
+2025-05-31 20:36:25.156 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8350"
+
+2025-05-31 20:36:26.360 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8353"
+
+2025-05-31 20:39:54.681 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8374"
+
+2025-05-31 20:39:55.139 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8376"
+
+2025-05-31 20:39:55.140 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8377"
+
+2025-05-31 20:39:55.604 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8378"
+
+2025-05-31 20:39:55.618 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8381"
+
+2025-05-31 20:39:55.618 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8379"
+
+2025-05-31 20:39:56.078 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8380"
+
+2025-05-31 20:39:56.092 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8384"
+
+2025-05-31 20:39:56.092 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8382"
+
+2025-05-31 20:39:56.560 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8383"
+
+2025-05-31 20:40:54.971 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8403"
+
+2025-05-31 20:42:29.268 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8463"
+
+2025-05-31 20:42:29.809 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8464"
+
+2025-05-31 20:42:33.110 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8467"
+
+2025-05-31 20:42:33.921 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8469"
+
+2025-05-31 20:42:34.432 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8472"
+
+2025-05-31 20:42:36.277 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8478"
+
+2025-05-31 20:42:36.277 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8479"
+
+2025-05-31 20:49:09.192 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8511"
+
+2025-05-31 21:01:36.600 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8597"
+
+2025-05-31 21:03:02.366 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8688"
+
+2025-05-31 21:03:04.464 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8691"
+
+2025-05-31 21:03:26.335 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8707"
+
+2025-05-31 21:03:26.337 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8708"
+
+2025-05-31 21:03:26.338 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8709"
+
+2025-05-31 21:03:26.340 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8710"
+
+2025-05-31 21:03:27.876 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8713"
+
+2025-05-31 21:03:27.923 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8717"
+
+2025-05-31 21:03:27.923 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8716"
+
+2025-05-31 21:03:39.737 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8730"
+
+2025-05-31 21:03:40.887 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8737"
+
+2025-05-31 21:03:50.769 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8748"
+
+2025-05-31 21:03:51.221 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8749"
+
+2025-05-31 21:03:52.154 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8750"
+
+2025-05-31 21:03:53.311 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8751"
+
+2025-05-31 21:03:55.515 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8753"
+
+2025-05-31 21:03:57.786 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8755"
+
+2025-05-31 21:03:58.690 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8756"
+
+2025-05-31 21:03:59.210 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8757"
+
+2025-05-31 21:03:59.507 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8758"
+
+2025-05-31 21:04:00.050 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8759"
+
+2025-05-31 21:04:14.754 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8768"
+
+2025-05-31 21:05:18.223 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8790"
+
+2025-05-31 21:05:32.346 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8809"
+
+2025-05-31 21:05:32.812 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8810"
+
+2025-05-31 21:05:35.682 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8812"
+
+2025-05-31 21:05:36.095 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8813"
+
+2025-05-31 21:05:38.311 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8815"
+
+2025-05-31 21:05:38.741 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8816"
+
+2025-05-31 21:05:42.554 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8819"
+
+2025-05-31 21:05:42.979 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8820"
+
+2025-05-31 21:06:17.740 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8836"
+
+2025-05-31 21:06:19.735 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8841"
+
+2025-05-31 21:06:23.376 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8848"
+
+2025-05-31 21:06:24.444 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8851"
+
+2025-05-31 21:06:25.237 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8850"
+
+2025-05-31 21:06:26.371 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8853"
+
+2025-05-31 21:06:26.371 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8854"
+
+2025-05-31 21:06:26.376 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8857"
+
+2025-05-31 21:06:32.533 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8876"
+
+2025-05-31 21:06:45.396 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8902"
+
+2025-05-31 21:06:48.463 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8904"
+
+2025-05-31 21:06:51.540 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8906"
+
+2025-05-31 21:06:51.869 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8907"
+
+2025-05-31 21:06:53.267 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8908"
+
+2025-05-31 21:06:54.193 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8909"
+
+2025-05-31 21:07:08.944 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8912"
+
+2025-05-31 21:07:12.449 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8924"
+
+2025-05-31 21:07:14.633 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8933"
+
+2025-05-31 21:07:16.613 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8939"
+
+2025-05-31 21:07:30.648 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "8954"
+
+2025-05-31 21:21:14.334 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9016"
+
+2025-05-31 21:28:32.465 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9108"
+
+2025-05-31 21:28:32.639 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9109"
+
+2025-05-31 21:28:56.109 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9151"
+
+2025-05-31 21:29:30.780 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9189"
+
+2025-05-31 21:32:15.394 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9265"
+
+2025-05-31 21:32:41.908 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9336"
+
+2025-05-31 21:33:40.177 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9351"
+
+2025-05-31 21:33:44.804 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9356"
+
+2025-05-31 21:33:57.165 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9369"
+
+2025-05-31 21:33:57.548 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9370"
+
+2025-05-31 21:33:59.193 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9384"
+
+2025-05-31 21:34:00.857 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9392"
+
+2025-05-31 21:34:02.442 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9407"
+
+2025-05-31 21:34:17.540 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9440"
+
+2025-05-31 21:34:24.557 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9444"
+
+2025-05-31 21:34:29.291 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9451"
+
+2025-05-31 21:34:43.632 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9475"
+
+2025-05-31 21:34:45.386 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9480"
+
+2025-05-31 21:34:53.247 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9500"
+
+2025-05-31 21:34:54.130 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9501"
+
+2025-05-31 21:35:05.461 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9507"
+
+2025-05-31 21:36:35.202 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9557"
+
+2025-05-31 21:37:52.829 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 9592 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell:/home/dimgerasimou/Numerical_Analysis/numerical_project.ipynb#X11sZmlsZQ%3D%3D'), range=8:39-8:39, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                  ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+
+2025-05-31 21:37:52.834 [info] [Error - 9:37:52 PM] Request textDocument/codeAction failed.
+2025-05-31 21:37:52.834 [info]   Message: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-05-31 21:37:57.073 [info] ERROR:pygls.protocol.json_rpc:Failed to handle request 9595 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='vscode-notebook-cell:/home/dimgerasimou/Numerical_Analysis/numerical_project.ipynb#X11sZmlsZQ%3D%3D'), range=8:39-8:39, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 266, in _handle_request
+    self._execute_request(msg_id, handler, params)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/pygls/protocol/json_rpc.py", line 188, in _execute_request
+    self._send_response(msg_id, handler(params))
+                                ~~~~~~~^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi_language_server/server.py", line 605, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+        new_name=extract_var, **jedi_lines_extract
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+        self._inference_state, self.path, self._module_node,
+        new_name, (line, column), until_pos
+    )
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dimgerasimou/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+                  ^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+
+2025-05-31 21:37:57.076 [info] [Error - 9:37:57 PM] Request textDocument/codeAction failed.
+2025-05-31 21:37:57.076 [info]   Message: UnboundLocalError: cannot access local variable 'start_index' where it is not associated with a value
+  Code: -32603 
+[object Object]
+2025-05-31 21:38:22.520 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9616"
+
+2025-05-31 21:38:23.609 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9617"
+
+2025-05-31 21:39:46.648 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9662"
+
+2025-05-31 21:41:42.745 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9698"
+
+2025-05-31 21:42:03.344 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9708"
+
+2025-05-31 21:42:14.713 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9724"
+
+2025-05-31 21:42:45.554 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9755"
+
+2025-05-31 21:43:05.975 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9788"
+
+2025-05-31 21:43:17.853 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9799"
+
+2025-05-31 21:43:33.781 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9813"
+
+2025-05-31 21:43:41.537 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9825"
+
+2025-05-31 21:43:42.203 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9828"
+
+2025-05-31 21:43:47.254 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9838"
+
+2025-05-31 21:43:54.011 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9844"
+
+2025-05-31 21:43:54.287 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9845"
+
+2025-05-31 21:43:58.384 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "9851"
+

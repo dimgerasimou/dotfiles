@@ -1,0 +1,25 @@
+2025-05-20 20:41:03.529 [info] Extension host with pid 6011 started
+2025-05-20 20:41:03.529 [info] Skipping acquiring lock for /home/dimgerasimou/.config/VSCodium/User/workspaceStorage/1882ba2a21686c8358f9e3d8dcde57e1.
+2025-05-20 20:41:03.544 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-20 20:41:03.552 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-20 20:41:03.594 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-05-20 20:41:03.634 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-05-20 20:41:03.800 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-05-20 20:41:03.802 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2025-05-20 20:41:03.823 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-05-20 20:41:03.854 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-05-20 20:41:03.902 [info] Eager extensions activated
+2025-05-20 20:41:03.913 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-05-20 20:41:03.915 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-05-20 20:41:03.928 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-05-20 20:41:03.931 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2025-05-20 20:41:03.987 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2025-05-20 20:41:07.064 [info] ExtensionService#_doActivateExtension ms-vscode.makefile-tools, startup: false, activationEvent: 'onView:makefile.outline'
+2025-05-20 20:41:39.581 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onWalkthrough:pythonWelcome'
+2025-05-20 20:41:55.809 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onWalkthrough:jupyterWelcome'
+2025-05-20 20:41:55.987 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-05-20 20:42:12.647 [info] ExtensionService#_doActivateExtension luma.jupyter, startup: false, activationEvent: 'onWalkthrough:jupyterWelcome'
+2025-05-20 20:44:44.190 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-05-20 20:44:58.940 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-05-20 20:53:04.142 [info] Extension host terminating: renderer closed the MessagePort
+2025-05-20 20:53:04.192 [info] Extension host with pid 6011 exiting with code 0

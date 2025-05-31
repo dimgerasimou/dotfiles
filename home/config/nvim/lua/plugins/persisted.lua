@@ -4,6 +4,8 @@ require("persisted").setup {
 		if vim.bo.filetype == "alpha" then
 			return false
 		end
+
 		return true
 	end,
 }
+

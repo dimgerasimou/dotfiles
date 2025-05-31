@@ -1,0 +1,11 @@
+SUBDIRS := utils V0-1
+PREFIX  := src/
+
+.PHONY: subdirs $(SUBDIRS)
+
+subdirs: $(SUBDIRS)
+
+$(SUBDIRS):
+        $(MAKE) -C $@
+
+foo: baz

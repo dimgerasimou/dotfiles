@@ -1,0 +1,27 @@
+#ifndef TOML_H
+#define TOML_H
+
+#include <stdio.h>
+
+typedef struct TomlKeyVal TomlKeyVal;
+typedef struct TomlArray TomlArray;
+
+struct TomlKeyVal {
+	char *key;
+	char *val;
+};
+
+struct TomlArray {
+	char *key;
+
+	TomlKeyVal **item;
+	TomlArray **arr;
+
+	size_t nitem;
+	size_t narr;
+};
+
+TomlArray* parseconfig(FILE *fp);
+
+
+#endif /* TOML_H */

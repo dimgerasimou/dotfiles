@@ -1,0 +1,16 @@
+DIRS   := utils V0-4 V0-5
+PREFIX := src
+
+SUBDIRS = $(addprefix $(PREFIX)/, $(DIRS))
+CLNDIRS = $(addprefix $(PREFIX)/, $(DIRS))
+
+.PHONY: build $(SUBDIRS) clean
+
+build: $(SUBDIRS)
+
+$(SUBDIRS):
+	@$(MAKE) -C $@ --no-print-directory $(MAKECMDGOALS)
+
+
+clean: $(SUBDIRS)
+	@rmdir --ignore-fail-on-non-empty bin

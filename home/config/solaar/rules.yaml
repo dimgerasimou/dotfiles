@@ -1,0 +1,31 @@
+%YAML 1.3
+---
+- MouseGesture: []
+- KeyPress:
+  - [Super_L, a]
+  - click
+...
+---
+- MouseGesture: Mouse Up
+- KeyPress:
+  - [Super_L, Control_L, Shift_L, l]
+  - click
+...
+---
+- MouseGesture: Mouse Down
+- KeyPress:
+  - [Super_L, Control_L, Shift_L, h]
+  - click
+...
+---
+- MouseGesture: Mouse Right
+- KeyPress:
+  - [Super_L, Control_L, Shift_L, k]
+  - click
+...
+---
+- MouseGesture: Mouse Left
+- KeyPress:
+  - [Super_L, Control_L, Shift_L, j]
+  - click
+...

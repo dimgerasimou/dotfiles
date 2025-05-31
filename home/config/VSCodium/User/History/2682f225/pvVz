@@ -1,0 +1,2 @@
+DIRS   := utils V0-1
+PREFIX := src/

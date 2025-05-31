@@ -1,0 +1,18 @@
+CC       := gcc
+CFLAGS   := -Wall -Wextra -Werror -pedantic -Wall -Wno-deprecated-declarations -O3
+LFLAGS   := -lmatio -lm -lblas
+PREFIX   := ../../bin/V0-1
+
+all: knnsearch
+
+knnsearch: knnsearch.c
+	@echo "Compiling $< - $(notdir $(PREFIX))"
+	@mkdir -p $(PREFIX)
+	@$(CC) -o $(PREFIX)/$@ $< ${CFLAGS} ${LFLAGS}
+
+clean:
+	@echo "Cleaning - $(notdir $(PREFIX))"
+	@rm $(PREFIX)/knnsearch
+	@rmdir --ignore-fail-on-non-empty $(PREFIX)
+
+.PHONY: all clean

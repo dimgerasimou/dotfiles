@@ -1,0 +1,11 @@
+DIRS   := utils V0-1
+PREFIX := src
+
+SUBDIRS = $(addprefix $(PREFIX)/, $(DIRS))
+
+.PHONY: subdirs $(SUBDIRS)
+
+subdirs: $(SUBDIRS)
+
+$(SUBDIRS):
+        $(MAKE) -C $@

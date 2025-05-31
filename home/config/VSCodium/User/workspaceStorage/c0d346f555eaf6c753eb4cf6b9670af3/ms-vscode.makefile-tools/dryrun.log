@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/dimgerasimou/.local/src/xrandr-setup'
+cc -o main.o main.c -c -std=c99 -pedantic -Wall -Wextra -Werror -Wno-deprecated-declarations -Os
+cc -o toml.o toml.c -c -std=c99 -pedantic -Wall -Wextra -Werror -Wno-deprecated-declarations -Os
+cc -o xrandr-setup main.o toml.o -lX11 -lXrandr
+make: Leaving directory '/home/dimgerasimou/.local/src/xrandr-setup'
+ 

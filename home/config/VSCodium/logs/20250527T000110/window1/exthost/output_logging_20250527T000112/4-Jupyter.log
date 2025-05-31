@@ -1,0 +1,97 @@
+VSCodium (1.100.2, undefined, desktop)
+Jupyter Extension Version: 2025.4.1.
+Python Extension Version: 2025.4.0.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /home/dimgerasimou
+Temp Storage folder ~/.config/VSCodium/User/globalStorage/ms-toolsai.jupyter/version-2025.4.1
+Workspace folder ~/Αριθμητική
+00:01:14.372 [info] Telemetry level is off
+00:01:14.372 [info] Experiments are disabled, only manually opted experiments are active.
+00:01:14.423 [debug] Start refreshing Kernel Picker (1748293274423)
+00:01:14.499 [debug] Get Custom Env Variables, Class name = Mm, completed in 76ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+00:01:14.499 [debug] Jupyter Paths /kernels: 
+00:01:14.503 [debug] Kernel Spec Root Paths, /usr/share/jupyter/kernels, /usr/local/share/jupyter/kernels, ~/.local/share/jupyter/kernels
+00:01:14.652 [debug] Start refreshing Interpreter Kernel Picker
+00:01:15.226 [debug] KernelProvider switched kernel to id = .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher
+00:01:15.227 [debug] start the kernel, options.disableUI=true for ~/Αριθμητική/numerical_project.ipynb
+00:01:15.267 [debug] Controller selection change completed
+00:01:15.312 [debug] Get Custom Env Variables, Class name = Mm, completed in 0ms, has a truthy return value, Arg 1: "~/Αριθμητική", Arg 2: "RunPythonCode"
+00:01:15.315 [info] Starting Kernel (Python Path: ~/Αριθμητική/.venv/bin/python, Venv, 3.13.3) for '~/Αριθμητική/numerical_project.ipynb' (disableUI=true)
+00:01:15.380 [debug] Get Custom Env Variables, Class name = Mm, completed in 1ms, has a truthy return value, Arg 1: "~/Αριθμητική/numerical_project.ipynb", Arg 2: "RunPythonCode"
+00:01:15.480 [debug] Launching kernel .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher for ~/Αριθμητική/numerical_project.ipynb in ~/Αριθμητική with ports 9001, 9000, 9004, 9002, 9003
+00:01:15.525 [debug] Got env vars from Python Ext in 214ms for ~/Αριθμητική/.venv/bin/python, with env var count 71.
+00:01:15.526 [debug] Getting activated env variables, Class name = xd, completed in 215ms, has a truthy return value, Arg 1: "~/Αριθμητική", Arg 2: "~/Αριθμητική/.venv/bin/python", Arg 3: undefined
+00:01:15.535 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -m pip list
+00:01:15.561 [debug] Got env vars from Python Ext in 181ms for ~/Αριθμητική/.venv/bin/python, with env var count 71.
+00:01:15.561 [debug] Getting activated env variables, Class name = xd, completed in 182ms, has a truthy return value, Arg 1: "~/Αριθμητική/numerical_project.ipynb", Arg 2: "~/Αριθμητική/.venv/bin/python", Arg 3: undefined
+00:01:15.569 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+00:01:15.577 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v37615d20122613e69ec8255d584449f54c4e77f40.json
+    > cwd: ~/Αριθμητική
+00:01:15.577 [debug] Kernel process 2184658.
+00:01:15.740 [debug] Refreshed Environments
+00:01:16.186 [debug] Kernel output 2184658: To connect another client to this kernel, use:
+--existing /run/user/1000/jupyter/runtime/kernel-v37615d20122613e69ec8255d584449f54c4e77f40.json
+00:01:16.227 [debug] Waiting for Raw Session to be ready in postStartRawSession
+00:01:16.227 [debug] Waiting for Raw session to be ready, status: connected
+00:01:16.227 [debug] Waited for Raw session to be ready & got status: connected
+00:01:16.227 [debug] Successfully waited for Raw Session to be ready in postStartRawSession
+00:01:16.227 [debug] Kernel status is 'unknown' before requesting kernel info and after ready
+00:01:16.227 [debug] Sending request for kernelInfo
+00:01:16.288 [debug] Successfully completed postStartRawSession after 1 attempt(s) in 61ms
+00:01:16.315 [debug] Requesting Kernel info
+00:01:16.319 [info] Kernel successfully started
+00:01:16.320 [debug] getDataDirsImpl, Class name = Lr (started execution), Arg 1: "~/Αριθμητική/numerical_project.ipynb", Arg 2: "~/Αριθμητική/.venv/bin/python"
+00:01:16.321 [debug] Get Custom Env Variables, Class name = Mm, completed in 1ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+00:01:16.321 [debug] Jupyter Paths : 
+00:01:16.323 [debug] Get Custom Env Variables, Class name = Mm, completed in 1ms, has a truthy return value, Arg 1: "~/Αριθμητική/numerical_project.ipynb", Arg 2: "RunPythonCode"
+00:01:16.323 [debug] Got env vars from Python Ext in 1ms for ~/Αριθμητική/.venv/bin/python, with env var count 71.
+00:01:16.323 [debug] Getting activated env variables, Class name = xd, completed in 1ms, has a truthy return value, Arg 1: "~/Αριθμητική/numerical_project.ipynb", Arg 2: "~/Αριθμητική/.venv/bin/python", Arg 3: undefined
+00:01:16.329 [info] Process Execution: ~/Αριθμητική/.venv/bin/python ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/pythonFiles/printJupyterDataDir.py
+00:01:16.340 [debug] Got an empty Jupyter Data Dir from ~/Αριθμητική/.venv/bin/python, stderr = undefined
+00:01:16.341 [debug] getDataDirsImpl, Class name = Lr, completed in 21ms, has a truthy return value, Arg 1: "~/Αριθμητική/numerical_project.ipynb", Arg 2: "~/Αριθμητική/.venv/bin/python", Return Value: <Uri:~/.local/share/jupyter>, <Uri:~/Αριθμητική/.venv/share/jupyter>, <Uri:/usr/local/share/jupyter>, <Uri:/usr/share/jupyter>
+00:01:16.740 [debug] End refreshing Kernel Picker (1748293274423)
+00:01:37.824 [info] Dispose Kernel '~/Αριθμητική/numerical_project.ipynb' associated with '~/Αριθμητική/numerical_project.ipynb'
+00:01:37.825 [debug] Shutdown session 739bb5e9-4591-4890-9840-c20e175bc492, .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher - start called from Error: 
+    at iT.shutdown (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:301:1140)
+    at iT.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:301:623)
+    at Is (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:115:867)
+    at e (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:282:32549)
+    at T_.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:282:32794)
+    at ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:183:1926
+    at Array.map (<anonymous>)
+    at Rg.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:183:1917)
+    at Object.Ahe (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:447:3706)
+    at Object.m (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.proxy.js:1:901)
+    at PQ._deactivate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:14502)
+    at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12013
+    at Array.map (<anonymous>)
+    at PQ._deactivateAll (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12001)
+    at PQ.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12354)
+    at v8.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:1602)
+    at ds (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:5829)
+    at MessagePortMain.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:2284)
+    at MessagePortMain.emit (node:events:524:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+00:01:37.825 [debug] Dispose Kernel process 2184658.
+00:01:37.832 [debug] Kernel got disposed, hence there is no longer a kernel associated with ~/Αριθμητική/numerical_project.ipynb
+00:01:37.834 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher 
+00:01:37.834 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher 
+00:01:37.835 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+00:01:37.835 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+00:01:37.835 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+00:01:37.835 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+00:01:37.835 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+00:01:37.836 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+00:01:37.836 [debug] Disposing controller .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher and documents file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/numerical_project.ipynb
+00:01:37.836 [debug] Disposing controller .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher 
+00:01:37.841 [warn] Failed to delete connection file file:///run/user/1000/jupyter/runtime/kernel-v37615d20122613e69ec8255d584449f54c4e77f40.json for pid 2184658 Canceled (FileSystemError): Canceled
+    at Function._handleError (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:22541)
+    at Object.stat (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:19418)
+    at Gc.delete (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:236:15401)
+    at ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.1-universal/dist/extension.node.js:300:469 {
+  code: 'Unknown'
+}
+00:01:37.841 [debug] Disposed Kernel process 2184658.
+00:01:37.842 [debug] Shutdown session 739bb5e9-4591-4890-9840-c20e175bc492, .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher - shutdown complete
+00:01:37.844 [debug] KernelProcess Exited 2184658, Exit Code - null

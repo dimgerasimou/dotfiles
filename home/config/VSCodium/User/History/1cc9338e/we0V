@@ -1,0 +1,21 @@
+CC       := gcc
+CFLAGS   := -Wall -Wextra -Werror -pedantic -Wall -Wno-deprecated-declarations -O3
+LFLAGS   := -lmatio -lm -fopenmp
+PREFIX   := ../../bin/utils
+
+BIN = matcomparison matgenerator tester
+BIN_PATH = $(addprefix $(PREFIX)/, $(BIN))
+
+all: $(BIN)
+
+$(BIN): %: %.c
+	@echo "$(notdir $(PREFIX)): Compiling $@"
+	@mkdir -p $(PREFIX)
+	@$(CC) -o $(PREFIX)/$@ $< ${CFLAGS} ${LFLAGS}
+
+clean:
+	@echo "$(notdir $(PREFIX)): Cleaning"
+	@rm -f $(BIN_PATH)
+	@rm -rf --ignore-fail-on-non-empty $(PREFIX)
+
+.PHONY: all clean

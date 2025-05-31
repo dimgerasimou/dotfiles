@@ -1,0 +1,31 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/dimgerasimou/Parralel'
+make -C src/utils --no-print-directory 
+echo "utils: Compiling matcomparison"
+mkdir -p ../../bin/utils
+gcc -o ../../bin/utils/matcomparison matcomparison.c -Wall -Wextra -Werror -pedantic -Wall -Wno-deprecated-declarations -O3 -funroll-loops -flto -lmatio -lm -fopenmp -lhdf5
+echo "utils: Compiling matgenerator"
+mkdir -p ../../bin/utils
+gcc -o ../../bin/utils/matgenerator matgenerator.c -Wall -Wextra -Werror -pedantic -Wall -Wno-deprecated-declarations -O3 -funroll-loops -flto -lmatio -lm -fopenmp -lhdf5
+echo "utils: Compiling tester"
+mkdir -p ../../bin/utils
+gcc -o ../../bin/utils/tester tester.c -Wall -Wextra -Werror -pedantic -Wall -Wno-deprecated-declarations -O3 -funroll-loops -flto -lmatio -lm -fopenmp -lhdf5
+make -C src/V0 --no-print-directory 
+gcc -c -Wall -Wextra -Werror -pedantic -Wall -Wno-deprecated-declarations -O3 -funroll-loops -flto arrays.c -fopenmp
+gcc -c -Wall -Wextra -Werror -pedantic -Wall -Wno-deprecated-declarations -O3 -funroll-loops -flto knnsearch.c -fopenmp
+gcc -c -Wall -Wextra -Werror -pedantic -Wall -Wno-deprecated-declarations -O3 -funroll-loops -flto io.c -fopenmp
+gcc -c -Wall -Wextra -Werror -pedantic -Wall -Wno-deprecated-declarations -O3 -funroll-loops -flto main.c -fopenmp
+echo "V0: Compiling knnsearch"
+mkdir -p ../../bin/V0
+gcc -o ../../bin/V0/knnsearch arrays.o knnsearch.o io.o main.o -lmatio -lm -lblas -fopenmp -lhdf5
+make -C src/V1-1 --no-print-directory 
+ 
+gcc -c -Wall -Wextra -Werror -pedantic -Wall -Wno-deprecated-declarations -ggdb -O0 arrays.c -fopenmp
+gcc -c -Wall -Wextra -Werror -pedantic -Wall -Wno-deprecated-declarations -ggdb -O0 knnsearch.c -fopenmp
+gcc -c -Wall -Wextra -Werror -pedantic -Wall -Wno-deprecated-declarations -ggdb -O0 io.c -fopenmp
+gcc -c -Wall -Wextra -Werror -pedantic -Wall -Wno-deprecated-declarations -ggdb -O0 main.c -fopenmp
+echo "V1-1: Compiling knnsearch"
+mkdir -p ../../bin/V1-1
+gcc -o ../../bin/V1-1/knnsearch arrays.o knnsearch.o io.o main.o -lmatio -lm -lblas -fopenmp -lhdf5
+make: Leaving directory '/home/dimgerasimou/Parralel'
+ 

@@ -1,0 +1,72 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/dimgerasimou/.local/src/dwmblocks-blocks'
+ 
+echo "Generating colorscheme.h..."
+mkdir -p bin
+cc -o bin/loadresources src/loadresources.c -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lX11
+bin/loadresources include/colorscheme.h
+mkdir -p build
+echo "Compiling src/time.c"
+cc -c src/time.c -o build/time.o -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p build
+echo "Compiling utils.c"
+cc -c src/utils.c -o build/utils.o -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p bin
+echo "Linking bin/time"
+cc -o bin/time build/time.o build/utils.o include/colorscheme.h include/config.h -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p build
+echo "Compiling src/keyboard.c"
+cc -c src/keyboard.c -o build/keyboard.o -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p bin
+echo "Linking bin/keyboard"
+cc -o bin/keyboard build/keyboard.o build/utils.o include/colorscheme.h include/config.h -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p build
+echo "Compiling src/battery.c"
+cc -c src/battery.c -o build/battery.o -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p bin
+echo "Linking bin/battery"
+cc -o bin/battery build/battery.o build/utils.o include/colorscheme.h include/config.h -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p build
+echo "Compiling src/date.c"
+cc -c src/date.c -o build/date.o -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p bin
+echo "Linking bin/date"
+cc -o bin/date build/date.o build/utils.o include/colorscheme.h include/config.h -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p build
+echo "Compiling src/kernel.c"
+cc -c src/kernel.c -o build/kernel.o -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p bin
+echo "Linking bin/kernel"
+cc -o bin/kernel build/kernel.o build/utils.o include/colorscheme.h include/config.h -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p build
+echo "Compiling src/bluetooth.c"
+cc -c src/bluetooth.c -o build/bluetooth.o -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p bin
+echo "Linking bin/bluetooth"
+cc -o bin/bluetooth build/bluetooth.o build/utils.o include/colorscheme.h include/config.h -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p build
+echo "Compiling src/internet.c"
+cc -c src/internet.c -o build/internet.o -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p bin
+echo "Linking bin/internet"
+cc -o bin/internet build/internet.o build/utils.o include/colorscheme.h include/config.h -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p build
+echo "Compiling src/memory.c"
+cc -c src/memory.c -o build/memory.o -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p bin
+echo "Linking bin/memory"
+cc -o bin/memory build/memory.o build/utils.o include/colorscheme.h include/config.h -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p build
+echo "Compiling src/power.c"
+cc -c src/power.c -o build/power.o -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p bin
+echo "Linking bin/power"
+cc -o bin/power build/power.o build/utils.o include/colorscheme.h include/config.h -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p build
+echo "Compiling src/volume.c"
+cc -c src/volume.c -o build/volume.o -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+mkdir -p bin
+echo "Linking bin/volume"
+cc -o bin/volume build/volume.o build/utils.o include/colorscheme.h include/config.h -Wall -Wextra -Werror -Wno-deprecated-declarations -Os -lm -lX11 -lxkbfile -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/libnm -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread -D_REENTRANT -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -lnotify -lgdk_pixbuf-2.0 -lnm -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpulse -pthread -ldbus-1
+make: Leaving directory '/home/dimgerasimou/.local/src/dwmblocks-blocks'
+ 

@@ -1,0 +1,1889 @@
+VSCodium (1.100.2, undefined, desktop)
+Jupyter Extension Version: 2025.4.0.
+Python Extension Version: 2025.4.0.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /home/dimgerasimou
+Temp Storage folder ~/.config/VSCodium/User/globalStorage/ms-toolsai.jupyter/version-2025.4.0
+Workspace folder ~/Αριθμητική
+16:48:28.857 [info] Telemetry level is off
+16:48:28.857 [info] Experiments are disabled, only manually opted experiments are active.
+16:48:28.882 [debug] Start refreshing Kernel Picker (1748008108882)
+16:48:28.920 [debug] Get Custom Env Variables, Class name = Mm, completed in 38ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+16:48:28.920 [debug] Jupyter Paths /kernels: 
+16:48:28.921 [debug] Kernel Spec Root Paths, /usr/share/jupyter/kernels, /usr/local/share/jupyter/kernels, ~/.local/share/jupyter/kernels
+16:48:29.294 [debug] End refreshing Kernel Picker (1748008108882)
+16:48:29.459 [debug] Start refreshing Kernel Picker (1748008109459)
+16:48:29.520 [debug] Start refreshing Interpreter Kernel Picker
+16:48:29.700 [debug] Refreshed Environments
+16:48:29.784 [debug] KernelProvider switched kernel to id = .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher
+16:48:29.784 [debug] start the kernel, options.disableUI=true for ~/Αριθμητική/Untitled-1.ipynb
+16:48:29.812 [debug] Controller selection change completed
+16:48:29.857 [debug] Get Custom Env Variables, Class name = Mm, completed in 1ms, has a truthy return value, Arg 1: "~/Αριθμητική", Arg 2: "RunPythonCode"
+16:48:29.858 [info] Starting Kernel (Python Path: ~/Αριθμητική/.venv/bin/python, Venv, 3.13.3) for '~/Αριθμητική/Untitled-1.ipynb' (disableUI=true)
+16:48:29.866 [debug] Get Custom Env Variables, Class name = Mm, completed in 0ms, has a truthy return value, Arg 1: "~/Αριθμητική/Untitled-1.ipynb", Arg 2: "RunPythonCode"
+16:48:29.877 [debug] Launching kernel .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher for ~/Αριθμητική/Untitled-1.ipynb in ~/Αριθμητική with ports 9001, 9000, 9004, 9002, 9003
+16:48:29.977 [debug] Got env vars from Python Ext in 121ms for ~/Αριθμητική/.venv/bin/python, with env var count 70.
+16:48:29.977 [debug] Getting activated env variables, Class name = xd, completed in 121ms, has a truthy return value, Arg 1: "~/Αριθμητική", Arg 2: "~/Αριθμητική/.venv/bin/python", Arg 3: undefined
+16:48:29.983 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -m pip list
+16:48:29.984 [debug] Got env vars from Python Ext in 117ms for ~/Αριθμητική/.venv/bin/python, with env var count 70.
+16:48:29.984 [debug] Getting activated env variables, Class name = xd, completed in 118ms, has a truthy return value, Arg 1: "~/Αριθμητική/Untitled-1.ipynb", Arg 2: "~/Αριθμητική/.venv/bin/python", Arg 3: undefined
+16:48:29.990 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+16:48:30.000 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3ef04d98acaa3ccc3af74df696d082073907ae7b9.json
+    > cwd: ~/Αριθμητική
+16:48:30.000 [debug] Kernel process 6886.
+16:48:30.475 [debug] Kernel output 6886: To connect another client to this kernel, use:
+--existing /run/user/1000/jupyter/runtime/kernel-v3ef04d98acaa3ccc3af74df696d082073907ae7b9.json
+16:48:30.666 [debug] Waiting for Raw Session to be ready in postStartRawSession
+16:48:30.666 [debug] Waiting for Raw session to be ready, status: connected
+16:48:30.667 [debug] Waited for Raw session to be ready & got status: connected
+16:48:30.667 [debug] Successfully waited for Raw Session to be ready in postStartRawSession
+16:48:30.667 [debug] Kernel status is 'unknown' before requesting kernel info and after ready
+16:48:30.667 [debug] Sending request for kernelInfo
+16:48:30.670 [debug] Successfully completed postStartRawSession after 1 attempt(s) in 3ms
+16:48:30.690 [debug] Requesting Kernel info
+16:48:30.694 [info] Kernel successfully started
+16:48:30.696 [debug] getDataDirsImpl, Class name = Lr (started execution), Arg 1: "~/Αριθμητική/Untitled-1.ipynb", Arg 2: "~/Αριθμητική/.venv/bin/python"
+16:48:30.697 [debug] Get Custom Env Variables, Class name = Mm, completed in 1ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+16:48:30.697 [debug] Jupyter Paths : 
+16:48:30.705 [info] Process Execution: ~/Αριθμητική/.venv/bin/python ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/pythonFiles/printJupyterDataDir.py
+16:48:30.705 [debug] End refreshing Kernel Picker (1748008109459)
+16:48:30.713 [debug] Got an empty Jupyter Data Dir from ~/Αριθμητική/.venv/bin/python, stderr = undefined
+16:48:30.714 [debug] getDataDirsImpl, Class name = Lr, completed in 18ms, has a truthy return value, Arg 1: "~/Αριθμητική/Untitled-1.ipynb", Arg 2: "~/Αριθμητική/.venv/bin/python", Return Value: <Uri:~/.local/share/jupyter>, <Uri:~/Αριθμητική/.venv/share/jupyter>, <Uri:/usr/local/share/jupyter>, <Uri:/usr/share/jupyter>
+16:50:12.106 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+16:50:12.128 [debug] Kernel acknowledged execution of cell 1 @ 1748008212127
+16:50:13.253 [debug] Kernel acknowledged execution of cell 3 @ 1748008213253
+16:50:13.572 [debug] Kernel acknowledged execution of cell 5 @ 1748008213571
+16:50:13.688 [debug] Kernel acknowledged execution of cell 7 @ 1748008213688
+16:51:21.882 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+16:51:21.886 [debug] Kernel acknowledged execution of cell 1 @ 1748008281886
+16:51:22.034 [debug] Kernel acknowledged execution of cell 3 @ 1748008282034
+16:51:22.063 [debug] Kernel acknowledged execution of cell 5 @ 1748008282063
+16:51:22.183 [debug] Kernel acknowledged execution of cell 7 @ 1748008282182
+16:51:25.726 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+16:51:25.734 [debug] Kernel acknowledged execution of cell 1 @ 1748008285734
+16:51:25.785 [debug] Kernel acknowledged execution of cell 3 @ 1748008285785
+16:51:25.820 [debug] Kernel acknowledged execution of cell 5 @ 1748008285820
+16:51:25.931 [debug] Kernel acknowledged execution of cell 7 @ 1748008285931
+16:51:48.521 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+16:51:48.530 [debug] Kernel acknowledged execution of cell 1 @ 1748008308530
+16:51:48.749 [debug] Kernel acknowledged execution of cell 3 @ 1748008308748
+16:51:48.775 [debug] Kernel acknowledged execution of cell 5 @ 1748008308775
+16:51:48.885 [debug] Kernel acknowledged execution of cell 7 @ 1748008308885
+16:52:23.556 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+16:52:23.567 [debug] Kernel acknowledged execution of cell 1 @ 1748008343566
+16:52:23.856 [debug] Kernel acknowledged execution of cell 3 @ 1748008343856
+16:52:24.039 [warn] Cell completed with errors lu [Error]: expected non-empty vector for x
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:294:4958) {
+  ename: 'TypeError',
+  evalue: 'expected non-empty vector for x',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[18]\x1B[39m\x1B[32m, line 28\x1B[39m\n' +
+      '\x1B[32m     26\x1B[39m \x1B[38;5;66;03m# Fit polynomial models and calculate errors\x1B[39;00m\n' +
+      '\x1B[32m     27\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m i, degree \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28menumerate\x1B[39m(degrees):\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m28\x1B[39m \tcoeffs = \x1B[43mnp\x1B[49m\x1B[43m.\x1B[49m\x1B[43mpolyfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mx_train\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my_train\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdegree\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     29\x1B[39m \tpoly_func = np.poly1d(coeffs)\n' +
+      '\x1B[32m     30\x1B[39m \tmodels.append(poly_func)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Αριθμητική/.venv/lib/python3.13/site-packages/numpy/lib/_polynomial_impl.py:636\x1B[39m, in \x1B[36mpolyfit\x1B[39m\x1B[34m(x, y, deg, rcond, full, w, cov)\x1B[39m\n' +
+      '\x1B[32m    634\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mexpected 1D vector for x\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m    635\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m x.size == \x1B[32m0\x1B[39m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m636\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mexpected non-empty vector for x\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m    637\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m y.ndim < \x1B[32m1\x1B[39m \x1B[38;5;129;01mor\x1B[39;00m y.ndim > \x1B[32m2\x1B[39m:\n' +
+      '\x1B[32m    638\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mexpected 1D or 2D array for y\x1B[39m\x1B[33m"\x1B[39m)\n',
+    '\x1B[31mTypeError\x1B[39m: expected non-empty vector for x'
+  ]
+}
+16:52:24.041 [warn] Cancel all remaining cells due to cancellation or failure in execution
+16:52:24.041 [debug] Cancel pending cells
+16:52:52.675 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+16:52:52.683 [debug] Kernel acknowledged execution of cell 1 @ 1748008372683
+16:52:53.142 [debug] Kernel acknowledged execution of cell 3 @ 1748008373142
+16:52:53.216 [warn] Cell completed with errors lu [Error]: expected non-empty vector for x
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:294:4958) {
+  ename: 'TypeError',
+  evalue: 'expected non-empty vector for x',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[20]\x1B[39m\x1B[32m, line 28\x1B[39m\n' +
+      '\x1B[32m     26\x1B[39m \x1B[38;5;66;03m# Fit polynomial models and calculate errors\x1B[39;00m\n' +
+      '\x1B[32m     27\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m i, degree \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28menumerate\x1B[39m(degrees):\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m28\x1B[39m \tcoeffs = \x1B[43mnp\x1B[49m\x1B[43m.\x1B[49m\x1B[43mpolyfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mx_train\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my_train\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdegree\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     29\x1B[39m \tpoly_func = np.poly1d(coeffs)\n' +
+      '\x1B[32m     30\x1B[39m \tmodels.append(poly_func)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Αριθμητική/.venv/lib/python3.13/site-packages/numpy/lib/_polynomial_impl.py:636\x1B[39m, in \x1B[36mpolyfit\x1B[39m\x1B[34m(x, y, deg, rcond, full, w, cov)\x1B[39m\n' +
+      '\x1B[32m    634\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mexpected 1D vector for x\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m    635\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m x.size == \x1B[32m0\x1B[39m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m636\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mexpected non-empty vector for x\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m    637\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m y.ndim < \x1B[32m1\x1B[39m \x1B[38;5;129;01mor\x1B[39;00m y.ndim > \x1B[32m2\x1B[39m:\n' +
+      '\x1B[32m    638\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mexpected 1D or 2D array for y\x1B[39m\x1B[33m"\x1B[39m)\n',
+    '\x1B[31mTypeError\x1B[39m: expected non-empty vector for x'
+  ]
+}
+16:52:53.218 [warn] Cancel all remaining cells due to cancellation or failure in execution
+16:52:53.218 [debug] Cancel pending cells
+16:53:01.826 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+16:53:01.833 [debug] Kernel acknowledged execution of cell 1 @ 1748008381832
+16:53:02.084 [debug] Kernel acknowledged execution of cell 3 @ 1748008382084
+16:53:02.129 [debug] Kernel acknowledged execution of cell 5 @ 1748008382129
+16:53:02.196 [debug] Kernel acknowledged execution of cell 7 @ 1748008382196
+16:54:18.622 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+16:54:18.629 [debug] Kernel acknowledged execution of cell 1 @ 1748008458629
+16:54:18.770 [debug] Kernel acknowledged execution of cell 3 @ 1748008458770
+16:54:18.794 [debug] Kernel acknowledged execution of cell 5 @ 1748008458793
+16:54:18.882 [debug] Kernel acknowledged execution of cell 7 @ 1748008458881
+16:57:35.240 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+16:57:35.249 [debug] Kernel acknowledged execution of cell 1 @ 1748008655249
+16:57:35.292 [debug] Kernel acknowledged execution of cell 3 @ 1748008655292
+16:57:35.303 [debug] Kernel acknowledged execution of cell 5 @ 1748008655303
+16:57:35.383 [debug] Kernel acknowledged execution of cell 7 @ 1748008655383
+16:57:49.654 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+16:57:49.663 [debug] Kernel acknowledged execution of cell 1 @ 1748008669662
+16:57:49.710 [debug] Kernel acknowledged execution of cell 3 @ 1748008669710
+16:57:49.740 [debug] Kernel acknowledged execution of cell 5 @ 1748008669740
+16:57:49.837 [debug] Kernel acknowledged execution of cell 7 @ 1748008669837
+16:58:34.566 [debug] Jupyter completion time: 12
+16:58:34.568 [debug] Execution of code ms-toolsai.jupyter-1 completed in 11ms
+16:58:34.908 [debug] Jupyter completion time: 13
+16:58:34.909 [debug] Execution of code ms-toolsai.jupyter-2 completed in 13ms
+16:58:35.053 [debug] Jupyter completion time: 13
+16:58:35.055 [debug] Execution of code ms-toolsai.jupyter-3 completed in 14ms
+16:58:35.228 [debug] Jupyter completion time: 13
+16:58:35.229 [debug] Execution of code ms-toolsai.jupyter-4 completed in 13ms
+16:58:36.579 [debug] Jupyter completion time: 14
+16:58:36.580 [debug] Execution of code ms-toolsai.jupyter-5 completed in 14ms
+16:58:36.731 [debug] Jupyter completion time: 12
+16:58:36.732 [debug] Execution of code ms-toolsai.jupyter-6 completed in 13ms
+16:58:36.892 [debug] Jupyter completion time: 13
+16:58:36.894 [debug] Execution of code ms-toolsai.jupyter-7 completed in 14ms
+16:58:37.053 [debug] Jupyter completion time: 10
+16:58:37.055 [debug] Execution of code ms-toolsai.jupyter-8 completed in 11ms
+16:59:01.581 [debug] Jupyter completion time: 12
+16:59:01.583 [debug] Execution of code ms-toolsai.jupyter-9 completed in 13ms
+16:59:01.618 [debug] Inspected code total_errors in 13ms
+16:59:01.644 [debug] Execution of code ms-toolsai.jupyter-10 completed in 38ms
+16:59:01.671 [debug] Inspected code trapezoid_rule_mean_value in 10ms
+16:59:01.673 [debug] Execution of code ms-toolsai.jupyter-11 completed in 11ms
+16:59:20.203 [debug] Jupyter completion time: 12
+16:59:20.206 [debug] Execution of code ms-toolsai.jupyter-12 completed in 14ms
+16:59:20.222 [debug] Inspected code for i in range(len(y) -total_errors in 11ms
+16:59:20.224 [debug] Execution of code ms-toolsai.jupyter-13 completed in 12ms
+16:59:20.362 [debug] Inspected code for i in range(len(y) -trapezoid_rule_mean_value in 8ms
+16:59:20.364 [debug] Execution of code ms-toolsai.jupyter-14 completed in 9ms
+16:59:33.734 [debug] Jupyter completion time: 13
+16:59:33.737 [debug] Execution of code ms-toolsai.jupyter-15 completed in 15ms
+16:59:33.751 [debug] Inspected code trapezoid_area =y in 11ms
+16:59:33.755 [debug] Execution of code ms-toolsai.jupyter-16 completed in 15ms
+16:59:34.350 [debug] Inspected code trapezoid_area =y_test in 12ms
+16:59:34.355 [debug] Execution of code ms-toolsai.jupyter-17 completed in 17ms
+16:59:34.788 [debug] Jupyter completion time: 10
+16:59:34.790 [debug] Execution of code ms-toolsai.jupyter-18 completed in 11ms
+16:59:51.606 [debug] Jupyter completion time: 14
+16:59:51.608 [debug] Execution of code ms-toolsai.jupyter-19 completed in 16ms
+16:59:51.626 [debug] Inspected code trapezoid_areay in 10ms
+16:59:51.628 [debug] Execution of code ms-toolsai.jupyter-20 completed in 12ms
+16:59:52.540 [debug] Inspected code trapezoid_areay_fit in 6ms
+16:59:52.542 [debug] Execution of code ms-toolsai.jupyter-21 completed in 7ms
+16:59:52.751 [debug] Inspected code trapezoid_areay_test in 8ms
+16:59:52.753 [debug] Execution of code ms-toolsai.jupyter-22 completed in 9ms
+16:59:52.941 [debug] Inspected code trapezoid_areay_train in 11ms
+16:59:52.942 [debug] Execution of code ms-toolsai.jupyter-23 completed in 11ms
+16:59:57.712 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+16:59:57.719 [debug] Kernel acknowledged execution of cell 1 @ 1748008797719
+16:59:57.775 [debug] Kernel acknowledged execution of cell 3 @ 1748008797775
+16:59:57.795 [debug] Kernel acknowledged execution of cell 5 @ 1748008797795
+16:59:57.906 [debug] Kernel acknowledged execution of cell 7 @ 1748008797906
+17:00:04.829 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+17:00:04.838 [debug] Kernel acknowledged execution of cell 1 @ 1748008804838
+17:00:04.885 [debug] Kernel acknowledged execution of cell 3 @ 1748008804885
+17:00:04.921 [debug] Kernel acknowledged execution of cell 5 @ 1748008804921
+17:00:05.028 [debug] Kernel acknowledged execution of cell 7 @ 1748008805028
+17:00:06.001 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+17:00:06.006 [debug] Kernel acknowledged execution of cell 1 @ 1748008806005
+17:00:06.034 [debug] Kernel acknowledged execution of cell 3 @ 1748008806034
+17:00:06.058 [debug] Kernel acknowledged execution of cell 5 @ 1748008806057
+17:00:06.152 [debug] Kernel acknowledged execution of cell 7 @ 1748008806152
+17:11:25.192 [debug] Jupyter completion time: 10
+17:11:25.193 [debug] Execution of code ms-toolsai.jupyter-24 completed in 10ms
+17:11:25.337 [debug] Jupyter completion time: 12
+17:11:25.339 [debug] Execution of code ms-toolsai.jupyter-25 completed in 14ms
+17:11:25.443 [debug] Jupyter completion time: 13
+17:11:25.445 [debug] Execution of code ms-toolsai.jupyter-26 completed in 14ms
+17:11:31.533 [debug] Jupyter completion time: 10
+17:11:31.535 [debug] Execution of code ms-toolsai.jupyter-27 completed in 12ms
+17:11:31.545 [debug] Inspected code degree in 10ms
+17:11:31.549 [debug] Execution of code ms-toolsai.jupyter-28 completed in 13ms
+17:11:36.036 [debug] Jupyter completion time: 13
+17:11:36.038 [debug] Execution of code ms-toolsai.jupyter-29 completed in 15ms
+17:11:36.060 [debug] Inspected code def set in 16ms
+17:11:36.063 [debug] Execution of code ms-toolsai.jupyter-30 completed in 18ms
+17:11:36.079 [debug] Inspected code def split_index in 14ms
+17:11:36.081 [debug] Execution of code ms-toolsai.jupyter-31 completed in 16ms
+17:11:36.223 [debug] Inspected code def staticmethod in 15ms
+17:11:36.225 [debug] Execution of code ms-toolsai.jupyter-32 completed in 16ms
+17:11:36.545 [debug] Jupyter completion time: 15
+17:11:36.546 [debug] Execution of code ms-toolsai.jupyter-33 completed in 16ms
+17:11:36.680 [debug] Jupyter completion time: 13
+17:11:36.682 [debug] Execution of code ms-toolsai.jupyter-34 completed in 14ms
+17:11:36.800 [debug] Jupyter completion time: 14
+17:11:36.802 [debug] Execution of code ms-toolsai.jupyter-35 completed in 16ms
+17:11:37.022 [debug] Jupyter completion time: 7
+17:11:37.024 [debug] Execution of code ms-toolsai.jupyter-36 completed in 9ms
+17:11:37.815 [debug] Jupyter completion time: 13
+17:11:37.817 [debug] Execution of code ms-toolsai.jupyter-37 completed in 14ms
+17:11:38.063 [debug] Jupyter completion time: 15
+17:11:38.065 [debug] Execution of code ms-toolsai.jupyter-38 completed in 16ms
+17:11:38.242 [debug] Jupyter completion time: 14
+17:11:38.244 [debug] Execution of code ms-toolsai.jupyter-39 completed in 16ms
+17:11:38.463 [debug] Jupyter completion time: 16
+17:11:38.465 [debug] Execution of code ms-toolsai.jupyter-40 completed in 17ms
+17:11:38.812 [debug] Jupyter completion time: 14
+17:11:38.813 [debug] Execution of code ms-toolsai.jupyter-41 completed in 14ms
+17:11:38.965 [debug] Jupyter completion time: 11
+17:11:38.966 [debug] Execution of code ms-toolsai.jupyter-42 completed in 12ms
+17:11:39.193 [debug] Jupyter completion time: 13
+17:11:39.195 [debug] Execution of code ms-toolsai.jupyter-43 completed in 15ms
+17:11:39.358 [debug] Jupyter completion time: 14
+17:11:39.360 [debug] Execution of code ms-toolsai.jupyter-44 completed in 15ms
+17:11:39.547 [debug] Jupyter completion time: 12
+17:11:39.549 [debug] Execution of code ms-toolsai.jupyter-45 completed in 14ms
+17:11:40.368 [debug] Jupyter completion time: 11
+17:11:40.369 [debug] Execution of code ms-toolsai.jupyter-46 completed in 12ms
+17:11:40.388 [debug] Inspected code def trapezoid_rule_arey in 9ms
+17:11:40.390 [debug] Execution of code ms-toolsai.jupyter-47 completed in 11ms
+17:11:43.073 [debug] Jupyter completion time: 12
+17:11:43.075 [debug] Execution of code ms-toolsai.jupyter-48 completed in 13ms
+17:11:43.092 [debug] Inspected code dsplit_index in 9ms
+17:11:43.095 [debug] Execution of code ms-toolsai.jupyter-49 completed in 12ms
+17:11:46.601 [debug] Jupyter completion time: 13
+17:11:46.603 [debug] Execution of code ms-toolsai.jupyter-50 completed in 14ms
+17:25:09.919 [debug] Jupyter completion time: 12
+17:25:09.921 [debug] Execution of code ms-toolsai.jupyter-51 completed in 14ms
+17:25:09.941 [debug] Inspected code dfinally in 10ms
+17:25:09.942 [debug] Execution of code ms-toolsai.jupyter-52 completed in 11ms
+17:25:11.394 [debug] Jupyter completion time: 11
+17:25:11.396 [debug] Execution of code ms-toolsai.jupyter-53 completed in 12ms
+17:25:11.574 [debug] Jupyter completion time: 13
+17:25:11.576 [debug] Execution of code ms-toolsai.jupyter-54 completed in 14ms
+17:25:11.594 [debug] Inspected code def trai in 11ms
+17:25:11.596 [debug] Execution of code ms-toolsai.jupyter-55 completed in 13ms
+17:25:12.626 [debug] Jupyter completion time: 11
+17:25:12.627 [debug] Execution of code ms-toolsai.jupyter-56 completed in 12ms
+17:25:12.641 [debug] Inspected code def trapezraise in 6ms
+17:25:12.643 [debug] Execution of code ms-toolsai.jupyter-57 completed in 7ms
+17:25:16.455 [debug] Jupyter completion time: 12
+17:25:16.456 [debug] Execution of code ms-toolsai.jupyter-58 completed in 12ms
+17:25:16.479 [debug] Inspected code def trapezoid_rulambda in 11ms
+17:25:16.479 [debug] Execution of code ms-toolsai.jupyter-59 completed in 11ms
+17:25:18.031 [debug] Jupyter completion time: 14
+17:25:18.033 [debug] Execution of code ms-toolsai.jupyter-60 completed in 15ms
+17:25:27.818 [debug] Jupyter completion time: 15
+17:25:27.819 [debug] Execution of code ms-toolsai.jupyter-61 completed in 15ms
+17:25:27.832 [debug] Code execution cancelled by extension ms-toolsai.jupyter
+17:25:27.832 [debug] Code execution cancelled by extension ms-toolsai.jupyter
+17:25:27.834 [info] Too many pending requests 1 for kernel 02d8a0a8-7131-42a7-b615-96c274dce01e, waiting for it to be ready.
+17:25:27.846 [debug] Inspected code depredicted_prices in 9ms
+17:25:27.848 [debug] Execution of code ms-toolsai.jupyter-63 completed in 11ms
+17:25:30.034 [debug] Jupyter completion time: 12
+17:25:30.036 [debug] Execution of code ms-toolsai.jupyter-64 completed in 14ms
+17:25:40.796 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:25:40.806 [debug] Kernel acknowledged execution of cell 7 @ 1748010340806
+17:25:47.521 [debug] Jupyter completion time: 9
+17:25:47.523 [debug] Execution of code ms-toolsai.jupyter-65 completed in 10ms
+17:25:47.543 [debug] Inspected code split_index in 11ms
+17:25:47.545 [debug] Execution of code ms-toolsai.jupyter-66 completed in 13ms
+17:25:53.410 [debug] Jupyter completion time: 14
+17:25:53.411 [debug] Execution of code ms-toolsai.jupyter-67 completed in 14ms
+17:25:53.431 [debug] Inspected code def trapezoid_ruley in 12ms
+17:25:53.433 [debug] Execution of code ms-toolsai.jupyter-68 completed in 14ms
+17:25:53.665 [debug] Inspected code def trapezoid_ruley_fit in 12ms
+17:25:53.667 [debug] Execution of code ms-toolsai.jupyter-69 completed in 14ms
+17:25:53.852 [debug] Inspected code def trapezoid_ruley_test in 12ms
+17:25:53.854 [debug] Execution of code ms-toolsai.jupyter-70 completed in 14ms
+17:25:54.017 [debug] Inspected code def trapezoid_ruley_train in 12ms
+17:25:54.019 [debug] Execution of code ms-toolsai.jupyter-71 completed in 13ms
+17:25:57.398 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+17:25:57.408 [debug] Kernel acknowledged execution of cell 1 @ 1748010357408
+17:25:57.455 [debug] Kernel acknowledged execution of cell 3 @ 1748010357455
+17:25:57.466 [debug] Kernel acknowledged execution of cell 5 @ 1748010357466
+17:25:57.550 [debug] Kernel acknowledged execution of cell 7 @ 1748010357550
+17:26:10.185 [debug] Jupyter completion time: 9
+17:26:10.187 [debug] Execution of code ms-toolsai.jupyter-72 completed in 11ms
+17:26:12.451 [debug] Jupyter completion time: 7
+17:26:12.454 [debug] Execution of code ms-toolsai.jupyter-73 completed in 10ms
+17:26:13.337 [debug] Jupyter completion time: 15
+17:26:13.338 [debug] Execution of code ms-toolsai.jupyter-74 completed in 16ms
+17:26:16.347 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:26:16.360 [debug] Kernel acknowledged execution of cell 7 @ 1748010376360
+17:26:30.881 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:26:30.888 [debug] Kernel acknowledged execution of cell 7 @ 1748010390888
+17:26:40.673 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:26:40.684 [debug] Kernel acknowledged execution of cell 7 @ 1748010400684
+17:27:19.063 [debug] Jupyter completion time: 13
+17:27:19.065 [debug] Execution of code ms-toolsai.jupyter-75 completed in 15ms
+17:27:19.084 [debug] Inspected code dsplit_index in 13ms
+17:27:19.085 [debug] Execution of code ms-toolsai.jupyter-76 completed in 14ms
+17:27:32.474 [debug] Jupyter completion time: 12
+17:27:32.477 [debug] Execution of code ms-toolsai.jupyter-77 completed in 14ms
+17:27:37.511 [debug] Jupyter completion time: 12
+17:27:37.513 [debug] Execution of code ms-toolsai.jupyter-78 completed in 14ms
+17:27:39.074 [debug] Jupyter completion time: 13
+17:27:39.075 [debug] Execution of code ms-toolsai.jupyter-79 completed in 14ms
+17:27:39.094 [debug] Inspected code def trapezoid_rule_area(y)lambda in 11ms
+17:27:39.095 [debug] Execution of code ms-toolsai.jupyter-80 completed in 12ms
+17:27:41.670 [debug] Jupyter completion time: 13
+17:27:41.672 [debug] Execution of code ms-toolsai.jupyter-81 completed in 14ms
+17:27:49.248 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:27:49.258 [debug] Kernel acknowledged execution of cell 7 @ 1748010469258
+17:27:49.355 [warn] Cell completed with errors lu [Error]: index 52 is out of bounds for axis 0 with size 52
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:294:4958) {
+  ename: 'IndexError',
+  evalue: 'index 52 is out of bounds for axis 0 with size 52',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mIndexError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[57]\x1B[39m\x1B[32m, line 19\x1B[39m\n' +
+      '\x1B[32m     16\x1B[39m \t\x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(\x1B[32m0\x1B[39m, \x1B[38;5;28mlen\x1B[39m(y), \x1B[32m2\x1B[39m):\n' +
+      '\x1B[32m     17\x1B[39m \t\t\x1B[38;5;28mprint\x1B[39m(i)\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m19\x1B[39m \x1B[43msimpson_rule_area\x1B[49m\x1B[43m(\x1B[49m\x1B[43my_train\x1B[49m\x1B[43m)\x1B[49m\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[57]\x1B[39m\x1B[32m, line 15\x1B[39m, in \x1B[36msimpson_rule_area\x1B[39m\x1B[34m(y)\x1B[39m\n' +
+      '\x1B[32m     12\x1B[39m \x1B[38;5;28;01mdef\x1B[39;00m\x1B[38;5;250m \x1B[39m\x1B[34msimpson_rule_area\x1B[39m(y):\n' +
+      '\x1B[32m     13\x1B[39m \tsimpson_area = \x1B[32m0.0\x1B[39m\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m15\x1B[39m \tsimpson_area += y[\x1B[32m0\x1B[39m] + \x1B[43my\x1B[49m\x1B[43m[\x1B[49m\x1B[38;5;28;43mlen\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43my\x1B[49m\x1B[43m)\x1B[49m\x1B[43m]\x1B[49m\n' +
+      '\x1B[32m     16\x1B[39m \t\x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(\x1B[32m0\x1B[39m, \x1B[38;5;28mlen\x1B[39m(y), \x1B[32m2\x1B[39m):\n' +
+      '\x1B[32m     17\x1B[39m \t\t\x1B[38;5;28mprint\x1B[39m(i)\n',
+    '\x1B[31mIndexError\x1B[39m: index 52 is out of bounds for axis 0 with size 52'
+  ]
+}
+17:28:06.944 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:28:06.954 [debug] Kernel acknowledged execution of cell 7 @ 1748010486954
+17:29:22.280 [debug] Jupyter completion time: 12
+17:29:22.283 [debug] Execution of code ms-toolsai.jupyter-82 completed in 15ms
+17:29:22.296 [debug] Inspected code desplit_index in 7ms
+17:29:22.298 [debug] Execution of code ms-toolsai.jupyter-83 completed in 8ms
+17:29:57.927 [debug] Jupyter completion time: 12
+17:29:57.929 [debug] Execution of code ms-toolsai.jupyter-84 completed in 13ms
+17:30:04.560 [debug] Jupyter completion time: 12
+17:30:04.562 [debug] Execution of code ms-toolsai.jupyter-85 completed in 14ms
+17:31:08.758 [debug] Jupyter completion time: 12
+17:31:08.759 [debug] Execution of code ms-toolsai.jupyter-86 completed in 13ms
+17:31:13.733 [debug] Jupyter completion time: 11
+17:31:13.734 [debug] Execution of code ms-toolsai.jupyter-87 completed in 11ms
+17:31:32.339 [debug] Jupyter completion time: 12
+17:31:32.341 [debug] Execution of code ms-toolsai.jupyter-88 completed in 14ms
+17:31:38.896 [debug] Jupyter completion time: 13
+17:31:38.897 [debug] Execution of code ms-toolsai.jupyter-89 completed in 14ms
+17:34:43.852 [debug] Jupyter completion time: 10
+17:34:43.854 [debug] Execution of code ms-toolsai.jupyter-90 completed in 11ms
+17:34:43.869 [debug] Inspected code dsplit_index in 7ms
+17:34:43.871 [debug] Execution of code ms-toolsai.jupyter-91 completed in 8ms
+17:34:50.469 [debug] Jupyter completion time: 13
+17:34:50.471 [debug] Execution of code ms-toolsai.jupyter-92 completed in 14ms
+17:35:06.456 [debug] Jupyter completion time: 9
+17:35:06.457 [debug] Execution of code ms-toolsai.jupyter-93 completed in 10ms
+17:35:50.231 [debug] Jupyter completion time: 14
+17:35:50.233 [debug] Execution of code ms-toolsai.jupyter-94 completed in 15ms
+17:35:50.245 [debug] Inspected code def trapezoid_rule_alambda in 10ms
+17:35:50.247 [debug] Execution of code ms-toolsai.jupyter-95 completed in 11ms
+17:35:54.357 [debug] Jupyter completion time: 12
+17:35:54.360 [debug] Execution of code ms-toolsai.jupyter-96 completed in 15ms
+17:36:03.177 [debug] Jupyter completion time: 13
+17:36:03.179 [debug] Execution of code ms-toolsai.jupyter-97 completed in 14ms
+17:36:16.003 [debug] Jupyter completion time: 13
+17:36:16.005 [debug] Execution of code ms-toolsai.jupyter-98 completed in 14ms
+17:36:16.026 [debug] Inspected code drunfile in 12ms
+17:36:16.027 [debug] Execution of code ms-toolsai.jupyter-99 completed in 12ms
+17:36:49.789 [debug] Jupyter completion time: 13
+17:36:49.790 [debug] Execution of code ms-toolsai.jupyter-100 completed in 14ms
+17:36:49.800 [debug] Inspected code predicted_prices in 7ms
+17:36:49.802 [debug] Execution of code ms-toolsai.jupyter-101 completed in 8ms
+17:37:15.109 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:37:15.120 [debug] Kernel acknowledged execution of cell 7 @ 1748011035120
+17:37:26.484 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:37:26.495 [debug] Kernel acknowledged execution of cell 7 @ 1748011046495
+17:37:45.380 [debug] Jupyter completion time: 13
+17:37:45.382 [debug] Execution of code ms-toolsai.jupyter-102 completed in 15ms
+17:37:45.403 [debug] Inspected code def trapsplit_index in 11ms
+17:37:45.405 [debug] Execution of code ms-toolsai.jupyter-103 completed in 13ms
+17:37:48.840 [debug] Jupyter completion time: 12
+17:37:48.843 [debug] Execution of code ms-toolsai.jupyter-104 completed in 15ms
+17:37:52.238 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:37:52.253 [debug] Kernel acknowledged execution of cell 7 @ 1748011072253
+17:37:53.580 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:37:53.591 [debug] Kernel acknowledged execution of cell 7 @ 1748011073590
+17:38:25.249 [debug] Jupyter completion time: 13
+17:38:25.250 [debug] Execution of code ms-toolsai.jupyter-105 completed in 13ms
+17:38:27.502 [debug] Jupyter completion time: 15
+17:38:27.502 [debug] Execution of code ms-toolsai.jupyter-106 completed in 14ms
+17:38:27.739 [debug] Jupyter completion time: 13
+17:38:27.741 [debug] Execution of code ms-toolsai.jupyter-107 completed in 14ms
+17:38:27.844 [debug] Jupyter completion time: 15
+17:38:27.845 [debug] Execution of code ms-toolsai.jupyter-108 completed in 14ms
+17:38:28.711 [debug] Jupyter completion time: 11
+17:38:28.712 [debug] Execution of code ms-toolsai.jupyter-109 completed in 12ms
+17:38:29.282 [debug] Jupyter completion time: 13
+17:38:29.284 [debug] Execution of code ms-toolsai.jupyter-110 completed in 14ms
+17:38:29.431 [debug] Jupyter completion time: 13
+17:38:29.433 [debug] Execution of code ms-toolsai.jupyter-111 completed in 15ms
+17:38:29.527 [debug] Jupyter completion time: 12
+17:38:29.529 [debug] Execution of code ms-toolsai.jupyter-112 completed in 14ms
+17:38:29.755 [debug] Jupyter completion time: 12
+17:38:29.756 [debug] Execution of code ms-toolsai.jupyter-113 completed in 13ms
+17:38:29.864 [debug] Jupyter completion time: 12
+17:38:29.865 [debug] Execution of code ms-toolsai.jupyter-114 completed in 12ms
+17:38:37.994 [debug] Jupyter completion time: 13
+17:38:37.995 [debug] Execution of code ms-toolsai.jupyter-115 completed in 14ms
+17:38:38.959 [debug] Jupyter completion time: 15
+17:38:38.960 [debug] Execution of code ms-toolsai.jupyter-116 completed in 15ms
+17:38:38.972 [debug] Inspected code def trapezoid_rule_arsplit_index in 10ms
+17:38:38.974 [debug] Execution of code ms-toolsai.jupyter-117 completed in 12ms
+17:38:43.158 [debug] Jupyter completion time: 14
+17:38:43.159 [debug] Execution of code ms-toolsai.jupyter-118 completed in 15ms
+17:38:43.172 [debug] Inspected code lambda in 11ms
+17:38:43.173 [debug] Execution of code ms-toolsai.jupyter-119 completed in 12ms
+17:38:44.891 [debug] Jupyter completion time: 14
+17:38:44.892 [debug] Execution of code ms-toolsai.jupyter-120 completed in 14ms
+17:38:44.912 [debug] Inspected code fory in 12ms
+17:38:44.913 [debug] Execution of code ms-toolsai.jupyter-121 completed in 12ms
+17:38:45.166 [debug] Inspected code fory_test in 13ms
+17:38:45.168 [debug] Execution of code ms-toolsai.jupyter-122 completed in 14ms
+17:38:45.610 [debug] Jupyter completion time: 14
+17:38:45.612 [debug] Execution of code ms-toolsai.jupyter-123 completed in 15ms
+17:39:40.401 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:39:40.411 [debug] Kernel acknowledged execution of cell 7 @ 1748011180411
+17:40:24.790 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:40:24.799 [debug] Kernel acknowledged execution of cell 7 @ 1748011224799
+17:41:48.485 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:41:48.496 [debug] Kernel acknowledged execution of cell 7 @ 1748011308495
+17:42:17.931 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:42:17.942 [debug] Kernel acknowledged execution of cell 7 @ 1748011337942
+17:42:36.270 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:42:36.282 [debug] Kernel acknowledged execution of cell 7 @ 1748011356281
+17:42:55.044 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:42:55.055 [debug] Kernel acknowledged execution of cell 7 @ 1748011375055
+17:43:32.819 [debug] Jupyter completion time: 12
+17:43:32.821 [debug] Execution of code ms-toolsai.jupyter-124 completed in 14ms
+17:43:37.108 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:43:37.117 [debug] Kernel acknowledged execution of cell 7 @ 1748011417117
+17:44:36.884 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:44:36.887 [debug] Kernel acknowledged execution of cell 7 @ 1748011476887
+17:46:27.760 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:46:27.771 [debug] Kernel acknowledged execution of cell 7 @ 1748011587771
+17:48:51.428 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:48:51.440 [debug] Kernel acknowledged execution of cell 7 @ 1748011731439
+17:48:54.642 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:48:54.653 [debug] Kernel acknowledged execution of cell 7 @ 1748011734652
+17:48:58.690 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:48:58.702 [debug] Kernel acknowledged execution of cell 7 @ 1748011738702
+17:49:18.562 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:49:18.574 [debug] Kernel acknowledged execution of cell 7 @ 1748011758574
+17:50:19.673 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:50:19.685 [debug] Kernel acknowledged execution of cell 7 @ 1748011819684
+17:50:38.361 [debug] Jupyter completion time: 12
+17:50:38.363 [debug] Execution of code ms-toolsai.jupyter-125 completed in 14ms
+17:50:38.387 [debug] Inspected code trapezoid_y in 14ms
+17:50:38.389 [debug] Execution of code ms-toolsai.jupyter-126 completed in 16ms
+17:50:39.261 [debug] Inspected code trapezoid_y_fit in 6ms
+17:50:39.263 [debug] Execution of code ms-toolsai.jupyter-127 completed in 8ms
+17:50:39.454 [debug] Inspected code trapezoid_y_test in 11ms
+17:50:39.454 [debug] Execution of code ms-toolsai.jupyter-128 completed in 10ms
+17:50:39.626 [debug] Inspected code trapezoid_y_train in 18ms
+17:50:39.627 [debug] Execution of code ms-toolsai.jupyter-129 completed in 18ms
+17:50:48.613 [debug] Jupyter completion time: 14
+17:50:48.615 [debug] Execution of code ms-toolsai.jupyter-130 completed in 15ms
+17:50:49.554 [debug] Jupyter completion time: 15
+17:50:49.555 [debug] Execution of code ms-toolsai.jupyter-131 completed in 16ms
+17:50:49.575 [debug] Inspected code fory in 12ms
+17:50:49.576 [debug] Execution of code ms-toolsai.jupyter-132 completed in 13ms
+17:50:49.831 [debug] Inspected code fory_test in 15ms
+17:50:49.832 [debug] Execution of code ms-toolsai.jupyter-133 completed in 15ms
+17:50:50.641 [debug] Jupyter completion time: 14
+17:50:50.642 [debug] Execution of code ms-toolsai.jupyter-134 completed in 14ms
+17:50:50.791 [debug] Jupyter completion time: 13
+17:50:50.792 [debug] Execution of code ms-toolsai.jupyter-135 completed in 13ms
+17:50:51.577 [debug] Jupyter completion time: 15
+17:50:51.579 [debug] Execution of code ms-toolsai.jupyter-136 completed in 17ms
+17:50:51.596 [debug] Inspected code fory_test in 12ms
+17:50:51.598 [debug] Execution of code ms-toolsai.jupyter-137 completed in 13ms
+17:50:51.716 [debug] Jupyter completion time: 13
+17:50:51.717 [debug] Execution of code ms-toolsai.jupyter-138 completed in 14ms
+17:51:02.128 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:51:02.143 [debug] Kernel acknowledged execution of cell 7 @ 1748011862143
+17:51:23.364 [debug] Jupyter completion time: 13
+17:51:23.365 [debug] Execution of code ms-toolsai.jupyter-139 completed in 13ms
+17:51:23.381 [debug] Execution of code ms-toolsai.jupyter-140 completed in 13ms
+17:51:23.381 [debug] Inspected code trapezoid_y in 14ms
+17:51:24.335 [debug] Jupyter completion time: 12
+17:51:24.337 [debug] Execution of code ms-toolsai.jupyter-141 completed in 14ms
+17:51:24.355 [debug] Inspected code trapezoid_area = 0.0y in 13ms
+17:51:24.359 [debug] Execution of code ms-toolsai.jupyter-142 completed in 16ms
+17:51:24.909 [debug] Jupyter completion time: 13
+17:51:24.909 [debug] Execution of code ms-toolsai.jupyter-143 completed in 13ms
+17:51:24.924 [debug] Inspected code trapezoid_ary in 11ms
+17:51:24.925 [debug] Execution of code ms-toolsai.jupyter-144 completed in 12ms
+17:51:29.146 [debug] Jupyter completion time: 12
+17:51:29.147 [debug] Execution of code ms-toolsai.jupyter-145 completed in 12ms
+17:51:29.159 [debug] Inspected code for i iy in 9ms
+17:51:29.161 [debug] Execution of code ms-toolsai.jupyter-146 completed in 11ms
+17:51:29.689 [debug] Jupyter completion time: 14
+17:51:29.691 [debug] Execution of code ms-toolsai.jupyter-147 completed in 15ms
+17:51:29.703 [debug] Inspected code trapezoid_areay in 11ms
+17:51:29.704 [debug] Execution of code ms-toolsai.jupyter-148 completed in 12ms
+17:51:31.201 [debug] Jupyter completion time: 12
+17:51:31.203 [debug] Execution of code ms-toolsai.jupyter-149 completed in 14ms
+17:51:33.969 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:51:33.980 [debug] Kernel acknowledged execution of cell 7 @ 1748011893980
+17:52:06.488 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+17:52:06.499 [debug] Kernel acknowledged execution of cell 7 @ 1748011926499
+17:59:25.824 [debug] Jupyter completion time: 14
+17:59:25.825 [debug] Execution of code ms-toolsai.jupyter-150 completed in 15ms
+17:59:26.962 [debug] Jupyter completion time: 16
+17:59:26.963 [debug] Execution of code ms-toolsai.jupyter-151 completed in 16ms
+17:59:26.980 [debug] Inspected code def total_errors in 12ms
+17:59:26.985 [debug] Execution of code ms-toolsai.jupyter-152 completed in 17ms
+17:59:27.090 [debug] Inspected code def trapezoid_rule_mean_value in 10ms
+17:59:27.091 [debug] Execution of code ms-toolsai.jupyter-153 completed in 11ms
+17:59:31.621 [debug] Jupyter completion time: 15
+17:59:31.622 [debug] Execution of code ms-toolsai.jupyter-154 completed in 16ms
+17:59:31.886 [debug] Jupyter completion time: 13
+17:59:31.887 [debug] Execution of code ms-toolsai.jupyter-155 completed in 14ms
+17:59:32.011 [debug] Jupyter completion time: 10
+17:59:32.013 [debug] Execution of code ms-toolsai.jupyter-156 completed in 11ms
+17:59:35.938 [debug] Jupyter completion time: 14
+17:59:35.940 [debug] Execution of code ms-toolsai.jupyter-157 completed in 16ms
+17:59:36.172 [debug] Jupyter completion time: 13
+17:59:36.172 [debug] Execution of code ms-toolsai.jupyter-158 completed in 12ms
+17:59:37.421 [debug] Execution of code ms-toolsai.jupyter-159 completed in 15ms
+17:59:37.423 [debug] Jupyter completion time: 17
+17:59:38.301 [debug] Jupyter completion time: 12
+17:59:38.302 [debug] Execution of code ms-toolsai.jupyter-160 completed in 12ms
+17:59:38.445 [debug] Jupyter completion time: 12
+17:59:38.446 [debug] Execution of code ms-toolsai.jupyter-161 completed in 12ms
+17:59:38.611 [debug] Jupyter completion time: 11
+17:59:38.612 [debug] Execution of code ms-toolsai.jupyter-162 completed in 12ms
+17:59:38.704 [debug] Jupyter completion time: 13
+17:59:38.705 [debug] Execution of code ms-toolsai.jupyter-163 completed in 13ms
+17:59:39.434 [debug] Execution of code ms-toolsai.jupyter-164 completed in 10ms
+17:59:39.434 [debug] Jupyter completion time: 10
+17:59:39.534 [debug] Jupyter completion time: 14
+17:59:39.535 [debug] Execution of code ms-toolsai.jupyter-165 completed in 15ms
+17:59:39.694 [debug] Jupyter completion time: 13
+17:59:39.695 [debug] Execution of code ms-toolsai.jupyter-166 completed in 14ms
+17:59:39.995 [debug] Jupyter completion time: 14
+17:59:39.996 [debug] Execution of code ms-toolsai.jupyter-167 completed in 15ms
+17:59:42.762 [debug] Jupyter completion time: 14
+17:59:42.763 [debug] Execution of code ms-toolsai.jupyter-168 completed in 14ms
+17:59:42.776 [debug] Inspected code def trapezoid_rule_func(y in 11ms
+17:59:42.776 [debug] Execution of code ms-toolsai.jupyter-169 completed in 10ms
+17:59:49.983 [debug] Jupyter completion time: 12
+17:59:49.985 [debug] Execution of code ms-toolsai.jupyter-170 completed in 14ms
+17:59:50.004 [debug] Inspected code def trapezoid_rule_func(y, set in 9ms
+17:59:50.006 [debug] Execution of code ms-toolsai.jupyter-171 completed in 11ms
+17:59:50.070 [debug] Inspected code def trapezoid_rule_func(y, staticmethod in 10ms
+17:59:50.072 [debug] Execution of code ms-toolsai.jupyter-172 completed in 11ms
+17:59:50.418 [debug] Jupyter completion time: 10
+17:59:50.420 [debug] Execution of code ms-toolsai.jupyter-173 completed in 12ms
+17:59:54.028 [debug] Jupyter completion time: 13
+17:59:54.029 [debug] Execution of code ms-toolsai.jupyter-174 completed in 14ms
+17:59:54.045 [debug] Inspected code def trapezoid_rule_func(y, step, abs in 10ms
+17:59:54.046 [debug] Execution of code ms-toolsai.jupyter-175 completed in 10ms
+17:59:55.464 [debug] Jupyter completion time: 14
+17:59:55.466 [debug] Execution of code ms-toolsai.jupyter-176 completed in 15ms
+17:59:55.484 [debug] Inspected code ef trapezoid_rule_func(y, step, a, best_degree_idx in 11ms
+17:59:55.486 [debug] Execution of code ms-toolsai.jupyter-177 completed in 13ms
+18:01:12.893 [debug] Jupyter completion time: 13
+18:01:12.895 [debug] Execution of code ms-toolsai.jupyter-178 completed in 15ms
+18:01:16.119 [debug] Jupyter completion time: 15
+18:01:16.120 [debug] Execution of code ms-toolsai.jupyter-179 completed in 16ms
+18:01:19.964 [debug] Jupyter completion time: 13
+18:01:19.965 [debug] Execution of code ms-toolsai.jupyter-180 completed in 14ms
+18:01:19.981 [debug] Inspected code def trapezoid_rule_func(y, start= in 11ms
+18:01:19.982 [debug] Execution of code ms-toolsai.jupyter-181 completed in 12ms
+18:01:32.238 [debug] Jupyter completion time: 11
+18:01:32.239 [debug] Execution of code ms-toolsai.jupyter-182 completed in 12ms
+18:01:32.260 [debug] Inspected code dx in 13ms
+18:01:32.261 [debug] Execution of code ms-toolsai.jupyter-183 completed in 14ms
+18:01:34.726 [debug] Jupyter completion time: 12
+18:01:34.727 [debug] Execution of code ms-toolsai.jupyter-184 completed in 12ms
+18:01:34.744 [debug] Inspected code dx_test in 11ms
+18:01:34.745 [debug] Execution of code ms-toolsai.jupyter-185 completed in 12ms
+18:01:35.670 [debug] Jupyter completion time: 15
+18:01:35.670 [debug] Execution of code ms-toolsai.jupyter-186 completed in 14ms
+18:01:35.807 [debug] Jupyter completion time: 14
+18:01:35.808 [debug] Execution of code ms-toolsai.jupyter-187 completed in 15ms
+18:01:36.010 [debug] Jupyter completion time: 14
+18:01:36.011 [debug] Execution of code ms-toolsai.jupyter-188 completed in 14ms
+18:01:36.195 [debug] Jupyter completion time: 16
+18:01:36.196 [debug] Execution of code ms-toolsai.jupyter-189 completed in 17ms
+18:01:44.557 [debug] Jupyter completion time: 13
+18:01:44.558 [debug] Execution of code ms-toolsai.jupyter-190 completed in 13ms
+18:01:44.767 [debug] Inspected code dy_fit in 14ms
+18:01:44.768 [debug] Execution of code ms-toolsai.jupyter-191 completed in 14ms
+18:01:44.971 [debug] Jupyter completion time: 13
+18:01:44.973 [debug] Execution of code ms-toolsai.jupyter-192 completed in 15ms
+18:01:45.120 [debug] Jupyter completion time: 13
+18:01:45.121 [debug] Execution of code ms-toolsai.jupyter-193 completed in 14ms
+18:01:45.253 [debug] Jupyter completion time: 12
+18:01:45.254 [debug] Execution of code ms-toolsai.jupyter-194 completed in 13ms
+18:01:45.419 [debug] Jupyter completion time: 11
+18:01:45.420 [debug] Execution of code ms-toolsai.jupyter-195 completed in 11ms
+18:02:22.370 [debug] Jupyter completion time: 13
+18:02:22.371 [debug] Execution of code ms-toolsai.jupyter-196 completed in 14ms
+18:02:48.546 [debug] Jupyter completion time: 13
+18:02:48.547 [debug] Execution of code ms-toolsai.jupyter-197 completed in 13ms
+18:02:48.564 [debug] Inspected code dmin_MAE in 9ms
+18:02:48.566 [debug] Execution of code ms-toolsai.jupyter-198 completed in 11ms
+18:02:54.323 [debug] Jupyter completion time: 14
+18:02:54.324 [debug] Execution of code ms-toolsai.jupyter-199 completed in 15ms
+18:02:54.342 [debug] Inspected code def trapezoid_rule_func(y, sty in 12ms
+18:02:54.343 [debug] Execution of code ms-toolsai.jupyter-200 completed in 12ms
+18:02:54.617 [debug] Inspected code def trapezoid_rule_func(y, sty_fit in 14ms
+18:02:54.618 [debug] Execution of code ms-toolsai.jupyter-201 completed in 15ms
+18:02:54.826 [debug] Jupyter completion time: 14
+18:02:54.827 [debug] Execution of code ms-toolsai.jupyter-202 completed in 14ms
+18:03:03.064 [debug] Jupyter completion time: 15
+18:03:03.065 [debug] Execution of code ms-toolsai.jupyter-203 completed in 16ms
+18:03:03.493 [debug] Jupyter completion time: 16
+18:03:03.494 [debug] Execution of code ms-toolsai.jupyter-204 completed in 16ms
+18:03:13.597 [debug] Jupyter completion time: 13
+18:03:13.598 [debug] Execution of code ms-toolsai.jupyter-205 completed in 13ms
+18:03:13.615 [debug] Inspected code min_MAE in 13ms
+18:03:13.616 [debug] Execution of code ms-toolsai.jupyter-206 completed in 14ms
+18:03:13.753 [debug] Inspected code models in 13ms
+18:03:13.754 [debug] Execution of code ms-toolsai.jupyter-207 completed in 13ms
+18:03:15.246 [debug] Jupyter completion time: 13
+18:03:15.247 [debug] Execution of code ms-toolsai.jupyter-208 completed in 14ms
+18:03:15.410 [debug] Inspected code trapezoid_mean_value in 10ms
+18:03:15.411 [debug] Execution of code ms-toolsai.jupyter-209 completed in 10ms
+18:03:17.533 [debug] Inspected code trapezoid_rule_area in 16ms
+18:03:17.535 [debug] Execution of code ms-toolsai.jupyter-210 completed in 17ms
+18:03:21.773 [debug] Jupyter completion time: 13
+18:03:21.774 [debug] Execution of code ms-toolsai.jupyter-211 completed in 14ms
+18:03:21.789 [debug] Inspected code def trapezoid_rule_fmin_MAE in 12ms
+18:03:21.790 [debug] Execution of code ms-toolsai.jupyter-212 completed in 13ms
+18:03:21.992 [debug] Inspected code def trapezoid_rule_fmodels in 15ms
+18:03:21.993 [debug] Execution of code ms-toolsai.jupyter-213 completed in 15ms
+18:03:46.123 [debug] Jupyter completion time: 13
+18:03:46.124 [debug] Execution of code ms-toolsai.jupyter-214 completed in 13ms
+18:03:46.148 [debug] Inspected code aiter in 16ms
+18:03:46.149 [debug] Execution of code ms-toolsai.jupyter-215 completed in 16ms
+18:03:52.135 [debug] Jupyter completion time: 14
+18:03:52.136 [debug] Execution of code ms-toolsai.jupyter-216 completed in 14ms
+18:03:52.156 [debug] Inspected code pd in 13ms
+18:03:52.159 [debug] Execution of code ms-toolsai.jupyter-217 completed in 15ms
+18:03:53.597 [debug] Jupyter completion time: 14
+18:03:53.599 [debug] Execution of code ms-toolsai.jupyter-218 completed in 16ms
+18:03:53.617 [debug] Inspected code def traiter in 11ms
+18:03:53.618 [debug] Execution of code ms-toolsai.jupyter-219 completed in 12ms
+18:03:57.583 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:03:57.593 [debug] Kernel acknowledged execution of cell 8 @ 1748012637593
+18:04:16.398 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:04:16.405 [debug] Kernel acknowledged execution of cell 8 @ 1748012656405
+18:04:21.905 [debug] Jupyter completion time: 15
+18:04:21.906 [debug] Execution of code ms-toolsai.jupyter-220 completed in 15ms
+18:04:21.922 [debug] Inspected code drunfile in 11ms
+18:04:21.923 [debug] Execution of code ms-toolsai.jupyter-221 completed in 12ms
+18:04:23.100 [debug] Jupyter completion time: 14
+18:04:23.103 [debug] Execution of code ms-toolsai.jupyter-222 completed in 16ms
+18:04:26.752 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:04:26.760 [debug] Kernel acknowledged execution of cell 8 @ 1748012666760
+18:04:31.897 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+18:04:31.908 [debug] Kernel acknowledged execution of cell 7 @ 1748012671907
+18:04:33.906 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:04:33.916 [debug] Kernel acknowledged execution of cell 8 @ 1748012673915
+18:04:42.632 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:04:42.641 [debug] Kernel acknowledged execution of cell 8 @ 1748012682641
+18:05:53.546 [debug] Jupyter completion time: 13
+18:05:53.547 [debug] Execution of code ms-toolsai.jupyter-223 completed in 14ms
+18:05:53.567 [debug] Inspected code trapezoid_ahist in 13ms
+18:05:53.567 [debug] Execution of code ms-toolsai.jupyter-224 completed in 13ms
+18:05:57.408 [debug] Jupyter completion time: 16
+18:05:57.408 [debug] Execution of code ms-toolsai.jupyter-225 completed in 16ms
+18:05:57.428 [debug] Inspected code def trapezoid_rule_area(y, hasattr in 15ms
+18:05:57.430 [debug] Execution of code ms-toolsai.jupyter-226 completed in 16ms
+18:06:33.048 [debug] Jupyter completion time: 10
+18:06:33.050 [debug] Execution of code ms-toolsai.jupyter-227 completed in 11ms
+18:06:33.067 [debug] Inspected code def trapezoid_rusimpson_mean_value in 12ms
+18:06:33.068 [debug] Execution of code ms-toolsai.jupyter-228 completed in 13ms
+18:06:35.716 [debug] Inspected code def trapezoid_rustock in 13ms
+18:06:35.717 [debug] Execution of code ms-toolsai.jupyter-229 completed in 14ms
+18:06:36.619 [debug] Jupyter completion time: 10
+18:06:36.619 [debug] Execution of code ms-toolsai.jupyter-230 completed in 10ms
+18:06:36.890 [debug] Jupyter completion time: 13
+18:06:36.890 [debug] Execution of code ms-toolsai.jupyter-231 completed in 12ms
+18:06:37.210 [debug] Jupyter completion time: 14
+18:06:37.210 [debug] Execution of code ms-toolsai.jupyter-232 completed in 13ms
+18:06:37.388 [debug] Jupyter completion time: 10
+18:06:37.389 [debug] Execution of code ms-toolsai.jupyter-233 completed in 10ms
+18:06:37.492 [debug] Jupyter completion time: 14
+18:06:37.492 [debug] Execution of code ms-toolsai.jupyter-234 completed in 14ms
+18:07:03.314 [debug] Handle Execution of Cells 1,3,5,7,8 for ~/Αριθμητική/Untitled-1.ipynb
+18:07:03.322 [debug] Kernel acknowledged execution of cell 1 @ 1748012823322
+18:07:03.377 [debug] Kernel acknowledged execution of cell 3 @ 1748012823377
+18:07:03.407 [debug] Kernel acknowledged execution of cell 5 @ 1748012823407
+18:07:03.513 [debug] Kernel acknowledged execution of cell 7 @ 1748012823513
+18:07:03.517 [debug] Kernel acknowledged execution of cell 8 @ 1748012823517
+18:07:14.100 [debug] Execution of code ms-toolsai.jupyter-235 completed in 12ms
+18:07:14.101 [debug] Jupyter completion time: 14
+18:07:16.469 [debug] Handle Execution of Cells 1,3,5,7,8 for ~/Αριθμητική/Untitled-1.ipynb
+18:07:16.479 [debug] Kernel acknowledged execution of cell 1 @ 1748012836479
+18:07:16.538 [debug] Kernel acknowledged execution of cell 3 @ 1748012836538
+18:07:16.571 [debug] Kernel acknowledged execution of cell 5 @ 1748012836571
+18:07:16.689 [debug] Kernel acknowledged execution of cell 7 @ 1748012836689
+18:07:16.694 [debug] Kernel acknowledged execution of cell 8 @ 1748012836694
+18:07:26.613 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:07:26.627 [debug] Kernel acknowledged execution of cell 8 @ 1748012846627
+18:07:26.637 [warn] Cell completed with errors lu [Error]: list index out of range
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:294:4958) {
+  ename: 'IndexError',
+  evalue: 'list index out of range',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mIndexError\x1B[39m                                Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[96]\x1B[39m\x1B[32m, line 9\x1B[39m\n' +
+      '\x1B[32m      6\x1B[39m \tmean = trapezoid_rule_area(y_data, h) / (b - a)\n' +
+      '\x1B[32m      7\x1B[39m \t\x1B[38;5;28;01mreturn\x1B[39;00m mean\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m9\x1B[39m area1 = trapezoid_rule_func(\x1B[43mmodels\x1B[49m\x1B[43m[\x1B[49m\x1B[32;43m3\x1B[39;49m\x1B[43m]\x1B[49m, \x1B[32m1000\x1B[39m, \x1B[32m0\x1B[39m, \x1B[32m5\x1B[39m * \x1B[32m13\x1B[39m)\n' +
+      '\x1B[32m     10\x1B[39m \x1B[38;5;28mprint\x1B[39m(area1)\n',
+    '\x1B[31mIndexError\x1B[39m: list index out of range'
+  ]
+}
+18:07:31.917 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:07:31.926 [debug] Kernel acknowledged execution of cell 8 @ 1748012851926
+18:07:47.655 [debug] Jupyter completion time: 14
+18:07:47.656 [debug] Execution of code ms-toolsai.jupyter-236 completed in 15ms
+18:07:48.141 [debug] Jupyter completion time: 15
+18:07:48.144 [debug] Execution of code ms-toolsai.jupyter-237 completed in 18ms
+18:07:51.832 [debug] Jupyter completion time: 23
+18:07:51.838 [debug] Execution of code ms-toolsai.jupyter-238 completed in 28ms
+18:07:51.860 [debug] Inspected code def traend= in 16ms
+18:07:51.861 [debug] Execution of code ms-toolsai.jupyter-239 completed in 17ms
+18:07:53.269 [debug] Inspected code def traLookupError in 18ms
+18:07:53.270 [debug] Execution of code ms-toolsai.jupyter-240 completed in 19ms
+18:07:53.489 [debug] Execution of code ms-toolsai.jupyter-241 completed in 12ms
+18:07:53.489 [debug] Inspected code def tralicense in 13ms
+18:07:59.743 [debug] Jupyter completion time: 24
+18:07:59.749 [debug] Execution of code ms-toolsai.jupyter-242 completed in 30ms
+18:07:59.769 [debug] Inspected code def trapezoid_rule_func(y, end= in 13ms
+18:07:59.771 [debug] Execution of code ms-toolsai.jupyter-243 completed in 14ms
+18:08:05.562 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:08:05.572 [debug] Kernel acknowledged execution of cell 8 @ 1748012885572
+18:08:26.080 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:08:26.092 [debug] Kernel acknowledged execution of cell 8 @ 1748012906092
+18:08:49.356 [debug] Jupyter completion time: 15
+18:08:49.357 [debug] Execution of code ms-toolsai.jupyter-244 completed in 15ms
+18:08:50.685 [debug] Jupyter completion time: 15
+18:08:50.686 [debug] Execution of code ms-toolsai.jupyter-245 completed in 15ms
+18:08:50.707 [debug] Inspected code x_data = np.linspace(a, by in 15ms
+18:08:50.712 [debug] Execution of code ms-toolsai.jupyter-246 completed in 19ms
+18:09:01.545 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:09:01.559 [debug] Kernel acknowledged execution of cell 8 @ 1748012941559
+18:09:41.918 [debug] Jupyter completion time: 14
+18:09:41.919 [debug] Execution of code ms-toolsai.jupyter-247 completed in 14ms
+18:09:41.943 [debug] Execution of code ms-toolsai.jupyter-248 completed in 16ms
+18:09:41.944 [debug] Inspected code finally in 18ms
+18:09:44.344 [debug] Jupyter completion time: 13
+18:09:44.345 [debug] Execution of code ms-toolsai.jupyter-249 completed in 13ms
+18:09:44.578 [debug] Jupyter completion time: 15
+18:09:44.579 [debug] Execution of code ms-toolsai.jupyter-250 completed in 15ms
+18:09:44.596 [debug] Inspected code def tri in 11ms
+18:09:44.596 [debug] Execution of code ms-toolsai.jupyter-251 completed in 10ms
+18:09:45.509 [debug] Jupyter completion time: 13
+18:09:45.510 [debug] Execution of code ms-toolsai.jupyter-252 completed in 13ms
+18:09:45.526 [debug] Execution of code ms-toolsai.jupyter-253 completed in 9ms
+18:09:45.526 [debug] Inspected code def traperaise in 9ms
+18:10:32.613 [debug] Jupyter completion time: 17
+18:10:32.615 [debug] Execution of code ms-toolsai.jupyter-254 completed in 18ms
+18:10:32.634 [debug] Inspected code PythonFinalizationError in 14ms
+18:10:32.636 [debug] Execution of code ms-toolsai.jupyter-255 completed in 16ms
+18:10:33.813 [debug] Execution of code ms-toolsai.jupyter-256 completed in 18ms
+18:10:33.814 [debug] Jupyter completion time: 19
+18:10:35.202 [debug] Jupyter completion time: 21
+18:10:35.205 [debug] Execution of code ms-toolsai.jupyter-257 completed in 23ms
+18:10:35.221 [debug] Inspected code def traend= in 12ms
+18:10:35.222 [debug] Execution of code ms-toolsai.jupyter-258 completed in 12ms
+18:10:35.596 [debug] Inspected code def traBaseException in 6ms
+18:10:35.596 [debug] Execution of code ms-toolsai.jupyter-259 completed in 6ms
+18:10:35.835 [debug] Inspected code def traBytesWarning in 8ms
+18:10:35.837 [debug] Execution of code ms-toolsai.jupyter-260 completed in 9ms
+18:10:40.867 [debug] Jupyter completion time: 15
+18:10:40.869 [debug] Execution of code ms-toolsai.jupyter-261 completed in 17ms
+18:10:40.883 [debug] Inspected code dpd in 13ms
+18:10:40.885 [debug] Execution of code ms-toolsai.jupyter-262 completed in 15ms
+18:10:40.895 [debug] Inspected code dpredicted_prices in 9ms
+18:10:40.896 [debug] Execution of code ms-toolsai.jupyter-263 completed in 10ms
+18:10:43.486 [debug] Jupyter completion time: 25
+18:10:43.494 [debug] Execution of code ms-toolsai.jupyter-264 completed in 33ms
+18:10:43.515 [debug] Inspected code def trapend= in 14ms
+18:10:43.515 [debug] Execution of code ms-toolsai.jupyter-265 completed in 13ms
+18:10:44.406 [debug] Execution of code ms-toolsai.jupyter-266 completed in 15ms
+18:10:44.406 [debug] Inspected code def trapStopAsyncIteration in 15ms
+18:10:44.879 [debug] Inspected code def trapset in 9ms
+18:10:44.880 [debug] Execution of code ms-toolsai.jupyter-267 completed in 10ms
+18:10:45.023 [debug] Execution of code ms-toolsai.jupyter-268 completed in 10ms
+18:10:45.024 [debug] Inspected code def trapStopIteration in 11ms
+18:10:49.600 [debug] Jupyter completion time: 15
+18:10:49.601 [debug] Execution of code ms-toolsai.jupyter-269 completed in 16ms
+18:11:01.789 [debug] Jupyter completion time: 11
+18:11:01.790 [debug] Execution of code ms-toolsai.jupyter-270 completed in 12ms
+18:11:22.564 [debug] Jupyter completion time: 14
+18:11:22.565 [debug] Execution of code ms-toolsai.jupyter-271 completed in 15ms
+18:11:40.514 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:11:40.525 [debug] Kernel acknowledged execution of cell 8 @ 1748013100524
+18:11:40.604 [warn] Cell completed with errors lu [Error]: division by zero
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:294:4958) {
+  ename: 'ZeroDivisionError',
+  evalue: 'division by zero',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mZeroDivisionError\x1B[39m                         Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[101]\x1B[39m\x1B[32m, line 16\x1B[39m\n' +
+      '\x1B[32m     14\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33m"\x1B[39m\x1B[33mBy step size:\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m     15\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(\x1B[32m1\x1B[39m, \x1B[32m1000\x1B[39m, \x1B[32m100\x1B[39m):\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m16\x1B[39m \t\x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mStep count: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mi\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m Cubic Model Area: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00m\x1B[43mtrapezoid_rule_func\x1B[49m\x1B[43m(\x1B[49m\x1B[43mmodels\x1B[49m\x1B[43m[\x1B[49m\x1B[32;43m2\x1B[39;49m\x1B[43m]\x1B[49m\x1B[43m,\x1B[49m\x1B[38;5;250;43m \x1B[39;49m\x1B[43mi\x1B[49m\x1B[43m,\x1B[49m\x1B[38;5;250;43m \x1B[39;49m\x1B[32;43m0\x1B[39;49m\x1B[43m,\x1B[49m\x1B[38;5;250;43m \x1B[39;49m\x1B[38;5;28;43mlen\x1B[39;49m\x1B[43m(\x1B[49m\x1B[43my\x1B[49m\x1B[43m)\x1B[49m\x1B[43m)\x1B[49m\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[101]\x1B[39m\x1B[32m, line 4\x1B[39m, in \x1B[36mtrapezoid_rule_func\x1B[39m\x1B[34m(y, step_count, a, b)\x1B[39m\n' +
+      '\x1B[32m      2\x1B[39m x_data = np.linspace(a, b, step_count)\n' +
+      '\x1B[32m      3\x1B[39m y_data = y(x_data)\n' +
+      '\x1B[32m----> \x1B[39m\x1B[32m4\x1B[39m h = \x1B[43m(\x1B[49m\x1B[43mb\x1B[49m\x1B[43m \x1B[49m\x1B[43m-\x1B[49m\x1B[43m \x1B[49m\x1B[43ma\x1B[49m\x1B[43m)\x1B[49m\x1B[43m \x1B[49m\x1B[43m/\x1B[49m\x1B[43m \x1B[49m\x1B[43m(\x1B[49m\x1B[43mstep_count\x1B[49m\x1B[43m \x1B[49m\x1B[43m-\x1B[49m\x1B[43m \x1B[49m\x1B[32;43m1\x1B[39;49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m      6\x1B[39m mean = trapezoid_rule_area(y_data, h) / (b - a)\n' +
+      '\x1B[32m      7\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m mean\n',
+    '\x1B[31mZeroDivisionError\x1B[39m: division by zero'
+  ]
+}
+18:12:05.913 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:12:05.923 [debug] Kernel acknowledged execution of cell 8 @ 1748013125922
+18:12:22.948 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:12:22.959 [debug] Kernel acknowledged execution of cell 8 @ 1748013142959
+18:12:36.950 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:12:36.967 [debug] Kernel acknowledged execution of cell 8 @ 1748013156966
+18:12:49.569 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:12:49.578 [debug] Kernel acknowledged execution of cell 8 @ 1748013169577
+18:13:46.676 [debug] Handle Execution of Cells 1,3,5,7,8 for ~/Αριθμητική/Untitled-1.ipynb
+18:13:46.685 [debug] Kernel acknowledged execution of cell 1 @ 1748013226685
+18:13:46.740 [debug] Kernel acknowledged execution of cell 3 @ 1748013226740
+18:13:46.769 [debug] Kernel acknowledged execution of cell 5 @ 1748013226768
+18:13:46.886 [debug] Kernel acknowledged execution of cell 7 @ 1748013226885
+18:13:46.894 [debug] Kernel acknowledged execution of cell 8 @ 1748013226894
+18:15:10.942 [debug] Jupyter completion time: 10
+18:15:10.943 [debug] Execution of code ms-toolsai.jupyter-272 completed in 10ms
+18:15:18.570 [debug] Jupyter completion time: 13
+18:15:18.571 [debug] Execution of code ms-toolsai.jupyter-273 completed in 13ms
+18:15:18.584 [debug] Inspected code def trapezoid_rule_fux in 10ms
+18:15:18.585 [debug] Execution of code ms-toolsai.jupyter-274 completed in 11ms
+18:15:21.334 [debug] Jupyter completion time: 12
+18:15:21.335 [debug] Execution of code ms-toolsai.jupyter-275 completed in 13ms
+18:15:21.360 [debug] Inspected code def trapezoid_rule_func(y in 17ms
+18:15:21.361 [debug] Execution of code ms-toolsai.jupyter-276 completed in 17ms
+18:15:23.579 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:15:23.598 [debug] Kernel acknowledged execution of cell 8 @ 1748013323598
+18:16:49.092 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:16:49.102 [debug] Kernel acknowledged execution of cell 8 @ 1748013409102
+18:16:51.659 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:16:51.672 [debug] Kernel acknowledged execution of cell 8 @ 1748013411672
+18:16:52.572 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:16:52.589 [debug] Kernel acknowledged execution of cell 8 @ 1748013412588
+18:16:53.067 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:16:53.079 [debug] Kernel acknowledged execution of cell 8 @ 1748013413079
+18:17:00.392 [debug] Handle Execution of Cells 1,3,5,7,8 for ~/Αριθμητική/Untitled-1.ipynb
+18:17:00.402 [debug] Kernel acknowledged execution of cell 1 @ 1748013420402
+18:17:00.461 [debug] Kernel acknowledged execution of cell 3 @ 1748013420461
+18:17:00.474 [debug] Kernel acknowledged execution of cell 5 @ 1748013420474
+18:17:00.585 [debug] Kernel acknowledged execution of cell 7 @ 1748013420585
+18:17:00.589 [debug] Kernel acknowledged execution of cell 8 @ 1748013420589
+18:17:09.568 [debug] Handle Execution of Cells 1,3,5,7,8 for ~/Αριθμητική/Untitled-1.ipynb
+18:17:09.573 [debug] Kernel acknowledged execution of cell 1 @ 1748013429573
+18:17:09.625 [debug] Kernel acknowledged execution of cell 3 @ 1748013429625
+18:17:09.637 [debug] Kernel acknowledged execution of cell 5 @ 1748013429637
+18:17:09.756 [debug] Kernel acknowledged execution of cell 7 @ 1748013429756
+18:17:09.761 [debug] Kernel acknowledged execution of cell 8 @ 1748013429761
+18:17:36.470 [debug] Jupyter completion time: 11
+18:17:36.471 [debug] Execution of code ms-toolsai.jupyter-277 completed in 12ms
+18:17:36.486 [debug] Execution of code ms-toolsai.jupyter-278 completed in 12ms
+18:17:36.486 [debug] Inspected code def trapezoid_rule_fux in 13ms
+18:17:37.778 [debug] Execution of code ms-toolsai.jupyter-279 completed in 15ms
+18:17:37.778 [debug] Jupyter completion time: 16
+18:17:42.533 [debug] Handle Execution of Cells 1,3,5,7,8 for ~/Αριθμητική/Untitled-1.ipynb
+18:17:42.542 [debug] Kernel acknowledged execution of cell 1 @ 1748013462542
+18:17:42.610 [debug] Kernel acknowledged execution of cell 3 @ 1748013462609
+18:17:42.640 [debug] Kernel acknowledged execution of cell 5 @ 1748013462640
+18:17:42.743 [debug] Kernel acknowledged execution of cell 7 @ 1748013462743
+18:17:42.750 [debug] Kernel acknowledged execution of cell 8 @ 1748013462749
+18:17:46.175 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:17:46.180 [debug] Kernel acknowledged execution of cell 8 @ 1748013466180
+18:17:46.956 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:17:46.968 [debug] Kernel acknowledged execution of cell 8 @ 1748013466968
+18:17:54.836 [debug] Handle Execution of Cells 1,3,5,7,8 for ~/Αριθμητική/Untitled-1.ipynb
+18:17:54.843 [debug] Kernel acknowledged execution of cell 1 @ 1748013474843
+18:17:54.895 [debug] Kernel acknowledged execution of cell 3 @ 1748013474895
+18:17:54.921 [debug] Kernel acknowledged execution of cell 5 @ 1748013474921
+18:17:55.005 [debug] Kernel acknowledged execution of cell 7 @ 1748013475005
+18:17:55.011 [debug] Kernel acknowledged execution of cell 8 @ 1748013475011
+18:17:56.420 [debug] Handle Execution of Cells 1,3,5,7,8 for ~/Αριθμητική/Untitled-1.ipynb
+18:17:56.428 [debug] Kernel acknowledged execution of cell 1 @ 1748013476428
+18:17:56.475 [debug] Kernel acknowledged execution of cell 3 @ 1748013476475
+18:17:56.509 [debug] Kernel acknowledged execution of cell 5 @ 1748013476509
+18:17:56.600 [debug] Kernel acknowledged execution of cell 7 @ 1748013476600
+18:17:56.609 [debug] Kernel acknowledged execution of cell 8 @ 1748013476608
+18:17:57.778 [debug] Handle Execution of Cells 1,3,5,7,8 for ~/Αριθμητική/Untitled-1.ipynb
+18:17:57.784 [debug] Kernel acknowledged execution of cell 1 @ 1748013477783
+18:17:57.830 [debug] Kernel acknowledged execution of cell 3 @ 1748013477830
+18:17:57.859 [debug] Kernel acknowledged execution of cell 5 @ 1748013477859
+18:17:57.946 [debug] Kernel acknowledged execution of cell 7 @ 1748013477945
+18:17:57.954 [debug] Kernel acknowledged execution of cell 8 @ 1748013477954
+18:18:00.208 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:18:00.216 [debug] Kernel acknowledged execution of cell 8 @ 1748013480215
+18:18:05.991 [debug] Handle Execution of Cells 3 for ~/Αριθμητική/Untitled-1.ipynb
+18:18:06.004 [debug] Kernel acknowledged execution of cell 3 @ 1748013486004
+18:18:11.556 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:18:11.571 [debug] Kernel acknowledged execution of cell 8 @ 1748013491571
+18:18:12.671 [debug] Handle Execution of Cells 8 for ~/Αριθμητική/Untitled-1.ipynb
+18:18:12.681 [debug] Kernel acknowledged execution of cell 8 @ 1748013492681
+18:33:09.599 [debug] Execution of code ms-toolsai.jupyter-280 completed in 18ms
+18:33:09.599 [debug] Jupyter completion time: 19
+18:33:09.743 [debug] Execution of code ms-toolsai.jupyter-281 completed in 18ms
+18:33:09.744 [debug] Jupyter completion time: 20
+18:33:11.022 [debug] Jupyter completion time: 15
+18:33:11.023 [debug] Execution of code ms-toolsai.jupyter-282 completed in 16ms
+18:33:16.422 [debug] Jupyter completion time: 17
+18:33:16.424 [debug] Execution of code ms-toolsai.jupyter-283 completed in 18ms
+18:33:16.441 [debug] Inspected code def get_ipython in 14ms
+18:33:16.442 [debug] Execution of code ms-toolsai.jupyter-284 completed in 15ms
+18:33:19.120 [debug] Jupyter completion time: 15
+18:33:19.121 [debug] Execution of code ms-toolsai.jupyter-285 completed in 16ms
+18:33:19.258 [debug] Execution of code ms-toolsai.jupyter-286 completed in 15ms
+18:33:19.259 [debug] Jupyter completion time: 17
+18:33:19.712 [debug] Jupyter completion time: 17
+18:33:19.713 [debug] Execution of code ms-toolsai.jupyter-287 completed in 17ms
+18:33:19.928 [debug] Jupyter completion time: 15
+18:33:19.929 [debug] Execution of code ms-toolsai.jupyter-288 completed in 15ms
+18:33:20.159 [debug] Jupyter completion time: 16
+18:33:20.160 [debug] Execution of code ms-toolsai.jupyter-289 completed in 16ms
+18:33:20.283 [debug] Execution of code ms-toolsai.jupyter-290 completed in 19ms
+18:33:20.284 [debug] Jupyter completion time: 21
+18:34:03.673 [debug] Jupyter completion time: 13
+18:34:03.675 [debug] Execution of code ms-toolsai.jupyter-291 completed in 15ms
+18:34:03.689 [debug] Execution of code ms-toolsai.jupyter-292 completed in 11ms
+18:34:03.690 [debug] Inspected code def get_intervals(degree in 13ms
+18:34:03.759 [debug] Execution of code ms-toolsai.jupyter-293 completed in 12ms
+18:34:03.759 [debug] Inspected code def get_intervals(delattr in 12ms
+18:34:04.282 [debug] Jupyter completion time: 16
+18:34:04.283 [debug] Execution of code ms-toolsai.jupyter-294 completed in 16ms
+18:34:05.495 [debug] Jupyter completion time: 14
+18:34:05.496 [debug] Execution of code ms-toolsai.jupyter-295 completed in 15ms
+18:34:05.517 [debug] Inspected code def get_intervals(data, while in 17ms
+18:34:05.518 [debug] Execution of code ms-toolsai.jupyter-296 completed in 18ms
+18:34:05.544 [debug] Execution of code ms-toolsai.jupyter-297 completed in 22ms
+18:34:05.545 [debug] Inspected code def get_intervals(data, with in 23ms
+18:34:05.823 [debug] Jupyter completion time: 13
+18:34:05.824 [debug] Execution of code ms-toolsai.jupyter-298 completed in 13ms
+18:34:05.918 [debug] Jupyter completion time: 17
+18:34:05.919 [debug] Execution of code ms-toolsai.jupyter-299 completed in 17ms
+18:34:06.107 [debug] Jupyter completion time: 16
+18:34:06.109 [debug] Execution of code ms-toolsai.jupyter-300 completed in 17ms
+18:34:06.234 [debug] Jupyter completion time: 18
+18:34:06.236 [debug] Execution of code ms-toolsai.jupyter-301 completed in 19ms
+18:34:33.279 [debug] Execution of code ms-toolsai.jupyter-302 completed in 19ms
+18:34:33.280 [debug] Jupyter completion time: 20
+18:34:33.303 [debug] Inspected code drunfile in 15ms
+18:34:33.303 [debug] Execution of code ms-toolsai.jupyter-303 completed in 14ms
+18:41:39.941 [debug] Execution of code ms-toolsai.jupyter-304 completed in 11ms
+18:41:39.942 [debug] Jupyter completion time: 12
+18:41:40.067 [debug] Jupyter completion time: 16
+18:41:40.068 [debug] Execution of code ms-toolsai.jupyter-305 completed in 16ms
+18:41:40.212 [debug] Execution of code ms-toolsai.jupyter-306 completed in 15ms
+18:41:40.213 [debug] Jupyter completion time: 17
+18:41:41.865 [debug] Execution of code ms-toolsai.jupyter-307 completed in 16ms
+18:41:41.865 [debug] Jupyter completion time: 17
+18:41:42.725 [debug] Execution of code ms-toolsai.jupyter-308 completed in 14ms
+18:41:42.725 [debug] Jupyter completion time: 15
+18:41:42.747 [debug] Inspected code def abs in 13ms
+18:41:42.748 [debug] Execution of code ms-toolsai.jupyter-309 completed in 13ms
+18:41:42.847 [debug] Inspected code def aiter in 8ms
+18:41:42.848 [debug] Execution of code ms-toolsai.jupyter-310 completed in 8ms
+18:41:43.251 [debug] Execution of code ms-toolsai.jupyter-311 completed in 15ms
+18:41:43.252 [debug] Jupyter completion time: 16
+18:41:43.440 [debug] Jupyter completion time: 17
+18:41:43.441 [debug] Execution of code ms-toolsai.jupyter-312 completed in 17ms
+18:41:43.564 [debug] Jupyter completion time: 16
+18:41:43.565 [debug] Execution of code ms-toolsai.jupyter-313 completed in 17ms
+18:41:45.978 [debug] Jupyter completion time: 16
+18:41:45.979 [debug] Execution of code ms-toolsai.jupyter-314 completed in 16ms
+18:41:46.300 [debug] Jupyter completion time: 19
+18:41:46.300 [debug] Execution of code ms-toolsai.jupyter-315 completed in 18ms
+18:41:46.559 [debug] Execution of code ms-toolsai.jupyter-316 completed in 15ms
+18:41:46.560 [debug] Jupyter completion time: 16
+18:41:46.696 [debug] Jupyter completion time: 16
+18:41:46.697 [debug] Execution of code ms-toolsai.jupyter-317 completed in 17ms
+18:41:46.947 [debug] Execution of code ms-toolsai.jupyter-318 completed in 21ms
+18:41:46.947 [debug] Jupyter completion time: 21
+18:41:47.056 [debug] Execution of code ms-toolsai.jupyter-319 completed in 18ms
+18:41:47.057 [debug] Jupyter completion time: 20
+18:41:47.176 [debug] Execution of code ms-toolsai.jupyter-320 completed in 18ms
+18:41:47.177 [debug] Jupyter completion time: 20
+18:41:51.164 [debug] Execution of code ms-toolsai.jupyter-321 completed in 17ms
+18:41:51.165 [debug] Jupyter completion time: 18
+18:41:51.184 [debug] Execution of code ms-toolsai.jupyter-322 completed in 16ms
+18:41:51.184 [debug] Inspected code def aitken_neville(abs in 16ms
+18:41:51.406 [debug] Execution of code ms-toolsai.jupyter-323 completed in 19ms
+18:41:51.406 [debug] Inspected code def aitken_neville(aiter in 20ms
+18:41:52.350 [debug] Execution of code ms-toolsai.jupyter-324 completed in 19ms
+18:41:52.350 [debug] Jupyter completion time: 19
+18:41:52.385 [debug] Execution of code ms-toolsai.jupyter-325 completed in 21ms
+18:41:52.386 [debug] Inspected code def aitken_neville(degree in 23ms
+18:41:52.433 [debug] Inspected code def aitken_neville(delattr in 11ms
+18:41:52.434 [debug] Execution of code ms-toolsai.jupyter-326 completed in 11ms
+18:41:52.880 [debug] Execution of code ms-toolsai.jupyter-327 completed in 18ms
+18:41:52.880 [debug] Jupyter completion time: 18
+18:51:03.325 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+18:51:03.335 [debug] Kernel acknowledged execution of cell 9 @ 1748015463335
+18:53:09.988 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+18:53:10.000 [debug] Kernel acknowledged execution of cell 9 @ 1748015590000
+18:55:33.567 [debug] Execution of code ms-toolsai.jupyter-328 completed in 20ms
+18:55:33.567 [debug] Jupyter completion time: 21
+18:55:33.588 [debug] Inspected code def aitken_neville_verbose(x, filter in 16ms
+18:55:33.589 [debug] Execution of code ms-toolsai.jupyter-329 completed in 16ms
+18:55:36.161 [debug] Execution of code ms-toolsai.jupyter-330 completed in 20ms
+18:55:36.161 [debug] Jupyter completion time: 20
+18:55:36.185 [debug] Inspected code def aitken_neville_verbose(x, f, x in 16ms
+18:55:36.186 [debug] Execution of code ms-toolsai.jupyter-331 completed in 17ms
+18:55:36.377 [debug] Execution of code ms-toolsai.jupyter-332 completed in 11ms
+18:55:36.377 [debug] Inspected code def aitken_neville_verbose(x, f, x_pred= in 11ms
+18:55:36.744 [debug] Jupyter completion time: 20
+18:55:36.745 [debug] Execution of code ms-toolsai.jupyter-333 completed in 21ms
+18:55:37.256 [debug] Jupyter completion time: 16
+18:55:37.257 [debug] Execution of code ms-toolsai.jupyter-334 completed in 17ms
+18:55:37.355 [debug] Jupyter completion time: 16
+18:55:37.356 [debug] Execution of code ms-toolsai.jupyter-335 completed in 17ms
+18:55:47.141 [debug] Execution of code ms-toolsai.jupyter-336 completed in 16ms
+18:55:47.142 [debug] Jupyter completion time: 18
+18:56:00.177 [debug] Execution of code ms-toolsai.jupyter-337 completed in 16ms
+18:56:00.177 [debug] Jupyter completion time: 16
+18:56:00.535 [debug] Jupyter completion time: 15
+18:56:00.536 [debug] Execution of code ms-toolsai.jupyter-338 completed in 16ms
+18:56:00.553 [debug] Inspected code def aitken_nevfilter in 12ms
+18:56:00.555 [debug] Execution of code ms-toolsai.jupyter-339 completed in 14ms
+18:56:00.657 [debug] Inspected code def aitken_nevformat in 12ms
+18:56:00.658 [debug] Execution of code ms-toolsai.jupyter-340 completed in 13ms
+18:56:03.427 [debug] Jupyter completion time: 16
+18:56:03.428 [debug] Execution of code ms-toolsai.jupyter-341 completed in 16ms
+18:56:03.694 [debug] Execution of code ms-toolsai.jupyter-342 completed in 18ms
+18:56:03.694 [debug] Jupyter completion time: 19
+18:56:03.714 [debug] Execution of code ms-toolsai.jupyter-343 completed in 15ms
+18:56:03.715 [debug] Inspected code def aitken_neville(xi in 16ms
+18:56:06.778 [debug] Jupyter completion time: 18
+18:56:06.781 [debug] Execution of code ms-toolsai.jupyter-344 completed in 20ms
+18:56:06.800 [debug] Execution of code ms-toolsai.jupyter-345 completed in 14ms
+18:56:06.801 [debug] Inspected code def aitken_neville_ in 16ms
+18:56:07.094 [debug] Execution of code ms-toolsai.jupyter-346 completed in 18ms
+18:56:07.094 [debug] Jupyter completion time: 19
+18:56:07.118 [debug] Inspected code def aitken_neville(xi in 16ms
+18:56:07.119 [debug] Execution of code ms-toolsai.jupyter-347 completed in 16ms
+18:56:07.572 [debug] Execution of code ms-toolsai.jupyter-348 completed in 16ms
+18:56:07.573 [debug] Jupyter completion time: 18
+18:56:07.596 [debug] Execution of code ms-toolsai.jupyter-349 completed in 15ms
+18:56:07.597 [debug] Inspected code def aitken_neville(x, fraise in 17ms
+18:56:09.286 [debug] Execution of code ms-toolsai.jupyter-350 completed in 17ms
+18:56:09.287 [debug] Jupyter completion time: 19
+18:56:32.692 [debug] Jupyter completion time: 11
+18:56:32.692 [debug] Execution of code ms-toolsai.jupyter-351 completed in 11ms
+18:56:36.470 [debug] Execution of code ms-toolsai.jupyter-352 completed in 13ms
+18:56:36.470 [debug] Jupyter completion time: 14
+18:56:56.076 [debug] Execution of code ms-toolsai.jupyter-353 completed in 13ms
+18:56:56.077 [debug] Jupyter completion time: 15
+18:56:56.616 [debug] Execution of code ms-toolsai.jupyter-354 completed in 18ms
+18:56:56.616 [debug] Jupyter completion time: 18
+18:58:09.365 [debug] Execution of code ms-toolsai.jupyter-355 completed in 15ms
+18:58:09.366 [debug] Jupyter completion time: 17
+18:58:12.201 [debug] Execution of code ms-toolsai.jupyter-356 completed in 17ms
+18:58:12.202 [debug] Jupyter completion time: 19
+18:58:13.202 [debug] Execution of code ms-toolsai.jupyter-357 completed in 13ms
+18:58:13.203 [debug] Jupyter completion time: 15
+18:58:19.949 [debug] Execution of code ms-toolsai.jupyter-358 completed in 18ms
+18:58:19.950 [debug] Jupyter completion time: 19
+18:58:22.787 [debug] Inspected code def aitken_nevix_fit in 16ms
+18:58:22.789 [debug] Execution of code ms-toolsai.jupyter-359 completed in 16ms
+18:58:27.598 [debug] Execution of code ms-toolsai.jupyter-360 completed in 14ms
+18:58:27.598 [debug] Jupyter completion time: 15
+18:58:27.620 [debug] Execution of code ms-toolsai.jupyter-361 completed in 14ms
+18:58:27.620 [debug] Inspected code def aitken_neville(x, f, predicted_prices in 14ms
+18:58:54.297 [debug] Jupyter completion time: 16
+18:58:54.298 [debug] Execution of code ms-toolsai.jupyter-362 completed in 16ms
+18:58:54.843 [debug] Jupyter completion time: 16
+18:58:54.844 [debug] Execution of code ms-toolsai.jupyter-363 completed in 17ms
+18:58:57.186 [debug] Jupyter completion time: 17
+18:58:57.187 [debug] Execution of code ms-toolsai.jupyter-364 completed in 18ms
+18:59:07.546 [debug] Jupyter completion time: 13
+18:59:07.546 [debug] Execution of code ms-toolsai.jupyter-365 completed in 12ms
+18:59:09.885 [debug] Jupyter completion time: 14
+18:59:09.885 [debug] Execution of code ms-toolsai.jupyter-366 completed in 13ms
+18:59:12.135 [debug] Execution of code ms-toolsai.jupyter-367 completed in 18ms
+18:59:12.135 [debug] Jupyter completion time: 19
+18:59:13.033 [debug] Jupyter completion time: 8
+18:59:13.033 [debug] Execution of code ms-toolsai.jupyter-368 completed in 8ms
+18:59:26.012 [debug] Execution of code ms-toolsai.jupyter-369 completed in 15ms
+18:59:26.013 [debug] Jupyter completion time: 17
+18:59:26.597 [debug] Inspected code A = x_fit in 18ms
+18:59:26.601 [debug] Execution of code ms-toolsai.jupyter-370 completed in 21ms
+18:59:27.044 [debug] Execution of code ms-toolsai.jupyter-371 completed in 18ms
+18:59:27.045 [debug] Jupyter completion time: 20
+18:59:27.269 [debug] Execution of code ms-toolsai.jupyter-372 completed in 18ms
+18:59:27.269 [debug] Jupyter completion time: 19
+18:59:29.981 [debug] Execution of code ms-toolsai.jupyter-373 completed in 19ms
+18:59:29.982 [debug] Jupyter completion time: 20
+18:59:31.657 [debug] Execution of code ms-toolsai.jupyter-374 completed in 18ms
+18:59:31.657 [debug] Jupyter completion time: 19
+18:59:35.979 [debug] Execution of code ms-toolsai.jupyter-375 completed in 16ms
+18:59:35.979 [debug] Jupyter completion time: 17
+18:59:37.103 [debug] Jupyter completion time: 18
+18:59:37.104 [debug] Execution of code ms-toolsai.jupyter-376 completed in 18ms
+18:59:42.208 [debug] Execution of code ms-toolsai.jupyter-377 completed in 22ms
+18:59:42.209 [debug] Jupyter completion time: 23
+18:59:54.102 [debug] Execution of code ms-toolsai.jupyter-378 completed in 17ms
+18:59:54.102 [debug] Jupyter completion time: 17
+18:59:55.201 [debug] Jupyter completion time: 13
+18:59:55.202 [debug] Execution of code ms-toolsai.jupyter-379 completed in 14ms
+18:59:57.666 [debug] Execution of code ms-toolsai.jupyter-380 completed in 18ms
+18:59:57.666 [debug] Jupyter completion time: 18
+18:59:58.598 [debug] Execution of code ms-toolsai.jupyter-381 completed in 17ms
+18:59:58.599 [debug] Jupyter completion time: 19
+19:00:00.521 [debug] Jupyter completion time: 14
+19:00:00.522 [debug] Execution of code ms-toolsai.jupyter-382 completed in 14ms
+19:00:19.073 [debug] Jupyter completion time: 14
+19:00:19.074 [debug] Execution of code ms-toolsai.jupyter-383 completed in 15ms
+19:00:21.998 [debug] Execution of code ms-toolsai.jupyter-384 completed in 17ms
+19:00:21.998 [debug] Jupyter completion time: 18
+19:00:22.655 [debug] Execution of code ms-toolsai.jupyter-385 completed in 21ms
+19:00:22.656 [debug] Jupyter completion time: 22
+19:00:24.873 [debug] Jupyter completion time: 16
+19:00:24.874 [debug] Execution of code ms-toolsai.jupyter-386 completed in 16ms
+19:00:31.117 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+19:00:31.135 [debug] Kernel acknowledged execution of cell 9 @ 1748016031134
+19:00:35.126 [debug] Execution of code ms-toolsai.jupyter-387 completed in 17ms
+19:00:35.127 [debug] Jupyter completion time: 18
+19:00:39.328 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+19:00:39.339 [debug] Kernel acknowledged execution of cell 9 @ 1748016039338
+19:00:43.041 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+19:00:43.052 [debug] Kernel acknowledged execution of cell 9 @ 1748016043051
+19:00:44.180 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+19:00:44.191 [debug] Kernel acknowledged execution of cell 9 @ 1748016044190
+19:00:50.187 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+19:00:50.197 [debug] Kernel acknowledged execution of cell 9 @ 1748016050196
+19:00:50.286 [warn] Cell completed with errors lu [Error]: name 'x_bar' is not defined
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:294:4958) {
+  ename: 'NameError',
+  evalue: "name 'x_bar' is not defined",
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mNameError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[158]\x1B[39m\x1B[32m, line 17\x1B[39m\n' +
+      '\x1B[32m     15\x1B[39m x_vals = [\x1B[32m2\x1B[39m, \x1B[32m4\x1B[39m, \x1B[32m6\x1B[39m, \x1B[32m8\x1B[39m]\n' +
+      '\x1B[32m     16\x1B[39m y_vals = [\x1B[32m1\x1B[39m, -\x1B[32m2\x1B[39m, \x1B[32m3\x1B[39m, \x1B[32m5\x1B[39m]\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m17\x1B[39m pred = \x1B[43maitken_neville\x1B[49m\x1B[43m(\x1B[49m\x1B[43mx_vals\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my_vals\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[32;43m5\x1B[39;49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     18\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mΤελική πρόβλεψη στο x = 3: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mpred\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[158]\x1B[39m\x1B[32m, line 10\x1B[39m, in \x1B[36maitken_neville\x1B[39m\x1B[34m(x, f, pred)\x1B[39m\n' +
+      '\x1B[32m      8\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m j \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(\x1B[32m1\x1B[39m, n):\n' +
+      '\x1B[32m      9\x1B[39m \t\x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(j, n):\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m10\x1B[39m \t\tA[i][j] = ((pred - x[i - j]) * A[i][j - \x1B[32m1\x1B[39m] - (\x1B[43mx_bar\x1B[49m - x[i]) * A[i -\x1B[32m1\x1B[39m][j - \x1B[32m1\x1B[39m]) / (x[i] - x[i - j])\n' +
+      '\x1B[32m     12\x1B[39m \x1B[38;5;28;01mreturn\x1B[39;00m A[n - \x1B[32m1\x1B[39m][n - \x1B[32m1\x1B[39m]\n',
+    "\x1B[31mNameError\x1B[39m: name 'x_bar' is not defined"
+  ]
+}
+19:01:00.614 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+19:01:00.623 [debug] Kernel acknowledged execution of cell 9 @ 1748016060623
+19:01:13.078 [debug] Execution of code ms-toolsai.jupyter-388 completed in 19ms
+19:01:13.078 [debug] Jupyter completion time: 20
+19:01:14.697 [debug] Jupyter completion time: 13
+19:01:14.698 [debug] Execution of code ms-toolsai.jupyter-389 completed in 13ms
+19:01:15.649 [debug] Execution of code ms-toolsai.jupyter-390 completed in 23ms
+19:01:15.649 [debug] Jupyter completion time: 24
+19:01:15.885 [debug] Execution of code ms-toolsai.jupyter-391 completed in 21ms
+19:01:15.886 [debug] Jupyter completion time: 22
+19:01:15.912 [debug] Execution of code ms-toolsai.jupyter-392 completed in 18ms
+19:01:15.912 [debug] Inspected code def aitkenew_x in 19ms
+19:01:17.546 [debug] Jupyter completion time: 17
+19:01:17.547 [debug] Execution of code ms-toolsai.jupyter-393 completed in 18ms
+19:01:17.568 [debug] Execution of code ms-toolsai.jupyter-394 completed in 17ms
+19:01:17.568 [debug] Inspected code def aiti in 17ms
+19:01:17.983 [debug] Execution of code ms-toolsai.jupyter-395 completed in 18ms
+19:01:17.984 [debug] Jupyter completion time: 20
+19:01:18.005 [debug] Execution of code ms-toolsai.jupyter-396 completed in 17ms
+19:01:18.005 [debug] Inspected code def aitkenraise in 17ms
+19:01:20.024 [debug] Execution of code ms-toolsai.jupyter-397 completed in 15ms
+19:01:20.024 [debug] Jupyter completion time: 16
+19:01:21.264 [debug] Execution of code ms-toolsai.jupyter-398 completed in 21ms
+19:01:21.264 [debug] Jupyter completion time: 22
+19:01:27.627 [debug] Execution of code ms-toolsai.jupyter-399 completed in 19ms
+19:01:27.628 [debug] Jupyter completion time: 21
+19:01:28.242 [debug] Execution of code ms-toolsai.jupyter-400 completed in 19ms
+19:01:28.242 [debug] Jupyter completion time: 20
+19:01:29.120 [debug] Jupyter completion time: 17
+19:01:29.121 [debug] Execution of code ms-toolsai.jupyter-401 completed in 17ms
+19:01:29.138 [debug] Inspected code def aitki in 16ms
+19:01:29.139 [debug] Execution of code ms-toolsai.jupyter-402 completed in 16ms
+19:01:30.072 [debug] Execution of code ms-toolsai.jupyter-403 completed in 18ms
+19:01:30.073 [debug] Jupyter completion time: 20
+19:01:30.092 [debug] Execution of code ms-toolsai.jupyter-404 completed in 16ms
+19:01:30.092 [debug] Inspected code def aitken_raise in 16ms
+19:01:30.516 [debug] Execution of code ms-toolsai.jupyter-405 completed in 17ms
+19:01:30.517 [debug] Jupyter completion time: 19
+19:01:31.233 [debug] Execution of code ms-toolsai.jupyter-406 completed in 17ms
+19:01:31.234 [debug] Jupyter completion time: 19
+19:01:31.748 [debug] Execution of code ms-toolsai.jupyter-407 completed in 16ms
+19:01:31.749 [debug] Jupyter completion time: 18
+19:01:31.969 [debug] Execution of code ms-toolsai.jupyter-408 completed in 18ms
+19:01:31.970 [debug] Jupyter completion time: 20
+19:01:32.608 [debug] Execution of code ms-toolsai.jupyter-409 completed in 20ms
+19:01:32.609 [debug] Jupyter completion time: 21
+19:01:35.705 [debug] Execution of code ms-toolsai.jupyter-410 completed in 16ms
+19:01:35.706 [debug] Jupyter completion time: 18
+19:01:39.173 [debug] Execution of code ms-toolsai.jupyter-411 completed in 19ms
+19:01:39.174 [debug] Jupyter completion time: 20
+19:01:39.195 [debug] Inspected code defpd in 13ms
+19:01:39.196 [debug] Execution of code ms-toolsai.jupyter-412 completed in 13ms
+19:01:39.261 [debug] Execution of code ms-toolsai.jupyter-413 completed in 13ms
+19:01:39.262 [debug] Inspected code defpredicted_prices in 14ms
+19:01:40.986 [debug] Jupyter completion time: 17
+19:01:40.988 [debug] Execution of code ms-toolsai.jupyter-414 completed in 18ms
+19:01:41.676 [debug] Jupyter completion time: 13
+19:01:41.677 [debug] Execution of code ms-toolsai.jupyter-415 completed in 14ms
+19:01:42.336 [debug] Jupyter completion time: 18
+19:01:42.336 [debug] Execution of code ms-toolsai.jupyter-416 completed in 17ms
+19:01:45.966 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+19:01:45.982 [debug] Kernel acknowledged execution of cell 9 @ 1748016105982
+19:01:51.380 [debug] Jupyter completion time: 26
+19:01:51.387 [debug] Execution of code ms-toolsai.jupyter-417 completed in 33ms
+19:01:51.405 [debug] Execution of code ms-toolsai.jupyter-418 completed in 14ms
+19:01:51.406 [debug] Inspected code def aitken_neville(end= in 16ms
+19:01:55.075 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+19:01:55.085 [debug] Kernel acknowledged execution of cell 9 @ 1748016115085
+19:02:28.498 [debug] Execution of code ms-toolsai.jupyter-419 completed in 24ms
+19:02:28.498 [debug] Jupyter completion time: 26
+19:02:31.902 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+19:02:31.914 [debug] Kernel acknowledged execution of cell 9 @ 1748016151914
+19:02:36.081 [debug] Execution of code ms-toolsai.jupyter-420 completed in 17ms
+19:02:36.082 [debug] Jupyter completion time: 19
+19:02:36.116 [debug] Execution of code ms-toolsai.jupyter-421 completed in 13ms
+19:02:36.116 [debug] Inspected code depredicted_prices in 14ms
+19:02:40.254 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+19:02:40.260 [debug] Kernel acknowledged execution of cell 9 @ 1748016160260
+19:10:27.197 [debug] Execution of code ms-toolsai.jupyter-422 completed in 17ms
+19:10:27.197 [debug] Jupyter completion time: 18
+19:10:28.435 [debug] Execution of code ms-toolsai.jupyter-423 completed in 17ms
+19:10:28.435 [debug] Jupyter completion time: 17
+19:10:28.752 [debug] Execution of code ms-toolsai.jupyter-424 completed in 17ms
+19:10:28.752 [debug] Jupyter completion time: 18
+19:10:28.770 [debug] Inspected code def aiti in 10ms
+19:10:28.771 [debug] Execution of code ms-toolsai.jupyter-425 completed in 10ms
+19:10:30.053 [debug] Execution of code ms-toolsai.jupyter-426 completed in 22ms
+19:10:30.053 [debug] Jupyter completion time: 22
+19:10:30.078 [debug] Execution of code ms-toolsai.jupyter-427 completed in 18ms
+19:10:30.078 [debug] Inspected code def aitkenraise in 18ms
+19:10:41.715 [debug] Execution of code ms-toolsai.jupyter-428 completed in 13ms
+19:10:41.715 [debug] Jupyter completion time: 14
+19:10:41.741 [debug] Execution of code ms-toolsai.jupyter-429 completed in 16ms
+19:10:41.741 [debug] Inspected code def aj in 17ms
+19:10:42.216 [debug] Jupyter completion time: 18
+19:10:42.217 [debug] Execution of code ms-toolsai.jupyter-430 completed in 18ms
+19:10:42.237 [debug] Execution of code ms-toolsai.jupyter-431 completed in 17ms
+19:10:42.238 [debug] Inspected code def aiti in 18ms
+19:10:42.643 [debug] Execution of code ms-toolsai.jupyter-432 completed in 13ms
+19:10:42.643 [debug] Jupyter completion time: 14
+19:10:42.666 [debug] Execution of code ms-toolsai.jupyter-433 completed in 15ms
+19:10:42.666 [debug] Inspected code def aitkenraise in 15ms
+19:10:45.391 [debug] Execution of code ms-toolsai.jupyter-434 completed in 16ms
+19:10:45.391 [debug] Jupyter completion time: 16
+19:10:54.040 [debug] Execution of code ms-toolsai.jupyter-435 completed in 18ms
+19:10:54.040 [debug] Jupyter completion time: 19
+19:10:54.741 [debug] Execution of code ms-toolsai.jupyter-436 completed in 14ms
+19:10:54.741 [debug] Jupyter completion time: 14
+19:10:55.208 [debug] Execution of code ms-toolsai.jupyter-437 completed in 22ms
+19:10:55.208 [debug] Jupyter completion time: 22
+19:10:55.234 [debug] Execution of code ms-toolsai.jupyter-438 completed in 18ms
+19:10:55.234 [debug] Inspected code def aitki in 18ms
+19:10:56.334 [debug] Execution of code ms-toolsai.jupyter-439 completed in 19ms
+19:10:56.335 [debug] Jupyter completion time: 20
+19:10:56.355 [debug] Execution of code ms-toolsai.jupyter-440 completed in 17ms
+19:10:56.355 [debug] Inspected code def aitken_raise in 17ms
+19:11:10.267 [debug] Execution of code ms-toolsai.jupyter-441 completed in 21ms
+19:11:10.268 [debug] Jupyter completion time: 23
+19:11:11.407 [debug] Execution of code ms-toolsai.jupyter-442 completed in 16ms
+19:11:11.407 [debug] Jupyter completion time: 17
+19:11:25.043 [debug] Execution of code ms-toolsai.jupyter-443 completed in 14ms
+19:11:25.044 [debug] Jupyter completion time: 15
+19:11:27.750 [debug] Execution of code ms-toolsai.jupyter-444 completed in 15ms
+19:11:27.750 [debug] Jupyter completion time: 15
+19:11:28.937 [debug] Execution of code ms-toolsai.jupyter-445 completed in 14ms
+19:11:28.938 [debug] Jupyter completion time: 15
+19:11:43.279 [debug] Execution of code ms-toolsai.jupyter-446 completed in 15ms
+19:11:43.279 [debug] Jupyter completion time: 15
+19:11:43.501 [debug] Jupyter completion time: 18
+19:11:43.502 [debug] Execution of code ms-toolsai.jupyter-447 completed in 18ms
+19:11:43.711 [debug] Execution of code ms-toolsai.jupyter-448 completed in 19ms
+19:11:43.712 [debug] Jupyter completion time: 21
+19:11:43.798 [debug] Execution of code ms-toolsai.jupyter-449 completed in 19ms
+19:11:43.798 [debug] Jupyter completion time: 19
+19:11:43.904 [debug] Execution of code ms-toolsai.jupyter-450 completed in 20ms
+19:11:43.904 [debug] Jupyter completion time: 20
+19:11:44.851 [debug] Execution of code ms-toolsai.jupyter-451 completed in 20ms
+19:11:44.851 [debug] Jupyter completion time: 20
+19:11:45.000 [debug] Execution of code ms-toolsai.jupyter-452 completed in 19ms
+19:11:45.000 [debug] Jupyter completion time: 19
+19:11:45.193 [debug] Execution of code ms-toolsai.jupyter-453 completed in 18ms
+19:11:45.194 [debug] Jupyter completion time: 20
+19:11:45.292 [debug] Execution of code ms-toolsai.jupyter-454 completed in 20ms
+19:11:45.293 [debug] Jupyter completion time: 22
+19:11:50.461 [debug] Execution of code ms-toolsai.jupyter-455 completed in 18ms
+19:11:50.462 [debug] Jupyter completion time: 19
+19:11:54.224 [debug] Jupyter completion time: 17
+19:11:54.225 [debug] Execution of code ms-toolsai.jupyter-456 completed in 18ms
+19:12:03.107 [debug] Execution of code ms-toolsai.jupyter-457 completed in 20ms
+19:12:03.107 [debug] Jupyter completion time: 20
+19:12:07.378 [debug] Execution of code ms-toolsai.jupyter-458 completed in 15ms
+19:12:07.379 [debug] Jupyter completion time: 17
+19:12:07.404 [debug] Execution of code ms-toolsai.jupyter-459 completed in 17ms
+19:12:07.404 [debug] Inspected code def aitken_neville(x, f, pred)predicted_prices in 18ms
+19:12:11.596 [debug] Execution of code ms-toolsai.jupyter-460 completed in 26ms
+19:12:11.597 [debug] Inspected code def aitken_neville(x, f, pred)pass in 28ms
+19:12:24.534 [debug] Execution of code ms-toolsai.jupyter-461 completed in 28ms
+19:12:24.534 [debug] Jupyter completion time: 29
+19:12:26.937 [debug] Execution of code ms-toolsai.jupyter-462 completed in 18ms
+19:12:26.937 [debug] Jupyter completion time: 19
+19:12:28.342 [debug] Jupyter completion time: 19
+19:12:28.343 [debug] Execution of code ms-toolsai.jupyter-463 completed in 19ms
+19:12:43.866 [debug] Execution of code ms-toolsai.jupyter-464 completed in 18ms
+19:12:43.866 [debug] Jupyter completion time: 19
+19:12:47.969 [debug] Execution of code ms-toolsai.jupyter-465 completed in 19ms
+19:12:47.969 [debug] Jupyter completion time: 20
+19:12:51.739 [debug] Execution of code ms-toolsai.jupyter-466 completed in 18ms
+19:12:51.739 [debug] Jupyter completion time: 19
+19:12:53.661 [debug] Execution of code ms-toolsai.jupyter-467 completed in 18ms
+19:12:53.661 [debug] Jupyter completion time: 19
+19:12:56.379 [debug] Execution of code ms-toolsai.jupyter-468 completed in 22ms
+19:12:56.380 [debug] Jupyter completion time: 23
+19:13:06.742 [debug] Execution of code ms-toolsai.jupyter-469 completed in 17ms
+19:13:06.743 [debug] Jupyter completion time: 19
+19:13:07.388 [debug] Execution of code ms-toolsai.jupyter-470 completed in 24ms
+19:13:07.388 [debug] Jupyter completion time: 25
+19:13:10.111 [debug] Execution of code ms-toolsai.jupyter-471 completed in 16ms
+19:13:10.112 [debug] Jupyter completion time: 18
+19:13:10.134 [debug] Execution of code ms-toolsai.jupyter-472 completed in 16ms
+19:13:10.135 [debug] Inspected code A = [[0] * npredicted_prices in 17ms
+19:13:13.716 [debug] Execution of code ms-toolsai.jupyter-473 completed in 19ms
+19:13:13.717 [debug] Jupyter completion time: 21
+19:13:15.282 [debug] Execution of code ms-toolsai.jupyter-474 completed in 21ms
+19:13:15.282 [debug] Jupyter completion time: 22
+19:13:18.486 [debug] Execution of code ms-toolsai.jupyter-475 completed in 20ms
+19:13:18.486 [debug] Jupyter completion time: 21
+19:13:24.343 [debug] Jupyter completion time: 20
+19:13:24.345 [debug] Execution of code ms-toolsai.jupyter-476 completed in 22ms
+19:13:24.365 [debug] Execution of code ms-toolsai.jupyter-477 completed in 18ms
+19:13:24.365 [debug] Inspected code defdegree in 19ms
+19:13:25.266 [debug] Execution of code ms-toolsai.jupyter-478 completed in 21ms
+19:13:25.267 [debug] Jupyter completion time: 22
+19:13:25.504 [debug] Execution of code ms-toolsai.jupyter-479 completed in 21ms
+19:13:25.504 [debug] Jupyter completion time: 21
+19:13:25.787 [debug] Execution of code ms-toolsai.jupyter-480 completed in 18ms
+19:13:25.787 [debug] Jupyter completion time: 19
+19:13:25.884 [debug] Execution of code ms-toolsai.jupyter-481 completed in 17ms
+19:13:25.885 [debug] Jupyter completion time: 18
+19:13:26.303 [debug] Jupyter completion time: 20
+19:13:26.304 [debug] Execution of code ms-toolsai.jupyter-482 completed in 21ms
+19:13:26.525 [debug] Execution of code ms-toolsai.jupyter-483 completed in 22ms
+19:13:26.526 [debug] Jupyter completion time: 24
+19:13:26.687 [debug] Execution of code ms-toolsai.jupyter-484 completed in 19ms
+19:13:26.688 [debug] Jupyter completion time: 21
+19:13:42.173 [debug] Execution of code ms-toolsai.jupyter-485 completed in 22ms
+19:13:42.174 [debug] Jupyter completion time: 23
+19:13:44.917 [debug] Execution of code ms-toolsai.jupyter-486 completed in 19ms
+19:13:44.917 [debug] Jupyter completion time: 20
+19:13:47.287 [debug] Execution of code ms-toolsai.jupyter-487 completed in 21ms
+19:13:47.288 [debug] Jupyter completion time: 23
+19:13:47.933 [debug] Execution of code ms-toolsai.jupyter-488 completed in 23ms
+19:13:47.934 [debug] Jupyter completion time: 24
+19:13:51.284 [debug] Execution of code ms-toolsai.jupyter-489 completed in 17ms
+19:13:51.284 [debug] Jupyter completion time: 18
+19:13:53.271 [debug] Execution of code ms-toolsai.jupyter-490 completed in 18ms
+19:13:53.272 [debug] Jupyter completion time: 20
+19:13:53.299 [debug] Execution of code ms-toolsai.jupyter-491 completed in 19ms
+19:13:53.299 [debug] Inspected code def aitken_neville(x, f, def in 20ms
+19:14:06.709 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+19:14:06.732 [debug] Kernel acknowledged execution of cell 9 @ 1748016846732
+19:14:06.754 [warn] Cell completed with errors lu [Error]: float division by zero
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:294:4958) {
+  ename: 'ZeroDivisionError',
+  evalue: 'float division by zero',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mZeroDivisionError\x1B[39m                         Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[164]\x1B[39m\x1B[32m, line 23\x1B[39m\n' +
+      '\x1B[32m     21\x1B[39m x_vals = [\x1B[32m2\x1B[39m, \x1B[32m4\x1B[39m, \x1B[32m6\x1B[39m, \x1B[32m8\x1B[39m]\n' +
+      '\x1B[32m     22\x1B[39m y_vals = [\x1B[32m1\x1B[39m, -\x1B[32m2\x1B[39m, \x1B[32m3\x1B[39m, \x1B[32m5\x1B[39m]\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m23\x1B[39m pred = \x1B[43maitken_neville\x1B[49m\x1B[43m(\x1B[49m\x1B[43mx_vals\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my_vals\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[32;43m5\x1B[39;49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     24\x1B[39m \x1B[38;5;28mprint\x1B[39m(\x1B[33mf\x1B[39m\x1B[33m"\x1B[39m\x1B[33mΤελική πρόβλεψη στο x = 3: \x1B[39m\x1B[38;5;132;01m{\x1B[39;00mpred\x1B[38;5;132;01m}\x1B[39;00m\x1B[33m"\x1B[39m)\n',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[164]\x1B[39m\x1B[32m, line 12\x1B[39m, in \x1B[36maitken_neville\x1B[39m\x1B[34m(x, f, pred)\x1B[39m\n' +
+      '\x1B[32m     10\x1B[39m \t\tnumerator = (x[i - \x1B[32m1\x1B[39m] - pred) * A[i - \x1B[32m1\x1B[39m][j] - (x[j] - pred) * A[i - \x1B[32m1\x1B[39m][j - \x1B[32m1\x1B[39m]\n' +
+      '\x1B[32m     11\x1B[39m \t\tdenominator = x[i - \x1B[32m1\x1B[39m] - x[j]\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m12\x1B[39m \t\tA[i][j] = \x1B[43mnumerator\x1B[49m\x1B[43m \x1B[49m\x1B[43m/\x1B[49m\x1B[43m \x1B[49m\x1B[43mdenominator\x1B[49m\n' +
+      '\x1B[32m     14\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m i \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(\x1B[32m0\x1B[39m, n):\n' +
+      '\x1B[32m     15\x1B[39m \t\x1B[38;5;28;01mfor\x1B[39;00m j \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28mrange\x1B[39m(\x1B[32m0\x1B[39m, n):\n',
+    '\x1B[31mZeroDivisionError\x1B[39m: float division by zero'
+  ]
+}
+19:15:30.738 [debug] Execution of code ms-toolsai.jupyter-492 completed in 17ms
+19:15:30.739 [debug] Jupyter completion time: 18
+19:18:02.346 [debug] Execution of code ms-toolsai.jupyter-493 completed in 19ms
+19:18:02.346 [debug] Jupyter completion time: 20
+19:18:05.077 [debug] Execution of code ms-toolsai.jupyter-494 completed in 15ms
+19:18:05.078 [debug] Jupyter completion time: 16
+19:18:07.033 [debug] Execution of code ms-toolsai.jupyter-495 completed in 20ms
+19:18:07.034 [debug] Jupyter completion time: 21
+19:18:10.449 [debug] Execution of code ms-toolsai.jupyter-496 completed in 21ms
+19:18:10.449 [debug] Jupyter completion time: 22
+19:18:12.972 [debug] Execution of code ms-toolsai.jupyter-497 completed in 15ms
+19:18:12.972 [debug] Jupyter completion time: 15
+19:18:15.206 [debug] Jupyter completion time: 22
+19:18:15.207 [debug] Execution of code ms-toolsai.jupyter-498 completed in 22ms
+19:18:21.786 [debug] Execution of code ms-toolsai.jupyter-499 completed in 19ms
+19:18:21.786 [debug] Jupyter completion time: 20
+19:18:24.109 [debug] Jupyter completion time: 10
+19:18:24.110 [debug] Execution of code ms-toolsai.jupyter-500 completed in 11ms
+19:18:29.118 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+19:18:29.129 [debug] Kernel acknowledged execution of cell 9 @ 1748017109128
+19:20:32.201 [debug] Execution of code ms-toolsai.jupyter-501 completed in 19ms
+19:20:32.202 [debug] Jupyter completion time: 21
+19:20:37.457 [debug] Execution of code ms-toolsai.jupyter-502 completed in 19ms
+19:20:37.457 [debug] Jupyter completion time: 19
+19:20:51.410 [debug] Handle Execution of Cells 9 for ~/Αριθμητική/Untitled-1.ipynb
+19:20:51.422 [debug] Kernel acknowledged execution of cell 9 @ 1748017251422
+19:24:34.462 [debug] Handle Execution of Cells 1 for ~/Αριθμητική/Untitled-1.ipynb
+19:24:34.469 [debug] Kernel acknowledged execution of cell 1 @ 1748017474468
+19:24:42.201 [debug] Handle Execution of Cells 1,3,5,7,8,9 for ~/Αριθμητική/Untitled-1.ipynb
+19:24:42.210 [debug] Kernel acknowledged execution of cell 1 @ 1748017482210
+19:24:42.260 [debug] Kernel acknowledged execution of cell 3 @ 1748017482260
+19:24:42.309 [debug] Kernel acknowledged execution of cell 5 @ 1748017482309
+19:24:42.384 [debug] Kernel acknowledged execution of cell 7 @ 1748017482384
+19:24:42.391 [debug] Kernel acknowledged execution of cell 8 @ 1748017482391
+19:24:42.399 [debug] Kernel acknowledged execution of cell 9 @ 1748017482399
+19:26:10.654 [debug] Handle Execution of Cells 1,3,5,7,8,9 for ~/Αριθμητική/Untitled-1.ipynb
+19:26:10.661 [debug] Kernel acknowledged execution of cell 1 @ 1748017570661
+19:26:10.848 [debug] Kernel acknowledged execution of cell 3 @ 1748017570848
+19:26:10.887 [warn] Cell completed with errors lu [Error]: expected non-empty vector for x
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:294:4958) {
+  ename: 'TypeError',
+  evalue: 'expected non-empty vector for x',
+  traceback: [
+    '\x1B[31m---------------------------------------------------------------------------\x1B[39m',
+    '\x1B[31mTypeError\x1B[39m                                 Traceback (most recent call last)',
+    '\x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[175]\x1B[39m\x1B[32m, line 28\x1B[39m\n' +
+      '\x1B[32m     26\x1B[39m \x1B[38;5;66;03m# Fit polynomial models and calculate errors\x1B[39;00m\n' +
+      '\x1B[32m     27\x1B[39m \x1B[38;5;28;01mfor\x1B[39;00m i, degree \x1B[38;5;129;01min\x1B[39;00m \x1B[38;5;28menumerate\x1B[39m(degrees):\n' +
+      '\x1B[32m---> \x1B[39m\x1B[32m28\x1B[39m \tcoeffs = \x1B[43mnp\x1B[49m\x1B[43m.\x1B[49m\x1B[43mpolyfit\x1B[49m\x1B[43m(\x1B[49m\x1B[43mx_train\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43my_train\x1B[49m\x1B[43m,\x1B[49m\x1B[43m \x1B[49m\x1B[43mdegree\x1B[49m\x1B[43m)\x1B[49m\n' +
+      '\x1B[32m     29\x1B[39m \tpoly_func = np.poly1d(coeffs)\n' +
+      '\x1B[32m     30\x1B[39m \tmodels.append(poly_func)\n',
+    '\x1B[36mFile \x1B[39m\x1B[32m~/Αριθμητική/.venv/lib/python3.13/site-packages/numpy/lib/_polynomial_impl.py:636\x1B[39m, in \x1B[36mpolyfit\x1B[39m\x1B[34m(x, y, deg, rcond, full, w, cov)\x1B[39m\n' +
+      '\x1B[32m    634\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mexpected 1D vector for x\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m    635\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m x.size == \x1B[32m0\x1B[39m:\n' +
+      '\x1B[32m--> \x1B[39m\x1B[32m636\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mexpected non-empty vector for x\x1B[39m\x1B[33m"\x1B[39m)\n' +
+      '\x1B[32m    637\x1B[39m \x1B[38;5;28;01mif\x1B[39;00m y.ndim < \x1B[32m1\x1B[39m \x1B[38;5;129;01mor\x1B[39;00m y.ndim > \x1B[32m2\x1B[39m:\n' +
+      '\x1B[32m    638\x1B[39m     \x1B[38;5;28;01mraise\x1B[39;00m \x1B[38;5;167;01mTypeError\x1B[39;00m(\x1B[33m"\x1B[39m\x1B[33mexpected 1D or 2D array for y\x1B[39m\x1B[33m"\x1B[39m)\n',
+    '\x1B[31mTypeError\x1B[39m: expected non-empty vector for x'
+  ]
+}
+19:26:10.889 [warn] Cancel all remaining cells due to cancellation or failure in execution
+19:26:10.889 [debug] Cancel pending cells
+19:26:24.189 [debug] Handle Execution of Cells 1,3,5,7,8,9 for ~/Αριθμητική/Untitled-1.ipynb
+19:26:24.196 [debug] Kernel acknowledged execution of cell 1 @ 1748017584195
+19:26:24.417 [debug] Kernel acknowledged execution of cell 3 @ 1748017584417
+19:26:24.447 [debug] Kernel acknowledged execution of cell 5 @ 1748017584447
+19:26:24.523 [debug] Kernel acknowledged execution of cell 7 @ 1748017584523
+19:26:24.531 [debug] Kernel acknowledged execution of cell 8 @ 1748017584531
+19:26:24.537 [debug] Kernel acknowledged execution of cell 9 @ 1748017584537
+19:26:47.952 [debug] Handle Execution of Cells 1,3,5,7,8,9 for ~/Αριθμητική/Untitled-1.ipynb
+19:26:47.959 [debug] Kernel acknowledged execution of cell 1 @ 1748017607959
+19:26:48.250 [debug] Kernel acknowledged execution of cell 3 @ 1748017608250
+19:26:48.281 [debug] Kernel acknowledged execution of cell 5 @ 1748017608280
+19:26:48.387 [debug] Kernel acknowledged execution of cell 7 @ 1748017608387
+19:26:48.395 [debug] Kernel acknowledged execution of cell 8 @ 1748017608395
+19:26:48.401 [debug] Kernel acknowledged execution of cell 9 @ 1748017608401
+19:27:11.440 [debug] Handle Execution of Cells 1,3,5,7,8,9 for ~/Αριθμητική/Untitled-1.ipynb
+19:27:11.450 [debug] Kernel acknowledged execution of cell 1 @ 1748017631450
+19:27:11.679 [debug] Kernel acknowledged execution of cell 3 @ 1748017631678
+19:27:11.745 [debug] Kernel acknowledged execution of cell 5 @ 1748017631745
+19:27:11.828 [debug] Kernel acknowledged execution of cell 7 @ 1748017631828
+19:27:11.833 [debug] Kernel acknowledged execution of cell 8 @ 1748017631833
+19:27:11.842 [debug] Kernel acknowledged execution of cell 9 @ 1748017631842
+19:30:11.314 [debug] Handle Execution of Cells 1,3,5,7,8,9 for ~/Αριθμητική/Untitled-1.ipynb
+19:30:11.322 [debug] Kernel acknowledged execution of cell 1 @ 1748017811322
+19:30:11.778 [debug] Kernel acknowledged execution of cell 3 @ 1748017811778
+19:30:11.799 [debug] Kernel acknowledged execution of cell 5 @ 1748017811799
+19:30:11.926 [debug] Kernel acknowledged execution of cell 7 @ 1748017811925
+19:30:11.932 [debug] Kernel acknowledged execution of cell 8 @ 1748017811932
+19:30:11.941 [debug] Kernel acknowledged execution of cell 9 @ 1748017811941
+19:31:36.776 [debug] Handle Execution of Cells 1,3,5,7,8,9 for ~/Αριθμητική/Untitled-1.ipynb
+19:31:36.784 [debug] Kernel acknowledged execution of cell 1 @ 1748017896784
+19:31:37.132 [debug] Kernel acknowledged execution of cell 3 @ 1748017897132
+19:31:37.165 [debug] Kernel acknowledged execution of cell 5 @ 1748017897165
+19:31:37.267 [debug] Kernel acknowledged execution of cell 7 @ 1748017897267
+19:31:37.271 [debug] Kernel acknowledged execution of cell 8 @ 1748017897271
+19:31:37.280 [debug] Kernel acknowledged execution of cell 9 @ 1748017897280
+19:32:19.950 [debug] Handle Execution of Cells 1,3,5,7,8,9 for ~/Αριθμητική/Untitled-1.ipynb
+19:32:19.957 [debug] Kernel acknowledged execution of cell 1 @ 1748017939956
+19:32:20.021 [debug] Kernel acknowledged execution of cell 3 @ 1748017940021
+19:32:20.067 [debug] Kernel acknowledged execution of cell 5 @ 1748017940067
+19:32:20.169 [debug] Kernel acknowledged execution of cell 7 @ 1748017940169
+19:32:20.177 [debug] Kernel acknowledged execution of cell 8 @ 1748017940177
+19:32:20.181 [debug] Kernel acknowledged execution of cell 9 @ 1748017940181
+19:32:54.909 [debug] Execution of code ms-toolsai.jupyter-503 completed in 16ms
+19:32:54.909 [debug] Jupyter completion time: 16
+19:32:54.927 [debug] Execution of code ms-toolsai.jupyter-504 completed in 11ms
+19:32:54.928 [debug] Inspected code trapezoidy_test in 12ms
+19:32:58.458 [debug] Execution of code ms-toolsai.jupyter-505 completed in 21ms
+19:32:58.458 [debug] Jupyter completion time: 22
+19:32:58.483 [debug] Inspected code fy_train in 13ms
+19:32:58.484 [debug] Execution of code ms-toolsai.jupyter-506 completed in 14ms
+19:32:58.849 [debug] Execution of code ms-toolsai.jupyter-507 completed in 15ms
+19:32:58.849 [debug] Jupyter completion time: 16
+19:35:19.790 [debug] creating new code watcher with matching document file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/test.py
+19:35:23.090 [debug] creating new code watcher with matching document file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/ipynb.py
+19:35:27.933 [debug] creating new code watcher with matching document file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/data_collection.py
+19:55:23.874 [info] Disposing request as the cell (1) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.875 [info] Disposing request as the cell (3) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.876 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.876 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.876 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.876 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.876 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.876 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.876 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.876 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (7) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.877 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (8) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.878 [info] Disposing request as the cell (9) was deleted ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.879 [debug] Disposing kernel associated with ~/Αριθμητική/Untitled-1.ipynb, isClosed=true, reason = notebookClosed
+19:55:23.879 [info] Dispose Kernel '~/Αριθμητική/Untitled-1.ipynb' associated with '~/Αριθμητική/Untitled-1.ipynb'
+19:55:23.879 [debug] Cancel pending cells
+19:55:23.883 [debug] Shutdown session 8fc35979-f3c5-4d3d-bb5f-7812fc0e58e5, .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher - start called from Error: 
+    at iT.shutdown (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:301:1140)
+    at iT.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:301:623)
+    at Is (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:115:867)
+    at e (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:282:32549)
+    at T_.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:282:32794)
+    at xy.disposeOldKernel (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:282:23565)
+    at xy.<anonymous> (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:282:21621)
+    at eh.value (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:170:34177)
+    at P._deliver (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2937)
+    at P._deliverQueue (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3028)
+    at P.fire (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3364)
+    at zd.$acceptDocumentAndEditorsDelta (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:15862)
+    at fS._doInvokeHandler (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125319)
+    at fS._invokeHandler (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:125063)
+    at fS._receiveRequest (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:123829)
+    at fS._receiveOneMessage (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122830)
+    at eh.value (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120754)
+    at P._deliver (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2937)
+    at P.fire (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3257)
+    at co.fire (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:10941)
+    at eh.value (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:4033)
+    at P._deliver (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:2937)
+    at P.fire (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:27:3257)
+    at co.fire (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:10941)
+    at MessagePortMain.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:2244)
+    at MessagePortMain.emit (node:events:524:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+19:55:23.884 [debug] Dispose Kernel process 6886.
+19:55:23.895 [debug] Kernel got disposed, hence there is no longer a kernel associated with ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.898 [debug] Notebook document ~/Αριθμητική/Untitled-1.ipynb got closed
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.899 [debug] Cancel pending cells
+19:55:23.899 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.900 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.900 [debug] Cancel pending cells
+19:55:23.901 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.901 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.901 [debug] Cancel pending cells
+19:55:23.901 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.901 [debug] Cancel pending cells
+19:55:23.901 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.901 [debug] Cancel pending cells
+19:55:23.901 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.901 [debug] Cancel pending cells
+19:55:23.901 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.901 [debug] Cancel pending cells
+19:55:23.901 [debug] Cancel executions after closing notebook ~/Αριθμητική/Untitled-1.ipynb
+19:55:23.914 [debug] KernelProcess Exited 6886, Exit Code - null 
+19:55:23.917 [debug] Disposed Kernel process 6886.
+19:55:23.919 [debug] Shutdown session 8fc35979-f3c5-4d3d-bb5f-7812fc0e58e5, .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher - shutdown complete
+20:16:10.026 [info] Dispose Kernel '~/Αριθμητική/Untitled-1.ipynb' associated with '~/Αριθμητική/Untitled-1.ipynb'
+20:16:10.030 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher 
+20:16:10.031 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher 
+20:16:10.031 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+20:16:10.031 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+20:16:10.031 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+20:16:10.032 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+20:16:10.032 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+20:16:10.032 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+20:16:10.032 [debug] Disposing controller .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher 
+20:16:10.032 [debug] Disposing controller .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher 

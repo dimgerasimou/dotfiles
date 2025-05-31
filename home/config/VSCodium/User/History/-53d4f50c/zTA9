@@ -1,0 +1,28 @@
+CC       := gcc
+CFLAGS   := -Wall -Wextra -Werror -pedantic -Wall -Wno-deprecated-declarations -gddb -O0
+LFLAGS   := -lmatio -lm -lblas -fopenmp -lhdf5
+PREFIX   := ../../bin/V1-1
+
+SRC = arrays.c knnsearch.c io.c main.c
+OBJ = $(SRC:.c=.o)
+
+all: knnsearch
+
+.c.o:
+	@$(CC) -c $(CFLAGS) $< -fopenmp
+
+$(OBJ): knnsearch.h
+
+
+knnsearch: $(OBJ)
+	@echo "$(notdir $(PREFIX)): Compiling $@"
+	@mkdir -p $(PREFIX)
+	@$(CC) -o $(PREFIX)/$@ $(OBJ) $(LFLAGS)
+
+clean:
+	@echo "$(notdir $(PREFIX)): Cleaning"
+	@rm -f $(PREFIX)/knnsearch
+	@rmdir --ignore-fail-on-non-empty $(PREFIX)
+	@rm -f ${OBJ}
+
+.PHONY: all clean

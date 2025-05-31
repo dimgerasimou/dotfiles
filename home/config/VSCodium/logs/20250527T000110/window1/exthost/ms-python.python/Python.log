@@ -1,0 +1,46 @@
+2025-05-27 00:01:15.269 [info] Telemetry level is off
+2025-05-27 00:01:15.269 [info] Experiments are disabled, only manually opted experiments are active.
+2025-05-27 00:01:15.269 [warning] Dir "/home/dimgerasimou/Αριθμητική/.pixi/envs" is not watchable (directory does not exist)
+2025-05-27 00:01:15.269 [info] Starting Environment refresh
+2025-05-27 00:01:15.269 [info] Searching for interpreters in posix paths locator
+2025-05-27 00:01:15.269 [info] Searching for pyenv environments
+2025-05-27 00:01:15.269 [info] Searching for conda environments
+2025-05-27 00:01:15.269 [info] Searching for global virtual environments
+2025-05-27 00:01:15.269 [info] Searching for custom virtual environments
+2025-05-27 00:01:15.269 [info] > conda info --json
+2025-05-27 00:01:15.269 [info] Python interpreter path: ./.venv/bin/python
+2025-05-27 00:01:15.269 [info] pyenv is not installed
+2025-05-27 00:01:15.269 [info] Finished searching for pyenv environments: 22 milliseconds
+2025-05-27 00:01:15.269 [info] Finished searching for custom virtual envs: 22 milliseconds
+2025-05-27 00:01:15.269 [info] > hatch env show --json
+2025-05-27 00:01:15.269 [info] cwd: .
+2025-05-27 00:01:15.269 [info] Finished searching for global virtual envs: 429 milliseconds
+2025-05-27 00:01:15.275 [info] > pyenv which python
+2025-05-27 00:01:15.275 [info] cwd: .
+2025-05-27 00:01:15.356 [info] Found: /bin/python --> /bin/python3.13
+2025-05-27 00:01:15.406 [info] Found: /bin/python3 --> /bin/python3.13
+2025-05-27 00:01:15.417 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-05-27 00:01:15.489 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-05-27 00:01:15.495 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/printEnvVariables.py
+2025-05-27 00:01:15.495 [info] shell: bash
+2025-05-27 00:01:15.501 [info] > . ./.venv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/printEnvVariables.py
+2025-05-27 00:01:15.501 [info] shell: bash
+2025-05-27 00:01:15.501 [info] Found: /sbin/python --> /sbin/python3.13
+2025-05-27 00:01:15.502 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-05-27 00:01:15.502 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-05-27 00:01:15.511 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-05-27 00:01:15.511 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-05-27 00:01:15.519 [info] > ./.venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-05-27 00:01:15.521 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-05-27 00:01:15.610 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-05-27 00:01:15.610 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-05-27 00:01:15.611 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-05-27 00:01:15.634 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-05-27 00:01:15.653 [info] Finished searching for interpreters in posix paths locator: 989 milliseconds
+2025-05-27 00:01:15.653 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-05-27 00:01:15.662 [info] Environments refresh paths discovered (event): 1007 milliseconds
+2025-05-27 00:01:15.662 [info] Environments refresh paths discovered: 1007 milliseconds
+2025-05-27 00:01:15.689 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-05-27 00:01:15.729 [info] Environments refresh finished (event): 1074 milliseconds
+2025-05-27 00:01:15.739 [info] Environment refresh took 1085 milliseconds
+2025-05-27 00:01:16.296 [info] Starting Jedi language server for Αριθμητική.

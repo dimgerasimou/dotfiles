@@ -1,27 +1,11 @@
 [[screen]]
-	name="Nvidia CY"
-	#dpi=96
-	[[monitor]]
-		id="HDMI-0"
-		primary=true
-	[[monitor]]
-		id="eDP-1-1"
-		xoffset=1366
-
-[[screen]]
 	name="Nvidia"
-	dpi=96
-	[[monitor]]
-		id="eDP-1-1"
-		primary=true
-
-[[screen]]
-	name="Nvidia"
-	dpi=96
+	dpi=120
 	[[monitor]]
 		id="HDMI-0"
 		primary=true
 		xoffset=1920
+		rate=74.97
 	[[monitor]]
 		id="eDP-1-1"
 
@@ -36,9 +20,45 @@
 		xoffset=1920
 
 [[screen]]
+	name="Nvidia"
+	dpi=120
+	[[monitor]]
+		id="eDP-1-1"
+		primary=true
+
+[[screen]]
+	name="Nvidia CY"
+	#dpi=96
+	[[monitor]]
+		id="HDMI-0"
+		primary=true
+	[[monitor]]
+		id="eDP-1-1"
+		xoffset=1366
+
+[[screen]]
 	name="Hybrid"
 	dpi=120
 	[[monitor]]
 		id="eDP-1"
 		primary=true
 
+[[screen]]
+	name="Hybrid"
+	dpi=120
+	[[monitor]]
+		id="HDMI-1-0"
+		primary=true
+		xoffset=1920
+		rate=75
+	[[monitor]]
+		id="eDP-1"
+
+[[screen]]
+	name="TV Hybrid"
+	[[monitor]]
+		id="eDP-1"
+		xoffset=1920
+	[[monitor]]
+		id="HDMI-1-0"
+		primary=true

@@ -1,0 +1,4 @@
+# simple RandR interface that makes use of configuration files
+# helping with the initial setup of different multimonitor layouts
+
+PREFIX := ${HOME}/.local/bin/dwm

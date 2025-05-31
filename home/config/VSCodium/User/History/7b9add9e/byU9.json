@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "catppuccin.accentColor": "blue",
+    "catppuccin.extraBordersEnabled": true,
+    "editor.tabSize": 8,
+    "editor.renderWhitespace": "all",
+    "editor.fontFamily": "Cascadia Mono NF",
+    "editor.insertSpaces": false,
+    "git.confirmSync": false,
+    "makefile.configureOnOpen": true,
+    "chat.agent.enabled": true
+}

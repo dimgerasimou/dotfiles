@@ -1,10 +1,10 @@
 require('multiple-cursors').setup({
 	pre_hook = function()
-		vim.g.minipairs_disable = true
-		require("cmp").setup({enabled=false})
+		-- vim.g.minipairs_disable = true
+		vim.b.completion = false
 	end,
 	post_hook = function()
-		vim.g.minipairs_disable = false
-		require("cmp").setup({enabled=true})
+		-- vim.g.minipairs_disable = false
+		vim.b.completion = false
 	end,
 })

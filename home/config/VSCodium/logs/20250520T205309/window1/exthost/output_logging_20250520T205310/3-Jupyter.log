@@ -1,0 +1,871 @@
+VSCodium (1.100.2, undefined, desktop)
+Jupyter Extension Version: 2025.4.0.
+Python Extension Version: 2025.4.0.
+Pylance Extension not installed.
+Platform: linux (x64).
+Home = /home/dimgerasimou
+Temp Storage folder ~/.config/VSCodium/User/globalStorage/ms-toolsai.jupyter/version-2025.4.0
+Workspace folder ~/Αριθμητική
+20:53:11.471 [info] Telemetry level is off
+20:53:11.472 [info] Experiments are disabled, only manually opted experiments are active.
+20:53:11.498 [debug] Start refreshing Kernel Picker (1747763591498)
+20:53:12.312 [debug] Get Custom Env Variables, Class name = Mm, completed in 814ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunPythonCode"
+20:53:12.312 [debug] Jupyter Paths /kernels: 
+20:53:12.312 [debug] Kernel Spec Root Paths, /usr/share/jupyter/kernels, /usr/local/share/jupyter/kernels, ~/.local/share/jupyter/kernels
+20:53:12.315 [debug] creating new code watcher with matching document file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/test.py
+20:53:12.352 [debug] End refreshing Kernel Picker (1747763591498)
+20:59:24.310 [debug] Start refreshing Kernel Picker (1747763964310)
+20:59:24.318 [debug] End refreshing Kernel Picker (1747763964310)
+20:59:32.334 [debug] Start refreshing Kernel Picker (1747763972334)
+20:59:32.338 [debug] Kernel Spec Root Paths, /usr/share/jupyter/kernels, /usr/local/share/jupyter/kernels, ~/.local/share/jupyter/kernels
+20:59:32.351 [debug] End refreshing Kernel Picker (1747763972334)
+21:07:23.694 [debug] creating new code watcher with matching document file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/data_collection.py
+21:13:28.553 [debug] creating new code watcher with matching document file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/least_squares.py
+22:22:19.206 [debug] creating new code watcher with matching document file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/ipynb.py
+22:23:10.107 [debug] creating new code watcher with matching document file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/ipynb.py
+22:26:38.658 [debug] Start refreshing Interpreter Kernel Picker
+22:26:38.658 [debug] Start refreshing Kernel Picker (1747769198658)
+22:26:38.660 [debug] Refreshed Environments
+22:26:39.660 [debug] End refreshing Kernel Picker (1747769198658)
+22:27:42.030 [debug] Start refreshing Kernel Picker (1747769262030)
+22:27:42.030 [debug] End refreshing Kernel Picker (1747769262030)
+22:27:42.042 [debug] Get Custom Env Variables, Class name = Mm, completed in 3ms, has a truthy return value, Arg 1: "~/Αριθμητική", Arg 2: "RunPythonCode"
+22:27:42.059 [debug] Handle Execution of Cells 1,2 for ~/Αριθμητική/Untitled-1.ipynb
+22:27:42.061 [debug] start the kernel, options.disableUI=false for ~/Αριθμητική/Untitled-1.ipynb
+22:27:42.066 [info] Starting Kernel (Python Path: ~/Αριθμητική/.venv/bin/python, Venv, 3.13.3) for '~/Αριθμητική/Untitled-1.ipynb' (disableUI=false)
+22:27:42.086 [debug] Get Custom Env Variables, Class name = Mm, completed in 0ms, has a truthy return value, Arg 1: "~/Αριθμητική/Untitled-1.ipynb", Arg 2: "RunPythonCode"
+22:27:42.096 [debug] KernelProvider switched kernel to id = .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher
+22:27:42.130 [debug] Controller selection change completed
+22:27:42.146 [debug] Launching kernel .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher for ~/Αριθμητική/Untitled-1.ipynb in ~/Αριθμητική with ports 9001, 9000, 9004, 9002, 9003
+22:27:42.157 [debug] Got env vars from Python Ext in 118ms for ~/Αριθμητική/.venv/bin/python, with env var count 52.
+22:27:42.157 [debug] Getting activated env variables, Class name = xd, completed in 119ms, has a truthy return value, Arg 1: "~/Αριθμητική", Arg 2: "~/Αριθμητική/.venv/bin/python", Arg 3: undefined
+22:27:42.163 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -m pip list
+22:27:42.164 [debug] Got env vars from Python Ext in 78ms for ~/Αριθμητική/.venv/bin/python, with env var count 52.
+22:27:42.164 [debug] Getting activated env variables, Class name = xd, completed in 78ms, has a truthy return value, Arg 1: "~/Αριθμητική/Untitled-1.ipynb", Arg 2: "~/Αριθμητική/.venv/bin/python", Arg 3: undefined
+22:27:42.168 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:27:42.172 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v31564813d958572d26f8a45227a2832dc8bed0912.json
+    > cwd: ~/Αριθμητική
+22:27:42.172 [debug] Kernel process 121455.
+22:27:42.180 [debug] KernelProcess error 121455: ~/Αριθμητική/.venv/bin/python: No module named ipykernel_launcher
+
+22:27:42.182 [debug] KernelProcess Exited 121455, Exit Code - 1 ~/Αριθμητική/.venv/bin/python: No module named ipykernel_launcher
+
+22:27:42.182 [error] Disposing kernel process due to an error Bl [Error]: The kernel died. Error: ~/Αριθμητική/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    at ChildProcess.<anonymous> (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:296:45046)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12) {
+  category: 'kerneldied',
+  isJupyterError: true,
+  kernelConnectionMetadata: n {
+    kind: 'startUsingPythonInterpreter',
+    kernelSpec: hd {
+      specFile: '~/.config/VSCodium/User/globalStorage/ms-toolsai.jupyter/version-2025.4.0/jupyter/kernels/python3133jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1/kernel.json',
+      interpreterPath: '~/Αριθμητική/.venv/bin/python',
+      isRegisteredByVSC: 'registeredByNewVersionOfExt',
+      name: 'python3133jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1',
+      argv: [Array],
+      language: 'python',
+      executable: 'python',
+      display_name: '.venv',
+      metadata: [Object],
+      env: {},
+      interrupt_mode: undefined
+    },
+    interpreter: { id: '~/Αριθμητική/.venv/bin/python', uri: [xa] },
+    id: '.jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher'
+  },
+  exitCode: 1,
+  stdErr: '~/Αριθμητική/.venv/bin/python: No module named ipykernel_launcher\n'
+}
+22:27:42.183 [debug] Dispose Kernel process 121455.
+22:27:42.184 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/Αριθμητική/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:27:42.184 [error] Failed to connect raw kernel session: Error: The kernel died. Error: ~/Αριθμητική/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+22:27:42.184 [warn] Failed to shutdown kernel, .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher TypeError: Cannot read properties of undefined (reading 'dispose')
+    at dT.shutdown (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:301:13745)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at pT.shutdown (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:301:22578)
+22:27:42.185 [warn] Error occurred while trying to start the kernel, options.disableUI=false Bl [Error]: The kernel died. Error: ~/Αριθμητική/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    at ChildProcess.<anonymous> (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:296:45046)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12) {
+  category: 'kerneldied',
+  isJupyterError: true,
+  kernelConnectionMetadata: n {
+    kind: 'startUsingPythonInterpreter',
+    kernelSpec: hd {
+      specFile: '~/.config/VSCodium/User/globalStorage/ms-toolsai.jupyter/version-2025.4.0/jupyter/kernels/python3133jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1/kernel.json',
+      interpreterPath: '~/Αριθμητική/.venv/bin/python',
+      isRegisteredByVSC: 'registeredByNewVersionOfExt',
+      name: 'python3133jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1',
+      argv: [Array],
+      language: 'python',
+      executable: 'python',
+      display_name: '.venv',
+      metadata: [Object],
+      env: {},
+      interrupt_mode: undefined
+    },
+    interpreter: { id: '~/Αριθμητική/.venv/bin/python', uri: [xa] },
+    id: '.jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher'
+  },
+  exitCode: 1,
+  stdErr: '~/Αριθμητική/.venv/bin/python: No module named ipykernel_launcher\n'
+}
+22:27:42.185 [warn] Kernel Error, context = start Bl [Error]: The kernel died. Error: ~/Αριθμητική/.venv/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    at ChildProcess.<anonymous> (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:296:45046)
+    at ChildProcess.emit (node:events:536:35)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:293:12) {
+  category: 'kerneldied',
+  isJupyterError: true,
+  kernelConnectionMetadata: n {
+    kind: 'startUsingPythonInterpreter',
+    kernelSpec: hd {
+      specFile: '~/.config/VSCodium/User/globalStorage/ms-toolsai.jupyter/version-2025.4.0/jupyter/kernels/python3133jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1/kernel.json',
+      interpreterPath: '~/Αριθμητική/.venv/bin/python',
+      isRegisteredByVSC: 'registeredByNewVersionOfExt',
+      name: 'python3133jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1',
+      argv: [Array],
+      language: 'python',
+      executable: 'python',
+      display_name: '.venv',
+      metadata: [Object],
+      env: {},
+      interrupt_mode: undefined
+    },
+    interpreter: { id: '~/Αριθμητική/.venv/bin/python', uri: [xa] },
+    id: '.jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher'
+  },
+  exitCode: 1,
+  stdErr: '~/Αριθμητική/.venv/bin/python: No module named ipykernel_launcher\n'
+}
+22:27:42.192 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:27:42.193 [debug] Disposed Kernel process 121455.
+22:27:42.211 [debug] Module ipykernel is not installed. Output 
+22:27:42.211 [debug] Checking if product is installed, Class name = dD, completed in 25ms, has a falsy return value, Arg 1: 19, Arg 2: undefined, Return Value: false
+22:27:42.211 [debug] Are Dependencies Installed, Class name = op, completed in 25ms, has a falsy return value, Arg 1: "~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher", Arg 2: undefined, Arg 3: true, Return Value: false
+22:27:42.212 [info] Check & install missing Kernel dependencies for ~/Αριθμητική/.venv/bin/python, ui.disabled=false for resource '~/Αριθμητική/Untitled-1.ipynb'
+22:27:42.218 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:27:42.237 [debug] Module ipykernel is not installed. Output 
+22:27:42.237 [debug] Checking if product is installed, Class name = dD, completed in 25ms, has a falsy return value, Arg 1: 19, Arg 2: undefined, Return Value: false
+22:27:42.237 [debug] Are Dependencies Installed, Class name = op, completed in 25ms, has a falsy return value, Arg 1: "~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher", Arg 2: {"_isCancelled":false,"_emitter":null}, Arg 3: true, Return Value: false
+22:27:42.244 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:27:42.257 [debug] Checking if product is installed, Class name = dD, completed in 19ms, has a truthy return value, Arg 1: 27, Arg 2: undefined, Return Value: true
+22:27:46.422 [debug] Create ProcessService, Class name = Nm (started execution), Arg 1: undefined
+22:27:46.425 [debug] Get Custom Env Variables, Class name = Mm, completed in 3ms, has a truthy return value, Arg 1: undefined, Arg 2: "RunNonPythonCode", Arg 3: undefined
+22:27:46.425 [debug] Create ProcessService, Class name = Nm, completed in 3ms, has a truthy return value, Arg 1: undefined
+22:27:46.434 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:27:46.458 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -m pip install -U ipykernel
+22:27:46.758 [debug] Collecting ipykernel
+
+22:27:46.821 [debug]   Downloading ipykernel-6.29.5-py3-none-any.whl.metadata (6.3 kB)
+
+22:27:46.853 [debug] Collecting comm>=0.1.1 (from ipykernel)
+
+22:27:46.866 [debug]   Downloading comm-0.2.2-py3-none-any.whl.metadata (3.7 kB)
+
+22:27:46.987 [debug] Collecting debugpy>=1.6.5 (from ipykernel)
+
+22:27:46.998 [debug]   Downloading debugpy-1.8.14-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.3 kB)
+
+22:27:47.040 [debug] Collecting ipython>=7.23.1 (from ipykernel)
+
+22:27:47.050 [debug]   Downloading ipython-9.2.0-py3-none-any.whl.metadata (4.4 kB)
+
+22:27:47.082 [debug] Collecting jupyter-client>=6.1.12 (from ipykernel)
+
+22:27:47.094 [debug]   Downloading jupyter_client-8.6.3-py3-none-any.whl.metadata (8.3 kB)
+
+22:27:47.128 [debug] Collecting jupyter-core!=5.0.*,>=4.12 (from ipykernel)
+
+22:27:47.137 [debug]   Downloading jupyter_core-5.7.2-py3-none-any.whl.metadata (3.4 kB)
+
+22:27:47.158 [debug] Collecting matplotlib-inline>=0.1 (from ipykernel)
+
+22:27:47.169 [debug]   Downloading matplotlib_inline-0.1.7-py3-none-any.whl.metadata (3.9 kB)
+
+22:27:47.202 [debug] Collecting nest-asyncio (from ipykernel)
+
+22:27:47.212 [debug]   Downloading nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+
+22:27:47.218 [debug] Requirement already satisfied: packaging in ./Αριθμητική/.venv/lib/python3.13/site-packages (from ipykernel) (25.0)
+
+22:27:47.274 [debug] Collecting psutil (from ipykernel)
+
+22:27:47.283 [debug]   Downloading psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (22 kB)
+
+22:27:47.450 [debug] Collecting pyzmq>=24 (from ipykernel)
+
+22:27:47.464 [debug]   Downloading pyzmq-26.4.0-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (6.0 kB)
+
+22:27:47.513 [debug] Collecting tornado>=6.1 (from ipykernel)
+
+22:27:47.524 [debug]   Downloading tornado-6.5-cp39-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.8 kB)
+
+22:27:47.549 [debug] Collecting traitlets>=5.4.0 (from ipykernel)
+
+22:27:47.559 [debug]   Downloading traitlets-5.14.3-py3-none-any.whl.metadata (10 kB)
+
+22:27:47.586 [debug] Collecting decorator (from ipython>=7.23.1->ipykernel)
+
+22:27:47.595 [debug]   Downloading decorator-5.2.1-py3-none-any.whl.metadata (3.9 kB)
+
+22:27:47.611 [debug] Collecting ipython-pygments-lexers (from ipython>=7.23.1->ipykernel)
+
+22:27:47.620 [debug]   Downloading ipython_pygments_lexers-1.1.1-py3-none-any.whl.metadata (1.1 kB)
+
+22:27:47.653 [debug] Collecting jedi>=0.16 (from ipython>=7.23.1->ipykernel)
+
+22:27:47.664 [debug]   Downloading jedi-0.19.2-py2.py3-none-any.whl.metadata (22 kB)
+
+22:27:47.702 [debug] Collecting pexpect>4.3 (from ipython>=7.23.1->ipykernel)
+
+22:27:47.713 [debug]   Downloading pexpect-4.9.0-py2.py3-none-any.whl.metadata (2.5 kB)
+
+22:27:47.780 [debug] Collecting prompt_toolkit<3.1.0,>=3.0.41 (from ipython>=7.23.1->ipykernel)
+
+22:27:47.791 [debug]   Downloading prompt_toolkit-3.0.51-py3-none-any.whl.metadata (6.4 kB)
+
+22:27:47.834 [debug] Collecting pygments>=2.4.0 (from ipython>=7.23.1->ipykernel)
+
+22:27:47.852 [debug]   Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+
+22:27:47.882 [debug] Collecting stack_data (from ipython>=7.23.1->ipykernel)
+
+22:27:47.894 [debug]   Downloading stack_data-0.6.3-py3-none-any.whl.metadata (18 kB)
+
+22:27:47.939 [debug] Collecting wcwidth (from prompt_toolkit<3.1.0,>=3.0.41->ipython>=7.23.1->ipykernel)
+
+22:27:47.950 [debug]   Downloading wcwidth-0.2.13-py2.py3-none-any.whl.metadata (14 kB)
+
+22:27:47.985 [debug] Collecting parso<0.9.0,>=0.8.4 (from jedi>=0.16->ipython>=7.23.1->ipykernel)
+
+22:27:47.998 [debug]   Downloading parso-0.8.4-py2.py3-none-any.whl.metadata (7.7 kB)
+
+22:27:48.010 [debug] Requirement already satisfied: python-dateutil>=2.8.2 in ./Αριθμητική/.venv/lib/python3.13/site-packages (from jupyter-client>=6.1.12->ipykernel) (2.9.0.post0)
+
+22:27:48.037 [debug] Requirement already satisfied: platformdirs>=2.5 in ./Αριθμητική/.venv/lib/python3.13/site-packages (from jupyter-core!=5.0.*,>=4.12->ipykernel) (4.3.8)
+
+22:27:48.060 [debug] Collecting ptyprocess>=0.5 (from pexpect>4.3->ipython>=7.23.1->ipykernel)
+
+22:27:48.071 [debug]   Downloading ptyprocess-0.7.0-py2.py3-none-any.whl.metadata (1.3 kB)
+
+22:27:48.079 [debug] Requirement already satisfied: six>=1.5 in ./Αριθμητική/.venv/lib/python3.13/site-packages (from python-dateutil>=2.8.2->jupyter-client>=6.1.12->ipykernel) (1.17.0)
+
+22:27:48.100 [debug] Collecting executing>=1.2.0 (from stack_data->ipython>=7.23.1->ipykernel)
+
+22:27:48.110 [debug]   Downloading executing-2.2.0-py2.py3-none-any.whl.metadata (8.9 kB)
+
+22:27:48.134 [debug] Collecting asttokens>=2.1.0 (from stack_data->ipython>=7.23.1->ipykernel)
+
+22:27:48.143 [debug]   Downloading asttokens-3.0.0-py3-none-any.whl.metadata (4.7 kB)
+
+22:27:48.165 [debug] Collecting pure-eval (from stack_data->ipython>=7.23.1->ipykernel)
+
+22:27:48.174 [debug]   Downloading pure_eval-0.2.3-py3-none-any.whl.metadata (6.3 kB)
+
+22:27:48.196 [debug] Downloading ipykernel-6.29.5-py3-none-any.whl (117 kB)
+
+22:27:48.219 [debug] Downloading comm-0.2.2-py3-none-any.whl (7.2 kB)
+
+22:27:48.235 [debug] Downloading debugpy-1.8.14-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.2 MB)
+
+22:27:48.344 [debug]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 43.9 MB/s eta 0:00:00
+
+22:27:48.355 [debug] Downloading ipython-9.2.0-py3-none-any.whl (604 kB)
+
+22:27:48.372 [debug]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 604.3/604.3 kB 27.0 MB/s eta 0:00:00
+
+22:27:48.389 [debug] Downloading prompt_toolkit-3.0.51-py3-none-any.whl (387 kB)
+
+22:27:48.405 [debug] Downloading jedi-0.19.2-py2.py3-none-any.whl (1.6 MB)
+
+22:27:48.448 [debug]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 36.6 MB/s eta 0:00:00
+
+22:27:48.458 [debug] Downloading parso-0.8.4-py2.py3-none-any.whl (103 kB)
+
+22:27:48.472 [debug] Downloading jupyter_client-8.6.3-py3-none-any.whl (106 kB)
+
+22:27:48.493 [debug] Downloading jupyter_core-5.7.2-py3-none-any.whl (28 kB)
+
+22:27:48.510 [debug] Downloading matplotlib_inline-0.1.7-py3-none-any.whl (9.9 kB)
+
+22:27:48.525 [debug] Downloading pexpect-4.9.0-py2.py3-none-any.whl (63 kB)
+
+22:27:48.541 [debug] Downloading ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+
+22:27:48.556 [debug] Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
+
+22:27:48.589 [debug]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 40.4 MB/s eta 0:00:00
+22:27:48.589 [debug] 
+
+22:27:48.601 [debug] Downloading pyzmq-26.4.0-cp313-cp313-manylinux_2_28_x86_64.whl (855 kB)
+
+22:27:48.622 [debug]    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 856.0/856.0 kB 66.9 MB/s eta 0:00:00
+22:27:48.622 [debug] 
+
+22:27:48.633 [debug] Downloading tornado-6.5-cp39-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (442 kB)
+
+22:27:48.674 [debug] Downloading traitlets-5.14.3-py3-none-any.whl (85 kB)
+
+22:27:48.688 [debug] Downloading decorator-5.2.1-py3-none-any.whl (9.2 kB)
+
+22:27:48.706 [debug] Downloading ipython_pygments_lexers-1.1.1-py3-none-any.whl (8.1 kB)
+
+22:27:48.754 [debug] Downloading nest_asyncio-1.6.0-py3-none-any.whl (5.2 kB)
+
+22:27:48.811 [debug] Downloading psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (277 kB)
+
+22:27:48.835 [debug] Downloading stack_data-0.6.3-py3-none-any.whl (24 kB)
+
+22:27:48.849 [debug] Downloading asttokens-3.0.0-py3-none-any.whl (26 kB)
+
+22:27:48.867 [debug] Downloading executing-2.2.0-py2.py3-none-any.whl (26 kB)
+
+22:27:48.887 [debug] Downloading pure_eval-0.2.3-py3-none-any.whl (11 kB)
+
+22:27:48.902 [debug] Downloading wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+
+22:27:49.038 [debug] Installing collected packages: wcwidth, pure-eval, ptyprocess, traitlets, tornado, pyzmq, pygments, psutil, prompt_toolkit, pexpect, parso, nest-asyncio, executing, decorator, debugpy, asttokens, stack_data, matplotlib-inline, jupyter-core, jedi, ipython-pygments-lexers, comm, jupyter-client, ipython, ipykernel
+
+22:27:51.413 [debug] 
+
+22:27:51.417 [debug] Successfully installed asttokens-3.0.0 comm-0.2.2 debugpy-1.8.14 decorator-5.2.1 executing-2.2.0 ipykernel-6.29.5 ipython-9.2.0 ipython-pygments-lexers-1.1.1 jedi-0.19.2 jupyter-client-8.6.3 jupyter-core-5.7.2 matplotlib-inline-0.1.7 nest-asyncio-1.6.0 parso-0.8.4 pexpect-4.9.0 prompt_toolkit-3.0.51 psutil-7.0.0 ptyprocess-0.7.0 pure-eval-0.2.3 pygments-2.19.1 pyzmq-26.4.0 stack_data-0.6.3 tornado-6.5 traitlets-5.14.3 wcwidth-0.2.13
+
+22:27:51.524 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+22:27:51.634 [debug] Checking if product is installed, Class name = dD, completed in 121ms, has a truthy return value, Arg 1: 19, Arg 2: undefined, Return Value: true
+22:27:51.637 [debug] Install Missing Dependencies, Class name = op, completed in 9425ms, has a falsy return value, Arg 1: {"resource":{"$mid":1,"fsPath":"~/Αριθμητική/Untitled-1.ipynb","external":"file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/Untitled-1.ipynb","path":"~/Αριθμητική/Untitled-1.ipynb","scheme":"file"},"kernelConnection":{"id":".jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher","kernelSpec":{"specFile":"~/.config/VSCodium/User/globalStorage/ms-toolsai.jupyter/version-2025.4.0/jupyter/kernels/python3133jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1/kernel.json","interpreterPath":"~/Αριθμητική/.venv/bin/python","isRegisteredByVSC":"registeredByNewVersionOfExt","name":"python3133jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1","argv":["python","-m","ipykernel_launcher","-f","{connection_file}"],"language":"python","executable":"python","display_name":".venv","metadata":{"interpreter":{"path":"~/Αριθμητική/.venv/bin/python"}},"env":{}},"interpreter":{"id":"~/Αριθμητική/.venv/bin/python","path":"~/Αριθμητική/.venv/bin/python"},"kind":"startUsingPythonInterpreter"},"ui":{"_event":{"_size":0},"_disableUI":false},"token":{"_isCancelled":false,"_emitter":{"_size":0}},"ignoreCache":true,"cannotChangeKernels":false}, Return Value: 0
+22:27:51.637 [info] Dispose Kernel '~/Αριθμητική/Untitled-1.ipynb' associated with '~/Αριθμητική/Untitled-1.ipynb'
+22:27:51.638 [debug] Kernel got disposed, hence there is no longer a kernel associated with ~/Αριθμητική/Untitled-1.ipynb
+22:27:51.646 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -m pip list
+22:27:51.646 [info] Starting Kernel (Python Path: ~/Αριθμητική/.venv/bin/python, Venv, 3.13.3) for '~/Αριθμητική/Untitled-1.ipynb' (disableUI=false)
+22:27:51.658 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+22:27:51.665 [debug] Launching kernel .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher for ~/Αριθμητική/Untitled-1.ipynb in ~/Αριθμητική with ports 9009, 9008, 9012, 9010, 9011
+22:27:51.675 [info] Process Execution: ~/Αριθμητική/.venv/bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3982f404113b74cf9e7ef6e45b0fc1519e9aa6f49.json
+    > cwd: ~/Αριθμητική
+22:27:51.676 [debug] Kernel process 121524.
+22:27:51.974 [debug] Kernel output 121524: To connect another client to this kernel, use:
+--existing /run/user/1000/jupyter/runtime/kernel-v3982f404113b74cf9e7ef6e45b0fc1519e9aa6f49.json
+22:27:52.101 [debug] Waiting for Raw Session to be ready in postStartRawSession
+22:27:52.101 [debug] Waiting for Raw session to be ready, status: connected
+22:27:52.101 [debug] Waited for Raw session to be ready & got status: connected
+22:27:52.101 [debug] Successfully waited for Raw Session to be ready in postStartRawSession
+22:27:52.101 [debug] Kernel status is 'unknown' before requesting kernel info and after ready
+22:27:52.101 [debug] Sending request for kernelInfo
+22:27:52.105 [debug] Successfully completed postStartRawSession after 1 attempt(s) in 4ms
+22:27:52.134 [debug] Requesting Kernel info
+22:27:52.135 [info] Kernel successfully started
+22:27:52.146 [debug] Kernel acknowledged execution of cell 1 @ 1747769272145
+22:27:53.001 [debug] Kernel acknowledged execution of cell 2 @ 1747769273001
+22:30:04.526 [debug] Handle Execution of Cells 1,2 for ~/Αριθμητική/Untitled-1.ipynb
+22:30:04.533 [debug] Kernel acknowledged execution of cell 1 @ 1747769404532
+22:30:04.556 [debug] Kernel acknowledged execution of cell 2 @ 1747769404556
+22:30:42.491 [debug] Jupyter completion time: 11
+22:30:42.494 [debug] Execution of code ms-toolsai.jupyter-1 completed in 13ms
+22:30:42.734 [debug] Inspected code importbest_model in 10ms
+22:30:42.735 [debug] Execution of code ms-toolsai.jupyter-2 completed in 11ms
+22:30:47.074 [debug] Handle Execution of Cells 1,2 for ~/Αριθμητική/Untitled-1.ipynb
+22:30:47.081 [debug] Kernel acknowledged execution of cell 1 @ 1747769447081
+22:30:47.113 [debug] Kernel acknowledged execution of cell 2 @ 1747769447113
+22:31:42.491 [debug] Handle Execution of Cells 1,2 for ~/Αριθμητική/Untitled-1.ipynb
+22:31:42.498 [debug] Kernel acknowledged execution of cell 1 @ 1747769502498
+22:31:42.521 [debug] Kernel acknowledged execution of cell 2 @ 1747769502521
+22:31:42.524 [warn] Cell completed with errors lu [Error]: closing parenthesis ')' does not match opening parenthesis '[' (716130025.py, line 58)
+    at n.execute (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:294:4958) {
+  ename: 'SyntaxError',
+  evalue: "closing parenthesis ')' does not match opening parenthesis '[' (716130025.py, line 58)",
+  traceback: [
+    '  \x1B[36mCell\x1B[39m\x1B[36m \x1B[39m\x1B[32mIn[8]\x1B[39m\x1B[32m, line 58\x1B[39m\n' +
+      '\x1B[31m    \x1B[39m\x1B[31mbest_model = models[best_degree_idx)]\x1B[39m\n' +
+      '                                       ^\n' +
+      "\x1B[31mSyntaxError\x1B[39m\x1B[31m:\x1B[39m closing parenthesis ')' does not match opening parenthesis '['\n"
+  ]
+}
+22:31:51.392 [debug] Handle Execution of Cells 1,2 for ~/Αριθμητική/Untitled-1.ipynb
+22:31:51.402 [debug] Kernel acknowledged execution of cell 1 @ 1747769511402
+22:31:51.427 [debug] Kernel acknowledged execution of cell 2 @ 1747769511427
+22:33:15.124 [debug] Handle Execution of Cells 1,2 for ~/Αριθμητική/Untitled-1.ipynb
+22:33:15.129 [debug] Kernel acknowledged execution of cell 1 @ 1747769595129
+22:33:15.166 [debug] Kernel acknowledged execution of cell 2 @ 1747769595166
+22:35:27.715 [debug] Handle Execution of Cells 1,3,4 for ~/Αριθμητική/Untitled-1.ipynb
+22:35:27.721 [debug] Kernel acknowledged execution of cell 1 @ 1747769727721
+22:35:27.747 [debug] Kernel acknowledged execution of cell 3 @ 1747769727747
+22:35:27.773 [debug] Kernel acknowledged execution of cell 4 @ 1747769727773
+22:37:09.459 [debug] Jupyter completion time: 7
+22:37:09.460 [debug] Execution of code ms-toolsai.jupyter-3 completed in 7ms
+22:37:23.324 [debug] Jupyter completion time: 12
+22:37:23.327 [debug] Execution of code ms-toolsai.jupyter-4 completed in 14ms
+22:37:23.350 [debug] Inspected code total_errors in 13ms
+22:37:23.353 [debug] Execution of code ms-toolsai.jupyter-5 completed in 16ms
+22:37:57.684 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+22:37:57.694 [debug] Kernel acknowledged execution of cell 1 @ 1747769877693
+22:37:57.962 [debug] Kernel acknowledged execution of cell 3 @ 1747769877962
+22:37:57.998 [debug] Kernel acknowledged execution of cell 5 @ 1747769877998
+22:42:36.693 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+22:42:36.701 [debug] Kernel acknowledged execution of cell 1 @ 1747770156701
+22:42:36.722 [debug] Kernel acknowledged execution of cell 3 @ 1747770156722
+22:42:36.748 [debug] Kernel acknowledged execution of cell 5 @ 1747770156748
+22:45:25.384 [debug] Jupyter completion time: 8
+22:45:25.386 [debug] Execution of code ms-toolsai.jupyter-6 completed in 9ms
+22:45:25.594 [debug] Jupyter completion time: 13
+22:45:25.596 [debug] Execution of code ms-toolsai.jupyter-7 completed in 14ms
+22:45:25.800 [debug] Jupyter completion time: 12
+22:45:25.802 [debug] Execution of code ms-toolsai.jupyter-8 completed in 13ms
+22:45:26.083 [debug] Jupyter completion time: 10
+22:45:26.085 [debug] Execution of code ms-toolsai.jupyter-9 completed in 12ms
+22:45:26.271 [debug] Jupyter completion time: 12
+22:45:26.272 [debug] Execution of code ms-toolsai.jupyter-10 completed in 12ms
+22:45:26.468 [debug] Jupyter completion time: 11
+22:45:26.469 [debug] Execution of code ms-toolsai.jupyter-11 completed in 12ms
+22:45:26.609 [debug] Jupyter completion time: 11
+22:45:26.611 [debug] Execution of code ms-toolsai.jupyter-12 completed in 13ms
+22:45:27.375 [debug] Jupyter completion time: 9
+22:45:27.377 [debug] Execution of code ms-toolsai.jupyter-13 completed in 11ms
+22:45:27.670 [debug] Jupyter completion time: 11
+22:45:27.671 [debug] Execution of code ms-toolsai.jupyter-14 completed in 11ms
+22:45:27.819 [debug] Jupyter completion time: 13
+22:45:27.820 [debug] Execution of code ms-toolsai.jupyter-15 completed in 13ms
+22:45:28.003 [debug] Jupyter completion time: 12
+22:45:28.004 [debug] Execution of code ms-toolsai.jupyter-16 completed in 12ms
+22:45:28.188 [debug] Jupyter completion time: 11
+22:45:28.190 [debug] Execution of code ms-toolsai.jupyter-17 completed in 12ms
+22:45:32.961 [debug] Jupyter completion time: 12
+22:45:32.962 [debug] Execution of code ms-toolsai.jupyter-18 completed in 13ms
+22:45:35.295 [debug] Jupyter completion time: 11
+22:45:35.297 [debug] Execution of code ms-toolsai.jupyter-19 completed in 13ms
+22:45:35.319 [debug] Inspected code finally in 14ms
+22:45:35.322 [debug] Execution of code ms-toolsai.jupyter-20 completed in 16ms
+22:45:57.749 [debug] Jupyter completion time: 11
+22:45:57.752 [debug] Execution of code ms-toolsai.jupyter-21 completed in 14ms
+22:45:57.766 [debug] Inspected code trapi in 10ms
+22:45:57.767 [debug] Execution of code ms-toolsai.jupyter-22 completed in 10ms
+22:46:02.182 [debug] Jupyter completion time: 11
+22:46:02.183 [debug] Execution of code ms-toolsai.jupyter-23 completed in 12ms
+22:46:02.198 [debug] Inspected code trapezoidelif in 10ms
+22:46:02.199 [debug] Execution of code ms-toolsai.jupyter-24 completed in 11ms
+22:46:02.407 [debug] Jupyter completion time: 12
+22:46:02.408 [debug] Execution of code ms-toolsai.jupyter-25 completed in 13ms
+22:46:02.420 [debug] Inspected code trapezoidraise in 9ms
+22:46:02.421 [debug] Execution of code ms-toolsai.jupyter-26 completed in 10ms
+22:46:07.513 [debug] Jupyter completion time: 12
+22:46:07.514 [debug] Execution of code ms-toolsai.jupyter-27 completed in 13ms
+22:46:07.551 [debug] Inspected code trapezoid_area = 0x in 11ms
+22:46:07.552 [debug] Execution of code ms-toolsai.jupyter-28 completed in 12ms
+22:46:08.474 [debug] Jupyter completion time: 10
+22:46:08.476 [debug] Execution of code ms-toolsai.jupyter-29 completed in 11ms
+22:46:12.309 [debug] Jupyter completion time: 9
+22:46:12.312 [debug] Execution of code ms-toolsai.jupyter-30 completed in 11ms
+22:46:12.338 [debug] Inspected code trapezoid_area = 0x in 7ms
+22:46:12.341 [debug] Execution of code ms-toolsai.jupyter-31 completed in 10ms
+22:46:13.612 [debug] Jupyter completion time: 7
+22:46:13.613 [debug] Execution of code ms-toolsai.jupyter-32 completed in 8ms
+22:46:14.588 [debug] Jupyter completion time: 11
+22:46:14.590 [debug] Execution of code ms-toolsai.jupyter-33 completed in 13ms
+22:46:14.602 [debug] Inspected code x in 9ms
+22:46:14.603 [debug] Execution of code ms-toolsai.jupyter-34 completed in 10ms
+22:46:15.108 [debug] Jupyter completion time: 12
+22:46:15.110 [debug] Execution of code ms-toolsai.jupyter-35 completed in 14ms
+22:46:25.048 [debug] Jupyter completion time: 12
+22:46:25.049 [debug] Execution of code ms-toolsai.jupyter-36 completed in 12ms
+22:46:25.061 [debug] Inspected code y_train in 11ms
+22:46:25.066 [debug] Execution of code ms-toolsai.jupyter-37 completed in 16ms
+22:46:37.991 [debug] Jupyter completion time: 12
+22:46:37.992 [debug] Execution of code ms-toolsai.jupyter-38 completed in 12ms
+22:46:38.012 [debug] Inspected code ttotal_errors in 11ms
+22:46:38.014 [debug] Execution of code ms-toolsai.jupyter-39 completed in 12ms
+22:46:44.418 [debug] Jupyter completion time: 11
+22:46:44.420 [debug] Execution of code ms-toolsai.jupyter-40 completed in 13ms
+22:46:44.435 [debug] Inspected code trapezoid_area = 0.y in 10ms
+22:46:44.439 [debug] Execution of code ms-toolsai.jupyter-41 completed in 14ms
+22:46:44.725 [debug] Inspected code trapezoid_area = 0.y_fit in 12ms
+22:46:44.729 [debug] Execution of code ms-toolsai.jupyter-42 completed in 15ms
+22:46:44.886 [debug] Inspected code trapezoid_area = 0.y_test in 9ms
+22:46:44.888 [debug] Execution of code ms-toolsai.jupyter-43 completed in 11ms
+22:46:45.073 [debug] Inspected code trapezoid_area = 0.y_train in 9ms
+22:46:45.075 [debug] Execution of code ms-toolsai.jupyter-44 completed in 11ms
+22:46:47.407 [debug] Jupyter completion time: 13
+22:46:47.409 [debug] Execution of code ms-toolsai.jupyter-45 completed in 14ms
+22:46:47.423 [debug] Inspected code trapezoid_area = 0.0y in 13ms
+22:46:47.427 [debug] Execution of code ms-toolsai.jupyter-46 completed in 17ms
+22:46:47.836 [debug] Jupyter completion time: 9
+22:46:47.838 [debug] Execution of code ms-toolsai.jupyter-47 completed in 11ms
+22:46:49.716 [debug] Jupyter completion time: 13
+22:46:49.718 [debug] Execution of code ms-toolsai.jupyter-48 completed in 14ms
+22:46:51.883 [debug] Jupyter completion time: 10
+22:46:51.885 [debug] Execution of code ms-toolsai.jupyter-49 completed in 12ms
+22:46:51.899 [debug] Inspected code for i in ray in 11ms
+22:46:51.901 [debug] Execution of code ms-toolsai.jupyter-50 completed in 12ms
+22:46:52.258 [debug] Jupyter completion time: 11
+22:46:52.260 [debug] Execution of code ms-toolsai.jupyter-51 completed in 12ms
+22:46:54.755 [debug] Jupyter completion time: 12
+22:46:54.757 [debug] Execution of code ms-toolsai.jupyter-52 completed in 13ms
+22:47:03.701 [debug] Jupyter completion time: 10
+22:47:03.703 [debug] Execution of code ms-toolsai.jupyter-53 completed in 12ms
+22:47:03.715 [debug] Inspected code pd in 10ms
+22:47:03.716 [debug] Execution of code ms-toolsai.jupyter-54 completed in 11ms
+22:47:03.763 [debug] Inspected code predicted_prices in 11ms
+22:47:03.766 [debug] Execution of code ms-toolsai.jupyter-55 completed in 14ms
+22:47:12.625 [debug] Jupyter completion time: 12
+22:47:12.626 [debug] Execution of code ms-toolsai.jupyter-56 completed in 12ms
+22:47:38.358 [debug] Jupyter completion time: 20
+22:47:38.362 [debug] Execution of code ms-toolsai.jupyter-57 completed in 24ms
+22:47:38.375 [debug] Inspected code trapezoend= in 8ms
+22:47:38.377 [debug] Execution of code ms-toolsai.jupyter-58 completed in 9ms
+22:47:38.726 [debug] Inspected code trapezoTypeError in 12ms
+22:47:38.728 [debug] Execution of code ms-toolsai.jupyter-59 completed in 14ms
+22:47:38.989 [debug] Inspected code trapezotry in 14ms
+22:47:38.991 [debug] Execution of code ms-toolsai.jupyter-60 completed in 16ms
+22:47:39.213 [debug] Inspected code trapezoTabError in 7ms
+22:47:39.214 [debug] Execution of code ms-toolsai.jupyter-61 completed in 7ms
+22:48:03.305 [debug] Jupyter completion time: 12
+22:48:03.307 [debug] Execution of code ms-toolsai.jupyter-62 completed in 14ms
+22:48:03.483 [debug] Inspected code min_MAE in 8ms
+22:48:03.484 [debug] Execution of code ms-toolsai.jupyter-63 completed in 9ms
+22:48:03.680 [debug] Jupyter completion time: 13
+22:48:03.681 [debug] Execution of code ms-toolsai.jupyter-64 completed in 13ms
+22:48:04.331 [debug] Jupyter completion time: 11
+22:48:04.333 [debug] Execution of code ms-toolsai.jupyter-65 completed in 12ms
+22:48:05.312 [debug] Jupyter completion time: 10
+22:48:05.312 [debug] Execution of code ms-toolsai.jupyter-66 completed in 9ms
+22:48:05.497 [debug] Jupyter completion time: 11
+22:48:05.498 [debug] Execution of code ms-toolsai.jupyter-67 completed in 11ms
+22:48:05.653 [debug] Jupyter completion time: 10
+22:48:05.655 [debug] Execution of code ms-toolsai.jupyter-68 completed in 12ms
+22:48:05.896 [debug] Jupyter completion time: 11
+22:48:05.896 [debug] Execution of code ms-toolsai.jupyter-69 completed in 12ms
+22:48:06.019 [debug] Jupyter completion time: 7
+22:48:06.020 [debug] Execution of code ms-toolsai.jupyter-70 completed in 7ms
+22:48:07.456 [debug] Jupyter completion time: 10
+22:48:07.457 [debug] Execution of code ms-toolsai.jupyter-71 completed in 10ms
+22:48:07.484 [debug] Inspected code trapezoid_aretotal_errors in 14ms
+22:48:07.485 [debug] Execution of code ms-toolsai.jupyter-72 completed in 15ms
+22:48:07.550 [debug] Inspected code trapezoid_aretry in 10ms
+22:48:07.552 [debug] Execution of code ms-toolsai.jupyter-73 completed in 11ms
+22:48:12.570 [debug] Jupyter completion time: 14
+22:48:12.570 [debug] Execution of code ms-toolsai.jupyter-74 completed in 13ms
+22:48:12.579 [debug] Inspected code for i inlambda in 7ms
+22:48:12.580 [debug] Execution of code ms-toolsai.jupyter-75 completed in 8ms
+22:48:12.843 [debug] Jupyter completion time: 7
+22:48:12.845 [debug] Execution of code ms-toolsai.jupyter-76 completed in 9ms
+22:48:14.523 [debug] Jupyter completion time: 12
+22:48:14.524 [debug] Execution of code ms-toolsai.jupyter-77 completed in 13ms
+22:48:14.538 [debug] Inspected code for i in rangy in 8ms
+22:48:14.540 [debug] Execution of code ms-toolsai.jupyter-78 completed in 10ms
+22:48:14.813 [debug] Jupyter completion time: 12
+22:48:14.815 [debug] Execution of code ms-toolsai.jupyter-79 completed in 14ms
+22:48:49.376 [debug] Jupyter completion time: 9
+22:48:49.377 [debug] Execution of code ms-toolsai.jupyter-80 completed in 9ms
+22:48:54.177 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+22:48:54.183 [debug] Kernel acknowledged execution of cell 1 @ 1747770534183
+22:48:54.217 [debug] Kernel acknowledged execution of cell 3 @ 1747770534217
+22:48:54.240 [debug] Kernel acknowledged execution of cell 5 @ 1747770534240
+22:48:54.327 [debug] Kernel acknowledged execution of cell 7 @ 1747770534327
+22:50:06.902 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+22:50:06.907 [debug] Kernel acknowledged execution of cell 7 @ 1747770606907
+22:50:21.747 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+22:50:21.754 [debug] Kernel acknowledged execution of cell 7 @ 1747770621754
+22:52:50.113 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+22:52:50.120 [debug] Kernel acknowledged execution of cell 7 @ 1747770770120
+22:52:58.901 [debug] Jupyter completion time: 15
+22:52:58.903 [debug] Execution of code ms-toolsai.jupyter-81 completed in 16ms
+22:53:00.882 [debug] Jupyter completion time: 13
+22:53:00.884 [debug] Execution of code ms-toolsai.jupyter-82 completed in 15ms
+22:53:00.897 [debug] Inspected code trapezy in 11ms
+22:53:00.898 [debug] Execution of code ms-toolsai.jupyter-83 completed in 11ms
+22:53:01.188 [debug] Jupyter completion time: 14
+22:53:01.190 [debug] Execution of code ms-toolsai.jupyter-84 completed in 15ms
+22:53:05.774 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+22:53:05.784 [debug] Kernel acknowledged execution of cell 7 @ 1747770785784
+22:53:24.114 [debug] Jupyter completion time: 9
+22:53:24.114 [debug] Execution of code ms-toolsai.jupyter-85 completed in 9ms
+22:53:25.890 [debug] Jupyter completion time: 15
+22:53:25.892 [debug] Execution of code ms-toolsai.jupyter-86 completed in 16ms
+22:53:25.908 [debug] Inspected code trapezy in 12ms
+22:53:25.910 [debug] Execution of code ms-toolsai.jupyter-87 completed in 14ms
+22:53:26.278 [debug] Jupyter completion time: 13
+22:53:26.280 [debug] Execution of code ms-toolsai.jupyter-88 completed in 14ms
+22:53:32.343 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+22:53:32.354 [debug] Kernel acknowledged execution of cell 7 @ 1747770812354
+22:55:13.499 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+22:55:13.508 [debug] Kernel acknowledged execution of cell 7 @ 1747770913508
+22:55:18.286 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+22:55:18.295 [debug] Kernel acknowledged execution of cell 7 @ 1747770918295
+22:56:27.529 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+22:56:27.538 [debug] Kernel acknowledged execution of cell 7 @ 1747770987538
+22:56:31.625 [debug] Jupyter completion time: 13
+22:56:31.627 [debug] Execution of code ms-toolsai.jupyter-89 completed in 14ms
+22:56:31.646 [debug] Inspected code tpd in 12ms
+22:56:31.648 [debug] Execution of code ms-toolsai.jupyter-90 completed in 14ms
+22:56:31.689 [debug] Inspected code tpredicted_prices in 11ms
+22:56:31.690 [debug] Execution of code ms-toolsai.jupyter-91 completed in 11ms
+22:56:34.483 [debug] Jupyter completion time: 12
+22:56:34.485 [debug] Execution of code ms-toolsai.jupyter-92 completed in 14ms
+22:56:36.771 [debug] Jupyter completion time: 13
+22:56:36.772 [debug] Execution of code ms-toolsai.jupyter-93 completed in 14ms
+22:56:37.081 [debug] Jupyter completion time: 18
+22:56:37.090 [debug] Execution of code ms-toolsai.jupyter-94 completed in 26ms
+22:56:37.106 [debug] Inspected code trapezoidend= in 12ms
+22:56:37.107 [debug] Execution of code ms-toolsai.jupyter-95 completed in 12ms
+22:56:37.895 [debug] Inspected code trapezoidid in 12ms
+22:56:37.897 [debug] Execution of code ms-toolsai.jupyter-96 completed in 13ms
+22:56:38.203 [debug] Inspected code trapezoidIndexError in 7ms
+22:56:38.205 [debug] Execution of code ms-toolsai.jupyter-97 completed in 9ms
+22:56:38.630 [debug] Jupyter completion time: 23
+22:56:38.638 [debug] Execution of code ms-toolsai.jupyter-98 completed in 30ms
+22:56:38.654 [debug] Inspected code trapezoid_areend= in 11ms
+22:56:38.657 [debug] Execution of code ms-toolsai.jupyter-99 completed in 13ms
+22:56:40.671 [debug] Jupyter completion time: 13
+22:56:40.672 [debug] Execution of code ms-toolsai.jupyter-100 completed in 13ms
+22:56:45.600 [debug] Jupyter completion time: 13
+22:56:45.602 [debug] Execution of code ms-toolsai.jupyter-101 completed in 14ms
+22:56:47.515 [debug] Jupyter completion time: 11
+22:56:47.516 [debug] Execution of code ms-toolsai.jupyter-102 completed in 11ms
+22:56:53.729 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+22:56:53.742 [debug] Kernel acknowledged execution of cell 7 @ 1747771013741
+22:57:25.577 [debug] Jupyter completion time: 15
+22:57:25.578 [debug] Execution of code ms-toolsai.jupyter-103 completed in 16ms
+22:57:28.204 [debug] Jupyter completion time: 12
+22:57:28.206 [debug] Execution of code ms-toolsai.jupyter-104 completed in 14ms
+22:57:28.226 [debug] Inspected code trapezlambda in 12ms
+22:57:28.228 [debug] Execution of code ms-toolsai.jupyter-105 completed in 14ms
+22:57:29.856 [debug] Jupyter completion time: 12
+22:57:29.859 [debug] Execution of code ms-toolsai.jupyter-106 completed in 15ms
+22:57:29.879 [debug] Inspected code trapezoid_y in 16ms
+22:57:29.880 [debug] Execution of code ms-toolsai.jupyter-107 completed in 16ms
+22:57:30.163 [debug] Jupyter completion time: 13
+22:57:30.164 [debug] Execution of code ms-toolsai.jupyter-108 completed in 14ms
+22:57:34.338 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+22:57:34.350 [debug] Kernel acknowledged execution of cell 7 @ 1747771054350
+22:57:48.597 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+22:57:48.609 [debug] Kernel acknowledged execution of cell 7 @ 1747771068609
+22:58:15.145 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+22:58:15.149 [debug] Kernel acknowledged execution of cell 7 @ 1747771095149
+22:58:38.206 [debug] Jupyter completion time: 13
+22:58:38.207 [debug] Execution of code ms-toolsai.jupyter-109 completed in 13ms
+22:58:38.229 [debug] Inspected code split_index in 7ms
+22:58:38.232 [debug] Execution of code ms-toolsai.jupyter-110 completed in 10ms
+22:58:38.611 [debug] Jupyter completion time: 13
+22:58:38.613 [debug] Execution of code ms-toolsai.jupyter-111 completed in 15ms
+22:58:38.719 [debug] Jupyter completion time: 14
+22:58:38.722 [debug] Execution of code ms-toolsai.jupyter-112 completed in 17ms
+22:58:38.920 [debug] Jupyter completion time: 12
+22:58:38.921 [debug] Execution of code ms-toolsai.jupyter-113 completed in 12ms
+22:58:39.235 [debug] Jupyter completion time: 8
+22:58:39.237 [debug] Execution of code ms-toolsai.jupyter-114 completed in 10ms
+22:58:39.418 [debug] Jupyter completion time: 14
+22:58:39.419 [debug] Execution of code ms-toolsai.jupyter-115 completed in 14ms
+22:58:39.575 [debug] Jupyter completion time: 13
+22:58:39.577 [debug] Execution of code ms-toolsai.jupyter-116 completed in 14ms
+22:58:39.735 [debug] Jupyter completion time: 14
+22:58:39.736 [debug] Execution of code ms-toolsai.jupyter-117 completed in 15ms
+22:58:39.926 [debug] Jupyter completion time: 14
+22:58:39.927 [debug] Execution of code ms-toolsai.jupyter-118 completed in 14ms
+22:58:43.082 [debug] Jupyter completion time: 13
+22:58:43.084 [debug] Execution of code ms-toolsai.jupyter-119 completed in 15ms
+22:58:43.507 [debug] Jupyter completion time: 11
+22:58:43.507 [debug] Execution of code ms-toolsai.jupyter-120 completed in 11ms
+22:58:43.638 [debug] Jupyter completion time: 13
+22:58:43.640 [debug] Execution of code ms-toolsai.jupyter-121 completed in 15ms
+22:58:43.835 [debug] Jupyter completion time: 13
+22:58:43.837 [debug] Execution of code ms-toolsai.jupyter-122 completed in 15ms
+22:58:44.136 [debug] Jupyter completion time: 13
+22:58:44.138 [debug] Execution of code ms-toolsai.jupyter-123 completed in 14ms
+22:58:44.375 [debug] Jupyter completion time: 12
+22:58:44.377 [debug] Execution of code ms-toolsai.jupyter-124 completed in 13ms
+22:58:44.539 [debug] Jupyter completion time: 12
+22:58:44.541 [debug] Execution of code ms-toolsai.jupyter-125 completed in 14ms
+22:58:44.720 [debug] Jupyter completion time: 11
+22:58:44.722 [debug] Execution of code ms-toolsai.jupyter-126 completed in 13ms
+22:58:44.887 [debug] Jupyter completion time: 14
+22:58:44.888 [debug] Execution of code ms-toolsai.jupyter-127 completed in 14ms
+22:58:48.948 [debug] Jupyter completion time: 13
+22:58:48.949 [debug] Execution of code ms-toolsai.jupyter-128 completed in 14ms
+22:59:40.176 [debug] Jupyter completion time: 12
+22:59:40.178 [debug] Execution of code ms-toolsai.jupyter-129 completed in 14ms
+22:59:40.191 [debug] Inspected code degree in 11ms
+22:59:40.193 [debug] Execution of code ms-toolsai.jupyter-130 completed in 13ms
+22:59:41.467 [debug] Jupyter completion time: 13
+22:59:41.469 [debug] Execution of code ms-toolsai.jupyter-131 completed in 14ms
+22:59:41.481 [debug] Inspected code def try in 11ms
+22:59:41.483 [debug] Execution of code ms-toolsai.jupyter-132 completed in 12ms
+22:59:41.828 [debug] Jupyter completion time: 15
+22:59:41.830 [debug] Execution of code ms-toolsai.jupyter-133 completed in 16ms
+22:59:47.335 [debug] Jupyter completion time: 15
+22:59:47.337 [debug] Execution of code ms-toolsai.jupyter-134 completed in 16ms
+22:59:47.358 [debug] Inspected code def try in 15ms
+22:59:47.360 [debug] Execution of code ms-toolsai.jupyter-135 completed in 16ms
+22:59:47.498 [debug] Jupyter completion time: 14
+22:59:47.499 [debug] Execution of code ms-toolsai.jupyter-136 completed in 15ms
+22:59:47.511 [debug] Inspected code def try in 10ms
+22:59:47.513 [debug] Execution of code ms-toolsai.jupyter-137 completed in 12ms
+22:59:48.545 [debug] Jupyter completion time: 12
+22:59:48.546 [debug] Execution of code ms-toolsai.jupyter-138 completed in 13ms
+22:59:48.562 [debug] Inspected code def try in 10ms
+22:59:48.564 [debug] Execution of code ms-toolsai.jupyter-139 completed in 12ms
+22:59:48.903 [debug] Jupyter completion time: 15
+22:59:48.904 [debug] Execution of code ms-toolsai.jupyter-140 completed in 15ms
+22:59:50.355 [debug] Jupyter completion time: 15
+22:59:50.356 [debug] Execution of code ms-toolsai.jupyter-141 completed in 15ms
+22:59:50.585 [debug] Jupyter completion time: 13
+22:59:50.588 [debug] Execution of code ms-toolsai.jupyter-142 completed in 16ms
+22:59:50.712 [debug] Jupyter completion time: 13
+22:59:50.714 [debug] Execution of code ms-toolsai.jupyter-143 completed in 14ms
+23:00:03.256 [debug] Jupyter completion time: 10
+23:00:03.257 [debug] Execution of code ms-toolsai.jupyter-144 completed in 11ms
+23:00:03.277 [debug] Inspected code def trapezoid_rule(y in 11ms
+23:00:03.278 [debug] Execution of code ms-toolsai.jupyter-145 completed in 12ms
+23:00:06.965 [debug] Jupyter completion time: 14
+23:00:06.966 [debug] Execution of code ms-toolsai.jupyter-146 completed in 14ms
+23:00:06.977 [debug] Inspected code def trapezoid_rule(y in 10ms
+23:00:06.979 [debug] Execution of code ms-toolsai.jupyter-147 completed in 11ms
+23:00:08.508 [debug] Jupyter completion time: 7
+23:00:08.511 [debug] Execution of code ms-toolsai.jupyter-148 completed in 10ms
+23:00:08.525 [debug] Inspected code def trapezoid_rule(yy in 6ms
+23:00:08.526 [debug] Execution of code ms-toolsai.jupyter-149 completed in 7ms
+23:00:09.418 [debug] Jupyter completion time: 10
+23:00:09.420 [debug] Execution of code ms-toolsai.jupyter-150 completed in 12ms
+23:00:09.448 [debug] Inspected code tray in 12ms
+23:00:09.449 [debug] Execution of code ms-toolsai.jupyter-151 completed in 12ms
+23:00:48.651 [debug] Jupyter completion time: 12
+23:00:48.652 [debug] Execution of code ms-toolsai.jupyter-152 completed in 12ms
+23:00:48.673 [debug] Inspected code drunfile in 11ms
+23:00:48.675 [debug] Execution of code ms-toolsai.jupyter-153 completed in 12ms
+23:00:49.969 [debug] Jupyter completion time: 13
+23:00:49.970 [debug] Execution of code ms-toolsai.jupyter-154 completed in 14ms
+23:00:49.985 [debug] Inspected code def trapmin_MAE in 13ms
+23:00:49.986 [debug] Execution of code ms-toolsai.jupyter-155 completed in 13ms
+23:00:59.741 [debug] Jupyter completion time: 13
+23:00:59.742 [debug] Execution of code ms-toolsai.jupyter-156 completed in 13ms
+23:01:02.102 [debug] Jupyter completion time: 13
+23:01:02.104 [debug] Execution of code ms-toolsai.jupyter-157 completed in 14ms
+23:01:02.119 [debug] Inspected code def trapezoid_rule(y)total_errors in 11ms
+23:01:02.123 [debug] Execution of code ms-toolsai.jupyter-158 completed in 14ms
+23:01:02.229 [debug] Inspected code def trapezoid_rule(y)trapezoid_area in 11ms
+23:01:02.230 [debug] Execution of code ms-toolsai.jupyter-159 completed in 12ms
+23:01:06.677 [debug] Jupyter completion time: 14
+23:01:06.678 [debug] Execution of code ms-toolsai.jupyter-160 completed in 14ms
+23:01:06.700 [debug] Inspected code trapezoid_ary in 16ms
+23:01:06.702 [debug] Execution of code ms-toolsai.jupyter-161 completed in 17ms
+23:01:07.795 [debug] Inspected code trapezoid_ary_fit in 18ms
+23:01:07.797 [debug] Execution of code ms-toolsai.jupyter-162 completed in 20ms
+23:01:08.049 [debug] Inspected code trapezoid_ary_test in 17ms
+23:01:08.051 [debug] Execution of code ms-toolsai.jupyter-163 completed in 19ms
+23:01:08.220 [debug] Inspected code trapezoid_ary_train in 16ms
+23:01:08.221 [debug] Execution of code ms-toolsai.jupyter-164 completed in 17ms
+23:01:16.036 [debug] Handle Execution of Cells 7 for ~/Αριθμητική/Untitled-1.ipynb
+23:01:16.045 [debug] Kernel acknowledged execution of cell 7 @ 1747771276045
+23:01:53.265 [debug] Jupyter completion time: 13
+23:01:53.267 [debug] Execution of code ms-toolsai.jupyter-165 completed in 14ms
+23:01:54.166 [debug] Jupyter completion time: 13
+23:01:54.167 [debug] Execution of code ms-toolsai.jupyter-166 completed in 14ms
+23:02:36.581 [debug] Jupyter completion time: 13
+23:02:36.583 [debug] Execution of code ms-toolsai.jupyter-167 completed in 15ms
+23:03:06.045 [debug] Jupyter completion time: 14
+23:03:06.046 [debug] Execution of code ms-toolsai.jupyter-168 completed in 15ms
+23:03:06.212 [debug] Jupyter completion time: 14
+23:03:06.214 [debug] Execution of code ms-toolsai.jupyter-169 completed in 15ms
+23:03:06.385 [debug] Execution of code ms-toolsai.jupyter-170 completed in 14ms
+23:03:06.385 [debug] Jupyter completion time: 15
+23:03:06.550 [debug] Jupyter completion time: 15
+23:03:06.551 [debug] Execution of code ms-toolsai.jupyter-171 completed in 15ms
+23:03:06.742 [debug] Jupyter completion time: 13
+23:03:06.743 [debug] Execution of code ms-toolsai.jupyter-172 completed in 13ms
+23:03:13.301 [debug] Jupyter completion time: 14
+23:03:13.302 [debug] Execution of code ms-toolsai.jupyter-173 completed in 15ms
+23:03:13.421 [debug] Inspected code trapezoid_rule in 27ms
+23:03:13.423 [debug] Execution of code ms-toolsai.jupyter-174 completed in 28ms
+23:03:15.312 [debug] Jupyter completion time: 15
+23:03:15.313 [debug] Execution of code ms-toolsai.jupyter-175 completed in 15ms
+23:03:15.405 [debug] Jupyter completion time: 14
+23:03:15.406 [debug] Execution of code ms-toolsai.jupyter-176 completed in 14ms
+23:03:15.602 [debug] Jupyter completion time: 15
+23:03:15.603 [debug] Execution of code ms-toolsai.jupyter-177 completed in 15ms
+23:03:15.716 [debug] Jupyter completion time: 12
+23:03:15.717 [debug] Execution of code ms-toolsai.jupyter-178 completed in 13ms
+23:03:16.355 [debug] Jupyter completion time: 15
+23:03:16.356 [debug] Execution of code ms-toolsai.jupyter-179 completed in 15ms
+23:03:16.571 [debug] Jupyter completion time: 11
+23:03:16.571 [debug] Execution of code ms-toolsai.jupyter-180 completed in 10ms
+23:03:16.757 [debug] Jupyter completion time: 12
+23:03:16.758 [debug] Execution of code ms-toolsai.jupyter-181 completed in 13ms
+23:03:16.867 [debug] Jupyter completion time: 15
+23:03:16.867 [debug] Execution of code ms-toolsai.jupyter-182 completed in 14ms
+23:03:17.114 [debug] Jupyter completion time: 14
+23:03:17.115 [debug] Execution of code ms-toolsai.jupyter-183 completed in 14ms
+23:03:17.215 [debug] Jupyter completion time: 11
+23:03:17.216 [debug] Execution of code ms-toolsai.jupyter-184 completed in 11ms
+23:03:26.356 [debug] Jupyter completion time: 13
+23:03:26.356 [debug] Execution of code ms-toolsai.jupyter-185 completed in 12ms
+23:03:26.638 [debug] Jupyter completion time: 13
+23:03:26.640 [debug] Execution of code ms-toolsai.jupyter-186 completed in 15ms
+23:03:26.929 [debug] Jupyter completion time: 17
+23:03:26.930 [debug] Execution of code ms-toolsai.jupyter-187 completed in 17ms
+23:03:27.053 [debug] Jupyter completion time: 14
+23:03:27.054 [debug] Execution of code ms-toolsai.jupyter-188 completed in 14ms
+23:03:27.842 [debug] Jupyter completion time: 14
+23:03:27.843 [debug] Execution of code ms-toolsai.jupyter-189 completed in 14ms
+23:03:28.806 [debug] Jupyter completion time: 18
+23:03:28.807 [debug] Execution of code ms-toolsai.jupyter-190 completed in 18ms
+23:03:28.997 [debug] Jupyter completion time: 14
+23:03:28.998 [debug] Execution of code ms-toolsai.jupyter-191 completed in 15ms
+23:03:29.166 [debug] Jupyter completion time: 13
+23:03:29.168 [debug] Execution of code ms-toolsai.jupyter-192 completed in 15ms
+23:03:29.431 [debug] Jupyter completion time: 15
+23:03:29.431 [debug] Execution of code ms-toolsai.jupyter-193 completed in 14ms
+23:03:29.540 [debug] Jupyter completion time: 13
+23:03:29.542 [debug] Execution of code ms-toolsai.jupyter-194 completed in 15ms
+01:35:15.723 [debug] creating new code watcher with matching document file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/.ipynb_checkpoints/data_collection-checkpoint.py
+01:35:30.188 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+01:35:30.197 [debug] Kernel acknowledged execution of cell 1 @ 1747780530197
+01:35:30.256 [debug] Kernel acknowledged execution of cell 3 @ 1747780530256
+01:35:30.280 [debug] Kernel acknowledged execution of cell 5 @ 1747780530280
+01:35:30.378 [debug] Kernel acknowledged execution of cell 7 @ 1747780530378
+01:35:33.515 [debug] Handle Execution of Cells 1,3,5,7 for ~/Αριθμητική/Untitled-1.ipynb
+01:35:33.520 [debug] Kernel acknowledged execution of cell 1 @ 1747780533520
+01:35:33.547 [debug] Kernel acknowledged execution of cell 3 @ 1747780533547
+01:35:33.569 [debug] Kernel acknowledged execution of cell 5 @ 1747780533569
+01:35:33.646 [debug] Kernel acknowledged execution of cell 7 @ 1747780533646
+01:37:26.658 [info] Dispose Kernel '~/Αριθμητική/Untitled-1.ipynb' associated with '~/Αριθμητική/Untitled-1.ipynb'
+01:37:26.658 [info] Dispose Kernel '~/Αριθμητική/Untitled-1.ipynb' associated with '~/Αριθμητική/Untitled-1.ipynb'
+01:37:26.658 [debug] Cancel pending cells
+01:37:26.659 [debug] Shutdown session a37556e4-7169-4365-8d65-2a01ad3e96fa, .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher - start called from Error: 
+    at iT.shutdown (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:301:1140)
+    at iT.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:301:623)
+    at Is (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:115:867)
+    at e (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:282:32549)
+    at T_.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:282:32794)
+    at ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:183:1926
+    at Array.map (<anonymous>)
+    at Rg.dispose (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:183:1917)
+    at Object.Ahe (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:447:3706)
+    at Object.m (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.proxy.js:1:901)
+    at PQ._deactivate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:14502)
+    at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12013
+    at Array.map (<anonymous>)
+    at PQ._deactivateAll (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12001)
+    at PQ.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:123:12354)
+    at v8.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:1602)
+    at ds (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:5829)
+    at MessagePortMain.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:225:2284)
+    at MessagePortMain.emit (node:events:524:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+01:37:26.659 [debug] Dispose Kernel process 121524.
+01:37:26.667 [debug] Kernel got disposed, hence there is no longer a kernel associated with ~/Αριθμητική/Untitled-1.ipynb
+01:37:26.672 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher 
+01:37:26.672 [debug] Disposing controller .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher 
+01:37:26.672 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+01:37:26.672 [debug] Disposing controller .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0d2152fd7f0bbc62aa1baff8c990435d1e2c7175d001561303988032604c11a48./sbin/python./sbin/python.-m#ipykernel_launcher 
+01:37:26.672 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+01:37:26.672 [debug] Disposing controller .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd0767d51c1340bd893661ea55ea3124f6de3c7a262a8b4abca0554b478b1e2ff90./usr/bin/python./usr/bin/python.-m#ipykernel_launcher 
+01:37:26.672 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+01:37:26.673 [debug] Disposing controller .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd04e1d9a8909477db77738c33245c29c7265277ef753467dede8cf3f814cde494e./usr/sbin/python./usr/sbin/python.-m#ipykernel_launcher 
+01:37:26.673 [debug] Disposing controller .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher associated with connection .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher and documents file://~/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/Untitled-1.ipynb
+01:37:26.673 [debug] Disposing controller .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher (Interactive) associated with connection .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher 
+01:37:26.678 [warn] Failed to delete connection file file:///run/user/1000/jupyter/runtime/kernel-v3982f404113b74cf9e7ef6e45b0fc1519e9aa6f49.json for pid 121524 Canceled (FileSystemError): Canceled
+    at Function._handleError (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:22541)
+    at Object.stat (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:19418)
+    at Gc.delete (~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:236:15401)
+    at ~/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal/dist/extension.node.js:300:469 {
+  code: 'Unknown'
+}
+01:37:26.678 [debug] Disposed Kernel process 121524.
+01:37:26.678 [debug] Shutdown session a37556e4-7169-4365-8d65-2a01ad3e96fa, .jvsc74a57bd07e253c9ed1582199932a7e899c19102992abc6ecee0060cd042c61d159a94bc1.~/Αριθμητική/.venv/python.~/Αριθμητική/.venv/python.-m#ipykernel_launcher - shutdown complete

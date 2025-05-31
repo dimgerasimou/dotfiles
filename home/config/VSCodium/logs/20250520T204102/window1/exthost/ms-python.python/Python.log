@@ -1,0 +1,46 @@
+2025-05-20 20:41:39.768 [info] Telemetry level is off
+2025-05-20 20:41:39.768 [info] Experiments are disabled, only manually opted experiments are active.
+2025-05-20 20:41:39.768 [warning] Dir "/home/dimgerasimou/Αριθμητική/.pixi/envs" is not watchable (directory does not exist)
+2025-05-20 20:41:39.768 [info] Starting Environment refresh
+2025-05-20 20:41:39.768 [info] Searching for interpreters in posix paths locator
+2025-05-20 20:41:39.768 [info] Searching for pyenv environments
+2025-05-20 20:41:39.768 [info] Searching for conda environments
+2025-05-20 20:41:39.768 [info] Searching for global virtual environments
+2025-05-20 20:41:39.768 [info] Searching for custom virtual environments
+2025-05-20 20:41:39.768 [info] pyenv is not installed
+2025-05-20 20:41:39.768 [info] Finished searching for pyenv environments: 7 milliseconds
+2025-05-20 20:41:39.768 [info] Finished searching for custom virtual envs: 7 milliseconds
+2025-05-20 20:41:39.768 [info] > conda info --json
+2025-05-20 20:41:39.768 [info] > hatch env show --json
+2025-05-20 20:41:39.768 [info] cwd: .
+2025-05-20 20:41:39.768 [info] > pyenv which python
+2025-05-20 20:41:39.768 [info] cwd: .
+2025-05-20 20:41:39.768 [info] Finished searching for global virtual envs: 19 milliseconds
+2025-05-20 20:41:39.769 [info] Found: /bin/python --> /bin/python3.13
+2025-05-20 20:41:39.769 [info] Found: /bin/python3 --> /bin/python3.13
+2025-05-20 20:41:39.770 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-05-20 20:41:39.795 [info] Found: /sbin/python --> /sbin/python3.13
+2025-05-20 20:41:39.796 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-05-20 20:41:39.796 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-05-20 20:41:39.803 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-05-20 20:41:39.804 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-05-20 20:41:39.804 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-05-20 20:41:39.829 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-05-20 20:41:39.829 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-05-20 20:41:39.830 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-05-20 20:41:39.844 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-05-20 20:41:39.854 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-05-20 20:41:39.860 [info] Finished searching for interpreters in posix paths locator: 119 milliseconds
+2025-05-20 20:41:39.866 [info] Environments refresh paths discovered (event): 125 milliseconds
+2025-05-20 20:41:39.866 [info] Environments refresh paths discovered: 125 milliseconds
+2025-05-20 20:41:39.871 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-05-20 20:41:39.882 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-05-20 20:41:39.903 [info] Environments refresh finished (event): 162 milliseconds
+2025-05-20 20:41:39.907 [info] Environment refresh took 167 milliseconds
+2025-05-20 20:41:39.911 [info] Python interpreter path: /bin/python
+2025-05-20 20:41:40.632 [info] Starting Jedi language server for Αριθμητική.
+2025-05-20 20:44:58.146 [info] CreateEnv Trigger - Skipping for /home/dimgerasimou/Αριθμητική/test.py
+2025-05-20 20:44:58.383 [info] Discover tests for workspace name: Αριθμητική - uri: /home/dimgerasimou/Αριθμητική/test.py
+2025-05-20 20:44:58.750 [info] Send text to terminal: /bin/python /home/dimgerasimou/Αριθμητική/test.py
+2025-05-20 20:52:18.898 [info] Discover tests for workspace name: Αριθμητική - uri: /home/dimgerasimou/Αριθμητική/test.py
+2025-05-20 20:52:20.486 [info] Send text to terminal: /bin/python /home/dimgerasimou/Αριθμητική/test.py

@@ -1,0 +1,5 @@
+xrandr-setup
+main.o
+toml.o
+compile_commands.json
+.cache
