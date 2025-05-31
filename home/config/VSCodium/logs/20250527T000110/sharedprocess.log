@@ -1,7 +1,0 @@
-2025-05-27 00:01:13.548 [info] ComputeTargetPlatform: linux-x64
-2025-05-27 00:01:13.676 [info] Marked extension as removed ms-toolsai.jupyter-2025.4.0-universal
-2025-05-27 00:01:13.677 [info] Marked extension as removed vadimcn.vscode-lldb-1.10.0
-2025-05-27 00:01:13.677 [info] Marked extension as removed vadimcn.vscode-lldb-1.11.0
-2025-05-27 00:01:13.677 [info] Marked extension as removed vadimcn.vscode-lldb-1.11.1
-2025-05-27 00:01:13.735 [info] Deleted marked for removal extension from disk ms-toolsai.jupyter /home/dimgerasimou/.vscode-oss/extensions/ms-toolsai.jupyter-2025.4.0-universal
-2025-05-27 00:01:15.978 [info] ComputeTargetPlatform: linux-x64

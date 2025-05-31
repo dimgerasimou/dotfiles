@@ -1,7 +1,0 @@
-*.out
-*.o
-dwmblocks
-dwmblocksctl
-compile_commands.json
-.cache
-config.h

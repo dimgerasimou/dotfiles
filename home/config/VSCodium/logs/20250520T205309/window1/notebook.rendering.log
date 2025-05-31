@@ -1,5 +1,0 @@
-2025-05-20 22:22:28.605 [error] [NotebookModelCollection] FAILED to destory notebook - SyntaxError: Unexpected token 'i', "import csv"... is not valid JSON
-2025-05-20 22:22:29.225 [error] [NotebookModelCollection] FAILED to destory notebook - SyntaxError: Unexpected token 'i', "import csv"... is not valid JSON
-2025-05-20 22:22:34.769 [error] [NotebookModelCollection] FAILED to destory notebook - SyntaxError: Unexpected token 'i', "import csv"... is not valid JSON
-2025-05-20 22:23:03.145 [error] [NotebookModelCollection] FAILED to destory notebook - SyntaxError: Unexpected token 'i', "import csv"... is not valid JSON
-2025-05-20 22:26:48.694 [info] [WorkingCopyModel] Notebook content updated from file system - file:///home/dimgerasimou/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE/Untitled-1.ipynb

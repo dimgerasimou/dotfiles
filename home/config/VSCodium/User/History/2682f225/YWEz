@@ -1,7 +1,0 @@
-DIRS   := utils V0-1
-PREFIX := src/
-
-all: $(DIRS)
-
-$(DIRS): %:
-	make -C $(PREFIX)$@
